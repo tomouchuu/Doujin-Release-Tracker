@@ -13,6 +13,12 @@ releases = {
             "artist": "EGOIST II",
             "link": "http://www.nicovideo.jp/watch/sm21514574",
             "available": false
+        },
+        {
+            "album": "Style",
+            "artist": "Last Note.",
+            "link": "http://www.nicovideo.jp/watch/sm21513134",
+            "available": false
         }
     ]
 };
