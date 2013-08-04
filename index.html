@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Tomo's C84 Release List</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <h1>Tomo's C84 Release List</h1>
+            </header>
+            <table id="releases">
+                <script type="text/x-handlebars-template"  id="release-template">
+                <tr>
+                    <td>Album</td>
+                    <td>Artist / Circle</td>
+                    <td>Link / Crossfade</td>
+                    <td id="available">Available</td> 
+                </tr>
+                {{#releases}}
+                <tr>
+                    <td>{{album}}</td>
+                    <td>{{artist}}</td>
+                    <td><a href="{{link}}">{{link}}</a></td>
+                    <td>{{available}}</td>
+                </tr>
+                {{/releases}}
+                </script>
+            </table>
+            <div id="message">
+                <p>Hello &amp; Welcome to my C84 Release List.</p>
+                <p>The reason this site exists is because I'm too forgetful to remember all the releases I want from Comiket, so I decided I would make this list so that I can keep track of it all. Also maybe other people will find it useful so I added an Available column so as soon as I can find a copy I'll add it to the column.</p>
+                <p>If you have a release that you want me to check out and add then feel free to fork and add to the <a href="js/releases.js">releases.js</a> on Github or send me a message on twitter <a href="http://twitter.com/t0mtheenemy">@t0mtheenemy</a></p>
+                <p>Anyway Ciao for Now!</p>
+            </div>
+        </div>
+        <footer>
+            <p><a href="http://twitter.com/t0mtheenemy">@t0mtheenemy</a> | <a href="http://tomo-san.com">Tomo-san</a></p>
+        </footer>
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/handlebars.js"></script>
+        <script type="text/javascript" src="js/releases.js"></script>
+        <script type="text/javascript">
+            var source   = $("#release-template").html();
+            var template = Handlebars.compile(source);
+            $("#releases").html(template(releases));
+        </script>
+    </body>
+</html>
