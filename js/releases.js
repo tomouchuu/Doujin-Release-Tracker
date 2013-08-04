@@ -9,8 +9,8 @@ releases = {
             "available": false
         },
         {
-            "album": "柿チョコ×びびあん",
-            "artist": "EGOIST II",
+            "album": "EGOIST II",
+            "artist": "柿チョコ×びびあん",
             "link": "http://www.nicovideo.jp/watch/sm21514574",
             "available": false
         },
