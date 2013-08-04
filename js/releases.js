@@ -19,6 +19,24 @@ releases = {
             "artist": "Last Note.",
             "link": "http://www.nicovideo.jp/watch/sm21513134",
             "available": false
-        }
+        },
+        {
+            "album": "Stance on Wave",
+            "artist": "Cametek",
+            "link": "http://www.nicovideo.jp/watch/sm21514719",
+            "available": false
+        },
+        {
+            "album": "Rhapsody Notes",
+            "artist": "綿飴（季節P）",
+            "link": "http://www.nicovideo.jp/watch/sm21467054",
+            "available": false
+        },
+        {
+            "album": "colorful x peace",
+            "artist": "mukami",
+            "link": "http://www.nicovideo.jp/watch/sm21478333",
+            "available": false
+        },
     ]
 };
