@@ -27,6 +27,12 @@ releases = {
             "available": false
         },
         {
+            "album": "Reverberations",
+            "artist": "Clean Tears (S.C.X.)",
+            "link": "https://soundcloud.com/cleantears/reverberations-preview",
+            "available": false
+        },
+        {
             "album": "Rhapsody Notes",
             "artist": "綿飴（季節P）",
             "link": "http://www.nicovideo.jp/watch/sm21467054",
