@@ -39,6 +39,12 @@ releases = {
             "available": false
         },
         {
+            "album": "PON＊",
+            "artist": "あやぽんず＊",
+            "link": "http://www.nicovideo.jp/watch/sm21513960",
+            "available": false
+        },
+        {
             "album": "Reverberations",
             "artist": "Clean Tears (S.C.X.)",
             "link": "https://soundcloud.com/cleantears/reverberations-preview",
