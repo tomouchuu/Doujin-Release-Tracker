@@ -34,7 +34,7 @@ releases = {
         },
         {
             "album": "虹色ショコラティエ",
-            "artist": "ゆいこんぬ (*WHITE-CHOCOLATE*)",
+            "artist": "ゆいこんぬ",
             "link": "http://www.nicovideo.jp/watch/sm21521305",
             "available": false
         },
