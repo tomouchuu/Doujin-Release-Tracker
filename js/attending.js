@@ -9,9 +9,6 @@ attending = {
             "artist": "sasakure.UK"
         },
         {
-            "artist": "40mP"
-        },
-        {
             "artist": "HoneyWorks"
         },
         {
