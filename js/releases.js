@@ -27,6 +27,12 @@ releases = {
             "available": false
         },
         {
+            "album": "Caramel",
+            "artist": "シャノ × 40mP",
+            "link": "http://www.nicovideo.jp/watch/sm21522889",
+            "available": false
+        },
+        {
             "album": "Reverberations",
             "artist": "Clean Tears (S.C.X.)",
             "link": "https://soundcloud.com/cleantears/reverberations-preview",
