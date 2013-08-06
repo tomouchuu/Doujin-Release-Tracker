@@ -33,6 +33,12 @@ releases = {
             "available": false
         },
         {
+            "album": "*WHITE-CHOCOLATE*",
+            "artist": "ゆいこんぬ",
+            "link": "http://www.nicovideo.jp/watch/sm21521305",
+            "available": false
+        },
+        {
             "album": "Reverberations",
             "artist": "Clean Tears (S.C.X.)",
             "link": "https://soundcloud.com/cleantears/reverberations-preview",
