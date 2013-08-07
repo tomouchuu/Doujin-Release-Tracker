@@ -32,79 +32,40 @@
                         </tr>
                     </thead>
                     <tbody>
-                    {{#releases}}
-                    <tr class="release-row" data-type="{{type}}">
-                        <td>{{album}}</td>
-                        <td>{{artist}}</td>
-                        <td><a href="{{link}}">{{link}}</a></td>
-                        {{#if available}}
-                        <td class="available"><a href="{{available}}"><span class="glyphicon glyphicon-ok"></span></a></td>
-                        {{else}}
-                        <td class="available"><span class="glyphicon glyphicon-remove"></span></td>
-                        {{/if}}
-                    </tr>
-                    {{/releases}}
+                        {{#releases}}
+                        <tr class="release-row" data-type="{{type}}">
+                            <td>{{album}}</td>
+                            <td>{{artist}}</td>
+                            <td><a href="{{link}}">{{link}}</a></td>
+                            {{#if available}}
+                            <td class="available"><a href="{{available}}"><span class="glyphicon glyphicon-ok"></span></a></td>
+                            {{else}}
+                            <td class="available"><span class="glyphicon glyphicon-remove"></span></td>
+                            {{/if}}
+                        </tr>
+                        {{/releases}}
                     </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4" style="text-align:center;">Want a release added, <a href="https://github.com/Tomo-san/c84/blob/gh-pages/js/releases.js">why not add one?</a></td>
+                        </tr>
+                    </tfoot>
                     </script>
                 </table>
             </div>
             <div id="message" class="col-lg-12">
                 <p>Hello &amp; Welcome to my C84 Release List.</p>
                 <p>The reason this site exists is because I'm too forgetful to remember all the releases I want from Comiket, so I decided I would make this list so that I can keep track of it all. Also maybe other people will find it useful so I added an Available column so as soon as I can find a copy I'll add it to the column.</p>
-                <p>If you have a release that you want me to check out and add then feel free to fork and add to the <a href="https://github.com/Tomo-san/c84/blob/gh-pages/js/releases.js">releases.js</a> or <a href="https://github.com/Tomo-san/c84/blob/gh-pages/js/attending.js">attending.js</a> on Github or send me a message on twitter <a href="http://twitter.com/t0mtheenemy">@t0mtheenemy</a></p>
-                <div id="attend-message">
-                    <p>The list below shows Artists/Circle that are attending but don't have a release/link yet:</p>
-                    <ul id="attending">
-                        <script type="text/x-handlebars-template"  id="attending-template">
-                        {{#attending}}
-                        <li>{{artist}}</li>
-                        {{/attending}}
-                        </script>
-                    </ul>
-                </div>
+                <p>If you have a release that you want me to check out and add then feel free to fork and add to the <a href="https://github.com/Tomo-san/c84/blob/gh-pages/js/releases.js">releases.js</a> on Github or send me a message on twitter <a href="http://twitter.com/t0mtheenemy">@t0mtheenemy</a></p>
             </div>
         </div>
         <footer class="col-lg-12">
-            <p><a href="http://twitter.com/t0mtheenemy">@t0mtheenemy</a> | <a href="http://tomo-san.com">Tomo-san</a> | <a href="http://github.com/tomo-san/c84">Source Code</a></p>
+            <p><a href="http://twitter.com/t0mtheenemy">@t0mtheenemy</a> | <a href="http://github.com/tomo-san/c84">Source Code</a></p>
         </footer>
         <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-        <script type="text/javascript" src="js/handlebars.js"></script>
+        <script type="text/javascript" src="js/handlebars.min.js"></script>
         <script type="text/javascript" src="js/releases.js"></script>
-        <script type="text/javascript" src="js/attending.js"></script>
-        <script type="text/javascript">
-            var releasesource   = $("#release-template").html();
-            var releasetemplate = Handlebars.compile(releasesource);
-            $(".releases").html(releasetemplate(releases));
-
-            var attendingsource   = $("#attending-template").html();
-            var attendingtemplate = Handlebars.compile(attendingsource);
-            $("#attending").html(attendingtemplate(attending));
-
-            var option = 'all';
-            var releaseRow = $('.release-row');
-
-            $('#options a').click(function() {
-                option = $(this).attr('data-option');
-                $('#options li').removeClass('active');
-                $(this).parent().attr('class', 'active');
-                releaseRow.each(function(){
-                    $(this).show();
-                });
-                if (option == 'all')
-                {
-                    return
-                }
-                else
-                {
-                    releaseRow.each(function(){
-                        if ($(this).attr('data-type') != option)
-                        {
-                            $(this).hide();
-                        };
-                    });
-                }
-            });
-        </script>
+        <script type="text/javascript" src="js/scripts.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
     </body>
 </html>
