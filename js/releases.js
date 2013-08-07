@@ -45,6 +45,13 @@ releases = {
             "available": false
         },
         {
+            "album": "Reso⇔Alive",
+            "artist": "バル",
+            "link": "http://www.nicovideo.jp/watch/sm21507270",
+            "type": "utaite",
+            "available": false
+        },
+        {
             "album": "EGOIST II",
             "artist": "柿チョコ×びびあん",
             "link": "http://www.nicovideo.jp/watch/sm21514574",
