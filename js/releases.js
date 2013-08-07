@@ -17,6 +17,13 @@ releases = {
             "available": false
         },
         {
+            "album": "Square",
+            "artist": "niki, やいり, ゆうゆ, 梅とら, EZFG, koyori（電ポルP), Irus ",
+            "link": "http://www.nicovideo.jp/watch/sm21519584",
+            "type": "vocaloid",
+            "available": false
+        },
+        {
             "album": "Caramel",
             "artist": "シャノ × 40mP",
             "link": "http://www.nicovideo.jp/watch/sm21522889",
@@ -27,6 +34,13 @@ releases = {
             "album": "戯言クライン",
             "artist": "Kano",
             "link": "http://www.nicovideo.jp/watch/sm21502977",
+            "type": "utaite",
+            "available": false
+        },
+        {
+            "album": "MaBLE SYNDROMe",
+            "artist": "MARiA[ﾒｲﾘｱ]",
+            "link": "http://www.nicovideo.jp/watch/sm21507109",
             "type": "utaite",
             "available": false
         },
