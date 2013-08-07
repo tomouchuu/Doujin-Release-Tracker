@@ -18,6 +18,7 @@ a:hover{color:#aa201d;text-decoration:underline}
 .countdown_descr{display:block;width:100%}
 .releaseArea{margin:20px 0;}
 .releaseArea table{background:#fff;border:1px solid #ddd;}
+.releaseArea table th{font-weight:bold}
 .releaseArea table .available{text-align:center;max-width:90px}
 #message{background-color:#fff;border-radius:10px;padding:10px 15px;}
 #message #attend-message{margin:20px 0 0}
