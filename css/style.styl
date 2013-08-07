@@ -1,27 +1,22 @@
-@import "axis"
-
-global-reset()
-base()
-typography()
-
-tables()
-
 body
-    bg('../images/bg.png', repeat)
-
-#container
-    area(color = #f5f5f5)
-    margin: 0 auto
-    padding: 20px
-    width: 920px
+    background: url('../images/bg.png') repeat 0 0 scroll transparent
+    font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
 
 p
     margin: 12px 0 15px
 
+a
+    color: #aa201d
+    text-decoration: none
+    &:hover
+        color: #aa201d
+        text-decoration: underline
+
 table
-    background-color: #FFF
-    margin: 30px auto
-    #available
+    background: #FFF
+    border: 1px solid #ddd
+    .available
+        text-align: center
         width: 90px
 
 #message
@@ -30,8 +25,6 @@ table
     padding: 10px 15px
     #attend-message
         margin: 20px 0 0
-        ul
-            ul()
 
 footer
     margin: 20px auto
