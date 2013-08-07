@@ -3,18 +3,6 @@ var releases;
 releases = {
     "releases": [
         {
-            "album": "戯言クライン",
-            "artist": "Kano",
-            "link": "http://www.nicovideo.jp/watch/sm21502977",
-            "available": false
-        },
-        {
-            "album": "EGOIST II",
-            "artist": "柿チョコ×びびあん",
-            "link": "http://www.nicovideo.jp/watch/sm21514574",
-            "available": false
-        },
-        {
             "album": "Style",
             "artist": "Last Note.",
             "link": "http://www.nicovideo.jp/watch/sm21513134",
@@ -30,6 +18,24 @@ releases = {
             "album": "Caramel",
             "artist": "シャノ × 40mP",
             "link": "http://www.nicovideo.jp/watch/sm21522889",
+            "available": false
+        },
+        {
+            "album": "戯言クライン",
+            "artist": "Kano",
+            "link": "http://www.nicovideo.jp/watch/sm21502977",
+            "available": false
+        },
+        {
+            "album": "EGOIST II",
+            "artist": "柿チョコ×びびあん",
+            "link": "http://www.nicovideo.jp/watch/sm21514574",
+            "available": false
+        },
+        {
+            "album": "[i:d]",
+            "artist": "sasakure.UK",
+            "link": "http://www.nicovideo.jp/watch/sm21529595",
             "available": false
         },
         {
