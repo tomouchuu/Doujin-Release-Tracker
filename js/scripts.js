@@ -26,3 +26,11 @@ $('#options a').click(function() {
         });
     }
 });
+
+var c84 = new Date(2013, 8-1, 12)
+$('#countdown').countdown({
+    until: c84,
+    expiryText: '<div class="over">IT HAS BEGUN!</div>',
+    format: 'DHMS',
+    description: 'Until Comiket 84 Begins!'
+});
