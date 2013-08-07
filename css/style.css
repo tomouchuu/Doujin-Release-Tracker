@@ -2,7 +2,7 @@ body{background:url("../images/bg.png") repeat 0 0 scroll transparent;font-famil
 p{margin:12px 0 15px}
 a{color:#aa201d;text-decoration:none;}
 a:hover{color:#aa201d;text-decoration:underline}
-.hasCountdown{border:1px solid #ccc;background-color:#eee;width:300px}
+.hasCountdown{border:1px solid #ccc;background-color:#eee}
 .countdown_rtl{direction:rtl}
 .countdown_holding span{color:#888}
 .countdown_row{clear:both;width:100%;padding:0 2px;text-align:center}
