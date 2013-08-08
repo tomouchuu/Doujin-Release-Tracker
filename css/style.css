@@ -23,5 +23,5 @@ a:hover{color:#aa201d;text-decoration:underline}
 #options .active a{font-weight:bold}
 #message{background-color:#fff;border-radius:10px;padding:10px 15px;}
 #message #attend-message{margin:20px 0 0}
-footer{margin:20px auto;text-align:center;width:960px;}
+footer{margin:20px auto;text-align:center;}
 footer p{font-size:12px}
