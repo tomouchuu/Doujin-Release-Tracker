@@ -27,7 +27,7 @@ $('#options a').click(function() {
     }
 });
 
-var c84 = new Date(2013, 8-1, 12)
+var c84 = new Date(2013, 8-1, 10)
 $('#countdown').countdown({
     until: c84,
     expiryText: '<div class="over">IT HAS BEGUN!</div>',
