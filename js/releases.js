@@ -10,6 +10,27 @@ releases = {
             "available": "https://mega.co.nz/#!aZ4SmDKb!OwWxanwAEVLyE7rwtoES-zrDjBh1MyUl5K9WU-FEYOI"
         },
         {
+            "album": "[i:d]",
+            "artist": "sasakure.UK",
+            "link": "http://www.nicovideo.jp/watch/sm21529595",
+            "type": "vocaloid",
+            "available": "http://www.mediafire.com/?ba7qa422se2q28h"
+        },
+        {
+            "album": "Reverberations",
+            "artist": "Clean Tears (S.C.X.)",
+            "link": "https://soundcloud.com/cleantears/reverberations-preview",
+            "type": "vocaloid",
+            "available": "https://mega.co.nz/#!HYA0RL5T!a68vKDlAeOQLOqNLBFmNy228jOokRfi6LSwggCVVqr8"
+        },
+        {
+            "album": "L'aventale",
+            "artist": "Diverse System",
+            "link": "https://soundcloud.com/diversesystem/dvsp-0096-laventale-crossfade/",
+            "type": "other",
+            "available": "https://mega.co.nz/#!yUAgASwL!Zgz2OSXx-jeuFGHpGDediBgSAl4dXIDKyybUTBGnlaE"
+        },
+        {
             "album": "Stance on Wave",
             "artist": "Cametek",
             "link": "http://www.nicovideo.jp/watch/sm21514719",
@@ -59,13 +80,6 @@ releases = {
             "available": false
         },
         {
-            "album": "[i:d]",
-            "artist": "sasakure.UK",
-            "link": "http://www.nicovideo.jp/watch/sm21529595",
-            "type": "vocaloid",
-            "available": "http://www.mediafire.com/?ba7qa422se2q28h"
-        },
-        {
             "album": "虹色ショコラティエ",
             "artist": "ゆいこんぬ",
             "link": "http://www.nicovideo.jp/watch/sm21521305",
@@ -80,13 +94,6 @@ releases = {
             "available": false
         },
         {
-            "album": "Reverberations",
-            "artist": "Clean Tears (S.C.X.)",
-            "link": "https://soundcloud.com/cleantears/reverberations-preview",
-            "type": "vocaloid",
-            "available": "https://mega.co.nz/#!HYA0RL5T!a68vKDlAeOQLOqNLBFmNy228jOokRfi6LSwggCVVqr8"
-        },
-        {
             "album": "Rhapsody Notes",
             "artist": "綿飴（季節P）",
             "link": "http://www.nicovideo.jp/watch/sm21467054",
@@ -99,13 +106,6 @@ releases = {
             "link": "http://www.nicovideo.jp/watch/sm21478333",
             "type": "vocaloid",
             "available": false
-        },
-        {
-            "album": "L'aventale",
-            "artist": "Diverse System",
-            "link": "https://soundcloud.com/diversesystem/dvsp-0096-laventale-crossfade/",
-            "type": "other",
-            "available": "https://mega.co.nz/#!yUAgASwL!Zgz2OSXx-jeuFGHpGDediBgSAl4dXIDKyybUTBGnlaE"
         },
     ]
 };
