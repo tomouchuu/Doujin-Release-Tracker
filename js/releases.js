@@ -7,7 +7,7 @@ releases = {
             "artist": "Last Note.",
             "link": "http://www.nicovideo.jp/watch/sm21513134",
             "type": "utaite",
-            "available": "https://mega.co.nz/#!XEJ0CJhB!cT7o20eIrQ7675ph2Q7U_ntwKWskntG--TyKuP36rIA"
+            "available": "https://mega.co.nz/#!uF4XzRgL!OEvxTmnBtRoFtEnv7nY6Jhl_MO1Xg5IXTvbz2JwSvWo"
         },
         {
             "album": "Stance on Wave",
