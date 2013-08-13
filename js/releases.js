@@ -63,7 +63,7 @@ releases = {
             "artist": "sasakure.UK",
             "link": "http://www.nicovideo.jp/watch/sm21529595",
             "type": "vocaloid",
-            "available": false
+            "available": "http://www.mediafire.com/?ba7qa422se2q28h"
         },
         {
             "album": "虹色ショコラティエ",
