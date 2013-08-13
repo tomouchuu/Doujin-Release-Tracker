@@ -100,5 +100,12 @@ releases = {
             "type": "vocaloid",
             "available": false
         },
+        {
+            "album": "L'aventale",
+            "artist": "Diverse System",
+            "link": "https://soundcloud.com/diversesystem/dvsp-0096-laventale-crossfade/",
+            "type": "other",
+            "available": "https://mega.co.nz/#!yUAgASwL!Zgz2OSXx-jeuFGHpGDediBgSAl4dXIDKyybUTBGnlaE"
+        },
     ]
 };
