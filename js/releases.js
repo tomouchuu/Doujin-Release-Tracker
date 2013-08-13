@@ -84,7 +84,7 @@ releases = {
             "artist": "Clean Tears (S.C.X.)",
             "link": "https://soundcloud.com/cleantears/reverberations-preview",
             "type": "vocaloid",
-            "available": false
+            "available": "https://mega.co.nz/#!HYA0RL5T!a68vKDlAeOQLOqNLBFmNy228jOokRfi6LSwggCVVqr8"
         },
         {
             "album": "Rhapsody Notes",
