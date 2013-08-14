@@ -31,6 +31,13 @@ releases = {
             "available": "https://mega.co.nz/#!yUAgASwL!Zgz2OSXx-jeuFGHpGDediBgSAl4dXIDKyybUTBGnlaE"
         },
         {
+            "album": "escapist and realist",
+            "artist": "baker",
+            "link": "http://www.nicovideo.jp/watch/sm21533316",
+            "type": "vocaloid",
+            "available": "http://www.mediafire.com/?biacuacpf8xm776"
+        },
+        {
             "album": "Stance on Wave",
             "artist": "Cametek",
             "link": "http://www.nicovideo.jp/watch/sm21514719",
