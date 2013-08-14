@@ -38,6 +38,13 @@ releases = {
             "available": "http://www.mediafire.com/?biacuacpf8xm776"
         },
         {
+            "album": "Caramel",
+            "artist": "シャノ × 40mP",
+            "link": "http://www.nicovideo.jp/watch/sm21522889",
+            "type": "utaite",
+            "available": "https://mega.co.nz/#!PI5AVYjT!WcQc8B3V6mJH18FauTekL1RVlQ4G5-LVMKCTa-ZtNTI"
+        },
+        {
             "album": "Stance on Wave",
             "artist": "Cametek",
             "link": "http://www.nicovideo.jp/watch/sm21514719",
@@ -49,13 +56,6 @@ releases = {
             "artist": "niki, やいり, ゆうゆ, 梅とら, EZFG, koyori（電ポルP), Irus ",
             "link": "http://www.nicovideo.jp/watch/sm21519584",
             "type": "vocaloid",
-            "available": false
-        },
-        {
-            "album": "Caramel",
-            "artist": "シャノ × 40mP",
-            "link": "http://www.nicovideo.jp/watch/sm21522889",
-            "type": "utaite",
             "available": false
         },
         {
