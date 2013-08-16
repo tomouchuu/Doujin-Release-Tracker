@@ -45,6 +45,13 @@ releases = {
             "available": "https://mega.co.nz/#!PI5AVYjT!WcQc8B3V6mJH18FauTekL1RVlQ4G5-LVMKCTa-ZtNTI"
         },
         {
+            "album": "戯言クライン",
+            "artist": "Kano",
+            "link": "http://www.nicovideo.jp/watch/sm21502977",
+            "type": "utaite",
+            "available": "https://mega.co.nz/#!MxIH3IbA!flPEbXnFe618osLu6O9vPCqj2WlJvDMpWUzAKqYW9YM"
+        },
+        {
             "album": "Stance on Wave",
             "artist": "Cametek",
             "link": "http://www.nicovideo.jp/watch/sm21514719",
@@ -56,13 +63,6 @@ releases = {
             "artist": "niki, やいり, ゆうゆ, 梅とら, EZFG, koyori（電ポルP), Irus ",
             "link": "http://www.nicovideo.jp/watch/sm21519584",
             "type": "vocaloid",
-            "available": false
-        },
-        {
-            "album": "戯言クライン",
-            "artist": "Kano",
-            "link": "http://www.nicovideo.jp/watch/sm21502977",
-            "type": "utaite",
             "available": false
         },
         {
