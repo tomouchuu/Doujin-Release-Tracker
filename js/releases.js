@@ -52,6 +52,13 @@ releases = {
             "available": "https://mega.co.nz/#!MxIH3IbA!flPEbXnFe618osLu6O9vPCqj2WlJvDMpWUzAKqYW9YM"
         },
         {
+            "album": "Reso⇔Alive",
+            "artist": "バル",
+            "link": "http://www.nicovideo.jp/watch/sm21507270",
+            "type": "utaite",
+            "available": "https://mega.co.nz/#!kEkQTZZS!aXsWcGbPj_at6r-3upC0JBh1gogDelj8wBVx4uzLw4Q"
+        },
+        {
             "album": "Stance on Wave",
             "artist": "Cametek",
             "link": "http://www.nicovideo.jp/watch/sm21514719",
@@ -69,13 +76,6 @@ releases = {
             "album": "MaBLE SYNDROMe",
             "artist": "MARiA[ﾒｲﾘｱ]",
             "link": "http://www.nicovideo.jp/watch/sm21507109",
-            "type": "utaite",
-            "available": false
-        },
-        {
-            "album": "Reso⇔Alive",
-            "artist": "バル",
-            "link": "http://www.nicovideo.jp/watch/sm21507270",
             "type": "utaite",
             "available": false
         },
