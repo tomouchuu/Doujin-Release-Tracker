@@ -63,7 +63,7 @@ releases = {
             "artist": "Cametek",
             "link": "http://www.nicovideo.jp/watch/sm21514719",
             "type": "vocaloid",
-            "available": false
+            "available": "https://mega.co.nz/#!NpoEjQCT!f8uM6QckyYEvbpVgEI49VHgEQvIXIhkHMD3g81YP-bM"
         },
         {
             "album": "Square",
