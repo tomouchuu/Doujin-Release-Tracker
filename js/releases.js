@@ -66,6 +66,13 @@ releases = {
             "available": "https://mega.co.nz/#!NpoEjQCT!f8uM6QckyYEvbpVgEI49VHgEQvIXIhkHMD3g81YP-bM"
         },
         {
+            "album": "EGOIST II",
+            "artist": "柿チョコ×びびあん",
+            "link": "http://www.nicovideo.jp/watch/sm21514574",
+            "type": "utaite",
+            "available": "https://mega.co.nz/#!1gxnwKqR!ThmfgA881ZxGvA7dVwc1aDg8-GFbByz0GP1Ra2mYrTU"
+        },
+        {
             "album": "Square",
             "artist": "niki, やいり, ゆうゆ, 梅とら, EZFG, koyori（電ポルP), Irus ",
             "link": "http://www.nicovideo.jp/watch/sm21519584",
@@ -76,13 +83,6 @@ releases = {
             "album": "MaBLE SYNDROMe",
             "artist": "MARiA[ﾒｲﾘｱ]",
             "link": "http://www.nicovideo.jp/watch/sm21507109",
-            "type": "utaite",
-            "available": false
-        },
-        {
-            "album": "EGOIST II",
-            "artist": "柿チョコ×びびあん",
-            "link": "http://www.nicovideo.jp/watch/sm21514574",
             "type": "utaite",
             "available": false
         },
