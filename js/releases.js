@@ -73,7 +73,7 @@ releases = {
             "available": "https://mega.co.nz/#!1gxnwKqR!ThmfgA881ZxGvA7dVwc1aDg8-GFbByz0GP1Ra2mYrTU"
         },
         {
-            "album": "サークル名　あすかそろまにゃーず",
+            "album": "青春の味と空論の君",
             "artist": "Suzumu ft. Soraru & Lon",
             "link": "http://www.nicovideo.jp/watch/sm21552509",
             "type": "utaite",
