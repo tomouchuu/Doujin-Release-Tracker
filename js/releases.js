@@ -73,6 +73,13 @@ releases = {
             "available": "https://mega.co.nz/#!1gxnwKqR!ThmfgA881ZxGvA7dVwc1aDg8-GFbByz0GP1Ra2mYrTU"
         },
         {
+            "album": "サークル名　あすかそろまにゃーず",
+            "artist": "Suzumu ft. Soraru & Lon",
+            "link": "http://www.nicovideo.jp/watch/sm21552509",
+            "type": "utaite",
+            "available": "https://mega.co.nz/#!c9pGhLqA!VojrKzIS3m535rTUzn3uyFuov10FXruSbyUsHq5Zf2s"
+        },
+        {
             "album": "Square",
             "artist": "niki, やいり, ゆうゆ, 梅とら, EZFG, koyori（電ポルP), Irus ",
             "link": "http://www.nicovideo.jp/watch/sm21519584",
