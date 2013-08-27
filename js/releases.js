@@ -88,8 +88,15 @@ releases = {
         },
         {
             "album": "Square",
-            "artist": "niki, やいり, ゆうゆ, 梅とら, EZFG, koyori（電ポルP), Irus ",
+            "artist": "niki, やいり, ゆうゆ, 梅とら, EZFG, koyori（電ポルP), Irus",
             "link": "http://www.nicovideo.jp/watch/sm21519584",
+            "type": "vocaloid",
+            "available": false
+        },
+        {
+            "album": "The End",
+            "artist": "Owata-P",
+            "link": "http://www.nicovideo.jp/watch/sm21533762",
             "type": "vocaloid",
             "available": false
         },
