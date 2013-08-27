@@ -87,6 +87,13 @@ releases = {
             "available": "http://www.mediafire.com/download/8hern6yg6blct6x/%5BMARiA%5D_MaBLE_SYNDROMe.rar"
         },
         {
+            "album": "虹色ショコラティエ",
+            "artist": "ゆいこんぬ",
+            "link": "http://www.nicovideo.jp/watch/sm21521305",
+            "type": "utaite",
+            "available": "https://mega.co.nz/#!LEQkHCjA!FlLl-3qRnc1SOc9_bUzcYy_HBuN_QzzYPpY8Hzl3XMI"
+        },
+        {
             "album": "Square",
             "artist": "niki, やいり, ゆうゆ, 梅とら, EZFG, koyori（電ポルP), Irus",
             "link": "http://www.nicovideo.jp/watch/sm21519584",
@@ -98,13 +105,6 @@ releases = {
             "artist": "Owata-P",
             "link": "http://www.nicovideo.jp/watch/sm21533762",
             "type": "vocaloid",
-            "available": false
-        },
-        {
-            "album": "虹色ショコラティエ",
-            "artist": "ゆいこんぬ",
-            "link": "http://www.nicovideo.jp/watch/sm21521305",
-            "type": "utaite",
             "available": false
         },
         {
