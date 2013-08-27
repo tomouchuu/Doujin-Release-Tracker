@@ -80,17 +80,17 @@ releases = {
             "available": "https://mega.co.nz/#!c9pGhLqA!VojrKzIS3m535rTUzn3uyFuov10FXruSbyUsHq5Zf2s"
         },
         {
-            "album": "Square",
-            "artist": "niki, やいり, ゆうゆ, 梅とら, EZFG, koyori（電ポルP), Irus ",
-            "link": "http://www.nicovideo.jp/watch/sm21519584",
-            "type": "vocaloid",
-            "available": false
-        },
-        {
             "album": "MaBLE SYNDROMe",
             "artist": "MARiA[ﾒｲﾘｱ]",
             "link": "http://www.nicovideo.jp/watch/sm21507109",
             "type": "utaite",
+            "available": "http://www.mediafire.com/download/8hern6yg6blct6x/%5BMARiA%5D_MaBLE_SYNDROMe.rar"
+        },
+        {
+            "album": "Square",
+            "artist": "niki, やいり, ゆうゆ, 梅とら, EZFG, koyori（電ポルP), Irus ",
+            "link": "http://www.nicovideo.jp/watch/sm21519584",
+            "type": "vocaloid",
             "available": false
         },
         {
