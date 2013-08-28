@@ -94,6 +94,13 @@ releases = {
             "available": "https://mega.co.nz/#!LEQkHCjA!FlLl-3qRnc1SOc9_bUzcYy_HBuN_QzzYPpY8Hzl3XMI"
         },
         {
+            "album": "虹色ショコラティエ",
+            "artist": "DECO*27",
+            "link": "",
+            "type": "other",
+            "available": "http://www.mediafire.com/download/43itq99m48aaini/%5BDECO27%5D_%E7%A9%BA%E8%89%B2%E3%82%B9%E3%82%AD%E3%82%AD%E3%83%A9%E3%82%A4.rar"
+        },
+        {
             "album": "Square",
             "artist": "niki, やいり, ゆうゆ, 梅とら, EZFG, koyori（電ポルP), Irus",
             "link": "http://www.nicovideo.jp/watch/sm21519584",
