@@ -105,7 +105,7 @@ releases = {
             "artist": "niki, やいり, ゆうゆ, 梅とら, EZFG, koyori（電ポルP), Irus",
             "link": "http://www.nicovideo.jp/watch/sm21519584",
             "type": "vocaloid",
-            "available": false
+            "available": "https://mega.co.nz/#!8M4XFaKK!dwBIFHrx_fw5LFHko7LF1CNXWbNYJkPgPILltKMHs-o"
         },
         {
             "album": "The End",
