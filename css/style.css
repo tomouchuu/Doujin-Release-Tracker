@@ -2,6 +2,8 @@ body{background:url("../images/bg.png") repeat 0 0 scroll transparent;font-famil
 p{margin:12px 0 15px}
 a{color:#aa201d;text-decoration:none;}
 a:hover{color:#aa201d;text-decoration:underline}
+#archive{border:1px solid #ccc;background-color:#eee;margin:0 35px;text-align:center;}
+#archive a{display:block;padding:22px 0 23px}
 .hasCountdown{border:1px solid #ccc;background-color:#eee}
 .countdown_rtl{direction:rtl}
 .countdown_holding span{color:#888}
