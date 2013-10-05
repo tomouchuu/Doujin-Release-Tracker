@@ -27,10 +27,10 @@ $('#options a').click(function() {
     }
 });
 
-var c84 = new Date(2013, 8-1, 10)
+var c84 = new Date(2013, 12-1, 29)
 $('#countdown').countdown({
     until: c84,
     expiryText: '<div class="over">IT HAS BEGUN!</div>',
     format: 'DHMS',
-    description: 'Until Comiket 84 Begins!'
+    description: 'Until Comiket 85 Begins!'
 });
