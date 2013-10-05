@@ -108,6 +108,27 @@ releases = {
             "available": "https://mega.co.nz/#!8M4XFaKK!dwBIFHrx_fw5LFHko7LF1CNXWbNYJkPgPILltKMHs-o"
         },
         {
+            "album": "Spherepolis",
+            "artist": "Chromesphere Records (syatten)",
+            "link": "http://www.planetoid.biz/spherepolis/",
+            "type": "other",
+            "available": "https://mega.co.nz/#!RQxF1BAb!Dys-rAZpTmm7rlZw5o96pBBPLO0xAAAEiG49Q8osEdo"
+        },
+        {
+            "album": "青空パレット",
+            "artist": "Pumpkingdom",
+            "link": "http://www.nicovideo.jp/watch/sm21567415",
+            "type": "other",
+            "available": "http://www.mediafire.com/download/el6eex5fz2b1g11/%5BPumpkingdom%5D_%E9%9D%92%E7%A9%BA%E3%83%91%E3%83%AC%E3%83%83%E3%83%88.rar"
+        },
+        {
+            "album": "星空ペイント",
+            "artist": "Pumpkingdom",
+            "link": "http://www.nicovideo.jp/watch/sm21567415",
+            "type": "other",
+            "available": "http://www.mediafire.com/download/ec558xpadegfdnk/%5BPumpkingdom%5D+%E6%98%9F%E7%A9%BA%E3%83%9A%E3%82%A4%E3%83%B3%E3%83%88.rar"
+        },
+        {
             "album": "The End",
             "artist": "Owata-P",
             "link": "http://www.nicovideo.jp/watch/sm21533762",
