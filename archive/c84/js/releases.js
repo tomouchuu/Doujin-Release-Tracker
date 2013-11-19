@@ -129,17 +129,17 @@ releases = {
             "available": "http://www.mediafire.com/download/ec558xpadegfdnk/%5BPumpkingdom%5D+%E6%98%9F%E7%A9%BA%E3%83%9A%E3%82%A4%E3%83%B3%E3%83%88.rar"
         },
         {
-            "album": "The End",
-            "artist": "Owata-P",
-            "link": "http://www.nicovideo.jp/watch/sm21533762",
-            "type": "vocaloid",
-            "available": false
-        },
-        {
             "album": "PON＊",
             "artist": "あやぽんず＊",
             "link": "http://www.nicovideo.jp/watch/sm21513960",
             "type": "utaite",
+            "available": "https://mega.co.nz/#!fZAUEBLA!FKXIoxtyeoSKvyewHYaQPWnwvv1qYbDZltCibS3K79c"
+        },
+        {
+            "album": "The End",
+            "artist": "Owata-P",
+            "link": "http://www.nicovideo.jp/watch/sm21533762",
+            "type": "vocaloid",
             "available": false
         },
         {
