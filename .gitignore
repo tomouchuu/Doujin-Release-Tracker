@@ -31,6 +31,7 @@ Icon
 .Spotlight-V100
 .Trashes
 
-assets
-
-index.html
+dist
+.tmp
+.sass-cache
+app/bower_components

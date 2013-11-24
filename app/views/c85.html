@@ -1,0 +1,76 @@
+<header class="row">
+    <h1 class="col-lg-6">C85 Release List</h1>
+    <div id="archive" class="col-lg-1">
+        <a ng-href="/archive">Archive</a>
+    </div>
+    <div id="countdown" class="col-lg-1"></div>
+</header>
+
+<div class="releaseArea col-lg-12">
+    <ul id="options" class="nav nav-tabs nav-justified">
+        <li class="active"><a href="#" data-option="all">All Releases</a></li>
+        <li><a href="#" data-option="vocaloid">Vocaloid</a></li>
+        <li><a href="#" data-option="utaite">Utaite</a></li>
+        <li><a href="#" data-option="touhou">Touhou</a></li>
+        <li><a href="#" data-option="other">Other</a></li>
+    </ul>
+    <table class="table table-hover releases table-bordered">
+         <thead>
+            <tr>
+                <th>Album</th>
+                <th>Artist / Circle</th>
+                <th>Link / Crossfade</th>
+                <th class="available">Available</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="release in releases">
+                <td>{{release.album}}</td>
+                <td>{{release.artist}}</td>
+                <td><a href="{{link}}">{{release.link}}</a></td>
+                <td class="available" ng-show="release.available"><a href="{{release.available}}"><span class="glyphicon glyphicon-ok"></span></a></td>
+                <td class="available" ng-hide="release.available"><span class="glyphicon glyphicon-remove"></span></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4" style="text-align:center;">Want a release added, <a href="https://github.com/Tomo-san/c84/blob/gh-pages/js/releases.js">why not add one?</a></td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+
+<div id="message" class="col-lg-12">
+    <p>Hello &amp; Welcome to my C85 Release List.</p>
+    <p>The reason this site exists is because I'm too forgetful to remember all the releases I want from Comiket, so I decided I would make this list so that I can keep track of it all. Also maybe other people will find it useful so I added an Available column so as soon as I can find a copy I'll add it to the column.</p>
+    <p>If you have a release that you want me to check out and add then feel free to fork and add to the <a href="https://github.com/Tomo-san/c84/blob/gh-pages/js/releases.js">releases.js</a> on Github or send me a message on twitter <a href="http://twitter.com/t0mtheenemy">@t0mtheenemy</a></p>
+</div>
+
+<!-- <div class="jumbotron">
+    <h1>'Allo, 'Allo!</h1>
+    <p class="lead">
+        <img src="images/yeoman.png" alt="I'm Yeoman"><br>
+        Always a pleasure scaffolding your apps.
+    </p>
+    <p><a class="btn btn-lg btn-success" ng-href="#">Splendid!</a></p>
+</div>
+
+<div class="row marketing">
+    <h4>HTML5 Boilerplate</h4>
+    <p>
+        HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
+    </p>
+
+    <h4>Angular</h4>
+    <p>
+        AngularJS is a toolset for building the framework most suited to your application development.
+    </p>
+
+    <h4>Karma</h4>
+    <p>Spectacular Test Runner for JavaScript.</p>
+</div>
+
+<div class="footer">
+    <p>♥ from the Yeoman team</p>
+</div>
+ -->
