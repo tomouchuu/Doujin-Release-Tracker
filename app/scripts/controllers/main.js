@@ -1,13 +1,19 @@
 'use strict';
 
 angular.module('comiketApp')
-  .controller('MainCtrl', function ($scope, $routeParams) {
-    $scope.comiketID = $routeParams;
-    if (angular.isDefined($scope.comiketID.comiketID) === false)
+  .controller('MainCtrl', function ($scope, $routeParams, $resource) {
+    $scope.comiketID = $routeParams.comiketID;
+    if (angular.isDefined($scope.comiketID) === false)
     {
-      $scope.comiketID.comiketID = 'c85';
+      $scope.comiketID = 'c85';
     }
-    $scope.releaseURL = '/releases/'+$scope.comiketID.comiketID+'.json';
+    $scope.releasesURL = '/events/:comiketID.json';
+
+    var releases = $resource($scope.releasesURL, {comiketID: '@cID'});
+    var release = releases.get({comiketID: $scope.comiketID}, function() {
+      $scope.releases = release;
+    });
+
     // $scope.releases = [
     //   {
     //     album: 'Cake',

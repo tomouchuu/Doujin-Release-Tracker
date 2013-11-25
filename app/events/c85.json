@@ -1,0 +1,16 @@
+{
+    "releases": {
+        "album": "Test",
+        "artist": "Test",
+        "link": "http: //example.com",
+        "type": "other",
+        "available": ""
+    },
+    "releases": {
+        "album": "Cake",
+        "artist": "Cake-Artist",
+        "link": "http://example.com",
+        "type": "vocaloid",
+        "available": "http://example.com"
+    }
+}
