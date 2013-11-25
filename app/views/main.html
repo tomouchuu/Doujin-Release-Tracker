@@ -1,10 +1,13 @@
 <header class="row">
-    <h1 class="col-lg-6">C85 Release List</h1>
+    <h1 class="col-lg-6">{{comiketID.comiketID | uppercase}} Release List</h1>
     <div id="archive" class="col-lg-1">
         <a href="archives">Archives</a>
     </div>
     <div id="countdown" class="col-lg-1"></div>
 </header>
+
+{{comiketID}}<br />
+{{releaseURL}}
 
 <div  class="row">
     <div id="search" class="col-lg-12">
@@ -43,7 +46,7 @@
 
 <div class="row">
     <div id="message" class="col-lg-12">
-        <p>Hello &amp; Welcome to my C85 Release List.</p>
+        <p>Hello &amp; Welcome to my {{comiketID.comiketID | uppercase}} Release List.</p>
         <p>The reason this site exists is because I'm too forgetful to remember all the releases I want from Comiket, so I decided I would make this list so that I can keep track of it all. Also maybe other people will find it useful so I added an Available column so as soon as I can find a copy I'll add it to the column.</p>
         <p>If you have a release that you want me to check out and add then feel free to fork and add to the <a href="https://github.com/Tomo-san/c84/blob/gh-pages/js/releases.js">releases.js</a> on Github or send me a message on twitter <a href="http://twitter.com/t0mtheenemy">@t0mtheenemy</a></p>
     </div>
