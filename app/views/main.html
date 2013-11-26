@@ -27,7 +27,7 @@
                 <tr ng-repeat="release in releases.releases | filter:searchText" class="release-row">
                     <td>{{release.album}}</td>
                     <td>{{release.artist}}</td>
-                    <td><a href="{{link}}">{{release.link}}</a></td>
+                    <td><a href="{{release.link}}">{{release.link}}</a></td>
                     <td class="available" ng-show="release.available"><a href="{{release.available}}"><span class="glyphicon glyphicon-ok"></span></a></td>
                     <td class="available" ng-hide="release.available"><span class="glyphicon glyphicon-remove"></span></td>
                 </tr>
