@@ -154,5 +154,12 @@
             "type": "vocaloid",
             "available": false
         }
+        // {
+        //     "album": "colorful x peace",
+        //     "artist": "mukami",
+        //     "link": "http://www.nicovideo.jp/watch/sm21478333",
+        //     "type": "vocaloid",
+        //     "available": false
+        // }
     ]
 }
