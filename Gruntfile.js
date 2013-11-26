@@ -270,7 +270,9 @@ module.exports = function (grunt) {
             'bower_components/**/*',
             'images/{,*/}*.{webp}',
             'fonts/*',
-            'events/*'
+            'events/*',
+            'CNAME',
+            '../readme.md'
           ]
         }, {
           expand: true,
