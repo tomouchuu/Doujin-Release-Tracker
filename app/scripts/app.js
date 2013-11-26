@@ -11,11 +11,11 @@ angular.module('comiketApp', [
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/archives', {
+      .when('/#/archives', {
         templateUrl: 'views/archives.html',
         controller: 'ArchivesCtrl'
       })
-      .when('/archives/:comiketID', {
+      .when('/#/archives/:comiketID', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
