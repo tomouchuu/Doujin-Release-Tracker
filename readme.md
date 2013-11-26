@@ -6,7 +6,7 @@ Built with Angular and sheer stupidity.
 
 ## I wanna add a release
 
-First off head to [here](https://github.com/Tomo-san/comiket/tree/angular/app/events) and then click on the event you want to add/edit a release on. For example if I wanted to add a release for C85, then I'd click c85.json. Next click edit and copy the commented template, remove the slashes & fill in the details. Some Info:
+First off head to [here](https://github.com/Tomo-san/comiket/tree/master/app/events) and then click on the event you want to add/edit a release on. For example if I wanted to add a release for C85, then I'd click c85.json. Next click edit and copy the commented template, remove the slashes & fill in the details. Some Info:
 
 * Album is the name of the album
 * Artist is the name of the artist or circle
@@ -14,7 +14,7 @@ First off head to [here](https://github.com/Tomo-san/comiket/tree/angular/app/ev
 * Type is what type of release it is. If it has more than one type then copy this `['type 1','type 2','type 3']` etc.
 * Available is whether some lovely generous fellow has put it on the internet. Just type `false` if it isn't. If it is then use the web address to it.
 
-See [c84.json](https://github.com/Tomo-san/comiket/blob/angular/app/events/c84.json) for what it should be like.
+See [c84.json](https://github.com/Tomo-san/comiket/blob/master/app/events/c84.json) for what it should be like.
 
 If that is too hard, then just message me on twitter ([@t0mtheenemy](http://twitter.com/t0mtheenemy)) or something.
 
