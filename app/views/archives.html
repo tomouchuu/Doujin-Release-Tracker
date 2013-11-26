@@ -11,7 +11,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr ng-repeat="event in events.events | orderBy:-event.shortname">
+                        <tr ng-repeat="event in events.events | orderBy:'-shortname'">
                             <td>{{event.date}}</td>
                             <td>{{event.longname}}</td>
                             <td><a href="archives/{{event.shortname}}">link</a></td>
