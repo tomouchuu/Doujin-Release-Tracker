@@ -1,10 +1,7 @@
 'use strict';
 
 angular.module('comiketApp')
-  .controller('ArchivesCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('ArchivesCtrl', function ($scope, $resource) {
+    var events = $resource('/events/events.json');
+    $scope.events = events.get();
   });

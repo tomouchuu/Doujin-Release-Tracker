@@ -1,0 +1,14 @@
+{
+    "events": [
+        {
+            "shortname": "c84",
+            "longname": "Comiket 84",
+            "date": "August '13"
+        },
+        {
+            "shortname": "c85",
+            "longname": "Comiket 85",
+            "date": "December '13"
+        }
+    ]
+}
