@@ -269,7 +269,8 @@ module.exports = function (grunt) {
             '.htaccess',
             'bower_components/**/*',
             'images/{,*/}*.{webp}',
-            'fonts/*'
+            'fonts/*',
+            'events/*'
           ]
         }, {
           expand: true,
@@ -302,6 +303,13 @@ module.exports = function (grunt) {
         'htmlmin'
       ]
     },
+
+    'gh-pages': {
+      options: {
+        base: 'dist'
+      },
+      src: ['**']
+    }
 
     // By default, your `index.html`'s <!-- Usemin block --> will take care of
     // minification. These next options are pre-configured if you do not wish
@@ -363,6 +371,11 @@ module.exports = function (grunt) {
     'uglify',
     'rev',
     'usemin'
+  ]);
+
+  grunt.registerTask('push', [
+    'build',
+    'gh-pages'
   ]);
 
   grunt.registerTask('default', [
