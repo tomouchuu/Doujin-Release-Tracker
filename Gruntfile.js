@@ -309,7 +309,8 @@ module.exports = function (grunt) {
     'gh-pages': {
       options: {
         base: 'dist',
-        dotfiles: true
+        dotfiles: true,
+        message: 'Update to GH-Pages'
       },
       src: ['**']
     }
