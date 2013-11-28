@@ -3,7 +3,9 @@
 angular.module('comiketApp', [
   'ngResource',
   'ngSanitize',
-  'ngRoute'
+  'ngRoute',
+  'angulartics',
+  'angulartics.google.analytics'
 ])
   .config(function ($routeProvider) {
     $routeProvider
