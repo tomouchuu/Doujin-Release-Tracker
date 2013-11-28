@@ -24,7 +24,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr ng-repeat="release in releases.releases | filter:searchText" class="release-row">
+                <tr ng-repeat="release in data.releases | filter:searchText" class="release-row">
                     <td>{{release.album}}</td>
                     <td>{{release.artist}}</td>
                     <td><a href="{{release.link}}">{{release.link}}</a></td>
