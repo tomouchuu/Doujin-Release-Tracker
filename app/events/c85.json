@@ -1,11 +1,33 @@
 {
     "releases": [
         {
-            "album": "",
-            "artist": "",
+            "album": "ヒロイニシティ",
+            "artist": "scop",
             "link": "",
-            "type": "",
+            "type": "vocaloid",
+            "available": false
+        },
+        {
+            "album": "Lolita Machiavellism",
+            "artist": "Kairiki Bear",
+            "link": "",
+            "type": "vocaloid",
+            "available": false
+        },
+        {
+            "album": "Jewel War of Independence",
+            "artist": "Yuuyu",
+            "link": "",
+            "type": "vocaloid",
+            "available": false
+        },
+        {
+            "album": "Existence",
+            "artist": "KLAFT",
+            "link": "",
+            "type": "vocaloid",
             "available": false
         }
+
     ]
 }
