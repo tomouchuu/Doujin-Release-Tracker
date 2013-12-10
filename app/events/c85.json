@@ -53,6 +53,15 @@
             "type": "misc",
             "genre": "",
             "available": false
+        },
+        {
+            "album": "或る街の白昼夢",
+            "artist": "Kano",
+            "circle": "",
+            "link": "",
+            "type": "utaite",
+            "genre": "Rock, Pop",
+            "available": false
         }
     ]
 }
