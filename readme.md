@@ -6,15 +6,23 @@ Built with Angular and sheer stupidity.
 
 ## I wanna add a release
 
-First off head to [here](https://github.com/Tomo-san/comiket/tree/master/app/events) and then click on the event you want to add/edit a release on. For example if I wanted to add a release for C85, then I'd click c85.json. Next click edit and copy the commented template, remove the slashes & fill in the details. Some Info:
+First off head to [here](https://github.com/Tomo-san/comiket/tree/master/app/events) and then click on the event you want to add/edit a release on. For example if I wanted to add a release for C85, then I'd click c85.json. Next click edit and copy a release, paste on a new line after `},` & replace the details. Some Info:
 
 * Album is the name of the album
-* Artist is the name of the artist or circle
+* Artist is the name of the artist
+* Circle is the name of the circle
 * Link is a link to the crossfade or website to preview the music
-* Type is what type of release it is. If it has more than one type then copy this `['type 1','type 2','type 3']` etc.
+* Type is what type of release it is.
+* Genre is the genre of the release.
 * Available is whether some lovely generous fellow has put it on the internet. Just type `false` if it isn't. If it is then use the web address to it.
 
-See [c84.json](https://github.com/Tomo-san/comiket/blob/master/app/events/c84.json) for what it should be like.
+### Extra
+You can have more than one entry for a field i.e. Multiple Genres / Artists. For this just comma separate them like so `"artist 1, artist 2, artist 3"` etc.
+
+It will choose to display either the artist or the circle, not both. However searching for an artist within the circle will still show the release. It chooses based on Length with a preference for the shorter of the two.
+
+
+See [c85.json](https://github.com/Tomo-san/comiket/blob/master/app/events/c85.json) for what it should be like.
 
 If that is too hard, then just message me on twitter ([@t0mtheenemy](http://twitter.com/t0mtheenemy)) or something.
 
