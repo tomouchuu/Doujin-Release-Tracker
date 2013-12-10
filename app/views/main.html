@@ -26,7 +26,12 @@
             <tbody>
                 <tr ng-repeat="release in data.releases | filter:searchText" class="release-row">
                     <td>{{release.album}}</td>
-                    <td>{{release.artist}}</td>
+                    <td>
+                        <span ng-hide="release.circle.length != 0" ng-show="release.artist">{{release.artist}}</span>
+                        <span ng-hide="release.circle.length > release.artist.length" ng-show="release.artist.length > release.circle.length">{{release.circle}}</span>
+                        <span ng-hide="release.circle.length < release.artist.length" ng-show="release.artist.length < release.circle.length">{{release.artist}}</span>
+                        <span ng-hide="release.artist">{{release.circle}}</span>
+                    </td>
                     <td><a href="{{release.link}}">{{release.link}}</a></td>
                     <td class="available" ng-show="release.available"><a href="{{release.available}}"><span class="glyphicon glyphicon-ok"></span></a></td>
                     <td class="available" ng-hide="release.available"><span class="glyphicon glyphicon-remove"></span></td>
