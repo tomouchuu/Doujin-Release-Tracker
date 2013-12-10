@@ -3,31 +3,56 @@
         {
             "album": "ヒロイニシティ",
             "artist": "scop",
+            "circle": "no one hears",
             "link": "",
             "type": "vocaloid",
+            "genre": "",
             "available": false
         },
         {
             "album": "Lolita Machiavellism",
             "artist": "Kairiki Bear",
+            "circle": "",
             "link": "",
             "type": "vocaloid",
+            "genre": "",
             "available": false
         },
         {
             "album": "Jewel War of Independence",
             "artist": "Yuuyu",
+            "circle": "",
             "link": "",
             "type": "vocaloid",
+            "genre": "",
             "available": false
         },
         {
             "album": "Existence",
-            "artist": "KLAFT",
+            "artist": "asa, emon, HeavenzP, Kairiki bear, keeno, kirin, Mafumafu, Neru, PowerlessP, Suzumu, UtsuP, YuchaP, Zips",
+            "circle": "KLAFT",
             "link": "",
             "type": "vocaloid",
+            "genre": "",
+            "available": false
+        },
+        {
+            "album": "AD:TRANCE 3",
+            "artist": "",
+            "circle": "Diverse System",
+            "link": "",
+            "type": "misc",
+            "genre": "",
+            "available": false
+        },
+        {
+            "album": "AD:TRANCE REMIXES",
+            "artist": "",
+            "circle": "Diverse System",
+            "link": "",
+            "type": "misc",
+            "genre": "",
             "available": false
         }
-
     ]
 }
