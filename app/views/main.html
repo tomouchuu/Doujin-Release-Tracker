@@ -31,7 +31,7 @@
                         <span ng-hide="release.circle.length < release.artist.length" ng-show="release.artist.length < release.circle.length">{{release.artist}}</span>
                         <span ng-hide="release.artist">{{release.circle}}</span>
                     </td>
-                    <td><a href="{{release.link}}">{{release.link}}</a></td>
+                    <td><a href="{{release.link}}" target="_blank">{{release.link}}</a></td>
                     <td class="available" ng-show="release.available"><a href="{{release.available}}"><span class="glyphicon glyphicon-ok"></span></a></td>
                     <td class="available" ng-hide="release.available"><span class="glyphicon glyphicon-remove"></span></td>
                 </tr>
