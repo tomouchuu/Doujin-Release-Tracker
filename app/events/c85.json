@@ -41,7 +41,7 @@
             "artist": "",
             "circle": "Diverse System",
             "link": "",
-            "type": "misc",
+            "type": "",
             "genre": "",
             "available": false
         },
@@ -50,7 +50,7 @@
             "artist": "",
             "circle": "Diverse System",
             "link": "",
-            "type": "misc",
+            "type": "",
             "genre": "",
             "available": false
         },
@@ -60,7 +60,106 @@
             "circle": "",
             "link": "",
             "type": "utaite",
-            "genre": "Rock, Pop",
+            "genre": "rock, pop",
+            "available": false
+        },
+        {
+            "album": "SuganoMusic NonStop 2013",
+            "artist": "",
+            "circle": "SuganoMusic",
+            "link": "https://soundcloud.com/masahiro-sugawara/suganomusic-nonstop-2013-demo",
+            "type": "touhou",
+            "genre": "electronic",
+            "available": false
+        },
+        {
+            "album": "geometrical edifice",
+            "artist": "",
+            "circle": "laughing out loud",
+            "link": "http://www.official.fm/tracks/oTrM",
+            "type": "",
+            "genre": "electronic",
+            "available": false
+        },
+        {
+            "album": "Progressive Starbow 3",
+            "artist": "",
+            "circle": "Rolling Contact",
+            "link": "https://soundcloud.com/ama_loli/amane-progressive-starbow-3",
+            "type": "",
+            "genre": "electronic, progessive",
+            "available": false
+        },
+        {
+            "album": "Blue Paper",
+            "artist": "",
+            "circle": "Digital Logics",
+            "link": "https://soundcloud.com/alinut/blue-paper-crossfade-demo",
+            "type": "",
+            "genre": "electronic, progessive",
+            "available": false
+        },
+        {
+            "album": "con spirito",
+            "artist": "",
+            "circle": "T.Piacere",
+            "link": "http://img.cdn.openscore.jp/s/213001014601a.mp3",
+            "type": "",
+            "genre": "electronic, progessive",
+            "available": false
+        },
+        {
+            "album": "paroxysm",
+            "artist": "",
+            "circle": "KamelCamellia",
+            "link": "https://soundcloud.com/kamelcamellia/ctcd-007-paroxysm-xfade-demo",
+            "type": "",
+            "genre": "electronic, progessive",
+            "available": false
+        },
+        {
+            "album": "TOUHOU meets HARDCORE 2",
+            "artist": "",
+            "circle": "Rolling Contact",
+            "link": "https://soundcloud.com/ama_loli/amane-touhou-meets-hardcore-2",
+            "type": "",
+            "genre": "electronic, hardcore",
+            "available": false
+        },
+        {
+            "album": "Party Stream",
+            "artist": "DJ Amane",
+            "circle": "Amazing Records",
+            "link": "https://soundcloud.com/djamane/dj-amane-party-stream-demo",
+            "type": "",
+            "genre": "electronic, hardcore",
+            "available": false
+        },
+        {
+            "album": "夜桜に君を隠して",
+            "artist": "",
+            "circle": "Yuuhei Satellite",
+            "link": "",
+            "type": "",
+            "genre": "electronic",
+            "available": false
+        },
+        {
+            "album": "compass",
+            "artist": "",
+            "circle": "BubbleRecords",
+            "link": "https://soundcloud.com/pastry/cd-compass",
+            "type": "KanColle",
+            "genre": "electronic",
+            "available": false
+        },
+        {
+            "album": "lol project 004:Final Fantasy Remixes",
+            "artist": "",
+            "circle": "laughing out loud",
+            "link": "http://www.official.fm/tracks/wpGS",
+            "type": "Remix",
+            "genre": "electronic",
             "available": false
         }
     ]
