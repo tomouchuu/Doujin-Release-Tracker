@@ -18,7 +18,7 @@
                 <tr>
                     <th>Album</th>
                     <th>Artist / Circle</th>
-                    <th>Link / Crossfade</th>
+                    <th>Preview</th>
                     <th class="available">Available</th>
                 </tr>
             </thead>
@@ -26,14 +26,28 @@
                 <tr ng-repeat="release in data.releases | filter:searchText" class="release-row">
                     <td>{{release.album}}</td>
                     <td>
-                        <span ng-hide="release.circle.length != 0" ng-show="release.artist">{{release.artist}}</span>
-                        <span ng-hide="release.circle.length > release.artist.length" ng-show="release.artist.length > release.circle.length">{{release.circle}}</span>
-                        <span ng-hide="release.circle.length < release.artist.length" ng-show="release.artist.length < release.circle.length">{{release.artist}}</span>
-                        <span ng-hide="release.artist">{{release.circle}}</span>
+                        <a ng-show="release.link" href="{{release.link}}" target="_blank">
+                            <span ng-hide="release.circle.length != 0" ng-show="release.artist">{{release.artist}}</span>
+                            <span ng-hide="release.circle.length > release.artist.length" ng-show="release.artist.length > release.circle.length">{{release.circle}}</span>
+                            <span ng-hide="release.circle.length < release.artist.length" ng-show="release.artist.length < release.circle.length">{{release.artist}}</span>
+                            <span ng-hide="release.artist">{{release.circle}}</span>
+                        </a>
+                        <span ng-hide="release.link">
+                            <span ng-hide="release.circle.length != 0" ng-show="release.artist">{{release.artist}}</span>
+                            <span ng-hide="release.circle.length > release.artist.length" ng-show="release.artist.length > release.circle.length">{{release.circle}}</span>
+                            <span ng-hide="release.circle.length < release.artist.length" ng-show="release.artist.length < release.circle.length">{{release.artist}}</span>
+                            <span ng-hide="release.artist">{{release.circle}}</span>
+                        </span>
                     </td>
-                    <td><a href="{{release.link}}" target="_blank">{{release.link}}</a></td>
-                    <td class="available" ng-show="release.available"><a href="{{release.available}}"><span class="glyphicon glyphicon-ok"></span></a></td>
-                    <td class="available" ng-hide="release.available"><span class="glyphicon glyphicon-remove"></span></td>
+                    <td>
+                        <a href="{{release.preview}}" target="_blank">{{release.preview}}</a>
+                    </td>
+                    <td class="available" ng-show="release.available">
+                        <a href="{{release.available}}"><span class="glyphicon glyphicon-ok"></span></a>
+                    </td>
+                    <td class="available" ng-hide="release.available">
+                        <span class="glyphicon glyphicon-remove"></span>
+                    </td>
                 </tr>
             </tbody>
             <tfoot>
