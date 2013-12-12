@@ -161,6 +161,33 @@
             "type": "Remix",
             "genre": "electronic",
             "available": false
+        },
+        {
+            "album": "RETRO FUTURE GIRLS",
+            "artist": "",
+            "circle": "ShibayanRecords",
+            "link": "https://soundcloud.com/shibayan/retro-future-girls-crossfade",
+            "type": "Touhou",
+            "genre": "NuDisco",
+            "available": false
+        },
+        {
+            "album": "wonder heart",
+            "artist": "PolyphonicBranch",
+            "circle": "",
+            "link": "",
+            "type": "vocaloid",
+            "genre": "rock, pop",
+            "available": false
+        },
+        {
+            "album": "Parallax",
+            "artist": "",
+            "circle": "STRLabel × Soundspringer",
+            "link": "",
+            "type": "",
+            "genre": "house",
+            "available": false
         }
     ]
 }
