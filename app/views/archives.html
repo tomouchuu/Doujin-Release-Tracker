@@ -1,21 +1,23 @@
 <header class="row">
-                <h1 class="col-lg-12" style="text-align:center;">Comiket Archive List</h1>
-            </header>
-            <div class="col-md-6 col-md-offset-3">
-                <table class="table table-hover releases table-bordered">
-                    <thead>
-                        <tr>
-                            <th>Date</th>
-                            <th>Event</th>
-                            <th>Link</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr ng-repeat="event in events.events | orderBy:'-shortname'">
-                            <td>{{event.date}}</td>
-                            <td>{{event.longname}}</td>
-                            <td><a href="/#/archives/{{event.shortname}}">link</a></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+    <h1 class="col-lg-12" style="text-align:center;">Comiket Archive List</h1>
+</header>
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <table class="table table-hover releases table-bordered">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Event</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="event in events.events | orderBy:'-shortname'">
+                    <td>{{event.date}}</td>
+                    <td>{{event.longname}}</td>
+                    <td><a href="/#/archives/{{event.shortname}}">link</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</row>
