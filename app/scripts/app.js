@@ -21,6 +21,10 @@ angular.module('comiketApp', [
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/contributors', {
+        templateUrl: 'views/contributors.html',
+        controller: 'ContribCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
