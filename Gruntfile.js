@@ -272,7 +272,7 @@ module.exports = function (grunt) {
             'fonts/*',
             'events/*',
             'CNAME',
-            '../readme.md'
+            'contributors.json'
           ]
         }, {
           expand: true,
