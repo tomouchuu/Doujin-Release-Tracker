@@ -195,8 +195,8 @@
             "artist": "PolyphonicBranch",
             "circle": "",
             "link": "http://www.polyphonicbranch.com/",
-            "preview": "",
-            "type": "vocaloid",
+            "preview": "http://www.nicovideo.jp/watch/sm22446418",
+            "type": "utaite",
             "genre": "rock, pop",
             "available": false
         },
@@ -218,6 +218,16 @@
             "preview": "",
             "type": "Vocaloid",
             "genre": "rock",
+            "available": false
+        },
+        {
+            "album": "ぴぃちぼっくす",
+            "artist": "桃箱 (Momobako)",
+            "circle": "",
+            "link": "http://dmp.babymilk.jp/peach/",
+            "preview": "https://soundcloud.com/momobako/c85-2nd",
+            "type": "",
+            "genre": "denpa",
             "available": false
         }
     ]
