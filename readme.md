@@ -11,7 +11,8 @@ First off head to [here](https://github.com/Tomo-san/comiket/tree/master/app/eve
 * Album is the name of the album
 * Artist is the name of the artist
 * Circle is the name of the circle
-* Link is a link to the crossfade or website to preview the music
+* Link is a link to the Artist/Circle's Homepage
+* Preview is a link to the crossfade or website to preview the music
 * Type is what type of release it is.
 * Genre is the genre of the release.
 * Available is whether some lovely generous fellow has put it on the internet. Just type `false` if it isn't. If it is then use the web address to it.
@@ -23,8 +24,6 @@ It will choose to display either the artist or the circle, not both. However sea
 
 
 See [c85.json](https://github.com/Tomo-san/comiket/blob/master/app/events/c85.json) for what it should be like.
-
-If that is too hard, then just message me on twitter ([@t0mtheenemy](http://twitter.com/t0mtheenemy)) or something.
 
 ## Your code is rubbish
 
