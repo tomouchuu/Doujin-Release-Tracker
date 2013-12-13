@@ -209,6 +209,16 @@
             "type": "",
             "genre": "house",
             "available": false
+        },
+        {
+            "album": "Era Amendment Dominant",
+            "artist": "Zips",
+            "circle": "",
+            "link": "",
+            "preview": "",
+            "type": "Vocaloid",
+            "genre": "rock",
+            "available": false
         }
     ]
 }
