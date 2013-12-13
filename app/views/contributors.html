@@ -11,7 +11,7 @@
         <p style="text-align:center">You're all awesome people!</p>
         <ul>
             <li ng-repeat="contributor in contributors.contributors">
-                <a ng-show="contributor.link" href="{{contributor.link}}">{{contributor.name}}</a>
+                <a ng-show="contributor.link" href="{{contributor.link}}" target="_blank">{{contributor.name}}</a>
                 <span ng-hide="contributor.link">{{contributor.name}}</span>
             </li>
         </ul>
