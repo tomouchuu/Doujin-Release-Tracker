@@ -309,6 +309,26 @@
             "type": "touhou",
             "genre": "rock, pop",
             "available": false
+        },
+        {
+            "album": "SILVALLIO",
+            "artist": "",
+            "circle": "Lost Garden",
+            "link": "http://lost-garden.info/discography/silvallio.php",
+            "preview": "https://soundcloud.com/kaguraduki/silvallio-xfd/s-AAmcU",
+            "type": "",
+            "genre": "progressive, complextro, electro(-house), glitch hop, bassline hc, dnb, dubstep",
+            "available": false
         }
+        {
+            "album": "ハーティ",
+            "artist": "",
+            "circle": "Heartland Moon",
+            "link": "http://www.heartland-moon.com/hearty.html",
+            "preview": "https://soundcloud.com/heartlandmoon/hearty_xfd",
+            "type": "",
+            "genre": "rock, pop",
+            "available": false
+        },
     ]
 }
