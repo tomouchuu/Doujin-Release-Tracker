@@ -35,7 +35,7 @@
             "artist": "asa, emon, HeavenzP, Kairiki bear, keeno, kirin, Mafumafu, Neru, PowerlessP, Suzumu, UtsuP, YuchaP, Zips",
             "circle": "KLAFT",
             "link": "http://klaft.jp/existence/",
-            "preview": "",
+            "preview": "http://www.nicovideo.jp/watch/sm22453732",
             "type": "vocaloid",
             "genre": "",
             "available": false
@@ -205,7 +205,7 @@
             "artist": "",
             "circle": "STRLabel × Soundspringer",
             "link": "http://str3.org/strl_0017/",
-            "preview": "",
+            "preview": "https://soundcloud.com/strlabel/parallax-crossfade",
             "type": "",
             "genre": "house",
             "available": false
@@ -228,6 +228,86 @@
             "preview": "https://soundcloud.com/momobako/c85-2nd",
             "type": "",
             "genre": "denpa",
+            "available": false
+        },
+        {
+            "album": "プチリズム∞",
+            "artist": "ポヤッチオ (POYAHCHIO)",
+            "circle": "",
+            "link": "http://www.orc2000.com/cd/petit8.html",
+            "preview": "http://www.nicovideo.jp/watch/sm22452568",
+            "type": "",
+            "genre": "denpa",
+            "available": false
+        },
+        {
+            "album": "Memoria",
+            "artist": "",
+            "circle": "minimum electric design",
+            "link": "http://medmemoria.tumblr.com/",
+            "preview": "https://soundcloud.com/med-matsui/memoriaxfd",
+            "type": "",
+            "genre": "electronic, rock",
+            "available": false
+        },
+        {
+            "album": "destrUctioN ＜=＞ resurrectiON",
+            "artist": "R.I.N. ft. ガネメ",
+            "circle": "",
+            "link": "http://r.i.n.feat.ganemes.tumblr.com/",
+            "preview": "http://www.nicovideo.jp/watch/sm22451924",
+            "type": "touhou",
+            "genre": "hard reneissance, 2step, liquid funk, nu style gabber, trancecore, j-core, (happy) hardcore, dance speed, breakcore, dubstep",
+            "available": false
+        },
+        {
+            "album": "Floor Invader",
+            "artist": "",
+            "circle": "Studio-Stardustglass",
+            "link": "http://st-sdg.net/cd/0002/",
+            "preview": "https://soundcloud.com/st-sdg/sscd0002-floor-invader-demo",
+            "type": "",
+            "genre": "glitch hop, complextro, brostep, electro house, dubstep, progressive",
+            "available": false
+        },
+        {
+            "album": "刹那色シンドローム",
+            "artist": "まふまふ (Mafumafu)",
+            "circle": "",
+            "link": "",
+            "preview": "http://www.nicovideo.jp/watch/sm22452603",
+            "type": "utaite",
+            "genre": "rock, pop",
+            "available": false
+        },
+        {
+            "album": "東方WORLD TOUR",
+            "artist": "",
+            "circle": "天然ジェミニ (Tennenjemini)",
+            "link": "http://tenjemi.com/world_tour/",
+            "preview": "https://soundcloud.com/yuuki_aihara07/world-tour",
+            "type": "touhou",
+            "genre": "rock, j-pop, orchestral, jazz",
+            "available": false
+        },
+        {
+            "album": "四次元ノスタルジア",
+            "artist": "",
+            "circle": "AZURE FACTORY",
+            "link": "http://azure-factory.com/fd-nostalgia/",
+            "preview": "https://soundcloud.com/azure-factory/four-dimensions-demo",
+            "type": "",
+            "genre": "rock, pop, (prog.) trance, electronic",
+            "available": false
+        },
+        {
+            "album": "薦",
+            "artist": "凋叶棕 (Diao ye zong)",
+            "circle": "RD-Sounds",
+            "link": "http://www.rd-sounds.com/C85.html",
+            "preview": "http://www.rd-sounds.com/song/Susume-Crossfadedemo192.mp3",
+            "type": "touhou",
+            "genre": "rock, pop",
             "available": false
         }
     ]
