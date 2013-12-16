@@ -156,8 +156,8 @@
             "circle": "Yuuhei Satellite",
             "link": "http://www.yuuhei-satellite.jp/",
             "preview": "",
-            "type": "",
-            "genre": "electronic",
+            "type": "touhou",
+            "genre": "electronic, dubstep",
             "available": false
         },
         {
@@ -328,6 +328,16 @@
             "preview": "https://soundcloud.com/heartlandmoon/hearty_xfd",
             "type": "",
             "genre": "rock, pop",
+            "available": false
+        },
+        {
+            "album": "艦娘海戦歌",
+            "artist": "",
+            "circle": "ZERO SOUNDS",
+            "link": "http://zero-sounds.net/discography/0003.html",
+            "preview": "https://soundcloud.com/area-zero-1/pww9ucwljwwp",
+            "type": "KanColle",
+            "genre": "drumstep, eurobeat, metal, rock, (energetic) trance",
             "available": false
         }
     ]
