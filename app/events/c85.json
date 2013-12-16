@@ -316,7 +316,7 @@
             "circle": "Lost Garden",
             "link": "http://lost-garden.info/discography/silvallio.php",
             "preview": "https://soundcloud.com/kaguraduki/silvallio-xfd/s-AAmcU",
-            "type": "",
+            "type": "vocaloid, misc",
             "genre": "progressive, complextro, electro(-house), glitch hop, bassline hc, dnb, dubstep",
             "available": false
         },
@@ -338,6 +338,26 @@
             "preview": "https://soundcloud.com/area-zero-1/pww9ucwljwwp",
             "type": "KanColle",
             "genre": "drumstep, eurobeat, metal, rock, (energetic) trance",
+            "available": false
+        },
+        {
+            "album": "MO+OLOID DANCE MUSIC LIBRARY",
+            "artist": "DJ'TEKINA//SOMETHING, yuyoyuppe, baker, yksb, emon, candyboy, u-ji, heart's cry, dj powerless",
+            "circle": "MOtOLOiD",
+            "link": "http://motoloid.info/mdml/mdml.html",
+            "preview": "https://soundcloud.com/motoloid/mdml-djtekina-something",
+            "type": "vocaloid, misc",
+            "genre": "electronic",
+            "available": false
+        },
+        {
+            "album": "Winter Fondue",
+            "artist": "",
+            "circle": "en;Dolphin Records",
+            "link": "http://tokyoaudiowaffle04.tumblr.com/",
+            "preview": "https://soundcloud.com/endolphin-records/taw04ef-xfd",
+            "type": "",
+            "genre": "electronic",
             "available": false
         }
     ]
