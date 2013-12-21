@@ -8,6 +8,9 @@ angular.module('comiketApp')
       $scope.comiketID = 'c85';
     }
     
+    $scope.order = 'artistcircle';
+    $scope.orderby = 'false';
+
     var releasesURL = '/events/'+$scope.comiketID+'.json';
 
     $http({method: 'GET', url: releasesURL}).

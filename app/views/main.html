@@ -23,20 +23,14 @@
                 </tr>
             </thead>
             <tbody>
-                <tr ng-repeat="release in data.releases | filter:searchText" class="release-row">
+                <tr ng-repeat="release in data.releases | orderBy:order:orderby | filter:searchText" class="release-row">
                     <td>{{release.album}}</td>
                     <td>
                         <a ng-show="release.link" href="{{release.link}}" target="_blank">
-                            <span ng-hide="release.circle.length != 0" ng-show="release.artist">{{release.artist}}</span>
-                            <span ng-hide="release.circle.length > release.artist.length" ng-show="release.artist.length > release.circle.length">{{release.circle}}</span>
-                            <span ng-hide="release.circle.length < release.artist.length" ng-show="release.artist.length < release.circle.length">{{release.artist}}</span>
-                            <span ng-hide="release.artist">{{release.circle}}</span>
+                            {{release.artistcircle}}
                         </a>
                         <span ng-hide="release.link">
-                            <span ng-hide="release.circle.length != 0" ng-show="release.artist">{{release.artist}}</span>
-                            <span ng-hide="release.circle.length > release.artist.length" ng-show="release.artist.length > release.circle.length">{{release.circle}}</span>
-                            <span ng-hide="release.circle.length < release.artist.length" ng-show="release.artist.length < release.circle.length">{{release.artist}}</span>
-                            <span ng-hide="release.artist">{{release.circle}}</span>
+                            {{release.artistcircle}}
                         </span>
                     </td>
                     <td>
