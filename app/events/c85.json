@@ -2,8 +2,7 @@
     "releases": [
         {
             "album": "ヒロイニシティ",
-            "artist": "scop",
-            "circle": "no one hears",
+            "artistcircle": "scop/no one hears",
             "link": "http://noonehears.main.jp/",
             "preview": "",
             "type": "vocaloid",
@@ -12,8 +11,7 @@
         },
         {
             "album": "Lolita Machiavellism",
-            "artist": "Kairiki Bear",
-            "circle": "",
+            "artistcircle": "Kairiki Bear",
             "link": "http://ameblo.jp/kairikibear/",
             "preview": "",
             "type": "vocaloid",
@@ -22,9 +20,8 @@
         },
         {
             "album": "Jewel War of Independence",
-            "artist": "Yuuyu",
-            "circle": "http://tsubu.ath.cx/~ssry/",
-            "link": "",
+            "artistcircle": "Yuuyu",
+            "link": "http://tsubu.ath.cx/~ssry/",
             "preview": "",
             "type": "vocaloid",
             "genre": "",
@@ -33,7 +30,7 @@
         {
             "album": "Existence",
             "artist": "asa, emon, HeavenzP, Kairiki bear, keeno, kirin, Mafumafu, Neru, PowerlessP, Suzumu, UtsuP, YuchaP, Zips",
-            "circle": "KLAFT",
+            "artistcircle": "KLAFT",
             "link": "http://klaft.jp/existence/",
             "preview": "http://www.nicovideo.jp/watch/sm22453732",
             "type": "vocaloid",
@@ -42,28 +39,52 @@
         },
         {
             "album": "AD:TRANCE 3",
-            "artist": "",
-            "circle": "Diverse System",
-            "link": "http://diverse.jp/",
-            "preview": "",
+            "artistcircle": "Diverse System",
+            "link": "http://adt3.diverse.jp/",
+            "preview": "https://soundcloud.com/diversesystem/dvsp-0100-ad-trance-3-disc-1",
             "type": "",
-            "genre": "",
+            "genre": "trance",
+            "available": false
+        },
+        {
+            "album": "AD:TRANCE 3.5",
+            "artistcircle": "Diverse System",
+            "link": "http://adt3.diverse.jp/",
+            "preview": "https://soundcloud.com/diversesystem/dvsp-0106-ad-trance-3-5",
+            "type": "",
+            "genre": "trance",
             "available": false
         },
         {
             "album": "AD:TRANCE REMIXES",
-            "artist": "",
-            "circle": "Diverse System",
-            "link": "http://diverse.jp/",
-            "preview": "",
+            "artistcircle": "Diverse System",
+            "link": "http://adt3.diverse.jp/",
+            "preview": "https://soundcloud.com/diversesystem/dvsp-0104-ad-trance-remixes",
             "type": "",
-            "genre": "",
+            "genre": "trance, edm",
+            "available": false
+        },
+        {
+            "album": "Hello and Again LP",
+            "artistcircle": "Diverse System",
+            "link": "http://maozon.diverse.jp/",
+            "preview": "https://soundcloud.com/diversesystem/dvsp-0105-hello-and-again-lp",
+            "type": "",
+            "genre": "trance, electro, dubstep, glitch hop",
+            "available": false
+        },
+        {
+            "album": "thinkover,convergence",
+            "artistcircle": "Diverse System",
+            "link": "http://t.diverse.jp/",
+            "preview": "https://soundcloud.com/diversesystem/dvsp-0103-thinkover",
+            "type": "",
+            "genre": "easy listening, ambient, techno, experimental",
             "available": false
         },
         {
             "album": "或る街の白昼夢",
-            "artist": "Kano",
-            "circle": "",
+            "artistcircle": "Kano",
             "link": "http://ameblo.jp/kano-2525/",
             "preview": "",
             "type": "utaite",
@@ -72,8 +93,7 @@
         },
         {
             "album": "SuganoMusic NonStop 2013",
-            "artist": "",
-            "circle": "SuganoMusic",
+            "artistcircle": "SuganoMusic",
             "link": "http://suganomusic.com/SuganoMusic_NonStop_2013.html",
             "preview": "https://soundcloud.com/masahiro-sugawara/suganomusic-nonstop-2013-demo",
             "type": "touhou",
@@ -82,8 +102,7 @@
         },
         {
             "album": "geometrical edifice",
-            "artist": "",
-            "circle": "laughing out loud",
+            "artistcircle": "laughing out loud",
             "link": "http://lollol.client.jp/lol9th_tokusetsu.html",
             "preview": "http://www.official.fm/tracks/oTrM",
             "type": "",
@@ -92,8 +111,7 @@
         },
         {
             "album": "Progressive Starbow 3",
-            "artist": "",
-            "circle": "Rolling Contact",
+            "artistcircle": "Rolling Contact",
             "link": "http://loli.sakura.ne.jp/sp/c85/loli-0038.html",
             "preview": "https://soundcloud.com/ama_loli/amane-progressive-starbow-3",
             "type": "",
@@ -102,8 +120,7 @@
         },
         {
             "album": "Blue Paper",
-            "artist": "",
-            "circle": "Digital Logics",
+            "artistcircle": "Digital Logics",
             "link": "http://digitallogics.net/",
             "preview": "https://soundcloud.com/alinut/blue-paper-crossfade-demo",
             "type": "",
@@ -112,8 +129,7 @@
         },
         {
             "album": "con spirito",
-            "artist": "",
-            "circle": "T.Piacere",
+            "artistcircle": "T.Piacere",
             "link": "http://t-piacere.ciao.jp/",
             "preview": "http://img.cdn.openscore.jp/s/213001014601a.mp3",
             "type": "",
@@ -122,8 +138,7 @@
         },
         {
             "album": "paroxysm",
-            "artist": "",
-            "circle": "KamelCamellia",
+            "artistcircle": "KamelCamellia",
             "link": "http://camtek.seesaa.net/",
             "preview": "https://soundcloud.com/kamelcamellia/ctcd-007-paroxysm-xfade-demo",
             "type": "",
@@ -132,8 +147,7 @@
         },
         {
             "album": "TOUHOU meets HARDCORE 2",
-            "artist": "",
-            "circle": "Rolling Contact",
+            "artistcircle": "Rolling Contact",
             "link": "http://loli.sakura.ne.jp/sp/c85/loli-0039.html",
             "preview": "https://soundcloud.com/ama_loli/amane-touhou-meets-hardcore-2",
             "type": "",
@@ -142,8 +156,7 @@
         },
         {
             "album": "Party Stream",
-            "artist": "DJ Amane",
-            "circle": "Amazing Records",
+            "artistcircle": "Amazing Records",
             "link": "http://www.amazingrec.com/2013/12/amaz-0005-party-stream.html",
             "preview": "https://soundcloud.com/djamane/dj-amane-party-stream-demo",
             "type": "",
@@ -152,8 +165,7 @@
         },
         {
             "album": "夜桜に君を隠して",
-            "artist": "",
-            "circle": "Yuuhei Satellite",
+            "artistcircle": "Yuuhei Satellite",
             "link": "http://www.yuuhei-satellite.jp/",
             "preview": "",
             "type": "touhou",
@@ -161,9 +173,17 @@
             "available": false
         },
         {
+            "album": "女神の口づけを",
+            "artistcircle": "Yuuhei Satellite",
+            "link": "http://www.yuuhei-satellite.jp/katharsis/?p=57",
+            "preview": "http://www.nicovideo.jp/watch/sm22476466",
+            "type": "KanColle",
+            "genre": "electronic, trance, pop",
+            "available": false
+        },
+        {
             "album": "compass",
-            "artist": "",
-            "circle": "BubbleRecords",
+            "artistcircle": "BubbleRecords",
             "link": "http://compass-c85.tumblr.com/",
             "preview": "https://soundcloud.com/pastry/cd-compass",
             "type": "KanColle",
@@ -172,8 +192,7 @@
         },
         {
             "album": "lol project 004:Final Fantasy Remixes",
-            "artist": "",
-            "circle": "laughing out loud",
+            "artistcircle": "laughing out loud",
             "link": "http://lollol.client.jp/ffrmx_tokusetsu.html",
             "preview": "http://www.official.fm/tracks/wpGS",
             "type": "Remix",
@@ -182,8 +201,7 @@
         },
         {
             "album": "RETRO FUTURE GIRLS",
-            "artist": "",
-            "circle": "ShibayanRecords",
+            "artistcircle": "ShibayanRecords",
             "link": "http://homepage3.nifty.com/shibayan/",
             "preview": "https://soundcloud.com/shibayan/retro-future-girls-crossfade",
             "type": "Touhou",
@@ -192,8 +210,7 @@
         },
         {
             "album": "wonder heart",
-            "artist": "PolyphonicBranch",
-            "circle": "",
+            "artistcircle": "PolyphonicBranch",
             "link": "http://www.polyphonicbranch.com/",
             "preview": "http://www.nicovideo.jp/watch/sm22446418",
             "type": "utaite",
@@ -202,8 +219,7 @@
         },
         {
             "album": "Parallax",
-            "artist": "",
-            "circle": "STRLabel × Soundspringer",
+            "artistcircle": "STRLabel × Soundspringer",
             "link": "http://str3.org/strl_0017/",
             "preview": "https://soundcloud.com/strlabel/parallax-crossfade",
             "type": "",
@@ -212,8 +228,7 @@
         },
         {
             "album": "Era Amendment Dominant",
-            "artist": "Zips",
-            "circle": "",
+            "artistcircle": "Zips",
             "link": "",
             "preview": "",
             "type": "Vocaloid",
@@ -222,8 +237,7 @@
         },
         {
             "album": "ぴぃちぼっくす",
-            "artist": "桃箱 (Momobako)",
-            "circle": "",
+            "artistcircle": "桃箱 (Momobako)",
             "link": "http://dmp.babymilk.jp/peach/",
             "preview": "https://soundcloud.com/momobako/c85-2nd",
             "type": "",
@@ -232,8 +246,7 @@
         },
         {
             "album": "プチリズム∞",
-            "artist": "ポヤッチオ (POYAHCHIO)",
-            "circle": "",
+            "artistcircle": "ポヤッチオ (POYAHCHIO)",
             "link": "http://www.orc2000.com/cd/petit8.html",
             "preview": "http://www.nicovideo.jp/watch/sm22452568",
             "type": "",
@@ -242,8 +255,7 @@
         },
         {
             "album": "Memoria",
-            "artist": "",
-            "circle": "minimum electric design",
+            "artistcircle": "minimum electric design",
             "link": "http://medmemoria.tumblr.com/",
             "preview": "https://soundcloud.com/med-matsui/memoriaxfd",
             "type": "",
@@ -252,8 +264,7 @@
         },
         {
             "album": "destrUctioN ＜=＞ resurrectiON",
-            "artist": "R.I.N. ft. ガネメ",
-            "circle": "",
+            "artistcircle": "R.I.N. ft. ガネメ",
             "link": "http://r.i.n.feat.ganemes.tumblr.com/",
             "preview": "http://www.nicovideo.jp/watch/sm22451924",
             "type": "touhou",
@@ -262,8 +273,7 @@
         },
         {
             "album": "Floor Invader",
-            "artist": "",
-            "circle": "Studio-Stardustglass",
+            "artistcircle": "Studio-Stardustglass",
             "link": "http://st-sdg.net/cd/0002/",
             "preview": "https://soundcloud.com/st-sdg/sscd0002-floor-invader-demo",
             "type": "",
@@ -272,8 +282,7 @@
         },
         {
             "album": "刹那色シンドローム",
-            "artist": "まふまふ (Mafumafu)",
-            "circle": "",
+            "artistcircle": "まふまふ (Mafumafu)",
             "link": "",
             "preview": "http://www.nicovideo.jp/watch/sm22452603",
             "type": "utaite",
@@ -282,8 +291,7 @@
         },
         {
             "album": "東方WORLD TOUR",
-            "artist": "",
-            "circle": "天然ジェミニ (Tennenjemini)",
+            "artistcircle": "天然ジェミニ (Tennenjemini)",
             "link": "http://tenjemi.com/world_tour/",
             "preview": "https://soundcloud.com/yuuki_aihara07/world-tour",
             "type": "touhou",
@@ -292,8 +300,7 @@
         },
         {
             "album": "四次元ノスタルジア",
-            "artist": "",
-            "circle": "AZURE FACTORY",
+            "artistcircle": "AZURE FACTORY",
             "link": "http://azure-factory.com/fd-nostalgia/",
             "preview": "https://soundcloud.com/azure-factory/four-dimensions-demo",
             "type": "",
@@ -302,8 +309,7 @@
         },
         {
             "album": "薦",
-            "artist": "凋叶棕 (Diao ye zong)",
-            "circle": "RD-Sounds",
+            "artistcircle": "RD-Sounds",
             "link": "http://www.rd-sounds.com/C85.html",
             "preview": "http://www.rd-sounds.com/song/Susume-Crossfadedemo192.mp3",
             "type": "touhou",
@@ -312,8 +318,7 @@
         },
         {
             "album": "SILVALLIO",
-            "artist": "",
-            "circle": "Lost Garden",
+            "artistcircle": "Lost Garden",
             "link": "http://lost-garden.info/discography/silvallio.php",
             "preview": "https://soundcloud.com/kaguraduki/silvallio-xfd/s-AAmcU",
             "type": "vocaloid, misc",
@@ -322,8 +327,7 @@
         },
         {
             "album": "ハーティ",
-            "artist": "",
-            "circle": "Heartland Moon",
+            "artistcircle": "Heartland Moon",
             "link": "http://www.heartland-moon.com/hearty.html",
             "preview": "https://soundcloud.com/heartlandmoon/hearty_xfd",
             "type": "",
@@ -332,8 +336,7 @@
         },
         {
             "album": "艦娘海戦歌",
-            "artist": "",
-            "circle": "ZERO SOUNDS",
+            "artistcircle": "ZERO SOUNDS",
             "link": "http://zero-sounds.net/discography/0003.html",
             "preview": "https://soundcloud.com/area-zero-1/pww9ucwljwwp",
             "type": "KanColle",
@@ -342,8 +345,7 @@
         },
         {
             "album": "MO+OLOID DANCE MUSIC LIBRARY",
-            "artist": "DJ'TEKINA//SOMETHING, yuyoyuppe, baker, yksb, emon, candyboy, u-ji, heart's cry, dj powerless",
-            "circle": "MOtOLOiD",
+            "artistcircle": "MOtOLOiD",
             "link": "http://motoloid.info/mdml/mdml.html",
             "preview": "https://soundcloud.com/motoloid/mdml-djtekina-something",
             "type": "vocaloid, misc",
@@ -352,12 +354,416 @@
         },
         {
             "album": "Winter Fondue",
-            "artist": "",
-            "circle": "en;Dolphin Records",
+            "artistcircle": "en;Dolphin Records",
             "link": "http://tokyoaudiowaffle04.tumblr.com/",
             "preview": "https://soundcloud.com/endolphin-records/taw04ef-xfd",
             "type": "",
             "genre": "electronic",
+            "available": false
+        },
+        {
+            "album": "Grow Color",
+            "artistcircle": "FELT",
+            "link": "http://feltmusic.net/",
+            "preview": "http://youtu.be/W02BWDGTN7M",
+            "type": "",
+            "genre": "electronic, pop",
+            "available": false
+        },
+        {
+            "album": "UNDERGROUND MAKINA CONNECTIONZ VOL.14",
+            "artistcircle": "BURNING CHROME RECORDS",
+            "link": "http://ameblo.jp/x-hard/entry-11731125111.html",
+            "preview": "https://soundcloud.com/m-project_suzumoto/bccomp014-preview",
+            "type": "",
+            "genre": "makina, j-core",
+            "available": false
+        },
+        {
+            "album": "J-CORE MASTERZ VOL.14",
+            "artistcircle": "MOB SQUAD BLACK LABEL",
+            "link": "http://ameblo.jp/x-hard/entry-11731053150.html",
+            "preview": "https://soundcloud.com/asterisk-core/demo-asterisk-sunset-way-back",
+            "type": "",
+            "genre": "j-core, drumstep",
+            "available": false
+        },
+        {
+            "album": "Unhinghed EP",
+            "artistcircle": "MOB SQUAD BLACK LABEL",
+            "link": "http://ameblo.jp/x-hard/entry-11731056330.html",
+            "preview": "https://soundcloud.com/shingodj/round-wave-crusher-unhinghed",
+            "type": "touhou",
+            "genre": "speedcore, terrorcore, frenchcore, j-core",
+            "available": false
+        },
+        {
+            "album": "HARDCORE LIFE+",
+            "artistcircle": "GUHROOVY",
+            "link": "http://ameblo.jp/x-hard/entry-11731063324.html",
+            "preview": "https://soundcloud.com/nochin/blow-the_nite",
+            "type": "",
+            "genre": "makkina, j-core, edm",
+            "available": false
+        },
+        {
+            "album": "Electro.sinker",
+            "artistcircle": "GWAVE",
+            "link": "http://cosmic.surpara.com/1312_els.html",
+            "preview": "http://www.nicovideo.jp/watch/sm22491375",
+            "type": "",
+            "genre": "electro, prog. house",
+            "available": false
+        },
+        {
+            "album": "HORIZON OF DAYBREAK",
+            "artistcircle": "Sound Online",
+            "link": "http://soundonline.info/HOD/",
+            "preview": "https://soundcloud.com/tsukasa_so/horizon-of-daybreak-crossfade",
+            "type": "KanColle",
+            "genre": "trance, dnb, house, hardcore",
+            "available": false
+        },
+        {
+            "album": "Double Spoil Squad",
+            "artistcircle": "ネコノツカ",
+            "link": "http://nzcd0010.tumblr.com/",
+            "preview": "http://img.cdn.openscore.jp/s/213001014755a.mp3",
+            "type": "touhou",
+            "genre": "hardstyle, dubstep",
+            "available": false
+        },
+        {
+            "album": "イノセントキー VS 虎",
+            "artistcircle": "Innocent Key",
+            "link": "http://innocent-key.com/",
+            "preview": "",
+            "type": "touhou",
+            "genre": "electronic, pop, denpa",
+            "available": false
+        },
+        {
+            "album": "Worlds EP",
+            "artistcircle": "Movibe Music Records",
+            "link": "http://www.beatport.com/release/worlds/1162759",
+            "preview": "http://youtu.be/ZzzqwcqKmzs",
+            "type": "vocaloid",
+            "genre": "electronic",
+            "available": false
+        },
+        {
+            "album": "げきかわ☆ヴァンピン",
+            "artistcircle": "イオシス / IOSYS",
+            "link": "http://www.iosysos.com/cd/armdenpa2/",
+            "preview": "https://soundcloud.com/iosysos/io-0258-iosys-xfd",
+            "type": "touhou",
+            "genre": "various, denpa",
+            "available": false
+        },
+        {
+            "album": "COOL&CREATE東方ボーカルコンプリートコレクション \"とうほう☆あまねりお\"",
+            "artistcircle": "COOL&CREATE",
+            "link": "http://cool-create.cc/",
+            "preview": "",
+            "type": "touhou",
+            "genre": "rock, pop, denpa",
+            "available": false
+        },
+        {
+            "album": "艦隊乙女",
+            "artistcircle": "COOL&CREATE",
+            "link": "http://cool-create.cc/",
+            "preview": "",
+            "type": "KanColle",
+            "genre": "rock",
+            "available": false
+        },
+        {
+            "album": "HITOMARUSAN",
+            "artistcircle": "hgszm+sekai",
+            "link": "http://hgszm-sekai.com/",
+            "preview": "",
+            "type": "vocaloid",
+            "genre": "edm",
+            "available": false
+        },
+        {
+            "album": "Wish feat. 茶太&中恵光城",
+            "artistcircle": "Eryps",
+            "link": "http://www.eryps.jp/011/",
+            "preview": "https://soundcloud.com/eryps/wish",
+            "type": "",
+            "genre": "rock, pop",
+            "available": false
+        },
+        {
+            "album": "Portable Memories March - First Story : Gold & Silver",
+            "artistcircle": "salvation by faith records",
+            "link": "http://sbfr.info/discography/sbfr-0047/index.html",
+            "preview": "https://soundcloud.com/sbfr/sbfr-0047-portable-memories",
+            "type": "pokemon",
+            "genre": "electronic",
+            "available": false
+        },
+        {
+            "album": "東方金髪娘",
+            "artistcircle": "Club Music Emotion",
+            "link": "http://cme-gold.tumblr.com/",
+            "preview": "https://soundcloud.com/quent_fl/c83-xfd",
+            "type": "touhou",
+            "genre": "eurobeat, metal, electronic",
+            "available": false
+        },
+        {
+            "album": "にゃんことくらそう",
+            "artistcircle": "さーくるばんばんしー",
+            "link": "http://banbanshi.web.fc2.com/",
+            "preview": "https://soundcloud.com/banbanshi2/c85-xfd",
+            "type": "touhou",
+            "genre": "pop, jazz, easy listening",
+            "available": false
+        },
+        {
+            "album": "starlight",
+            "artistcircle": "ORANGE★JAM",
+            "link": "http://orange-jam.net/OREN002/",
+            "preview": "https://soundcloud.com/orange-jam/oren-002-starlight-xfd",
+            "type": "touhou",
+            "genre": "trance, pop, r&b, house, electro",
+            "available": false
+        },
+        {
+            "album": "絢爛喧騒オリエント",
+            "artistcircle": "Cutie & Headshaking Sounds",
+            "link": "http://c-h-s.me/orient/",
+            "preview": "https://soundcloud.com/t-pazolite/crossfade-demo",
+            "type": "",
+            "genre": "hardcore, speedcore, schranz, breaks, funkot, glitch hop",
+            "available": false
+        },
+        {
+            "album": "TANO*C REMIXES 3",
+            "artistcircle": "HARDCORE TANO*C",
+            "link": "http://tano-c.net/remixes3/",
+            "preview": "http://img.cdn.openscore.jp/s/213001014819a.mp3",
+            "type": "",
+            "genre": "mainstream hardcore, uk hardcore, hardcore, dnb, drumstep, hardstyle",
+            "available": false
+        },
+        {
+            "album": "Voltage Ignition 2",
+            "artistcircle": "Movement on the FLOOR",
+            "link": "http://movementonthefloor.net/motf0002/",
+            "preview": "https://soundcloud.com/t-pazolite/voltage-ignition-2-crossfade",
+            "type": "",
+            "genre": "hardcore, denpa, house, trance, speedcore",
+            "available": false
+        },
+        {
+            "album": "COLLECTiVE:MOTiON",
+            "artistcircle": "KRASTERII",
+            "link": "http://kraster.jp/collec_tion/",
+            "preview": "https://soundcloud.com/athii/collective-motion",
+            "type": "",
+            "genre": "metal, pop, rock, electronic",
+            "available": false
+        },
+        {
+            "album": "Quantum Labyrinth",
+            "artistcircle": "Vanguard Sound",
+            "link": "http://www.vanguard-sound.com/",
+            "preview": "https://soundcloud.com/vanguard_sound/haloweak-1st-ep-quantum",
+            "type": "",
+            "genre": "psy trance, trance, drumstep",
+            "available": false
+        },
+        {
+            "album": "HAPPYNATION #01",
+            "artistcircle": "HAPPYNATION",
+            "link": "http://pichnopop.net/",
+            "preview": "https://soundcloud.com/djshimamura/winds-of-island-master2",
+            "type": "",
+            "genre": "uk hardcore, happy hardcore, rave hardcore, hardcore, dance, trance",
+            "available": false
+        },
+        {
+            "album": "Stir up club edition V3 -diaphanser-",
+            "artistcircle": "AlliumProject",
+            "link": "http://www.compllege.com/allium/c85",
+            "preview": "https://soundcloud.com/compllege/stir-up-club-edition-v3-cross",
+            "type": "vocaloid",
+            "genre": "edm",
+            "available": false
+        },
+        {
+            "album": "HOLIX",
+            "artistcircle": "Lick Dom Records",
+            "link": "http://c-h-s.me/holix/",
+            "preview": "https://soundcloud.com/michi_akira/c85-holix",
+            "type": "",
+            "genre": "hardcore, edm, house, prog. trance/house, moonbahcore",
+            "available": false
+        },
+        {
+            "album": "Desire S-T",
+            "artistcircle": "Sharp Eight & Eve Hates Me",
+            "link": "",
+            "preview": "https://soundcloud.com/flyer-1/desire-s-t-demo",
+            "type": "touhou",
+            "genre": "house, chill-out, drum n' bass",
+            "available": false
+        },
+        {
+            "album": "Spectral Rejection",
+            "artistcircle": "EastNewSound",
+            "link": "http://e-ns.net/discography/ens0028.html",
+            "preview": "http://img.cdn.openscore.jp/s/213001014822a.mp3",
+            "type": "touhou",
+            "genre": "trance, electronic, vocal",
+            "available": false
+        },
+        {
+            "album": "XXX",
+            "artistcircle": "ZYTOKINE",
+            "link": "http://zytokine-web.com/CK-0030P_XXX/XXX.html",
+            "preview": "http://zytokine-web.com/sound/CK-0030P_XXX_Xfade_long_DEMO.mp3",
+            "type": "touhou",
+            "genre": "electronic",
+            "available": false
+        },
+        {
+            "album": "I, SCREAM",
+            "artistcircle": "ZYTOKINE",
+            "link": "http://zytokine-web.com/CK-0031P_I_SCREAM/I_SCREAM.html",
+            "preview": "http://zytokine-web.com/sound/CK-0031P_I_SCREAM_Xfade_long_DEMO.mp3",
+            "type": "touhou",
+            "genre": "electronic, pop, dubstep",
+            "available": false
+        },
+        {
+            "album": "Light Magic",
+            "artistcircle": "PROSCIUTTO",
+            "link": "http://www.prosciutto.jp/",
+            "preview": "https://soundcloud.com/kouchaso/c85-crossfade-demo-light-magic",
+            "type": "",
+            "genre": "prog. house",
+            "available": false
+        },
+        {
+            "album": "Lucy＆Starlit Walk",
+            "artistcircle": "cosmic record",
+            "link": "http://cosmic.surpara.com/c85.html",
+            "preview": "http://www.nicovideo.jp/watch/sm22491317",
+            "type": "",
+            "genre": "prog. trance, electro, rock",
+            "available": false
+        },
+        {
+            "album": "Acorde",
+            "artistcircle": "purifica",
+            "link": "https://webcatalog.circle.ms/Circle/11042304",
+            "preview": "http://www.nicovideo.jp/watch/sm22481931",
+            "type": "",
+            "genre": "electronic, pop, rock, piano",
+            "available": false
+        },
+        {
+            "album": "EPM -electro planet music-",
+            "artistcircle": "electro planet",
+            "link": "http://electro-planet.net/",
+            "preview": "https://soundcloud.com/tainaka_doku/ryunosuke-kudo-nrp",
+            "type": "",
+            "genre": "edm",
+            "available": false
+        },
+        {
+            "album": "デジハロ PRIDE",
+            "artistcircle": "DiGiTAL WiNG",
+            "link": "http://digital-wing.net/",
+            "preview": "https://soundcloud.com/digital-wing/dwcd-0011-pride-demo",
+            "type": "touhou",
+            "genre": "electronic, denpa, house, eurobeat",
+            "available": false
+        },
+        {
+            "album": "RAVER'S NEST 2 TOHO RAVE PARTY",
+            "artistcircle": "DiGiTAL WiNG",
+            "link": "http://digital-wing.net/",
+            "preview": "https://soundcloud.com/digital-wing/dwcd-0012-ravers-nest-2-toho",
+            "type": "touhou",
+            "genre": "rave, house, eurobeat",
+            "available": false
+        },
+        {
+            "album": "Infinity Asterisk",
+            "artistcircle": "Amateras Records",
+            "link": "http://amateras-records.com/",
+            "preview": "https://soundcloud.com/amateras-records/amrc-0017_infinity",
+            "type": "touhou",
+            "genre": "trance, edm",
+            "available": false
+        },
+        {
+            "album": "Stella",
+            "artistcircle": "Mikazuki Sofa",
+            "link": "",
+            "preview": "http://goo.gl/PlRzH7",
+            "type": "",
+            "genre": "pop",
+            "available": false
+        },
+        {
+            "album": "極彩monochrome",
+            "artistcircle": "Hashiyan",
+            "link": "",
+            "preview": "http://www.nicovideo.jp/watch/sm22491300",
+            "type": "utaite",
+            "genre": "rock, rap",
+            "available": false
+        },
+        {
+            "album": "青春サラバイ・前編",
+            "artistcircle": "Bassy",
+            "link": "http://www.bassy.info/discography/bash011/",
+            "preview": "http://discus.noor.jp/mp3/01_ando_tr.mp3",
+            "type": "",
+            "genre": "pop",
+            "available": false
+        },
+        {
+            "album": "Evanescence",
+            "artistcircle": "G protein-coupled receptor",
+            "link": "http://www.gpcr-music.com/discography/pg175.html",
+            "preview": "http://www.gpcr-music.com/_userdata/Evanescence%20crossfade.mp3",
+            "type": "",
+            "genre": "pop",
+            "available": false
+        },
+        {
+            "album": "NanoSweep17",
+            "artistcircle": "nanosounds & sweeprecord",
+            "link": "http://sweeprecord.biz/?pid=67867206",
+            "preview": "http://goo.gl/THnaox",
+            "type": "",
+            "genre": "electronic",
+            "available": false
+        },
+        {
+            "album": "Light Night Beat3",
+            "artistcircle": "Hachimitsu-Lemon",
+            "link": "http://8lemo.lala.cc/",
+            "preview": "https://soundcloud.com/aizawa_8lemo/light-night-beat3",
+            "type": "",
+            "genre": "tech house, prog house, housetechno, dnb, breakbeat, psytrance, chillout",
+            "available": false
+        },
+        {
+            "album": "The Rainbow Orchestra 2",
+            "artistcircle": "The Rainbow Orchestra",
+            "link": "http://rainbow-orch.com/#cd_anc",
+            "preview": "http://www.nicovideo.jp/watch/sm22492392",
+            "type": "utaite",
+            "genre": "pop",
             "available": false
         }
     ]
