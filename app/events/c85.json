@@ -4,7 +4,7 @@
             "album": "ヒロイニシティ",
             "artistcircle": "scop/no one hears",
             "link": "http://noonehears.main.jp/",
-            "preview": "",
+            "preview": "http://www.nicovideo.jp/watch/sm22514366",
             "type": "vocaloid",
             "genre": "",
             "available": false
@@ -86,7 +86,7 @@
             "album": "或る街の白昼夢",
             "artistcircle": "Kano",
             "link": "http://ameblo.jp/kano-2525/",
-            "preview": "",
+            "preview": "http://www.nicovideo.jp/watch/sm22512039",
             "type": "utaite",
             "genre": "rock, pop",
             "available": false
@@ -177,7 +177,7 @@
             "artistcircle": "Yuuhei Satellite",
             "link": "http://www.yuuhei-satellite.jp/katharsis/?p=57",
             "preview": "http://www.nicovideo.jp/watch/sm22476466",
-            "type": "KanColle",
+            "type": "kancolle",
             "genre": "electronic, trance, pop",
             "available": false
         },
@@ -186,7 +186,7 @@
             "artistcircle": "BubbleRecords",
             "link": "http://compass-c85.tumblr.com/",
             "preview": "https://soundcloud.com/pastry/cd-compass",
-            "type": "KanColle",
+            "type": "kancolle",
             "genre": "electronic",
             "available": false
         },
@@ -237,7 +237,7 @@
         },
         {
             "album": "ぴぃちぼっくす",
-            "artistcircle": "桃箱 (Momobako)",
+            "artistcircle": "Momobako (桃箱)",
             "link": "http://dmp.babymilk.jp/peach/",
             "preview": "https://soundcloud.com/momobako/c85-2nd",
             "type": "",
@@ -246,7 +246,7 @@
         },
         {
             "album": "プチリズム∞",
-            "artistcircle": "ポヤッチオ (POYAHCHIO)",
+            "artistcircle": "POYAHCHIO (ポヤッチオ)",
             "link": "http://www.orc2000.com/cd/petit8.html",
             "preview": "http://www.nicovideo.jp/watch/sm22452568",
             "type": "",
@@ -282,7 +282,7 @@
         },
         {
             "album": "刹那色シンドローム",
-            "artistcircle": "まふまふ (Mafumafu)",
+            "artistcircle": "Mafumafu (まふまふ)",
             "link": "",
             "preview": "http://www.nicovideo.jp/watch/sm22452603",
             "type": "utaite",
@@ -291,7 +291,7 @@
         },
         {
             "album": "東方WORLD TOUR",
-            "artistcircle": "天然ジェミニ (Tennenjemini)",
+            "artistcircle": "Tennenjemini (天然ジェミニ)",
             "link": "http://tenjemi.com/world_tour/",
             "preview": "https://soundcloud.com/yuuki_aihara07/world-tour",
             "type": "touhou",
@@ -339,7 +339,7 @@
             "artistcircle": "ZERO SOUNDS",
             "link": "http://zero-sounds.net/discography/0003.html",
             "preview": "https://soundcloud.com/area-zero-1/pww9ucwljwwp",
-            "type": "KanColle",
+            "type": "kancolle",
             "genre": "drumstep, eurobeat, metal, rock, (energetic) trance",
             "available": false
         },
@@ -420,7 +420,7 @@
             "artistcircle": "Sound Online",
             "link": "http://soundonline.info/HOD/",
             "preview": "https://soundcloud.com/tsukasa_so/horizon-of-daybreak-crossfade",
-            "type": "KanColle",
+            "type": "kancolle",
             "genre": "trance, dnb, house, hardcore",
             "available": false
         },
@@ -453,7 +453,7 @@
         },
         {
             "album": "げきかわ☆ヴァンピン",
-            "artistcircle": "イオシス / IOSYS",
+            "artistcircle": "IOSYS / イオシス",
             "link": "http://www.iosysos.com/cd/armdenpa2/",
             "preview": "https://soundcloud.com/iosysos/io-0258-iosys-xfd",
             "type": "touhou",
@@ -474,7 +474,7 @@
             "artistcircle": "COOL&CREATE",
             "link": "http://cool-create.cc/",
             "preview": "",
-            "type": "KanColle",
+            "type": "kancolle",
             "genre": "rock",
             "available": false
         },
@@ -545,9 +545,18 @@
             "album": "TANO*C REMIXES 3",
             "artistcircle": "HARDCORE TANO*C",
             "link": "http://tano-c.net/remixes3/",
-            "preview": "http://img.cdn.openscore.jp/s/213001014819a.mp3",
+            "preview": "https://soundcloud.com/tano-c/tano-c-remixes-3-crossfade",
             "type": "",
             "genre": "mainstream hardcore, uk hardcore, hardcore, dnb, drumstep, hardstyle",
+            "available": false
+        },
+        {
+            "album": "TANO*C EXTRA",
+            "artistcircle": "HARDCORE TANO*C",
+            "link": "http://tano-c.net/disc/extra/",
+            "preview": "",
+            "type": "",
+            "genre": "j-core, makina, gabber, freeform",
             "available": false
         },
         {
@@ -764,6 +773,168 @@
             "preview": "http://www.nicovideo.jp/watch/sm22492392",
             "type": "utaite",
             "genre": "pop",
+            "available": false
+        },
+        {
+            "album": "empty box",
+            "artistcircle": "toyKasket",
+            "link": "http://toykasket.at.webry.info/",
+            "preview": "https://soundcloud.com/nush06/empty-box",
+            "type": "vocaloid",
+            "genre": "prog. trance, rock, piano",
+            "available": false
+        },
+        {
+            "album": "LOVE IMITATION",
+            "artistcircle": "Altanaphixx",
+            "link": "http://www.altanaphixx.com/disc_os06.html",
+            "preview": "https://soundcloud.com/fmy238/c85-love-imitation-crossfade",
+            "type": "",
+            "genre": "trance, electro",
+            "available": false
+        },
+        {
+            "album": "fenceover, homerun",
+            "artistcircle": "Diderse System",
+            "link": "http://fh.diderse.jp/",
+            "preview": "https://soundcloud.com/daida3/fenceover-homerun-demo",
+            "type": "",
+            "genre": "electronic, denpa",
+            "available": false
+        },
+        {
+            "album": "Children's Madness",
+            "artistcircle": "Mad Child",
+            "link": "https://webcatalog.circle.ms/Circle/11049154",
+            "preview": "https://soundcloud.com/madstiff/childrens-madness-inc",
+            "type": "",
+            "genre": "electronic, tech, schranz, chiptune, hardcore",
+            "available": false
+        },
+        {
+            "album": "PoisonouS",
+            "artistcircle": "HCJ RecordZ",
+            "link": "http://hcjrecordz.jimdo.com/",
+            "preview": "https://soundcloud.com/dj_shu10/c85-poisonous-12b",
+            "type": "",
+            "genre": "hardcore",
+            "available": false
+        },
+        {
+            "album": "Chaos Regeneration",
+            "artistcircle": "Druggy's Acid RacK",
+            "link": "http://darkdark.xxxxxxxx.jp/",
+            "preview": "https://soundcloud.com/lv-4/druggys-acid-rack-chaos",
+            "type": "",
+            "genre": "freeform hardcore, hardcore, hard nrg, trance core, j-core",
+            "available": false
+        },
+        {
+            "album": "Individual Shred-Core",
+            "artistcircle": "Hekatoncheir Beats",
+            "link": "",
+            "preview": "https://soundcloud.com/siromaru460/c85-individual-shred-core",
+            "type": "",
+            "genre": "schranz, hard techno, industrial hardcore",
+            "available": false
+        },
+        {
+            "album": "おさむらいさんせれくしょん Vol.40mP",
+            "artistcircle": "Osamuraisan",
+            "link": "http://osamuraisan.com/",
+            "preview": "http://www.youtube.com/watch?v=C4KpniS-Vfw",
+            "type": "",
+            "genre": "acoustic",
+            "available": false
+        },
+        {
+            "album": "ARATOSHI",
+            "artistcircle": "Massive Circlez",
+            "link": "http://www.massivecirclez.com/",
+            "preview": "https://soundcloud.com/massive-new-krew/aratoshi-crossfade-teaser",
+            "type": "",
+            "genre": "hardstyle",
+            "available": false
+        },
+        {
+            "album": "canoueIII～海に眠る王国～",
+            "artistcircle": "canoue",
+            "link": "http://canoue.jp/canoue3/",
+            "preview": "https://soundcloud.com/hiyamanyotsukin/sets/canoueiii",
+            "type": "",
+            "genre": "pop",
+            "available": false
+        },
+        {
+            "album": "EDM Addiction",
+            "artistcircle": "Youth Composer Association",
+            "link": "http://yca.xxxxxxxx.jp/4th.html",
+            "preview": "https://soundcloud.com/yca0408/edm-addiction-crossfade-demo",
+            "type": "",
+            "genre": "edm, glitch hop, complextro, electro-house, dubstep, prog. house",
+            "available": false
+        },
+        {
+            "album": "艦これパラドクス",
+            "artistcircle": "九十九鎮守府艦隊司令部",
+            "link": "http://99chinjuhu.dojin.com/",
+            "preview": "http://99chinjuhu.dojin.com/audio/kankoreparadox_crossfadedemo.mp3",
+            "type": "kancolle",
+            "genre": "prog. house, house, pop, rock",
+            "available": false
+        },
+        {
+            "album": "Clock M",
+            "artistcircle": "Unprepared Orchestra",
+            "link": "http://unpp.iza-yoi.net/c85.html",
+            "preview": "https://soundcloud.com/unprepared-orchestra/c85xf",
+            "type": "",
+            "genre": "electronic, orchestral",
+            "available": false
+        },
+        {
+            "album": "Circle Jerk Galactic",
+            "artistcircle": "Gunno-ne Sounds",
+            "link": "http://www.studiosatuki.com/guunone/",
+            "preview": "http://www.nicovideo.jp/watch/sm22516063",
+            "type": "vocaloid",
+            "genre": "electro-house, complextro, progressive",
+            "available": false
+        },
+        {
+            "album": "ZE-NOVA",
+            "artistcircle": "Jupiter Cremation Space",
+            "link": "http://owatatsu.pasta-soft.com/atlantis/jcs_1_ze_nova/",
+            "preview": "https://soundcloud.com/jupiter_cremation_space2/jcs-10-ze-nova-xfd",
+            "type": "",
+            "genre": "piano, rock, house, pop, complextro, ambient dnb, hard trance",
+            "available": false
+        },
+        {
+            "album": "東方CLUBBEATS",
+            "artistcircle": "WhiTECHNO",
+            "link": "http://www.whitechno.org/",
+            "preview": "https://soundcloud.com/nekutsu/c85-clubbeats-xfd",
+            "type": "touhou",
+            "genre": "denpa, trance, trancecore, j-core, drumstep",
+            "available": false
+        },
+        {
+            "album": "Photon ",
+            "artistcircle": "Levo Lution",
+            "link": "http://photon.levolution.info/",
+            "preview": "https://soundcloud.com/skyriser/lvlt-0015-photon-demo",
+            "type": "kancolle",
+            "genre": "dnb, prog. house",
+            "available": false
+        },
+        {
+            "album": "One After \"Another\"",
+            "artistcircle": "SKETCH UP! Rec. (DJ Noriken)",
+            "link": "http://sketchuprecordings.net/",
+            "preview": "https://soundcloud.com/djnoriken/one-after-another-crossfade",
+            "type": "",
+            "genre": "hardcore",
             "available": false
         }
     ]
