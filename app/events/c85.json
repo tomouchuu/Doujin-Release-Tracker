@@ -473,7 +473,7 @@
             "album": "艦隊乙女",
             "artistcircle": "COOL&CREATE",
             "link": "http://cool-create.cc/",
-            "preview": "",
+            "preview": "https://soundcloud.com/beatmario/vuntrtwjrrlo",
             "type": "kancolle",
             "genre": "rock",
             "available": false
@@ -589,8 +589,8 @@
         {
             "album": "HAPPYNATION #01",
             "artistcircle": "HAPPYNATION",
-            "link": "http://pichnopop.net/",
-            "preview": "https://soundcloud.com/djshimamura/winds-of-island-master2",
+            "link": "http://happynation01.pichnopop.net/",
+            "preview": "https://soundcloud.com/p_light/happynation-01-preview",
             "type": "",
             "genre": "uk hardcore, happy hardcore, rave hardcore, hardcore, dance, trance",
             "available": false
@@ -929,12 +929,156 @@
             "available": false
         },
         {
-            "album": "One After \"Another\"",
-            "artistcircle": "SKETCH UP! Rec. (DJ Noriken)",
-            "link": "http://sketchuprecordings.net/",
-            "preview": "https://soundcloud.com/djnoriken/one-after-another-crossfade",
+            "album": "The Sound Of Brambles",
+            "artistcircle": "Lium7",
+            "link": "http://planetahome.web.fc2.com/dkc2.html",
+            "preview": "https://soundcloud.com/lium7/the-sound-of-brambles-xfd-2/s-0w7rz",
             "type": "",
-            "genre": "hardcore",
+            "genre": "chiptune",
+            "available": false
+        },
+        {
+            "album": "Visio Nocturna",
+            "artistcircle": "MINAMOTRANCE",
+            "link": "http://minamotrance.com/",
+            "preview": "https://soundcloud.com/minamotoya/visio-nocturna-xfade-demo",
+            "type": "",
+            "genre": "uk hardcore, hardcore, dnb, dubstep",
+            "available": false
+        },
+        {
+            "album": "DECADE OF EXPOSE",
+            "artistcircle": "Alstroemeria Records",
+            "link": "http://alst.net/2013/12/25/arcd0042-decade-of-expose/",
+            "preview": "https://soundcloud.com/alstroemeria-records/arcd0042-decade-of-expose",
+            "type": "touhou",
+            "genre": "edm",
+            "available": false
+        },
+        {
+            "album": "MUSETTE HARMONIE ft. Triad Magic Night",
+            "artistcircle": "Arte Refact",
+            "link": "http://www.arte-refact.com/musette_harmonie/",
+            "preview": "https://soundcloud.com/arte-refact/musette-harmonie",
+            "type": "",
+            "genre": "rock, pop",
+            "available": false
+        },
+        {
+            "album": "東方ガールズフェスタ",
+            "artistcircle": "TOHO GIRL'S STYLE",
+            "link": "http://toho-girls.com/",
+            "preview": "https://soundcloud.com/toho-girls/0001demo",
+            "type": "touhou",
+            "genre": "denpa, pop, dnb, rock, disco",
+            "available": false
+        },
+        {
+            "album": "魔女だって恋をする",
+            "artistcircle": "中央食堂",
+            "link": "http://chuoushokudou.web.fc2.com/c85/index.html",
+            "preview": "https://soundcloud.com/s_tkmt/c85",
+            "type": "",
+            "genre": "rock, pop",
+            "available": false
+        },
+        {
+            "album": "STILL LOVE",
+            "artistcircle": "ALiCE'S EMOTiON",
+            "link": "http://redalice.net/",
+            "preview": "https://soundcloud.com/redalice/still-love-demo",
+            "type": "touhou",
+            "genre": "hardcore, house, rock, pop",
+            "available": false
+        },
+        {
+            "album": "Frozen Government Wars Vol.2",
+            "artistcircle": "Frozen System Records",
+            "link": "http://fsr.jpn.org/fgw2/",
+            "preview": "https://soundcloud.com/frozen_system_records/frozen-government-wars-vol-2",
+            "type": "",
+            "genre": "edm",
+            "available": false
+        },
+        {
+            "album": "カラスとウサギ",
+            "artistcircle": "Liz Triangle",
+            "link": "http://liz-tora.com/liz-tora/KTU/",
+            "preview": "https://soundcloud.com/anlily/c85-karasutousagi",
+            "type": "touhou",
+            "genre": "rock, pop",
+            "available": false
+        },
+        {
+            "album": "聴かんこれ？",
+            "artistcircle": "角川ゲームス",
+            "link": "http://www.tsurishi.info/KVAW0001/",
+            "preview": "http://www.nicovideo.jp/watch/sm22530782",
+            "type": "kancolle",
+            "genre": "orchestral, denpa, rock, pop, electronic",
+            "available": false
+        },
+        {
+            "album": "TALK TO THE MUSIC",
+            "artistcircle": "TaNaBaTa",
+            "link": "http://www.tanabata.be/talktothemusic.html",
+            "preview": "http://www.tanabata.be/tttm-xdemo.mp3",
+            "type": "",
+            "genre": "rock",
+            "available": false
+        },
+        {
+            "album": "PLAY",
+            "artistcircle": "QUADROPHENIA",
+            "link": "http://quadrophenia.cc/works/play/",
+            "preview": "https://soundcloud.com/moyoyomiyazawa/play-crossfade",
+            "type": "",
+            "genre": "electronica",
+            "available": false
+        },
+        {
+            "album": "Daizzy",
+            "artistcircle": "SKETCH UP! Rec. x HARDCORE TANO*C",
+            "link": "http://djgenki.net/yucd003/",
+            "preview": "https://soundcloud.com/genkianamei/daizzy-cross-fade-demo/s-5kdcN",
+            "type": "",
+            "genre": "hardcore, hardstyle, rock",
+            "available": false
+        },
+        {
+            "album": "Far East Makina Alliance",
+            "artistcircle": "Prismatic Music & YTR RECORDS",
+            "link": "",
+            "preview": "https://soundcloud.com/nadeco/f-e-m-a",
+            "type": "",
+            "genre": "makina",
+            "available": false
+        },
+        {
+            "album": "藤東知夏 - lien - ",
+            "artistcircle": "アカサコフ工房",
+            "link": "http://akasakof.net/",
+            "preview": "https://soundcloud.com/user209282006/lien-crossfade-1",
+            "type": "",
+            "genre": "electronic, pop",
+            "available": false
+        },
+        {
+            "album": "Lite Show Magic e.p.",
+            "artistcircle": "C.H.S & Lick Dom Records",
+            "link": "http://c-h-s.me/c85/",
+            "preview": "https://soundcloud.com/t-pazolite/lite-show-magic-e-p-crossfade",
+            "type": "",
+            "genre": "electronic, hardcore",
+            "available": false
+        },
+        {
+            "album": "ALL VOCALOID ATTACK #2",
+            "artistcircle": "TamStar Records",
+            "link": "http://www.tamstarrecords.jp/",
+            "preview": "http://www.nicovideo.jp/watch/1388086464",
+            "type": "vocaloid",
+            "genre": "electronic, rock, pop",
             "available": false
         }
     ]
