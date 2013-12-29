@@ -42,15 +42,21 @@ header {
     }
 }
 
-#search {
-    margin: 20px 0;
+.filters {
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
     p {
         margin: 0;
     }
-    input {
-        margin-left: 10px;
-        width: 360px;
+    #search {
+        input {
+            margin-left: 10px;
+            width: 360px;
+        }
+    }
+    #availableFilter {
+        margin-top: 3px;
     }
 }
 

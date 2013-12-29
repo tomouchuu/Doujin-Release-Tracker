@@ -5,13 +5,16 @@
     </div>
 </header>
 
-<div  class="row">
-    <div id="search" class="col-sm-12">
+<div class="row filters">
+    <div id="search" class="col-sm-8">
         <p>Search: <input ng-model="searchText" data-toggle="tooltip" data-placement="auto top" data-original-title="Search Albums, Artists, Circles, Links, Type, Genres &amp; Availiability (comma space seperated for more than one)" id="searchbox" /></p>
+    </div>
+    <div id="availableFilter" class="col-sm-4">
+        <p>Show: <a href="" ng-click="availableOnly = false">All</a> // <a href="" ng-click="availableOnly = true">Available<a/></p>
     </div>
 </div>
 
-<div class="row">
+<div class="row" ng-init="availableOnly = false">
     <div class="releaseArea col-sm-12">
         <table class="table table-hover releases table-bordered">
              <thead>
@@ -23,7 +26,27 @@
                 </tr>
             </thead>
             <tbody>
-                <tr ng-repeat="release in data.releases | orderBy:order:orderby | filter:searchText" class="release-row">
+                <tr ng-if="availableOnly == false" ng-repeat="release in data.releases | orderBy:order:orderby | filter:searchText" class="release-row">
+                    <td>{{release.album}}</td>
+                    <td>
+                        <a ng-show="release.link" href="{{release.link}}" target="_blank">
+                            {{release.artistcircle}}
+                        </a>
+                        <span ng-hide="release.link">
+                            {{release.artistcircle}}
+                        </span>
+                    </td>
+                    <td>
+                        <a href="{{release.preview}}" target="_blank">{{release.preview}}</a>
+                    </td>
+                    <td class="available" ng-show="release.available">
+                        <a href="{{release.available}}"><span class="glyphicon glyphicon-ok"></span></a>
+                    </td>
+                    <td class="available" ng-hide="release.available">
+                        <span class="glyphicon glyphicon-remove"></span>
+                    </td>
+                </tr>
+                <tr ng-if="availableOnly" ng-repeat="release in data.releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-show="release.available">
                     <td>{{release.album}}</td>
                     <td>
                         <a ng-show="release.link" href="{{release.link}}" target="_blank">
