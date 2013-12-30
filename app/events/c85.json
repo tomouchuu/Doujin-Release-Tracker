@@ -629,7 +629,7 @@
             "preview": "http://img.cdn.openscore.jp/s/213001014822a.mp3",
             "type": "touhou",
             "genre": "trance, electronic, vocal",
-            "available": false
+            "available": "https://mega.co.nz/#!ONA3gSQa!TB8GslZsWedmCPd6cQEFsHrpBZoAp62LQqtOPUzL39M"
         },
         {
             "album": "XXX",
@@ -1079,6 +1079,24 @@
             "preview": "http://www.nicovideo.jp/watch/1388086464",
             "type": "vocaloid",
             "genre": "electronic, rock, pop",
+            "available": false
+        },
+        {
+            "album": "限定特典",
+            "artistcircle": "Specelectro ",
+            "link": "",
+            "preview": "https://soundcloud.com/specelectro/edm-cd-ver-7",
+            "type": "vocaloid, touhou",
+            "genre": "electronic",
+            "available": "https://mega.co.nz/#!2QBWBDKI!bv06-kwbfGgnfGWADjJCUwbolgQ4v0L0f8pxCHoT7FA"
+        },
+        {
+            "album": "Haniwa kyoku utattemita 4",
+            "artistcircle": "HoneyWorks ",
+            "link": "http://honeyworks.jp/",
+            "preview": "http://www.nicovideo.jp/watch/sm22530078",
+            "type": "utaite",
+            "genre": "rock, pop",
             "available": false
         }
     ]
