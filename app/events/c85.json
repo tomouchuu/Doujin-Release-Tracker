@@ -1,13 +1,13 @@
 {
     "releases": [
         {
-            "album": "ヒロイニシティ",
+            "album": "The Wide City",
             "artistcircle": "scop/no one hears",
             "link": "http://noonehears.main.jp/",
             "preview": "http://www.nicovideo.jp/watch/sm22514366",
             "type": "vocaloid",
-            "genre": "",
-            "available": false
+            "genre": "rock, pop",
+            "available": "https://mega.co.nz/#!TE43yRgJ!NfmKH0rMC-tNecpZ7I7nKzoMFjUfBf7lYPzK4rvDiKw"
         },
         {
             "album": "Lolita Machiavellism",
@@ -826,7 +826,7 @@
             "preview": "https://soundcloud.com/lv-4/druggys-acid-rack-chaos",
             "type": "",
             "genre": "freeform hardcore, hardcore, hard nrg, trance core, j-core",
-            "available": false
+            "available": "https://mega.co.nz/#!7ERXjTrD!HZxhG2fdi__lKblPto6LGC6LQ_BOkbBQ53MJNs8qxIM"
         },
         {
             "album": "Individual Shred-Core",
@@ -1091,12 +1091,21 @@
         },
         {
             "album": "Haniwa kyoku utattemita 4",
-            "artistcircle": "HoneyWorks ",
+            "artistcircle": "HoneyWorks",
             "link": "http://honeyworks.jp/",
             "preview": "http://www.nicovideo.jp/watch/sm22530078",
             "type": "utaite",
             "genre": "rock, pop",
             "available": false
+        },
+        {
+            "album": "Cafe de Touhou 5",
+            "artistcircle": "DDBY",
+            "link": "http://honeyworks.jp/",
+            "preview": "https://soundcloud.com/ddby/cafe-de-touhou-5-croosfade",
+            "type": "touhou",
+            "genre": "piano, easy listening, jazz",
+            "available": "https://mega.co.nz/#!zF4T2aTZ!X3kDMGM6l0ExUjRIH_OK3WiwV-l8Jbt1UMonGB_RyW8"
         }
     ]
 }
