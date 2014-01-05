@@ -412,7 +412,7 @@
             "preview": "http://www.nicovideo.jp/watch/sm22491375",
             "type": "",
             "genre": "electro, prog. house",
-            "available": false
+            "available": "https://mega.co.nz/#!qIQBhJAI!Sb9dtUn5J7cqjyUXoLkfXzvesN_awfG2kZq9E3EWZpo"
         },
         {
             "album": "HORIZON OF DAYBREAK",
@@ -664,7 +664,7 @@
             "preview": "http://www.nicovideo.jp/watch/sm22491317",
             "type": "",
             "genre": "prog. trance, electro, rock",
-            "available": false
+            "available": "https://mega.co.nz/#!vNBjERxQ!5qWIxCXA2s4Z8AuAUmrqqgY0LK39hIAlYmNP29s7gUQ"
         },
         {
             "album": "Acorde",
@@ -1106,6 +1106,15 @@
             "type": "touhou",
             "genre": "piano, easy listening, jazz",
             "available": "https://mega.co.nz/#!zF4T2aTZ!X3kDMGM6l0ExUjRIH_OK3WiwV-l8Jbt1UMonGB_RyW8"
+        },
+        {
+            "album": "Fleet Teatime",
+            "artistcircle": "Hachimitsu-Lemon",
+            "link": "http://honeyworks.jp/",
+            "preview": "https://soundcloud.com/aizawa_8lemo/fleet-teatime",
+            "type": "kancolle",
+            "genre": "jazz, easy listening, bossa nova, music box, orchestral, instrumental",
+            "available": "https://mega.co.nz/#!6MowmQxQ!0FmfV61f_7JOk9fa1i1Qa9BUHEzNqw43656beDkV_Xw"
         }
     ]
 }
