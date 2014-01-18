@@ -376,7 +376,7 @@
             "preview": "https://soundcloud.com/m-project_suzumoto/bccomp014-preview",
             "type": "",
             "genre": "makina, j-core",
-            "available": false
+            "available": "https://mega.co.nz/#!fY4AxQIT!ixkq9Hwlm2nARIa_apT7LG_1DWQ-BclUmBoan2qmlEQ"
         },
         {
             "album": "J-CORE MASTERZ VOL.14",
@@ -898,7 +898,7 @@
             "preview": "http://www.nicovideo.jp/watch/sm22516063",
             "type": "vocaloid",
             "genre": "electro-house, complextro, progressive",
-            "available": false
+            "available": "https://mega.co.nz/#!rMAjzDbC!ETt2U27OZXFCHDow_k8AZzJ7z_o1BP1cdIyFWIoehW8"
         },
         {
             "album": "ZE-NOVA",
@@ -1033,7 +1033,7 @@
             "preview": "https://soundcloud.com/moyoyomiyazawa/play-crossfade",
             "type": "",
             "genre": "electronica",
-            "available": false
+            "available": "https://mega.co.nz/#!uJQVnbpS!Y48CuSAdyAOjk_jJvQcOJHszznpR0CsQ4eg94MsxPQQ"
         },
         {
             "album": "Daizzy",
@@ -1101,7 +1101,7 @@
         {
             "album": "Cafe de Touhou 5",
             "artistcircle": "DDBY",
-            "link": "http://honeyworks.jp/",
+            "link": "",
             "preview": "https://soundcloud.com/ddby/cafe-de-touhou-5-croosfade",
             "type": "touhou",
             "genre": "piano, easy listening, jazz",
@@ -1110,11 +1110,20 @@
         {
             "album": "Fleet Teatime",
             "artistcircle": "Hachimitsu-Lemon",
-            "link": "http://honeyworks.jp/",
+            "link": "",
             "preview": "https://soundcloud.com/aizawa_8lemo/fleet-teatime",
             "type": "kancolle",
             "genre": "jazz, easy listening, bossa nova, music box, orchestral, instrumental",
             "available": "https://mega.co.nz/#!6MowmQxQ!0FmfV61f_7JOk9fa1i1Qa9BUHEzNqw43656beDkV_Xw"
+        },
+        {
+            "album": "BEDSIDE MUSIC",
+            "artistcircle": "TOKOTOKO (西沢さんP)",
+            "link": "http://bedside-music.tumblr.com/",
+            "preview": "http://www.nicovideo.jp/watch/sm22535571",
+            "type": "utaite",
+            "genre": "rock, pop",
+            "available": "https://mega.co.nz/#!bNgQiKKQ!O9w59ilj2W0W30CdWKORJgPjRM0hqLxgdGFvYG59LYM"
         }
     ]
 }
