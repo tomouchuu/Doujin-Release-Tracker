@@ -1,6 +1,6 @@
 {
   "name": "comiket",
-  "version": "0.0.0",
+  "version": "2.0.14",
   "dependencies": {
     "angular": "~1.2.0",
     "json3": "~3.2.4",
