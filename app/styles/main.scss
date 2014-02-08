@@ -27,6 +27,9 @@ a {
         color: #aa201d;
         text-decoration: underline;
     }
+    &:visited {
+        color: #000;
+    }
 }
 
 header {
@@ -62,6 +65,14 @@ header {
 
 .releaseArea {
     margin: 20px 0;
+    .available {
+        text-align: center;
+        max-width: 90px;
+        
+        > span {
+            color: #aaa;
+        }
+    }
     .available {
         text-align: center;
         max-width: 90px;
