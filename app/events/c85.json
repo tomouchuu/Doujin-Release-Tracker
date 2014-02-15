@@ -367,7 +367,7 @@
             "preview": "http://youtu.be/W02BWDGTN7M",
             "type": "",
             "genre": "electronic, pop",
-            "available": false
+            "available": "https://mega.co.nz/#!3VBygDhT!QNB5FxF0q3-0Oq1n16aO1S4TvuQGLPINsx5tZ-ouFi0"
         },
         {
             "album": "UNDERGROUND MAKINA CONNECTIONZ VOL.14",
@@ -385,7 +385,7 @@
             "preview": "https://soundcloud.com/asterisk-core/demo-asterisk-sunset-way-back",
             "type": "",
             "genre": "j-core, drumstep",
-            "available": false
+            "available": "https://mega.co.nz/#!fU4CjBrY!bjsWHDgjMOytvfVdJAmENCm5rPkB9NEmoARk1C72vsY"
         },
         {
             "album": "Unhinghed EP",
@@ -430,7 +430,7 @@
             "preview": "http://img.cdn.openscore.jp/s/213001014755a.mp3",
             "type": "touhou",
             "genre": "hardstyle, dubstep",
-            "available": false
+            "available": "https://mega.co.nz/#!XE4QGZYJ!dBhwWQaIRXCKmF1Bzh-dM0tz38JmnUhO3nxFs99F680"
         },
         {
             "album": "イノセントキー VS 虎",
@@ -448,7 +448,7 @@
             "preview": "http://youtu.be/ZzzqwcqKmzs",
             "type": "vocaloid",
             "genre": "electronic",
-            "available": false
+            "available": "https://mega.co.nz/#!TcRlGAgC!SeXobqEDnLOC6i1xO2J7XAk9uht4bf72VaE4Khl2Pzc"
         },
         {
             "album": "げきかわ☆ヴァンピン",
@@ -631,6 +631,15 @@
             "available": "https://mega.co.nz/#!vZ5QxTiI!YGMhsEaN1CSxVCN5AFZFPk2oSSpt_8ek-b_-T2iNvso"
         },
         {
+            "album": "Rewind Amnesia the Instrumental",
+            "artistcircle": "EastNewSound",
+            "link": "",
+            "preview": "http://e-ns.net/music/rai_xfd.mp3",
+            "type": "touhou",
+            "genre": "trance, electronic",
+            "available": "https://mega.co.nz/#!bNBSQQZR!W_VYfyYbWDRg87Gh5AvJsT4eD40ztyIzGLnKf-UOoiQ"
+        },
+        {
             "album": "XXX",
             "artistcircle": "ZYTOKINE",
             "link": "http://zytokine-web.com/CK-0030P_XXX/XXX.html",
@@ -712,13 +721,31 @@
             "available": "https://mega.co.nz/#!iM4wlIjb!Tjka6WlpZdga6KJyfkTwTgYJRxweJDEzHr-06xdd1og"
         },
         {
+            "album": "Radical Destruction the Instrumental",
+            "artistcircle": "Amateras Records",
+            "link": "http://amateras-records.com/",
+            "preview": "https://soundcloud.com/amateras-records/amrc-0016_radical-destruction",
+            "type": "touhou",
+            "genre": "trance, edm",
+            "available": "https://mega.co.nz/#!OIIyGRiK!VqwWbSaX0ekQPKmLxcL0FHZG4AtEFJFzbjlzM5phOPE"
+        },
+        {
+            "album": "Exclusive C85 Disc",
+            "artistcircle": "Amateras Records",
+            "link": "http://amateras-records.com/",
+            "preview": "",
+            "type": "",
+            "genre": "progressive, complextro, house, glitch hop, dnb, dubstep",
+            "available": "https://mega.co.nz/#!OIIyGRiK!VqwWbSaX0ekQPKmLxcL0FHZG4AtEFJFzbjlzM5phOPE"
+        },
+        {
             "album": "Stella",
             "artistcircle": "Mikazuki Sofa",
             "link": "",
             "preview": "http://goo.gl/PlRzH7",
             "type": "",
             "genre": "pop",
-            "available": false
+            "available": "https://mega.co.nz/#!iBg21Rjb!NylO7zFpIRFcrfnnCv3CuXwksVsHP_2bGJ3tCzYMWxA"
         },
         {
             "album": "極彩monochrome",
@@ -745,7 +772,7 @@
             "preview": "http://www.gpcr-music.com/_userdata/Evanescence%20crossfade.mp3",
             "type": "",
             "genre": "pop",
-            "available": false
+            "available": "https://mega.co.nz/#!LIIGXSpC!FffP5gjeJtPPLXDLCFehxTUIOmV1_YBCqYZJJEgnyPU"
         },
         {
             "album": "NanoSweep17",
@@ -1043,6 +1070,15 @@
             "type": "",
             "genre": "hardcore, hardstyle, rock",
             "available": "https://mega.co.nz/#!6AxBgLSC!eNhJZkq69iNro13ot3D7IVwp-I5zCuZtKwSdq4jAt_8"
+        },
+        {
+            "album": "One After 'Another'",
+            "artistcircle": "SKETCH UP! Rec. (DJ Noriken)",
+            "link": "http://sketchuprecordings.net/",
+            "preview": "http://snd.sc/1hP23i2",
+            "type": "",
+            "genre": "hardcore, j-core",
+            "available": "https://mega.co.nz/#!KIgXjJpD!sEQEuJlqkyKXgKGncMWWwGb9K6e-I7uWStTfcCWrhN4"
         },
         {
             "album": "Far East Makina Alliance",
