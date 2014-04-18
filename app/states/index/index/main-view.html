@@ -1,0 +1,170 @@
+<div class="index-state container">
+
+    <div class="row">
+        <div class="col-lg-4">
+            <h1>Comiket {{ event.id }} - {{ event.date }}</h1>
+        </div>
+        <div class="search-area col-lg-4 col-sm-6">
+            <p>Search: <input ng-model="searchText" data-toggle="tooltip" data-placement="auto top" data-original-title="Search Albums, Artists, Circles, Links, Type, Genres &amp; Availiability (comma space seperated for more than one)" id="searchbox"></p>
+        </div>
+        <div class="available-filter col-lg-4 col-sm-6" ng-init="available = 'all'">
+            <p>Show: <a href="" ng-click="available = 'all'">All</a> // <a href="" ng-click="available = 'mp3'">Available MP3s</a> // <a href="" ng-click="available = 'flac'">Available FLACs</a> // <a href="" ng-click="available = 'other'">Available Others</a></p>
+        </div>
+    </div>
+    
+    <div class="row" cg-busy="'ReleasesRepository.getAll'">
+        <div class="release-area col-lg-12">
+            <table class="table table-hover releases table-bordered">
+                <thead>
+                    <tr>
+                        <th rowspan="2">Album</th>
+                        <th rowspan="2">Artist / Circle</th>
+                        <th rowspan="2">Preview</th>
+                        <th colspan="3" class="available">Available</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            MP3<br>
+                            <small>V0 unless noted</small>
+                        </th>
+                        <th>FLAC</th>
+                        <th>Other</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-if="available == 'all'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row">
+                        <td>{{release.album}}</td>
+                        <td>
+                            <a ng-show="release.link" href="{{release.link}}" target="_blank">
+                                {{release.artistcircle}}
+                            </a>
+                            <span ng-hide="release.link">
+                                {{release.artistcircle}}
+                            </span>
+                        </td>
+                        <td>
+                            <a href="{{release.preview}}" target="_blank">{{release.preview}}</a>
+                        </td>
+                        <td class="available-mp3">
+                            <a href="{{release.available[0].mp3}}" target="_blank" ng-show="release.available[0].mp3"><i class="fa fa-check"></i></a>
+                            <i class="fa fa-times" ng-hide="release.available[0].mp3"></i>
+                        </td>
+                        <td class="available-flac">
+                            <a href="{{release.available[0].flac}}" target="_blank" ng-show="release.available[0].flac"><i class="fa fa-check"></i></a>
+                            <i class="fa fa-times" ng-hide="release.available[0].flac"></i>
+                        </td>
+                        <td class="available-other">
+                            <a href="{{release.available[0].other}}" target="_blank" ng-show="release.available[0].other"><i class="fa fa-check"></i></a>
+                            <i class="fa fa-times" ng-hide="release.available[0].other"></i>
+                        </td>
+                    </tr>
+                    <tr ng-if="available == 'all'" class="release-row" ng-hide="releases">
+                        <td colspan="6" style="text-align:center;">No Releases Found</td>
+                    </tr>
+                    <tr ng-if="available == 'mp3'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-show="release.available[0].mp3">
+                        <td>{{release.album}}</td>
+                        <td>
+                            <a ng-show="release.link" href="{{release.link}}" target="_blank">
+                                {{release.artistcircle}}
+                            </a>
+                            <span ng-hide="release.link">
+                                {{release.artistcircle}}
+                            </span>
+                        </td>
+                        <td>
+                            <a href="{{release.preview}}" target="_blank">{{release.preview}}</a>
+                        </td>
+                        <td class="available-mp3">
+                            <a href="{{release.available[0].mp3}}" target="_blank" ng-show="release.available[0].mp3"><i class="fa fa-check"></i></a>
+                            <i class="fa fa-times" ng-hide="release.available[0].mp3"></i>
+                        </td>
+                        <td class="available-flac">
+                            <a href="{{release.available[0].flac}}" target="_blank" ng-show="release.available[0].flac"><i class="fa fa-check"></i></a>
+                            <i class="fa fa-times" ng-hide="release.available[0].flac"></i>
+                        </td>
+                        <td class="available-other">
+                            <a href="{{release.available[0].other}}" target="_blank" ng-show="release.available[0].other"><i class="fa fa-check"></i></a>
+                            <i class="fa fa-times" ng-hide="release.available[0].other"></i>
+                        </td>
+                    </tr>
+                    <tr ng-if="available == 'mp3'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-hide="release.available[0].mp3">
+                        <td ng-show="$first" colspan="6" style="text-align:center;">No MP3 Releases Found</td>
+                    </tr>
+                    <tr ng-if="available == 'flac'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-show="release.available[0].flac">
+                        <td>{{release.album}}</td>
+                        <td>
+                            <a ng-show="release.link" href="{{release.link}}" target="_blank">
+                                {{release.artistcircle}}
+                            </a>
+                            <span ng-hide="release.link">
+                                {{release.artistcircle}}
+                            </span>
+                        </td>
+                        <td>
+                            <a href="{{release.preview}}" target="_blank">{{release.preview}}</a>
+                        </td>
+                        <td class="available-mp3">
+                            <a href="{{release.available[0].mp3}}" target="_blank" ng-show="release.available[0].mp3"><i class="fa fa-check"></i></a>
+                            <i class="fa fa-times" ng-hide="release.available[0].mp3"></i>
+                        </td>
+                        <td class="available-flac">
+                            <a href="{{release.available[0].flac}}" target="_blank" ng-show="release.available[0].flac"><i class="fa fa-check"></i></a>
+                            <i class="fa fa-times" ng-hide="release.available[0].flac"></i>
+                        </td>
+                        <td class="available-other">
+                            <a href="{{release.available[0].other}}" target="_blank" ng-show="release.available[0].other"><i class="fa fa-check"></i></a>
+                            <i class="fa fa-times" ng-hide="release.available[0].other"></i>
+                        </td>
+                    </tr>
+                    <tr ng-if="available == 'flac'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-hide="release.available[0].flac">
+                        <td ng-show="$first" colspan="6" style="text-align:center;">No FLAC Releases Found</td>
+                    </tr>
+                    <tr ng-if="available == 'other'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-show="release.available[0].other">
+                        <td>{{release.album}}</td>
+                        <td>
+                            <a ng-show="release.link" href="{{release.link}}" target="_blank">
+                                {{release.artistcircle}}
+                            </a>
+                            <span ng-hide="release.link">
+                                {{release.artistcircle}}
+                            </span>
+                        </td>
+                        <td>
+                            <a href="{{release.preview}}" target="_blank">{{release.preview}}</a>
+                        </td>
+                        <td class="available-mp3">
+                            <a href="{{release.available[0].mp3}}" target="_blank" ng-show="release.available[0].mp3"><i class="fa fa-check"></i></a>
+                            <i class="fa fa-times" ng-hide="release.available[0].mp3"></i>
+                        </td>
+                        <td class="available-flac">
+                            <a href="{{release.available[0].flac}}" target="_blank" ng-show="release.available[0].flac"><i class="fa fa-check"></i></a>
+                            <i class="fa fa-times" ng-hide="release.available[0].flac"></i>
+                        </td>
+                        <td class="available-other">
+                            <a href="{{release.available[0].other}}" target="_blank" ng-show="release.available[0].other"><i class="fa fa-check"></i></a>
+                            <i class="fa fa-times" ng-hide="release.available[0].other"></i>
+                        </td>
+                    </tr>
+                    <tr ng-if="available == 'other'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-hide="release.available[0].other">
+                        <td ng-show="$first" colspan="6" style="text-align:center;">No Other Format Releases Found</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="6" style="text-align:center;">Can't see a release, <a href="https://github.com/Tomo-san/comiket/tree/master/app/events/{{comiketID}}.json">why not add it?</a></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div id="message" class="col-lg-12">
+            <p>Welcome to a C{{ event.id }} Release List.</p>
+            <p>Feel free to add to the <a href="https://github.com/Tomo-san/comiket/tree/master/app/events/{{comiketID}}.json">Release List</a> on Github if you want a release added.</p>
+        </div>
+    </div>
+
+<script type="text/javascript">
+//    $("#searchbox").tooltip();
+</script>

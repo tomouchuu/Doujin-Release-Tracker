@@ -1,0 +1,9 @@
+node_modules
+/dist
+.tmp
+.sass-cache
+.idea
+test/coverage
+.grunt/
+/app/config/local.js
+.DS_Store
