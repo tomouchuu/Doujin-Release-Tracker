@@ -1,6 +1,10 @@
 .index-state {
     margin-top: 51px !important;
-    padding: 20px 50px;
+    padding: 10px 0;
+}
+
+.date {
+    font-size: 60%;
 }
 
 .search-area,
@@ -9,9 +13,10 @@
 }
 #searchbox {
     margin-left: 10px;
-    width: 360px;
+    width: 300px;
 }
 .available-filter {
+    margin-top: 25px;
     text-align: right;
 }
 

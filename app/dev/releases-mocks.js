@@ -14,7 +14,7 @@ angular.module('comiket')
 
     var seed = [
         {
-            id: 86,
+            id: 85,
             releases: [
                 {
                     id: 1,

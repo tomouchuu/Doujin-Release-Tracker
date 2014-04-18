@@ -3,7 +3,7 @@
 angular.module('comiket')
     .config(function ($stateProvider, stateFactory) {
         $stateProvider.state('index', stateFactory('Index', {
-            url: '/:comiketId'
+            url: '/'
         }));
     })
     .controller('IndexCtrl', function ($scope, $stateParams, ReleasesRepository, EventsRepository) {
@@ -12,25 +12,11 @@ angular.module('comiket')
         
         var comiketId = 86;
         
-        if ($stateParams.comiketId !== '')
-        {
-            comiketId = $stateParams.comiketId.replace('c','');
-            EventsRepository.getById(comiketId).then(function (event) {
-                $scope.event = event;
-                $scope.comiketId = event.id;
-            });
-            ReleasesRepository.getById(comiketId).then(function (releases) {
-                $scope.releases = releases.releases;
-            });
-        }
-        else
-        {
-            EventsRepository.getById(comiketId).then(function (event) {
-                $scope.event = event;
-                $scope.comiketId = event.id;
-            });
-            ReleasesRepository.getById(comiketId).then(function (releases) {
-                $scope.releases = releases.releases;
-            });
-        }
+        EventsRepository.getById(comiketId).then(function (event) {
+            $scope.event = event;
+            $scope.comiketId = event.id;
+        });
+        ReleasesRepository.getById(comiketId).then(function (releases) {
+            $scope.releases = releases.releases;
+        });
     });
