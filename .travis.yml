@@ -4,5 +4,7 @@ node_js:
 branches:
   only:
     - dev
+before_install:
+    - npm install -g grunt-cli
 notifications:
   slack: pagu:z9AxvjaLknWFUI5SAUtzgma2
