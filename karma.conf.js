@@ -60,8 +60,8 @@ module.exports = function (config) {
 
     // optionally, configure the reporter
     coverageReporter: {
-      type: 'html',
-      dir: 'test/coverage/'
+        reporters: {type: 'html', dir: 'test/coverage/'},
+        reporters: {type: 'lcov', dir: 'node_modules/coveralls/bin/coveralls.js'}
     },
 
     // list of files / patterns to exclude
