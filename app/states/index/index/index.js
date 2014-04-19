@@ -10,13 +10,12 @@ angular.module('comiket')
         $scope.order = 'artistcircle';
         $scope.orderby = 'false';
         
-        var comiketId = 86;
-        
-        EventsRepository.getById(comiketId).then(function (event) {
-            $scope.event = event;
-            $scope.comiketId = event.id;
+        EventsRepository.getAll().then(function (event) {
+            event.reverse();
+            $scope.event = event[0];
+            $scope.comiketId = event[0].id;
         });
-        ReleasesRepository.getById(comiketId).then(function (releases) {
+        ReleasesRepository.getById($scope.comiketId).then(function (releases) {
             $scope.releases = releases.releases;
         });
     });

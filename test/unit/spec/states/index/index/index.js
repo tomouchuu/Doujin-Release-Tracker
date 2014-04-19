@@ -2,7 +2,7 @@
 
 describe('Controller: IndexCtrl', function () {
 
-  var IndexCtrl, scope, $rootScope, deferred, promise, ReleasesRepository;
+  var IndexCtrl, scope, $rootScope, deferred, promise, EventsRepository, ReleasesRepository;
 
   beforeEach(function () {
 
@@ -13,26 +13,41 @@ describe('Controller: IndexCtrl', function () {
 
       deferred = $q.defer();
       promise = deferred.promise;
-
-      ReleasesRepository = {
-        getAll: jasmine.createSpy('ReleasesRepository.getAll()').and.callFake(function () {
+        
+      EventsRepository = {
+        getAll: jasmine.createSpy('EventsRepository.getAll()').and.callFake(function () {
           return promise;
         })
       };
 
+      ReleasesRepository = {
+        getById: jasmine.createSpy('ReleasesRepository.getById()').and.callFake(function () {
+          return promise;
+        })
+      };
+        
       scope = $rootScope.$new();
       IndexCtrl = $controller('IndexCtrl', {
         $scope: scope,
+        EventsRepository: EventsRepository,
         ReleasesRepository: ReleasesRepository
       });
     });
   });
+    
+  it('should be the newest comiket', function () {
+    expect(scope.comiketId).toBe(86);
+  });
 
-//  it('should attach init data to scope', function () {
-//    var comiketId = 86;
-//    var data = [1, 2, 3, 4];
-//    deferred.resolve(data);
-//    $rootScope.$digest();
-//    expect(scope.releases).toBe(data);
-//  });
+  it('should attach init data to scope', function () {
+    var data = [1,2,3,4]
+    deferred.resolve(data);
+    $rootScope.$digest();
+    expect(scope.releases).toBe(data);
+  });
+    
+  it('should order by artist/circle descending', function () {
+    expect(scope.order).toBe('artistcircle');
+    expect(scope.orderBy).toBe('false');
+  });
 });

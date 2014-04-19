@@ -2,21 +2,44 @@
 
 describe('Controller(/releases): ReleasesCtrl', function () {
 
-  var ReleasesCtrl, scope;
+  var ReleasesCtrl, scope, $rootScope, deferred, promise, EventsRepository, ReleasesRepository;
 
   beforeEach(function () {
 
-    module('comiket');
+    module('comiket', function ($provide) {
+      $provide.value('$stateParams', {comiketId: 'c85'});
+    });
 
-    inject(function ($controller, $rootScope) {
+    inject(function ($controller, _$rootScope_, $q) {
+      $rootScope = _$rootScope_;
+
+      deferred = $q.defer();
+      promise = deferred.promise;
+        
+      EventsRepository = {
+        getById: jasmine.createSpy('EventsRepository.getById($scope.comiketId)').and.callFake(function () {
+          return promise;
+        })
+      };
+
+      ReleasesRepository = {
+        getById: jasmine.createSpy('ReleasesRepository.getById($scope.comiketId)').and.callFake(function () {
+          return promise;
+        })
+      };
+        
       scope = $rootScope.$new();
       ReleasesCtrl = $controller('ReleasesCtrl', {
-        $scope: scope
+        $scope: scope,
+        EventsRepository: EventsRepository,
+        ReleasesRepository: ReleasesRepository
       });
     });
   });
 
-//  it('should attach init data to scope', function () {
-//    expect(scope.foo).toEqual('bar');
-//  });
+  it('should get C85 releases', function () {
+//    deferred.resolve(scope.comiketId);
+//    $rootScope.$digest();
+    expect(scope.comiketId).toBe(85);
+  });
 });
