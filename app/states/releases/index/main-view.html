@@ -32,6 +32,7 @@
                     </tr>
                 </thead>
                 <tbody>
+                    
                     <tr ng-if="available == 'all'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row">
                         <td>{{release.album}}</td>
                         <td>
@@ -61,6 +62,7 @@
                     <tr ng-if="available == 'all'" class="release-row" ng-hide="releases">
                         <td colspan="6" style="text-align:center;">No Releases Found</td>
                     </tr>
+                    
                     <tr ng-if="available == 'mp3'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-show="release.available[0].mp3">
                         <td>{{release.album}}</td>
                         <td>
@@ -90,6 +92,7 @@
                     <tr ng-if="available == 'mp3'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-hide="release.available[0].mp3">
                         <td ng-show="$first" colspan="6" style="text-align:center;">No MP3 Releases Found</td>
                     </tr>
+                    
                     <tr ng-if="available == 'flac'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-show="release.available[0].flac">
                         <td>{{release.album}}</td>
                         <td>
@@ -119,6 +122,7 @@
                     <tr ng-if="available == 'flac'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-hide="release.available[0].flac">
                         <td ng-show="$first" colspan="6" style="text-align:center;">No FLAC Releases Found</td>
                     </tr>
+                    
                     <tr ng-if="available == 'other'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-show="release.available[0].other">
                         <td>{{release.album}}</td>
                         <td>
@@ -148,6 +152,7 @@
                     <tr ng-if="available == 'other'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-hide="release.available[0].other">
                         <td ng-show="$first" colspan="6" style="text-align:center;">No Other Format Releases Found</td>
                     </tr>
+                    
                 </tbody>
                 <tfoot>
                     <tr>
