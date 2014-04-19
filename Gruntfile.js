@@ -422,6 +422,14 @@ module.exports = function (grunt) {
         gitDescribeOptions: '--tags --always --abbrev=1 --dirty=-d' // options to use with '$ git describe'
       }
     },
+    coveralls: {
+        options: {
+            debug: true,
+            coverage_dir: 'test/coverage',
+            dryRun: true,
+            force: true
+        }
+    },
     protractor: {
       options: {
         configFile: "protractor.conf.js",
@@ -508,6 +516,7 @@ module.exports = function (grunt) {
   });
 
   grunt.registerTask('test', [
+    'coveralls',
     'karma'
   ]);
 

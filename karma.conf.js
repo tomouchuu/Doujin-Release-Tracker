@@ -56,12 +56,12 @@ module.exports = function (config) {
     // list of files / patterns to load in the browser
     files: files,
 
-    reporters: [/*'spec', */'progress', 'coverage'],
+    reporters: ['spec', 'coverage'],
 
     // optionally, configure the reporter
     coverageReporter: {
-        reporters: {type: 'html', dir: 'test/coverage/'},
-        reporters: {type: 'lcov', dir: 'node_modules/coveralls/bin/coveralls.js'}
+        type: 'lcov',
+        dir: 'test/coverage/'
     },
 
     // list of files / patterns to exclude

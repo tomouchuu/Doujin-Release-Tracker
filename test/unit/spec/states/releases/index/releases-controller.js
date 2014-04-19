@@ -16,7 +16,7 @@ describe('Controller(/releases): ReleasesCtrl', function () {
     });
   });
 
-  it('should attach init data to scope', function () {
-    expect(scope.foo).toEqual('bar');
-  });
+//  it('should attach init data to scope', function () {
+//    expect(scope.foo).toEqual('bar');
+//  });
 });
