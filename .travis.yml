@@ -6,8 +6,5 @@ branches:
     - dev
 before_install:
     - npm install -g grunt-cli
-    - npm install -g bower
-before_script:
-    - bower install
 notifications:
   slack: pagu:z9AxvjaLknWFUI5SAUtzgma2
