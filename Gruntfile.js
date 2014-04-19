@@ -425,8 +425,8 @@ module.exports = function (grunt) {
     coveralls: {
         options: {
             debug: true,
-            coverage_dir: 'test/coverage',
-            dryRun: true,
+            coverage_dir: 'test/coverage/PhantomJS 1.9.7 (Mac OS X)',
+            dryRun: false,
             force: true
         }
     },
@@ -516,8 +516,8 @@ module.exports = function (grunt) {
   });
 
   grunt.registerTask('test', [
-    'coveralls',
-    'karma'
+    'karma',
+    'coveralls'
   ]);
 
   grunt.registerTask('test-e2e', [
