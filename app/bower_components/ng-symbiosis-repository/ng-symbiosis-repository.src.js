@@ -25,7 +25,7 @@ angular.module('ngSymbiosis.repository', [])
                 return deferred.promise;
             }
             else {
-                return $http.get(Model.$settings.url + '/' + id, {tracker: repository.$settings.name + '.getById'}).then(function (response) {
+                return $http.get(Model.$settings.url + '/' + id + '.json', {tracker: repository.$settings.name + '.getById'}).then(function (response) {
                     var instance = new Model(response.data);
                     repository.cache[id] = instance;
                     return instance;
@@ -38,17 +38,13 @@ angular.module('ngSymbiosis.repository', [])
             var Model = repository.$settings.model;
 
             //TODO: Max length of pool, to not manage to many instances in memory?
-            return $http.get(Model.$settings.url, {tracker: repository.$settings.name + '.getAll'}).then(function (response) {
-                if (angular.isArray(response.data)) {
+            return $http.get(Model.$settings.url + '.json', {tracker: repository.$settings.name + '.getAll'}).then(function (response) {
+                if (angular.isObject(response.data)) {
                     repository.cache.length = 0; //empty pool
-                    return response.data.map(function (item) {
-                        var instance = new Model(item);
-                        repository.cache[item.id] = instance;
-                        return instance;
-                    });
+                    return response.data;
                 }
                 else {
-                    throw new Error('Unexpected response from API. Expected Array, got ' + typeof response.data, response.data);
+                    throw new Error('Unexpected response from API. Expected Object, got ' + typeof response.data, response.data);
                 }
             });
         };

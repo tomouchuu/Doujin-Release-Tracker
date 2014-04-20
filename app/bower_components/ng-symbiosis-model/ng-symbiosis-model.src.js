@@ -4,9 +4,9 @@ angular.module('ngSymbiosis.model', [])
         function BaseModel(data, cfg) {
             var model = this;
 
-            if (!data.url) {
-                throw new Error('You must specify an url');
-            }
+//            if (!data.url) {
+//                throw new Error('You must specify an url');
+//            }
 
             this.$settings = {urlBase: data.url};
             delete data.url;
