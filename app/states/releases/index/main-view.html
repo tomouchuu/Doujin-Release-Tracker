@@ -2,8 +2,8 @@
 
     <div class="row">
         <div class="col-lg-4">
-            <h1 ng-show="category === 'm3'">{{ category | titlecase }} {{ eventId }} <span class="date">{{ event.date }}</span></h1>
-            <h1 ng-hide="category === 'm3'">{{ category | titlecase }} <span class="date">{{ event.date }}</span></h1>
+            <h1 ng-hide="category === 'm3'">{{ category | titlecase }} {{ eventId }} <span class="date">{{ event.date }}</span></h1>
+            <h1 ng-show="category === 'm3'">{{ category | titlecase }} <span class="date">{{ event.date }}</span></h1>
         </div>
         <div class="search-area col-lg-4 col-sm-6">
             <p>Search: <input ng-model="searchText" data-toggle="tooltip" data-placement="auto top" data-original-title="Search Albums, Artists, Circles, Links, Type, Genres &amp; Availiability (comma space seperated for more than one)" id="searchbox"></p>
@@ -48,23 +48,23 @@
                             <a href="{{release.preview}}" target="_blank">{{release.preview}}</a>
                         </td>
                         <td class="available-mp3">
-                            <a href="{{release.available[0].mp3}}" target="_blank" ng-show="release.available[0].mp3"><i class="fa fa-check"></i></a>
-                            <i class="fa fa-times" ng-hide="release.available[0].mp3"></i>
+                            <a href="{{release.available.mp3}}" target="_blank" ng-show="release.available.mp3"><i class="fa fa-check"></i></a>
+                            <i class="fa fa-times" ng-hide="release.available.mp3"></i>
                         </td>
                         <td class="available-flac">
-                            <a href="{{release.available[0].flac}}" target="_blank" ng-show="release.available[0].flac"><i class="fa fa-check"></i></a>
-                            <i class="fa fa-times" ng-hide="release.available[0].flac"></i>
+                            <a href="{{release.available.flac}}" target="_blank" ng-show="release.available.flac"><i class="fa fa-check"></i></a>
+                            <i class="fa fa-times" ng-hide="release.available.flac"></i>
                         </td>
                         <td class="available-other">
-                            <a href="{{release.available[0].other}}" target="_blank" ng-show="release.available[0].other"><i class="fa fa-check"></i></a>
-                            <i class="fa fa-times" ng-hide="release.available[0].other"></i>
+                            <a href="{{release.available.other}}" target="_blank" ng-show="release.available.other"><i class="fa fa-check"></i></a>
+                            <i class="fa fa-times" ng-hide="release.available.other"></i>
                         </td>
                     </tr>
                     <tr ng-if="available == 'all'" class="release-row" ng-hide="releases">
                         <td colspan="6" style="text-align:center;">No Releases Found</td>
                     </tr>
                     
-                    <tr ng-if="available == 'mp3'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-show="release.available[0].mp3">
+                    <tr ng-if="available == 'mp3'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-show="release.available.mp3">
                         <td>{{release.album}}</td>
                         <td>
                             <a ng-show="release.link" href="{{release.link}}" target="_blank">
@@ -78,23 +78,23 @@
                             <a href="{{release.preview}}" target="_blank">{{release.preview}}</a>
                         </td>
                         <td class="available-mp3">
-                            <a href="{{release.available[0].mp3}}" target="_blank" ng-show="release.available[0].mp3"><i class="fa fa-check"></i></a>
-                            <i class="fa fa-times" ng-hide="release.available[0].mp3"></i>
+                            <a href="{{release.available.mp3}}" target="_blank" ng-show="release.available.mp3"><i class="fa fa-check"></i></a>
+                            <i class="fa fa-times" ng-hide="release.available.mp3"></i>
                         </td>
                         <td class="available-flac">
-                            <a href="{{release.available[0].flac}}" target="_blank" ng-show="release.available[0].flac"><i class="fa fa-check"></i></a>
-                            <i class="fa fa-times" ng-hide="release.available[0].flac"></i>
+                            <a href="{{release.available.flac}}" target="_blank" ng-show="release.available.flac"><i class="fa fa-check"></i></a>
+                            <i class="fa fa-times" ng-hide="release.available.flac"></i>
                         </td>
                         <td class="available-other">
-                            <a href="{{release.available[0].other}}" target="_blank" ng-show="release.available[0].other"><i class="fa fa-check"></i></a>
-                            <i class="fa fa-times" ng-hide="release.available[0].other"></i>
+                            <a href="{{release.available.other}}" target="_blank" ng-show="release.available.other"><i class="fa fa-check"></i></a>
+                            <i class="fa fa-times" ng-hide="release.available.other"></i>
                         </td>
                     </tr>
-                    <tr ng-if="available == 'mp3'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-hide="release.available[0].mp3">
+                    <tr ng-if="available == 'mp3'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-hide="release.available.mp3">
                         <td ng-show="$first" colspan="6" style="text-align:center;">No MP3 Releases Found</td>
                     </tr>
                     
-                    <tr ng-if="available == 'flac'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-show="release.available[0].flac">
+                    <tr ng-if="available == 'flac'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-show="release.available.flac">
                         <td>{{release.album}}</td>
                         <td>
                             <a ng-show="release.link" href="{{release.link}}" target="_blank">
@@ -108,23 +108,23 @@
                             <a href="{{release.preview}}" target="_blank">{{release.preview}}</a>
                         </td>
                         <td class="available-mp3">
-                            <a href="{{release.available[0].mp3}}" target="_blank" ng-show="release.available[0].mp3"><i class="fa fa-check"></i></a>
-                            <i class="fa fa-times" ng-hide="release.available[0].mp3"></i>
+                            <a href="{{release.available.mp3}}" target="_blank" ng-show="release.available.mp3"><i class="fa fa-check"></i></a>
+                            <i class="fa fa-times" ng-hide="release.available.mp3"></i>
                         </td>
                         <td class="available-flac">
-                            <a href="{{release.available[0].flac}}" target="_blank" ng-show="release.available[0].flac"><i class="fa fa-check"></i></a>
-                            <i class="fa fa-times" ng-hide="release.available[0].flac"></i>
+                            <a href="{{release.available.flac}}" target="_blank" ng-show="release.available.flac"><i class="fa fa-check"></i></a>
+                            <i class="fa fa-times" ng-hide="release.available.flac"></i>
                         </td>
                         <td class="available-other">
-                            <a href="{{release.available[0].other}}" target="_blank" ng-show="release.available[0].other"><i class="fa fa-check"></i></a>
-                            <i class="fa fa-times" ng-hide="release.available[0].other"></i>
+                            <a href="{{release.available.other}}" target="_blank" ng-show="release.available.other"><i class="fa fa-check"></i></a>
+                            <i class="fa fa-times" ng-hide="release.available.other"></i>
                         </td>
                     </tr>
-                    <tr ng-if="available == 'flac'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-hide="release.available[0].flac">
+                    <tr ng-if="available == 'flac'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-hide="release.available.flac">
                         <td ng-show="$first" colspan="6" style="text-align:center;">No FLAC Releases Found</td>
                     </tr>
                     
-                    <tr ng-if="available == 'other'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-show="release.available[0].other">
+                    <tr ng-if="available == 'other'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-show="release.available.other">
                         <td>{{release.album}}</td>
                         <td>
                             <a ng-show="release.link" href="{{release.link}}" target="_blank">
@@ -138,19 +138,19 @@
                             <a href="{{release.preview}}" target="_blank">{{release.preview}}</a>
                         </td>
                         <td class="available-mp3">
-                            <a href="{{release.available[0].mp3}}" target="_blank" ng-show="release.available[0].mp3"><i class="fa fa-check"></i></a>
-                            <i class="fa fa-times" ng-hide="release.available[0].mp3"></i>
+                            <a href="{{release.available.mp3}}" target="_blank" ng-show="release.available.mp3"><i class="fa fa-check"></i></a>
+                            <i class="fa fa-times" ng-hide="release.available.mp3"></i>
                         </td>
                         <td class="available-flac">
-                            <a href="{{release.available[0].flac}}" target="_blank" ng-show="release.available[0].flac"><i class="fa fa-check"></i></a>
-                            <i class="fa fa-times" ng-hide="release.available[0].flac"></i>
+                            <a href="{{release.available.flac}}" target="_blank" ng-show="release.available.flac"><i class="fa fa-check"></i></a>
+                            <i class="fa fa-times" ng-hide="release.available.flac"></i>
                         </td>
                         <td class="available-other">
-                            <a href="{{release.available[0].other}}" target="_blank" ng-show="release.available[0].other"><i class="fa fa-check"></i></a>
-                            <i class="fa fa-times" ng-hide="release.available[0].other"></i>
+                            <a href="{{release.available.other}}" target="_blank" ng-show="release.available.other"><i class="fa fa-check"></i></a>
+                            <i class="fa fa-times" ng-hide="release.available.other"></i>
                         </td>
                     </tr>
-                    <tr ng-if="available == 'other'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-hide="release.available[0].other">
+                    <tr ng-if="available == 'other'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-hide="release.available.other">
                         <td ng-show="$first" colspan="6" style="text-align:center;">No Other Format Releases Found</td>
                     </tr>
                     
