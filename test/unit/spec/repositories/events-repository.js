@@ -12,7 +12,7 @@ describe('Model Repository: EventsRepository', function () {
       url: 'URL'
     };
 
-    module('comiket', function ($provide) {
+    module('doujinReleaseTracker', function ($provide) {
       $provide.value('EventsModel', Model);
     });
 

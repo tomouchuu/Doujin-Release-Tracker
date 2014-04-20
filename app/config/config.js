@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('comiket')
+angular.module('doujinReleaseTracker')
   .constant('Config', angular.deepExtend({
     viewsDir: 'views/',
     componentsDir: 'components/',

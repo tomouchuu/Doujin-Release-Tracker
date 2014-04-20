@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('comiket')
+angular.module('doujinReleaseTracker')
     .config(function ($stateProvider, stateFactory) {
         $stateProvider.state('releases', stateFactory('Releases', {
             url: '/releases/{comiketId:[c[0-9]+]*}',

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('comiket')
+angular.module('doujinReleaseTracker')
   .config(function ($httpProvider, Config, $provide) {
     if (!Config.API.useMocks) return;
 

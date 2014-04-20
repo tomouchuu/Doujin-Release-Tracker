@@ -6,7 +6,7 @@ describe('Controller: IndexCtrl', function () {
 
   beforeEach(function () {
 
-    module('comiket');
+    module('doujinReleaseTracker');
 
     inject(function ($controller, _$rootScope_, $q) {
       $rootScope = _$rootScope_;

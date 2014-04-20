@@ -1,4 +1,4 @@
-# Comiket Release Tracker
+# Doujin Release Tracker
 
 [![TravisCI Build Status](https://travis-ci.org/Tomo-san/comiket.svg)](https://travis-ci.org/Tomo-san/comiket)
 [![Coverage Status](https://coveralls.io/repos/Tomo-san/comiket/badge.png?branch=dev)](https://coveralls.io/r/Tomo-san/comiket?branch=dev)

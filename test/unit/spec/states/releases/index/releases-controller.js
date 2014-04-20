@@ -6,7 +6,7 @@ describe('Controller(/releases): ReleasesCtrl', function () {
 
   beforeEach(function () {
 
-    module('comiket', function ($provide) {
+    module('doujinReleaseTracker', function ($provide) {
       $provide.value('$stateParams', {comiketId: 'c85'});
     });
 

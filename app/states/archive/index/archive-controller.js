@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('comiket')
+angular.module('doujinReleaseTracker')
     .config(function ($stateProvider, stateFactory) {
         $stateProvider.state('archive', stateFactory('Archive', {
             url: '/archive',

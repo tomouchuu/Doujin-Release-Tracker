@@ -12,7 +12,7 @@ describe('Model Repository: ReleasesRepository', function () {
       url: 'URL'
     };
 
-    module('comiket', function ($provide) {
+    module('doujinReleaseTracker', function ($provide) {
       $provide.value('ReleasesModel', Model);
     });
 

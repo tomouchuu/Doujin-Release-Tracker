@@ -1,15 +1,15 @@
 'use strict';
 
-var components = angular.module('comiket.components', []);
+var components = angular.module('doujinReleaseTracker.components', []);
 angular.componentFactory.moduleDecorator(components);
 
-var app = angular.module('comiket', [
+var app = angular.module('doujinReleaseTracker', [
   'kennethlynne.componentFactory',
   'ngSymbiosis.utils',
   'ngSymbiosis.routeProvider',
   'ngSymbiosis.repository',
   'ngSymbiosis.model',
-  'comiket.components',
+  'doujinReleaseTracker.components',
   'ngAnimate',
   'ajoslin.promise-tracker',
   'cgBusy',

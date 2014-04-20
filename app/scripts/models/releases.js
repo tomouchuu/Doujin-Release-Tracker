@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('comiket')
+angular.module('doujinReleaseTracker')
   .factory('ReleasesModel', function ($rootScope, BaseModel, APIBaseUrl, $injector) {
 
     var url = APIBaseUrl + 'releases';

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('comiket')
+angular.module('doujinReleaseTracker')
   .config(function ($urlRouterProvider) {
     $urlRouterProvider.when('', '/');
     $urlRouterProvider.otherwise("/error?code=404");

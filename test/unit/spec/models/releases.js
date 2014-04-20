@@ -9,7 +9,7 @@ describe('Model: ReleasesModel', function () {
         ReleasesRepository = jasmine.createSpy('ReleasesRepository');
         ReleasesRepository.attach = jasmine.createSpy('ReleasesRepository.attach');
 
-        module('comiket', function ($provide) {
+        module('doujinReleaseTracker', function ($provide) {
         $provide.value('ReleasesRepository', ReleasesRepository);
         });
 

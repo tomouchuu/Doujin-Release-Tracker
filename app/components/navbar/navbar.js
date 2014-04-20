@@ -1,8 +1,8 @@
 'use strict';
 
-angular.module('comiket.components')
   .controller('navbarComponentCtrl', function ($scope, $element) {
     $scope.text = 'this is the navbar component';
+angular.module('doujinReleaseTracker.components')
   })
   .component('navbar', function () {
     return {

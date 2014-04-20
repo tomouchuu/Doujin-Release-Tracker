@@ -1,4 +1,4 @@
-angular.module('comiket')
+angular.module('doujinReleaseTracker')
   .run(function (Config, $httpBackend, $log, APIBaseUrl, regexEscape, guid, mockRepository) {
     if (!Config.API.useMocks) return;
 

@@ -6,7 +6,7 @@ describe('Controller: ErrorCtrl', function () {
 
   beforeEach(function () {
 
-    module('comiket', function ($provide) {
+    module('doujinReleaseTracker', function ($provide) {
       $provide.value('$stateParams', {code: 1337});
     });
 

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('comiket')
+angular.module('doujinReleaseTracker')
   .config(function ($provide, Config) {
     $provide.decorator('$log', ['$delegate', function ($delegate) {
 
