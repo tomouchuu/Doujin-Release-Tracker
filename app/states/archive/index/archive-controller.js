@@ -9,6 +9,18 @@ angular.module('doujinReleaseTracker')
     })
     .controller('ArchiveCtrl', function ($scope, EventsRepository) {
         EventsRepository.getAll().then(function (events) {
-            $scope.events = events;
+            var ids = Object.keys(events);
+            
+            var eventList = new Array();
+            
+            angular.forEach(ids, function(id, key1){
+                var date = events[id].date;
+                
+                eventList.push({'id': id, 'date': date});
+            });
+            
+            eventList.reverse();
+
+            $scope.events = eventList;
         });
     });

@@ -7,7 +7,7 @@ angular.module('doujinReleaseTracker')
             templateUrl: 'states/releases/index/main-view.html'
         }));
     })
-    .controller('ReleasesCtrl', function ($scope, $state, $stateParams, Config, ReleasesRepository, EventsRepository) {
+    .controller('ReleasesCtrl', function ($rootScope, $scope, $state, $stateParams, Config, ReleasesRepository, EventsRepository) {
         $scope.order = 'artistcircle';
         $scope.orderby = 'false';
         
@@ -20,6 +20,7 @@ angular.module('doujinReleaseTracker')
             EventsRepository.getById(eventId).then(function (event) {
                 $scope.event = event;
                 $scope.eventId = eventId;
+                $rootScope.eventId = eventId;
                 
                 ReleasesRepository.getById(eventId).then(function (releases) {
                     $scope.releases = releases.releases;

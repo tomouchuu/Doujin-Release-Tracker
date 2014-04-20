@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Comiket Release Tracker</title>
+    <title ng-cloak ng-hide="category === 'm3'">{{ category | titlecase }} {{ eventId }} Release Tracker</title>
+    <title ng-cloak ng-show="category === 'm3'">{{ category | titlecase }} Release Tracker</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
     <meta name="mobile-web-app-capable" content="yes">
