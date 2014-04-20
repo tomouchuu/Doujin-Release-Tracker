@@ -11,11 +11,16 @@ angular.module('doujinReleaseTracker')
         $scope.orderby = 'false';
         
         EventsRepository.getAll().then(function (event) {
-            event.reverse();
-            $scope.event = event[0];
-            $scope.comiketId = event[0].id;
-        });
-        ReleasesRepository.getById($scope.comiketId).then(function (releases) {
-            $scope.releases = releases.releases;
+            var ids = Object.keys(event);
+            ids.reverse();
+            
+            var first = ids[0];
+            
+            $scope.event = event[first];
+            $scope.eventId = first;
+            
+            ReleasesRepository.getById($scope.eventId).then(function (releases) {
+                $scope.releases = releases.releases;
+            });
         });
     });

@@ -7,23 +7,20 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a ui-sref="index" class="navbar-brand">Comiket Releases</a>
+            <a ui-sref="index" class="navbar-brand">{{ category | titlecase }} Releases</a>
         </div>
         <nav class="collapse navbar-collapse nsb-navbar-collapse" role="navigation" collapse="isCollapsed">
             <ul class="nav navbar-nav">
-                <li ui-sref-active="active">
-                    <a ui-sref="releases({comiketId: 'c86'})">C86</a>
+                <li ui-sref-active="active" ng-show="category === 'comiket'" ng-repeat="link in navLinks">
+                    <a ui-sref="releases({eventId: link.link})">{{ link.link | titlecase }}</a>
                 </li>
-                <li ui-sref-active="active">
-                    <a ui-sref="releases({comiketId: 'c85'})">C85</a>
+                <li ui-sref-active="active" ng-hide="category === 'comiket'" ng-repeat="link in navLinks">
+                    <a ui-sref="releases({eventId: link.id})">{{ link.date | titlecase }}</a>
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li>
                     <a ui-sref="archive">Archive</a>
-                </li>
-                <li>
-                    <a ui-sref="error">Error Page</a>
                 </li>
             </ul>
         </nav>

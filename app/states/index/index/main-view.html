@@ -2,7 +2,7 @@
 
     <div class="row">
         <div class="col-lg-4">
-            <h1>Comiket {{ event.id }} <span class="date">{{ event.date }}</span></h1>
+            <h1>{{ category | titlecase }} {{ eventId }} <span class="date">{{ event.date }}</span></h1>
         </div>
         <div class="search-area col-lg-4 col-sm-6">
             <p>Search: <input ng-model="searchText" data-toggle="tooltip" data-placement="auto top" data-original-title="Search Albums, Artists, Circles, Links, Type, Genres &amp; Availiability (comma space seperated for more than one)" id="searchbox"></p>
@@ -151,7 +151,7 @@
                 </tbody>
                 <tfoot>
                     <tr>
-                        <td colspan="6" style="text-align:center;">Can't see a release, <a href="https://github.com/Tomo-san/comiket/tree/master/app/events/{{comiketID}}.json">why not add it?</a></td>
+                        <td colspan="6" style="text-align:center;">Can't see a release, <a href="https://github.com/Tomo-san/comiket/tree/master/app/events/{{eventId}}.json">why not add it?</a></td>
                     </tr>
                 </tfoot>
             </table>
@@ -160,8 +160,9 @@
     
     <div class="row">
         <div id="message" class="col-lg-12">
-            <p>Welcome to a C{{ event.id }} Release List.</p>
-            <p>Feel free to add to the <a href="https://github.com/Tomo-san/comiket/tree/master/app/events/{{comiketID}}.json">Release List</a> on Github if you want a release added.</p>
+            <p ng-show="category === 'comiket'">Welcome to a {{ category | titlecase }} {{ eventId }} Release List.</p>
+            <p ng-hide="category === 'comiket'">Welcome to a {{ category | titlecase }} Release List for {{ event.date }}.</p>
+            <p>Feel free to add to the <a href="https://github.com/Tomo-san/comiket/tree/master/app/events/{{eventId}}.json">Release List</a> on Github if you want a release added.</p>
         </div>
     </div>
 
