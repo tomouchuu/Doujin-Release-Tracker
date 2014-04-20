@@ -1,11 +1,21 @@
 'use strict';
 
 angular.module('doujinReleaseTracker')
-    .config(function ($stateProvider, stateFactory) {
-        $stateProvider.state('releases', stateFactory('Releases', {
-            url: '/releases/{eventId:[c[0-9]+]*}',
-            templateUrl: 'states/releases/index/main-view.html'
-        }));
+    .config(function ($stateProvider, stateFactory, Config) {
+        if (Config.event === 'comiket')
+        {
+            $stateProvider.state('releases', stateFactory('Releases', {
+                url: '/releases/{eventId:[c[0-9]+]*}',
+                templateUrl: 'states/releases/index/main-view.html'
+            }));
+        }
+        else
+        {
+            $stateProvider.state('releases', stateFactory('Releases', {
+                url: '/releases/{eventId:[[0-9]+]*}',
+                templateUrl: 'states/releases/index/main-view.html'
+            }));
+        }
     })
     .controller('ReleasesCtrl', function ($rootScope, $scope, $state, $stateParams, Config, ReleasesRepository, EventsRepository) {
         $scope.order = 'artistcircle';
@@ -13,9 +23,14 @@ angular.module('doujinReleaseTracker')
         
         if ($stateParams.eventId !== '')
         {
+            var eventId = '';
             if (Config.event === 'comiket')
             {
-                var eventId = $stateParams.eventId.replace('c','');
+                eventId = $stateParams.eventId.replace('c','');
+            }
+            else
+            {
+                eventId = $stateParams.eventId;
             }
             EventsRepository.getById(eventId).then(function (event) {
                 $scope.event = event;
@@ -26,8 +41,8 @@ angular.module('doujinReleaseTracker')
                     $scope.releases = releases.releases;
                 });
             }, function(response) {
-                $state.go('releases', {eventId: 'c86'});
                 console.log('Error with status code', response.status);
+                $state.go('index');
             });
         }
         else
