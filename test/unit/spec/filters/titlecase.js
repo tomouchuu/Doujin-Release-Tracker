@@ -14,9 +14,9 @@ describe('Filter: titlecase', function () {
 
   });
 
-  it('should return the input prefixed with "titlecase filter:"', function () {
+  it('should return the input with the first letter in Uppercase', function () {
     var text = 'angularjs';
-    expect(titlecase(text)).toBe('titlecase filter: ' + text);
+    expect(titlecase(text)).toBe('Angularjs');
   });
 
 });
