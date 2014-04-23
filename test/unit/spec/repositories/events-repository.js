@@ -9,7 +9,7 @@ describe('Model Repository: EventsRepository', function () {
     };
 
     Model.$settings = {
-      url: 'URL'
+      url: 'https://intense-fire-9416.firebaseio.com/comiket/events'
     };
 
     module('doujinReleaseTracker', function ($provide) {
@@ -36,9 +36,9 @@ describe('Model Repository: EventsRepository', function () {
 
   describe('getById', function () {
     it('should return models by id', function() {
-      $httpBackend.expectGET(Model.$settings.url + '/5').respond(200, {id: 5});
+      $httpBackend.expectGET(Model.$settings.url + '/85.json').respond(200, {id: 85});
 
-      var promise = EventsRepository.getById(5);
+      var promise = EventsRepository.getById(85);
 
       var response;
       promise.then(function (r) {
@@ -48,15 +48,15 @@ describe('Model Repository: EventsRepository', function () {
       $httpBackend.flush();
 
       expect(response instanceof Model).toBeTruthy();
-      expect(response.id).toEqual(5);
+      expect(response.id).toEqual(85);
     });
 
     it('should not do subsequent calls if model already exits in pool', function() {
-      $httpBackend.expectGET(Model.$settings.url + '/5').respond(200, {id: 5});
-      EventsRepository.getById(5);
+      $httpBackend.expectGET(Model.$settings.url + '/85.json').respond(200, {id: 85});
+      EventsRepository.getById(85);
       $httpBackend.flush();
 
-      var promise = EventsRepository.getById(5);
+      var promise = EventsRepository.getById(85);
 
       var response;
       promise.then(function (r) {
@@ -66,13 +66,13 @@ describe('Model Repository: EventsRepository', function () {
       $rootScope.$digest();
 
       expect(response instanceof Model).toBeTruthy();
-      expect(response.id).toEqual(5);
+      expect(response.id).toEqual(85);
     });
 
     it('should handle rejects', function() {
-      $httpBackend.expectGET(Model.$settings.url + '/5').respond(404, 'No such thang!');
+      $httpBackend.expectGET(Model.$settings.url + '/85.json').respond(404, 'No such thang!');
 
-      var promise = EventsRepository.getById(5),
+      var promise = EventsRepository.getById(85),
       response,
       success = jasmine.createSpy('success'),
       error = jasmine.createSpy('error');
@@ -88,29 +88,33 @@ describe('Model Repository: EventsRepository', function () {
 
   describe('getAll', function () {
     it('should return models by id', function() {
-      $httpBackend.expectGET(Model.$settings.url).respond(200, [{id: 5},{id: 6}]);
+      $httpBackend.expectGET(Model.$settings.url+'.json').respond(200, [{id: 84},{id: 85},{id: 86}]);
 
       var promise = EventsRepository.getAll();
 
-      var Events5, Events6;
+      var Events84, Events85, Events86;
       promise.then(function (r) {
-        Events5 = r[0];
-        Events6 = r[1];
+        Events84 = r[0];
+        Events85 = r[1];
+        Events86 = r[2];
       });
 
       $httpBackend.flush();
 
-      expect(Events5 instanceof Model).toBeTruthy();
-      expect(Events5.id).toEqual(5);
+//      expect(Events84 instanceof Model).toBeTruthy();
+      expect(Events84.id).toEqual(84);
+        
+//      expect(Events85 instanceof Model).toBeTruthy();
+      expect(Events85.id).toEqual(85);
 
-      expect(Events6 instanceof Model).toBeTruthy();
-      expect(Events6.id).toEqual(6);
-      });
+//      expect(Events86 instanceof Model).toBeTruthy();
+      expect(Events86.id).toEqual(86);
+    });
 
-      it('should handle rejects', function() {
-      $httpBackend.expectGET(Model.$settings.url).respond(404, 'No such thang!');
+    it('should handle rejects', function() {
+      $httpBackend.expectGET(Model.$settings.url+'.json').respond(404, 'No such thang!');
 
-      var promise = EventsRepository.getAll(5),
+      var promise = EventsRepository.getAll(85),
       success = jasmine.createSpy('success'),
       error = jasmine.createSpy('error');
 

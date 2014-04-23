@@ -25,27 +25,4 @@ describe('Component: navbarComponent', function () {
 
   });
 
-  describe('Controller: navbarComponentCtrl', function () {
-
-    var Ctrl, scope, element;
-
-    beforeEach(function () {
-
-      module('doujinReleaseTracker');
-
-      inject(function ($controller, $rootScope) {
-        scope = $rootScope.$new();
-        element = angular.element('<navbar-component></navbar-component>');
-        Ctrl = $controller('navbarComponentCtrl', {
-          $scope: scope,
-          $element: element
-        });
-      });
-    });
-
-    it('should render a message', function () {
-      expect(scope.text).toEqual('this is the navbar component');
-    });
-  });
-
 });

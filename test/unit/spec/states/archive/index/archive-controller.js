@@ -29,7 +29,7 @@ describe('Controller(/archive): ArchiveCtrl', function () {
   });
 
   it('should attach init data to scope', function () {
-    var events = [1, 2, 3, 4];
+    var events = [28];
     deferred.resolve(events);
     $rootScope.$digest();
     expect(scope.events).toBe(events);

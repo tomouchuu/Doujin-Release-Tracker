@@ -34,10 +34,6 @@ describe('Controller: IndexCtrl', function () {
       });
     });
   });
-    
-  it('should be the newest comiket', function () {
-    expect(scope.comiketId).toBe(86);
-  });
 
   it('should attach init data to scope', function () {
     var data = [1,2,3,4]

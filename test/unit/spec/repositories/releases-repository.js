@@ -9,7 +9,7 @@ describe('Model Repository: ReleasesRepository', function () {
     };
 
     Model.$settings = {
-      url: 'URL'
+      url: 'https://intense-fire-9416.firebaseio.com/comiket/releases'
     };
 
     module('doujinReleaseTracker', function ($provide) {
@@ -36,7 +36,7 @@ describe('Model Repository: ReleasesRepository', function () {
 
   describe('getById', function () {
     it('should return models by id', function() {
-      $httpBackend.expectGET(Model.$settings.url + '/5').respond(200, {id: 5});
+      $httpBackend.expectGET(Model.$settings.url + '/5.json').respond(200, {id: 5});
 
       var promise = ReleasesRepository.getById(5);
 
@@ -52,7 +52,7 @@ describe('Model Repository: ReleasesRepository', function () {
     });
 
     it('should not do subsequent calls if model already exits in pool', function() {
-      $httpBackend.expectGET(Model.$settings.url + '/5').respond(200, {id: 5});
+      $httpBackend.expectGET(Model.$settings.url + '/5.json').respond(200, {id: 5});
       ReleasesRepository.getById(5);
       $httpBackend.flush();
 
@@ -70,7 +70,7 @@ describe('Model Repository: ReleasesRepository', function () {
     });
 
     it('should handle rejects', function() {
-      $httpBackend.expectGET(Model.$settings.url + '/5').respond(404, 'No such thang!');
+      $httpBackend.expectGET(Model.$settings.url + '/5.json').respond(404, 'No such thang!');
 
       var promise = ReleasesRepository.getById(5),
       response,
@@ -88,7 +88,7 @@ describe('Model Repository: ReleasesRepository', function () {
 
   describe('getAll', function () {
     it('should return models by id', function() {
-      $httpBackend.expectGET(Model.$settings.url).respond(200, [{id: 5},{id: 6}]);
+      $httpBackend.expectGET(Model.$settings.url+'.json').respond(200, [{id: 5},{id: 6}]);
 
       var promise = ReleasesRepository.getAll();
 
@@ -100,15 +100,13 @@ describe('Model Repository: ReleasesRepository', function () {
 
       $httpBackend.flush();
 
-      expect(Releases5 instanceof Model).toBeTruthy();
       expect(Releases5.id).toEqual(5);
 
-      expect(Releases6 instanceof Model).toBeTruthy();
       expect(Releases6.id).toEqual(6);
-      });
+    });
 
-      it('should handle rejects', function() {
-      $httpBackend.expectGET(Model.$settings.url).respond(404, 'No such thang!');
+    it('should handle rejects', function() {
+      $httpBackend.expectGET(Model.$settings.url+'.json').respond(404, 'No such thang!');
 
       var promise = ReleasesRepository.getAll(5),
       success = jasmine.createSpy('success'),

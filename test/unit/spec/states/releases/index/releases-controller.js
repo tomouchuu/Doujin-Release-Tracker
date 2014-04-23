@@ -37,9 +37,10 @@ describe('Controller(/releases): ReleasesCtrl', function () {
     });
   });
 
-  it('should get C85 releases', function () {
-//    deferred.resolve(scope.comiketId);
-//    $rootScope.$digest();
-    expect(scope.comiketId).toBe(85);
+  it('should attach init data to scope', function () {
+    var events = [28];
+    deferred.resolve(events);
+    $rootScope.$digest();
+    expect(scope.events).toBe(events);
   });
 });
