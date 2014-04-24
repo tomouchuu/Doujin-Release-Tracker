@@ -1,11 +1,29 @@
 # Doujin Release Tracker
 
-[![TravisCI Build Status](https://travis-ci.org/Tomo-san/comiket.svg)](https://travis-ci.org/Tomo-san/comiket)
-[![Coverage Status](https://coveralls.io/repos/Tomo-san/comiket/badge.png?branch=dev)](https://coveralls.io/r/Tomo-san/comiket?branch=dev)
-[![Dependency Status](https://gemnasium.com/Tomo-san/comiket.svg)](https://gemnasium.com/Tomo-san/comiket)
+[![Build Status](https://travis-ci.org/Tomo-san/Doujin-Release-Tracker.svg)](https://travis-ci.org/Tomo-san/Doujin-Release-Tracker)
+[![Coverage Status](https://coveralls.io/repos/Tomo-san/Doujin-Release-Tracker/badge.png)](https://coveralls.io/r/Tomo-san/Doujin-Release-Tracker)
+[![Dependency Status](https://gemnasium.com/Tomo-san/Doujin-Release-Tracker.svg)](https://gemnasium.com/Tomo-san/Doujin-Release-Tracker)
 
-The reason this exists is because I'm too forgetful to remember all the releases I want from Comiket, so I decided I would make this list so that I can keep track of it all and previous trackers aren't all that pretty or aren't updated.
+Initially started as a way to keep track of what I'm looking forward to hearing at Comiket but now has expanded to also include M3 & Vocamas events. With this new V3 version of the site everything is a lot nicer and it's tons easier for me to update for new events & releases. Hopefully I'll keep this updated as new events & releases happen.
 
-Built with Angular and sheer stupidity.
+## API
 
-That should be about it!
+If you want to use the API then you can do GET requests on: `https://intense-fire-9416.firebaseio.com/[event].json` where `event` is `comiket`, `m3` or `vocamas`. If you want a specific event release list then `https://intense-fire-9416.firebaseio.com/[event]/releases/[id].json` where `id` is the event id. You can go furthur if you want to but you should get the gist from this.
+
+## You missed a release
+
+Thanks, get in touch with me somehow ([@tomopagu on twitter](http://twitter.com/tomopagu "Twitter")) and I'll update the tracker as soon as I can. I was thinking of maybe adding a form so people can add their own when they want but I'm rushing to get this done by M3 April '14 / Vocamas 28 so I skipped over it. Maybe after that has died down, I'll add it. To help out when letting me know could you give me:
+
+- Album Name
+- Artist/Circle Name
+- Link to their site (if avail)
+- Preview link to a crossfade
+- Type of release (only really used for comiket releases to decide if it's Touhou, Vocaloid etc.)
+- Genre of release
+- Available links (Links to download, mp3, flac, other formats)
+
+## Helping
+
+If you wanna help out feel free to clone / fork & improve it. I'm open to everything since I know I'm pretty shitty. For the project you'll need node, grunt & compass. Run `npm install` then `bower install` to install everything and then `grunt server` will start a server to check the site while you work.
+
+You could also just make an [issue](https://github.com/Tomo-san/Doujin-Release-Tracker/issues) and I'll get to it as soon as I can.
