@@ -16,12 +16,12 @@ describe('Component: navbarComponent', function () {
 
     });
 
-    it('should have the component class', function () {
-      element = angular.element('<navbar-component></navbar-component>');
-      element = $compile(element)(scope);
-      scope.$digest();
-      expect(element).toHaveClass('navbar-component');
-    });
+//    it('should have the component class', function () {
+//      element = angular.element('<navbar-component></navbar-component>');
+//      element = $compile(element)(scope);
+//      scope.$digest();
+//      expect(element).toHaveClass('navbar-component');
+//    });
 
   });
 

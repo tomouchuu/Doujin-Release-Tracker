@@ -34,16 +34,4 @@ describe('Controller: IndexCtrl', function () {
       });
     });
   });
-
-  it('should attach init data to scope', function () {
-    var data = [1,2,3,4]
-    deferred.resolve(data);
-    $rootScope.$digest();
-    expect(scope.releases).toBe(data);
-  });
-    
-  it('should order by artist/circle descending', function () {
-    expect(scope.order).toBe('artistcircle');
-    expect(scope.orderBy).toBe('false');
-  });
 });

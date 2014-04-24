@@ -6,7 +6,7 @@ angular.module('doujinReleaseTracker')
     componentsDir: 'components/',
     statesDir: 'states/',
     environment: 'production', //development or production
-    event: 'vocamas', // comiket, m3, vocamas
+    event: 'comiket', // comiket, m3, vocamas
     URL: {
       protocol: window.location.protocol.split(':')[0], //Use the same protocol, host and port as the UI is hosted from bu default
       host: window.location.hostname,
