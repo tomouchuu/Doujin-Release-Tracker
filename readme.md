@@ -6,13 +6,15 @@
 
 Initially started as a way to keep track of what I'm looking forward to hearing at Comiket but now has expanded to also include M3 & Vocamas events. With this new V3 version of the site everything is a lot nicer and it's tons easier for me to update for new events & releases. Hopefully I'll keep this updated as new events & releases happen.
 
+At the moment (05/08/14) only the comiket site is live. I want to get a landing page out for the sites before putting the others live. Plus all my time is being spent on the C86 releases that I don't have time to really work on it. Maybe after the releases have slowed down.
+
 ## API
 
 If you want to use the API then you can do GET requests on: `https://intense-fire-9416.firebaseio.com/[event].json` where `event` is `comiket`, `m3` or `vocamas`. If you want a specific event release list then `https://intense-fire-9416.firebaseio.com/[event]/releases/[id].json` where `id` is the event id. You can go furthur if you want to but you should get the gist from this.
 
 ## You missed a release
 
-Thanks, get in touch with me somehow ([@tomopagu on twitter](http://twitter.com/tomopagu "Twitter")) and I'll update the tracker as soon as I can. I was thinking of maybe adding a form so people can add their own when they want but I'm rushing to get this done by M3 April '14 / Vocamas 28 so I skipped over it. Maybe after that has died down, I'll add it. To help out when letting me know could you give me:
+Thanks, get in touch with me somehow ([@tomopagu on twitter](http://twitter.com/tomopagu "Twitter")) and I'll update the tracker as soon as I can. I was thinking of maybe adding a form so people can add their own when they want, thoughts?. Anyway to help out when letting me know could you give me:
 
 - Album Name
 - Artist/Circle Name
