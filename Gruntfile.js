@@ -257,6 +257,12 @@ module.exports = function (grunt) {
         dest: '.tmp/styles/',
         src: '**/*.css'
       },
+      scripts: {
+        expand: true,
+        cwd: '<%= yeoman.app %>/',
+        dest: '<%= yeoman.dist %>/',
+        src: '**/*.js'
+      },
       tmpStyles2dist: {
         expand: true,
         cwd: '.tmp/styles/',
@@ -290,7 +296,7 @@ module.exports = function (grunt) {
       ],
       dist: [
         'coffee',
-        'compass:dist',
+        'compass',
         'copy:styles',
         'imagemin',
         'htmlmin'
@@ -323,7 +329,7 @@ module.exports = function (grunt) {
         }
       },
       js: {
-        src: externalJsMin.concat(['.tmp/scripts/app.js']).concat(externalJsExcludeFromBuild),
+        src: externalJsMin.concat(['.tmp/scripts/app.js']).concat(externalJsSrc),
         dest: '<%= yeoman.dist %>/scripts/scripts.js'
       },
       css: {
@@ -557,13 +563,16 @@ module.exports = function (grunt) {
         'concurrent:dist',
         'autoprefixer',
         'ngmin',
+        'copy:scripts',
         'uglify',
         'concat:js',
+        'compass',
         'concat:css',
         'copy:dist',
         'cssmin',
-        'rev',
+        // 'rev',
         'copy:indexHTML',
+        'copy:tmpStyles2dist',
         'linkAssets-production',
         'htmlmin'//,'manifest'
       ]);
