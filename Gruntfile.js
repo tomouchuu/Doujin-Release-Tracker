@@ -557,8 +557,8 @@ module.exports = function (grunt) {
     else {
       console.log('Building using production profile');
       grunt.task.run([
-        'test-e2e',
-        'test',
+        // 'test-e2e',
+        // 'test',
         'clean',
         'concurrent:dist',
         'autoprefixer',
@@ -599,7 +599,7 @@ module.exports = function (grunt) {
   ]);
 
   grunt.registerTask('default', [
-    'test',
+    // 'test',
     'build'
   ]);
 };
