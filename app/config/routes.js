@@ -5,5 +5,5 @@ angular.module('doujinReleaseTracker')
     $urlRouterProvider.when('', '/');
     $urlRouterProvider.otherwise("/error?code=404");
 
-    $locationProvider.html5Mode(true).hashPrefix('!');
+    $locationProvider.html5Mode(false).hashPrefix('!');
   });
