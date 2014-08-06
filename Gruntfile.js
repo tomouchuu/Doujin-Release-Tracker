@@ -502,6 +502,27 @@ module.exports = function (grunt) {
         ],
         dest: 'manifest.appcache'
       }
+    },
+
+    buildcontrol: {
+      options: {
+        dir: 'dist',
+        commit: true,
+        push: true,
+        message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+      },
+      production: {
+        options: {
+          remote: 'git@github.com:Tomo-san/Doujin-Release-Tracker.git',
+          branch: 'build'
+        }
+      },
+      local: {
+        options: {
+          remote: '../',
+          branch: 'build'
+        }
+      }
     }
 
   });
