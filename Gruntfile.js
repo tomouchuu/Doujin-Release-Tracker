@@ -606,7 +606,8 @@ module.exports = function (grunt) {
   ]);
 
   grunt.registerTask('deploy', [
-    'gh-pages'
+    'buildcontrol:production'
+    // 'gh-pages'
   ]);
 
   grunt.registerTask('linkAssets-dev', [
