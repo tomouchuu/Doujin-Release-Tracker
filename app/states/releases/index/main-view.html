@@ -27,6 +27,31 @@
     </div>
   </div>
 
+  <div class="row key" ng-init="colorkey = 'hide'">
+    <div class="col-xs-12">
+      <p>
+        <strong>Colour Key:</strong>
+        <a href="" ng-hide="colorkey == 'show'" ng-click="colorkey = 'show'">Show</a>
+        <a href="" ng-hide="colorkey == 'hide'" ng-click="colorkey = 'hide'">Hide</a>
+        <ul ng-hide="colorkey == 'hide'">
+          <li class="techno">Techno / Electronica / Ambient / Chiptune / Disco / Funkot</li>
+          <li class="house">House / Trance / Eurobeat</li>
+          <li class="electro">Electro(-House) / Glitch Hop / Bassline HC / DnB / Dubstep</li>
+          <li class="ukhardcore">(UK / Happy / Freeform / ... ) Hardcore / J-Core / Hard Trance / Hard Dance / Makina</li>
+          <li class="hardstyle">Hardstyle / Gabber / Breakcore / Speedcore / Schranz</li>
+          <li class="electronic">Electronic</li>
+          <li class="rock">Rock / Pop</li>
+          <li class="hardrock">Hard Rock / Metal / Gothic</li>
+          <li class="denpa">Denpa</li>
+          <li class="hiphop">Hip-Hop / Rap / R&amp;B / Vocal / Acappella</li>
+          <li class="piano">Piano / Jazz / Bossa Nova / Easy Listening / Lounge / Chillout</li>
+          <li class="classical">Classical / Orchestral / Traditional / Soundtrack / BGM / Acoustic / Folk</li>
+          <li class="unknown">Various / Unknown</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+
   <div class="row" cg-busy="'ReleasesRepository.getAll'">
     <div class="release-area col-lg-12">
       <div class="table-responsive">
@@ -50,8 +75,26 @@
           </thead>
           <tbody>
 
-            <tr ng-if="available == 'all'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row">
-              <td>{{release.album}}</td>
+            <tr
+              ng-if="available == 'all'"
+              ng-repeat="release in releases | orderBy:order:orderby | filter:searchText"
+              class="release-row">
+              <td ng-class="{
+                techno: release.genre.indexOf('techno') > -1,
+                house: release.genre.indexOf('house') > -1,
+                electro: release.genre.indexOf('electro') > -1,
+                ukhardcore: release.genre.indexOf('uk') > -1,
+                hardstyle: release.genre.indexOf('hardstyle') > -1,
+                rock: release.genre.indexOf('rock') > -1,
+                hardrock: release.genre.indexOf('hardrock') > -1,
+                denpa: release.genre.indexOf('denpa') > -1,
+                hiphop: release.genre.indexOf('hip-hop') > -1,
+                piano: release.genre.indexOf('piano') > -1,
+                classical: release.genre.indexOf('classical') > -1,
+                unknown: release.genre.indexOf('unknown') > -1,
+              }">
+                {{release.album}}
+              </td>
               <td>
                 <a ng-show="release.link" href="{{release.link}}" target="_blank">
                   {{release.artistcircle}}
@@ -81,7 +124,22 @@
             </tr>
 
             <tr ng-if="available == 'mp3'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-show="release.available.mp3">
-              <td>{{release.album}}</td>
+              <td ng-class="{
+                techno: release.genre.indexOf('techno') > -1,
+                house: release.genre.indexOf('house') > -1,
+                electro: release.genre.indexOf('electro') > -1,
+                ukhardcore: release.genre.indexOf('uk') > -1,
+                hardstyle: release.genre.indexOf('hardstyle') > -1,
+                rock: release.genre.indexOf('rock') > -1,
+                hardrock: release.genre.indexOf('hardrock') > -1,
+                denpa: release.genre.indexOf('denpa') > -1,
+                hiphop: release.genre.indexOf('hip-hop') > -1,
+                piano: release.genre.indexOf('piano') > -1,
+                classical: release.genre.indexOf('classical') > -1,
+                unknown: release.genre.indexOf('unknown') > -1,
+              }">
+                {{release.album}}
+              </td>
               <td>
                 <a ng-show="release.link" href="{{release.link}}" target="_blank">
                   {{release.artistcircle}}
@@ -111,7 +169,22 @@
             </tr>
 
             <tr ng-if="available == 'flac'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-show="release.available.flac">
-              <td>{{release.album}}</td>
+              <td ng-class="{
+                techno: release.genre.indexOf('techno') > -1,
+                house: release.genre.indexOf('house') > -1,
+                electro: release.genre.indexOf('electro') > -1,
+                ukhardcore: release.genre.indexOf('uk') > -1,
+                hardstyle: release.genre.indexOf('hardstyle') > -1,
+                rock: release.genre.indexOf('rock') > -1,
+                hardrock: release.genre.indexOf('hardrock') > -1,
+                denpa: release.genre.indexOf('denpa') > -1,
+                hiphop: release.genre.indexOf('hip-hop') > -1,
+                piano: release.genre.indexOf('piano') > -1,
+                classical: release.genre.indexOf('classical') > -1,
+                unknown: release.genre.indexOf('unknown') > -1,
+              }">
+                {{release.album}}
+              </td>
               <td>
                 <a ng-show="release.link" href="{{release.link}}" target="_blank">
                   {{release.artistcircle}}
@@ -141,7 +214,22 @@
             </tr>
 
             <tr ng-if="available == 'other'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-show="release.available.other">
-              <td>{{release.album}}</td>
+              <td ng-class="{
+                techno: release.genre.indexOf('techno') > -1,
+                house: release.genre.indexOf('house') > -1,
+                electro: release.genre.indexOf('electro') > -1,
+                ukhardcore: release.genre.indexOf('uk') > -1,
+                hardstyle: release.genre.indexOf('hardstyle') > -1,
+                rock: release.genre.indexOf('rock') > -1,
+                hardrock: release.genre.indexOf('hardrock') > -1,
+                denpa: release.genre.indexOf('denpa') > -1,
+                hiphop: release.genre.indexOf('hip-hop') > -1,
+                piano: release.genre.indexOf('piano') > -1,
+                classical: release.genre.indexOf('classical') > -1,
+                unknown: release.genre.indexOf('unknown') > -1,
+              }">
+                {{release.album}}
+              </td>
               <td>
                 <a ng-show="release.link" href="{{release.link}}" target="_blank">
                   {{release.artistcircle}}

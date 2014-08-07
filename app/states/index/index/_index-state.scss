@@ -44,8 +44,19 @@
   }
 }
 
-.threads {
+.threads,
+.key {
   margin-top: 20px;
+}
+
+.key {
+  ul {
+    padding: 0;
+    li {
+      list-style: none;
+      padding: 5px;
+    }
+  }
 }
 
 .release-area {
@@ -53,6 +64,27 @@
   a:visited {
     color: $gray;
   }
+}
+
+.techno { background-color: desaturate($olive, 30); }
+.house { background-color: desaturate($green, 30); }
+.electro { background-color: desaturate($yellow, 30); }
+.ukhardcore { background-color: desaturate($orange, 30); }
+.hardstyle { background-color: desaturate($maroon, 30); }
+.electronic { background-color: desaturate($lime, 30); }
+.rock { background-color: desaturate($red, 30); }
+.hardrock { background-color: desaturate($gray, 30); }
+.denpa { background-color: desaturate($aqua, 30); }
+.hiphop { background-color: desaturate($navy, 30); }
+.piano { background-color: desaturate($teal, 30); }
+.classical { background-color: desaturate($purple, 30); }
+.unknown { background-color: desaturate($fuchsia, 30); }
+
+.hardstyle,
+.hiphop { color: darken($white, 10%); }
+.release-row:hover {
+  .hardstyle,
+  .hiphop { color: $black; }
 }
 
 .available-mp3,
