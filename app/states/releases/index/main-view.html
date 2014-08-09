@@ -25,13 +25,14 @@
   <div class="row threads">
     <div class="col-sm-6">
       <p class="text-center">
-        <strong>Source:</strong>
-        <a ng-href="{{ event.source }}">{{ event.source }}</a>
+        <strong>Doujinstyle thread:</strong>
+        <a target="_blank" ng-href="{{ event.doujinstyle }}">{{ event.doujinstyle }}</a>
       </p>
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-6" ng-hide="!event.jpthread">
       <p class="text-center">
         <strong>/jp/ thread:</strong>
+        <a target="_blank" ng-href="http://boards.4chan.org/jp/thread/{{ event.jpthread }}">{{ '#'+event.jpthread }}</a>
       </p>
     </div>
   </div>
