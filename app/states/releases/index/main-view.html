@@ -36,47 +36,56 @@
     </div>
   </div>
 
-  <div class="row key" ng-init="colorkey = 'hide'">
-    <div class="col-sm-8">
-      <p>
-        <strong>Colour Key:</strong>
-        <a href="" ng-hide="colorkey == 'show'" ng-click="colorkey = 'show'">Show</a>
-        <a href="" ng-hide="colorkey == 'hide'" ng-click="colorkey = 'hide'">Hide</a>
-        <ul ng-hide="colorkey == 'hide'">
-          <li class="techno">Techno / Electronica / Ambient / Chiptune / Disco / Funkot</li>
-          <li class="house">House / Trance / Eurobeat</li>
-          <li class="electro">Electro(-House) / Glitch Hop / Bassline HC / DnB / Dubstep</li>
-          <li class="ukhardcore">(UK / Happy / Freeform / ... ) Hardcore / J-Core / Hard Trance / Hard Dance / Makina</li>
-          <li class="hardstyle">Hardstyle / Gabber / Breakcore / Speedcore / Schranz</li>
-          <li class="electronic">Electronic</li>
-          <li class="rock">Rock / Pop</li>
-          <li class="hardrock">Hard Rock / Metal / Gothic</li>
-          <li class="denpa">Denpa</li>
-          <li class="hiphop">Hip-Hop / Rap / R&amp;B / Vocal / Acappella</li>
-          <li class="piano">Piano / Jazz / Bossa Nova / Easy Listening / Lounge / Chillout</li>
-          <li class="classical">Classical / Orchestral / Traditional / Soundtrack / BGM / Acoustic / Folk</li>
-          <li class="unknown">Various / Unknown</li>
-        </ul>
-      </p>
-    </div>
-    <div class="col-sm-4">
-      <ul class="text-right">
-        <li ng-hide="tableParams.$params.filter.available == ''">
-          <b>Showing only:</b> {{ tableParams.$params.filter.available }} releases
-        </li>
-        <li>
-          <b>Sorting by:</b> {{ tableParams.$params.sorting }}
-        </li>
-        <li>
-          <b>Current Page:</b> {{ tableParams.$params.page }}
-        </li>
-        <li>
-          <b>Releases per page:</b> {{ tableParams.$params.count }}
-        </li>
-        <li>
-          <b>Total Releases:</b> {{ total }}
-        </li>
-      </ul>
+  <div class="row info" ng-init="info = 'hide'">
+    <div class="col-xs-12">
+      <h3>
+        Info
+        <small>
+          <a href="" ng-hide="info == 'show'" ng-click="info = 'show'">Show</a>
+          <a href="" ng-hide="info == 'hide'" ng-click="info = 'hide'">Hide</a>
+        </small>
+      </h3>
+      <div class="row" ng-hide="info == 'hide'">
+        <div class="col-sm-8">
+          <p>
+            <strong>Colour Key:</strong>
+            <ul>
+              <li class="techno">Techno / Electronica / Ambient / Chiptune / Disco / Funkot</li>
+              <li class="house">House / Trance / Eurobeat</li>
+              <li class="electro">Electro(-House) / Glitch Hop / Bassline HC / DnB / Dubstep</li>
+              <li class="ukhardcore">(UK / Happy / Freeform / ... ) Hardcore / J-Core / Hard Trance / Hard Dance / Makina</li>
+              <li class="hardstyle">Hardstyle / Gabber / Breakcore / Speedcore / Schranz</li>
+              <li class="electronic">Electronic</li>
+              <li class="rock">Rock / Pop</li>
+              <li class="hardrock">Hard Rock / Metal / Gothic</li>
+              <li class="denpa">Denpa</li>
+              <li class="hiphop">Hip-Hop / Rap / R&amp;B / Vocal / Acappella</li>
+              <li class="piano">Piano / Jazz / Bossa Nova / Easy Listening / Lounge / Chillout</li>
+              <li class="classical">Classical / Orchestral / Traditional / Soundtrack / BGM / Acoustic / Folk</li>
+              <li class="unknown">Various / Unknown</li>
+            </ul>
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <ul class="text-right">
+            <li ng-hide="tableParams.$params.filter.available == '' && tableParams.$params.filter.type == ''">
+              <b>Showing:</b> {{ tableParams.$params.filter.type | titlecase }} {{ tableParams.$params.filter.available | titlecase }} Releases
+            </li>
+            <li>
+              <b>Sorting by:</b> {{ tableParams.$params.sorting }}
+            </li>
+            <li>
+              <b>Current Page:</b> {{ tableParams.$params.page }}
+            </li>
+            <li>
+              <b>Releases per page:</b> {{ tableParams.$params.count }}
+            </li>
+            <li>
+              <b>Total Releases:</b> {{ total }}
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 
