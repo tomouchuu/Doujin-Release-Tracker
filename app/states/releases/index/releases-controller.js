@@ -50,7 +50,6 @@ angular.module('doujinReleaseTracker')
         }, {
           total: 0,           // length of data
           getData: function($defer, params) {
-            console.log(params);
             ReleasesRepository.getById(eventId).then(function (releases) {
               // Order the filter
               var orderedData = params.sorting() ?
@@ -91,7 +90,7 @@ angular.module('doujinReleaseTracker')
                     });
                   }
                 }
-                else if (params.filter().type)
+                if (params.filter().type)
                 {
                   var filterby = params.filter().type;
                   orderedData = $filter('filter')(orderedData, function(release){
@@ -101,12 +100,9 @@ angular.module('doujinReleaseTracker')
                     }
                   });
                 }
-                else
-                {
-                  orderedData = params.filter() ?
-                                  $filter('filter')(orderedData, params.filter()) :
-                                  orderedData;
-                }
+                orderedData = params.filter() ?
+                                $filter('filter')(orderedData, params.filter().artistcircle) :
+                                orderedData;
               }
 
               $scope.releases = orderedData.slice((params.page() - 1) * params.count(), params.page() * params.count());
@@ -187,7 +183,7 @@ angular.module('doujinReleaseTracker')
                     });
                   }
                 }
-                else if (params.filter().type)
+                if (params.filter().type)
                 {
                   var filterby = params.filter().type;
                   orderedData = $filter('filter')(orderedData, function(release){
@@ -197,12 +193,9 @@ angular.module('doujinReleaseTracker')
                     }
                   });
                 }
-                else
-                {
-                  orderedData = params.filter() ?
-                                  $filter('filter')(orderedData, params.filter()) :
-                                  orderedData;
-                }
+                orderedData = params.filter() ?
+                                $filter('filter')(orderedData, params.filter().artistcircle) :
+                                orderedData;
               }
 
               $scope.releases = orderedData.slice((params.page() - 1) * params.count(), params.page() * params.count());

@@ -34,7 +34,6 @@ angular.module('doujinReleaseTracker')
       }, {
         total: 0,           // length of data
         getData: function($defer, params) {
-          console.log(params);
           ReleasesRepository.getById($scope.eventId).then(function (releases) {
             // Order the filter
             var orderedData = params.sorting() ?
@@ -75,22 +74,19 @@ angular.module('doujinReleaseTracker')
                   });
                 }
               }
-              else if (params.filter().type)
-                {
-                  var filterby = params.filter().type;
-                  orderedData = $filter('filter')(orderedData, function(release){
-                    if (release.type === filterby)
-                    {
-                      return release;
-                    }
-                  });
-                }
-              else
+              if (params.filter().type)
               {
-                orderedData = params.filter() ?
-                                $filter('filter')(orderedData, params.filter()) :
-                                orderedData;
+                var filterby = params.filter().type;
+                orderedData = $filter('filter')(orderedData, function(release){
+                  if (release.type === filterby)
+                  {
+                    return release;
+                  }
+                });
               }
+              orderedData = params.filter() ?
+                              $filter('filter')(orderedData, params.filter().artistcircle) :
+                              orderedData;
             }
 
             $scope.releases = orderedData.slice((params.page() - 1) * params.count(), params.page() * params.count());
