@@ -1,102 +1,102 @@
 .index-state {
   margin-top: 51px !important;
   padding: 10px 0;
-}
-
-.event-title {
-  @media screen and (max-width: 1199px) {
-    text-align: center;
-  }
-  .date {
-    font-size: 60%;
-  }
-}
-
-.search-area,
-.available-filter {
-  margin-top: 30px;
-}
-.search-area {
-  @media screen and (max-width: 1199px) {
-    text-align: left;
-  };
-  @media screen and (max-width: 768px) {
-    text-align: center
-  };
-}
-#searchbox {
-  margin-left: 10px;
-  width: 300px;
-  @media screen and (max-width: 991px) {
-    width: 75%;
-  };
-  @media screen and (max-width: 768px) {
-    width: 300px;
-  };
-}
-.available-filter {
-  margin-top: 25px;
-  text-align: right;
-  p {
-    @media screen and (max-width: 767px) {
+  .event-title {
+    @media screen and (max-width: 1199px) {
       text-align: center;
     }
-  }
-}
-
-.threads,
-.key {
-  margin-top: 20px;
-}
-
-.key {
-  ul {
-    padding: 0;
-    li {
-      list-style: none;
-      padding: 5px;
+    .date {
+      font-size: 60%;
     }
   }
-}
 
-.release-area {
-  margin: 30px 0;
-  a:visited {
-    color: $gray;
+  .search-area,
+  .available-filter {
+    margin-top: 30px;
   }
-}
-
-.techno { background-color: desaturate($olive, 30); }
-.house { background-color: desaturate($green, 30); }
-.electro { background-color: desaturate($yellow, 30); }
-.ukhardcore { background-color: desaturate($orange, 30); }
-.hardstyle { background-color: desaturate($maroon, 30); }
-.electronic { background-color: desaturate($lime, 30); }
-.rock { background-color: desaturate($red, 30); }
-.hardrock { background-color: desaturate($gray, 30); }
-.denpa { background-color: desaturate($aqua, 30); }
-.hiphop { background-color: desaturate($navy, 30); }
-.piano { background-color: desaturate($teal, 30); }
-.classical { background-color: desaturate($purple, 30); }
-.unknown { background-color: desaturate($fuchsia, 30); }
-
-.hardstyle,
-.hiphop { color: darken($white, 10%); }
-.release-row:hover {
-  .hardstyle,
-  .hiphop { color: $black; }
-}
-
-.available-mp3,
-.available-flac,
-.available-other {
-  .fa-times {
-    color: $red;
+  .search-area {
+    @media screen and (max-width: 1199px) {
+      text-align: left;
+    };
+    @media screen and (max-width: 768px) {
+      text-align: center
+    };
   }
-  a {
-    color: $green;
-    &:visited {
+  #searchbox {
+    margin-left: 10px;
+    width: 250px;
+    @media screen and (max-width: 991px) {
+      width: 75%;
+    };
+    @media screen and (max-width: 768px) {
+      width: 250px;
+    };
+  }
+  .available-filter {
+    margin-top: 25px;
+    text-align: right;
+    p {
+      @media screen and (max-width: 767px) {
+        text-align: center;
+      }
+    }
+  }
+
+  .threads,
+  .key {
+    margin-top: 20px;
+  }
+
+  .key {
+    ul {
+      padding: 0;
+      li {
+        list-style: none;
+        padding: 5px;
+      }
+    }
+  }
+
+  .release-area {
+    margin: 30px 0;
+    a:visited {
       color: $gray;
     }
   }
+
+  .techno { background-color: desaturate($olive, 30); }
+  .house { background-color: desaturate($green, 30); }
+  .electro { background-color: desaturate($yellow, 30); }
+  .ukhardcore { background-color: desaturate($orange, 30); }
+  .hardstyle { background-color: desaturate($maroon, 30); }
+  .electronic { background-color: desaturate($lime, 30); }
+  .rock { background-color: desaturate($red, 30); }
+  .hardrock { background-color: desaturate($gray, 30); }
+  .denpa { background-color: desaturate($aqua, 30); }
+  .hiphop { background-color: desaturate($navy, 30); }
+  .piano { background-color: desaturate($teal, 30); }
+  .classical { background-color: desaturate($purple, 30); }
+  .unknown { background-color: desaturate($fuchsia, 30); }
+
+  .hardstyle,
+  .hiphop { color: darken($white, 10%); }
+  .release-row:hover {
+    .hardstyle,
+    .hiphop { color: $black; }
+  }
+
+  .available-mp3,
+  .available-flac,
+  .available-other {
+    .fa-times {
+      color: $red;
+    }
+    a {
+      color: $green;
+      &:visited {
+        color: $gray;
+      }
+    }
+  }
 }
+

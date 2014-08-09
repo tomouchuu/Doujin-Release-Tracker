@@ -6,10 +6,19 @@
         <h1 ng-show="category === 'm3'">{{ category | titlecase }} <span class="date">{{ event.date }}</span></h1>
     </div>
     <div class="search-area col-lg-4 col-sm-6 text-center">
-        <p>Search: <input ng-model="searchText" data-toggle="tooltip" data-placement="auto top" data-original-title="Search Albums, Artists, Circles, Links, Type, Genres &amp; Availiability (comma space seperated for more than one)" id="searchbox"></p>
+        <p>Search Artist/Circle: <input ng-model="filter.artistcircle" id="searchbox"></p>
     </div>
-    <div class="available-filter col-lg-4 col-sm-6" ng-init="available = 'all'">
-        <p>Show: <a href="" ng-click="available = 'all'">All</a> // <a href="" ng-click="available = 'mp3'">Available MP3s</a><br> // <a href="" ng-click="available = 'flac'">Available FLACs</a> // <a href="" ng-click="available = 'other'">Available Others</a></p>
+    <div class="available-filter col-lg-4 col-sm-6" ng-init="filter.available = ''">
+      <p>Show:
+        <a href="" ng-click="filter.available = ''">All</a> //
+        <a href="" ng-click="filter.available = 'mp3'">Available MP3s</a><br> //
+        <a href="" ng-click="filter.available = 'flac'">Available FLACs</a> //
+        <a href="" ng-click="filter.available = 'other'">Available Others</a><br> //
+        <a href="" ng-click="filter.type = 'touhou'">Touhou</a> //
+        <a href="" ng-click="filter.type = 'kancolle'">KanColle</a> //
+        <a href="" ng-click="filter.type = 'vocaloid'">Vocaloid</a> //
+        <a href="" ng-click="filter.type = 'utaite'">Utaite</a>
+      </p>
     </div>
   </div>
 
@@ -27,239 +36,153 @@
     </div>
   </div>
 
-  <div class="row key" ng-init="colorkey = 'hide'">
+  <div class="row info" ng-init="info = 'hide'">
     <div class="col-xs-12">
-      <p>
-        <strong>Colour Key:</strong>
-        <a href="" ng-hide="colorkey == 'show'" ng-click="colorkey = 'show'">Show</a>
-        <a href="" ng-hide="colorkey == 'hide'" ng-click="colorkey = 'hide'">Hide</a>
-        <ul ng-hide="colorkey == 'hide'">
-          <li class="techno">Techno / Electronica / Ambient / Chiptune / Disco / Funkot</li>
-          <li class="house">House / Trance / Eurobeat</li>
-          <li class="electro">Electro(-House) / Glitch Hop / Bassline HC / DnB / Dubstep</li>
-          <li class="ukhardcore">(UK / Happy / Freeform / ... ) Hardcore / J-Core / Hard Trance / Hard Dance / Makina</li>
-          <li class="hardstyle">Hardstyle / Gabber / Breakcore / Speedcore / Schranz</li>
-          <li class="electronic">Electronic</li>
-          <li class="rock">Rock / Pop</li>
-          <li class="hardrock">Hard Rock / Metal / Gothic</li>
-          <li class="denpa">Denpa</li>
-          <li class="hiphop">Hip-Hop / Rap / R&amp;B / Vocal / Acappella</li>
-          <li class="piano">Piano / Jazz / Bossa Nova / Easy Listening / Lounge / Chillout</li>
-          <li class="classical">Classical / Orchestral / Traditional / Soundtrack / BGM / Acoustic / Folk</li>
-          <li class="unknown">Various / Unknown</li>
-        </ul>
-      </p>
+      <h3>
+        Info
+        <small>
+          <a href="" ng-hide="info == 'show'" ng-click="info = 'show'">Show</a>
+          <a href="" ng-hide="info == 'hide'" ng-click="info = 'hide'">Hide</a>
+        </small>
+      </h3>
+      <div class="row" ng-hide="info == 'hide'">
+        <div class="col-sm-8">
+          <p>
+            <strong>Colour Key:</strong>
+            <ul>
+              <li class="techno">Techno / Electronica / Ambient / Chiptune / Disco / Funkot</li>
+              <li class="house">House / Trance / Eurobeat</li>
+              <li class="electro">Electro(-House) / Glitch Hop / Bassline HC / DnB / Dubstep</li>
+              <li class="ukhardcore">(UK / Happy / Freeform / ... ) Hardcore / J-Core / Hard Trance / Hard Dance / Makina</li>
+              <li class="hardstyle">Hardstyle / Gabber / Breakcore / Speedcore / Schranz</li>
+              <li class="electronic">Electronic</li>
+              <li class="rock">Rock / Pop</li>
+              <li class="hardrock">Hard Rock / Metal / Gothic</li>
+              <li class="denpa">Denpa</li>
+              <li class="hiphop">Hip-Hop / Rap / R&amp;B / Vocal / Acappella</li>
+              <li class="piano">Piano / Jazz / Bossa Nova / Easy Listening / Lounge / Chillout</li>
+              <li class="classical">Classical / Orchestral / Traditional / Soundtrack / BGM / Acoustic / Folk</li>
+              <li class="unknown">Various / Unknown</li>
+            </ul>
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <ul class="text-right">
+            <li ng-hide="tableParams.$params.filter.available == '' && tableParams.$params.filter.type == ''">
+              <b>Showing:</b> {{ tableParams.$params.filter.type | titlecase }} {{ tableParams.$params.filter.available | titlecase }} Releases
+            </li>
+            <li>
+              <b>Sorting by:</b> {{ tableParams.$params.sorting }}
+            </li>
+            <li>
+              <b>Current Page:</b> {{ tableParams.$params.page }}
+            </li>
+            <li>
+              <b>Releases per page:</b> {{ tableParams.$params.count }}
+            </li>
+            <li>
+              <b>Total Releases:</b> {{ total }}
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 
   <div class="row" cg-busy="'ReleasesRepository.getAll'">
-    <div class="release-area col-lg-12">
-      <div class="table-responsive">
+    <div class="release-area col-xs-12">
+      <div loading-container="tableParams.settings().$loading">
 
-        <table class="table table-hover releases table-bordered">
-          <thead>
-            <tr>
-              <th rowspan="2">Album</th>
-              <th rowspan="2">Artist / Circle</th>
-              <th rowspan="2">Preview</th>
-              <th colspan="3" class="available">Available</th>
-            </tr>
-            <tr>
-              <th>
-                MP3<br>
-                <small>V0 unless noted</small>
-              </th>
-              <th>FLAC</th>
-              <th>Other</th>
-            </tr>
-          </thead>
-          <tbody>
+        <div class="table-responsive">
+          <table ng-table="tableParams" class="table table-hover releases table-bordered">
+            <thead>
+              <tr>
+                <th class="sortable" ng-class="{
+                    'sort-asc': tableParams.isSortBy('album', 'asc'),
+                    'sort-desc': tableParams.isSortBy('album', 'desc')
+                  }"
+                  ng-click="tableParams.sorting({'album' : tableParams.isSortBy('album', 'asc') ? 'desc' : 'asc'})" rowspan="2">
+                  <div>Album</div>
+                </th>
+                <th class="sortable" ng-class="{
+                    'sort-asc': tableParams.isSortBy('artistcircle', 'asc'),
+                    'sort-desc': tableParams.isSortBy('artistcircle', 'desc')
+                  }"
+                  ng-click="tableParams.sorting({'artistcircle' : tableParams.isSortBy('artistcircle', 'asc') ? 'desc' : 'asc'})" rowspan="2"  filter="{ 'artistcircle': 'text' }">
+                  <div>Artist / Circle</div>
+                </th>
+                <th rowspan="2">
+                  <div>Preview</div>
+                </th>
+                <th colspan="3" class="text-center">Available</th>
+              </tr>
+              <tr>
+                <th class="text-center">
+                  <div>
+                    MP3
+                    <br>
+                    <small>V0 unless noted</small>
+                  </div>
+                </th>
+                <th class="text-center">
+                  <div>Flac</div>
+                </th>
+                <th class="text-center">
+                  <div>Other</div>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat="release in $data">
+                <td
+                  data-title="'Album'"
+                  filter="{ 'album': 'text' }"
+                  sortable="album"
+                  ng-class="{
+                    techno: release.genre.indexOf('techno') > -1,
+                    house: release.genre.indexOf('house') > -1,
+                    electro: release.genre.indexOf('electro') > -1,
+                    ukhardcore: release.genre.indexOf('uk') > -1,
+                    hardstyle: release.genre.indexOf('hardstyle') > -1,
+                    rock: release.genre.indexOf('rock') > -1,
+                    hardrock: release.genre.indexOf('hardrock') > -1,
+                    denpa: release.genre.indexOf('denpa') > -1,
+                    hiphop: release.genre.indexOf('hip-hop') > -1,
+                    piano: release.genre.indexOf('piano') > -1,
+                    classical: release.genre.indexOf('classical') > -1,
+                    unknown: release.genre.indexOf('unknown') > -1,
+                  }"
+                >
+                  {{release.album}}
+                </td>
+                <td data-title="'Artist / Circle'" sortable="artistcircle">
+                  <a ng-show="release.link" href="{{release.link}}" target="_blank">
+                    {{release.artistcircle}}
+                  </a>
+                  <span ng-hide="release.link">
+                    {{release.artistcircle}}
+                  </span>
+                </td>
+                <td data-title="'Preview'">
+                  <a href="{{release.preview}}" target="_blank">{{release.preview}}</a>
+                </td>
+                <td data-title="'Available MP3'" class="available-mp3 text-center">
+                  <a href="{{release.available.mp3}}" target="_blank" ng-show="release.available.mp3"><i class="fa fa-check"></i></a>
+                  <i class="fa fa-times" ng-hide="release.available.mp3"></i>
+                </td>
+                <td data-title="'Available FLAC'" class="available-flac text-center">
+                  <a href="{{release.available.flac}}" target="_blank" ng-show="release.available.flac"><i class="fa fa-check"></i></a>
+                  <i class="fa fa-times" ng-hide="release.available.flac"></i>
+                </td>
+                <td data-title="'Available Other'" class="available-other text-center">
+                  <a href="{{release.available.other}}" target="_blank" ng-show="release.available.other"><i class="fa fa-check"></i></a>
+                  <i class="fa fa-times" ng-hide="release.available.other"></i>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
-            <tr
-              ng-if="available == 'all'"
-              ng-repeat="release in releases | orderBy:order:orderby | filter:searchText"
-              class="release-row">
-              <td ng-class="{
-                techno: release.genre.indexOf('techno') > -1,
-                house: release.genre.indexOf('house') > -1,
-                electro: release.genre.indexOf('electro') > -1,
-                ukhardcore: release.genre.indexOf('uk') > -1,
-                hardstyle: release.genre.indexOf('hardstyle') > -1,
-                rock: release.genre.indexOf('rock') > -1,
-                hardrock: release.genre.indexOf('hardrock') > -1,
-                denpa: release.genre.indexOf('denpa') > -1,
-                hiphop: release.genre.indexOf('hip-hop') > -1,
-                piano: release.genre.indexOf('piano') > -1,
-                classical: release.genre.indexOf('classical') > -1,
-                unknown: release.genre.indexOf('unknown') > -1,
-              }">
-                {{release.album}}
-              </td>
-              <td>
-                <a ng-show="release.link" href="{{release.link}}" target="_blank">
-                  {{release.artistcircle}}
-                </a>
-                <span ng-hide="release.link">
-                  {{release.artistcircle}}
-                </span>
-              </td>
-              <td>
-                <a href="{{release.preview}}" target="_blank">{{release.preview}}</a>
-              </td>
-              <td class="available-mp3">
-                <a href="{{release.available.mp3}}" target="_blank" ng-show="release.available.mp3"><i class="fa fa-check"></i></a>
-                <i class="fa fa-times" ng-hide="release.available.mp3"></i>
-              </td>
-              <td class="available-flac">
-                <a href="{{release.available.flac}}" target="_blank" ng-show="release.available.flac"><i class="fa fa-check"></i></a>
-                <i class="fa fa-times" ng-hide="release.available.flac"></i>
-              </td>
-              <td class="available-other">
-                <a href="{{release.available.other}}" target="_blank" ng-show="release.available.other"><i class="fa fa-check"></i></a>
-                <i class="fa fa-times" ng-hide="release.available.other"></i>
-              </td>
-            </tr>
-            <tr ng-if="available == 'all'" class="release-row" ng-hide="releases">
-              <td colspan="6" style="text-align:center;">No Releases Found</td>
-            </tr>
-
-            <tr ng-if="available == 'mp3'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-show="release.available.mp3">
-              <td ng-class="{
-                techno: release.genre.indexOf('techno') > -1,
-                house: release.genre.indexOf('house') > -1,
-                electro: release.genre.indexOf('electro') > -1,
-                ukhardcore: release.genre.indexOf('uk') > -1,
-                hardstyle: release.genre.indexOf('hardstyle') > -1,
-                rock: release.genre.indexOf('rock') > -1,
-                hardrock: release.genre.indexOf('hardrock') > -1,
-                denpa: release.genre.indexOf('denpa') > -1,
-                hiphop: release.genre.indexOf('hip-hop') > -1,
-                piano: release.genre.indexOf('piano') > -1,
-                classical: release.genre.indexOf('classical') > -1,
-                unknown: release.genre.indexOf('unknown') > -1,
-              }">
-                {{release.album}}
-              </td>
-              <td>
-                <a ng-show="release.link" href="{{release.link}}" target="_blank">
-                  {{release.artistcircle}}
-                </a>
-                <span ng-hide="release.link">
-                  {{release.artistcircle}}
-                </span>
-              </td>
-              <td>
-                <a href="{{release.preview}}" target="_blank">{{release.preview}}</a>
-              </td>
-              <td class="available-mp3">
-                <a href="{{release.available.mp3}}" target="_blank" ng-show="release.available.mp3"><i class="fa fa-check"></i></a>
-                <i class="fa fa-times" ng-hide="release.available.mp3"></i>
-              </td>
-              <td class="available-flac">
-                <a href="{{release.available.flac}}" target="_blank" ng-show="release.available.flac"><i class="fa fa-check"></i></a>
-                <i class="fa fa-times" ng-hide="release.available.flac"></i>
-              </td>
-              <td class="available-other">
-                <a href="{{release.available.other}}" target="_blank" ng-show="release.available.other"><i class="fa fa-check"></i></a>
-                <i class="fa fa-times" ng-hide="release.available.other"></i>
-              </td>
-            </tr>
-            <tr ng-if="available == 'mp3'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-hide="release.available.mp3">
-              <td ng-show="$first" colspan="6" style="text-align:center;">No MP3 Releases Found</td>
-            </tr>
-
-            <tr ng-if="available == 'flac'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-show="release.available.flac">
-              <td ng-class="{
-                techno: release.genre.indexOf('techno') > -1,
-                house: release.genre.indexOf('house') > -1,
-                electro: release.genre.indexOf('electro') > -1,
-                ukhardcore: release.genre.indexOf('uk') > -1,
-                hardstyle: release.genre.indexOf('hardstyle') > -1,
-                rock: release.genre.indexOf('rock') > -1,
-                hardrock: release.genre.indexOf('hardrock') > -1,
-                denpa: release.genre.indexOf('denpa') > -1,
-                hiphop: release.genre.indexOf('hip-hop') > -1,
-                piano: release.genre.indexOf('piano') > -1,
-                classical: release.genre.indexOf('classical') > -1,
-                unknown: release.genre.indexOf('unknown') > -1,
-              }">
-                {{release.album}}
-              </td>
-              <td>
-                <a ng-show="release.link" href="{{release.link}}" target="_blank">
-                  {{release.artistcircle}}
-                </a>
-                <span ng-hide="release.link">
-                  {{release.artistcircle}}
-                </span>
-              </td>
-              <td>
-                <a href="{{release.preview}}" target="_blank">{{release.preview}}</a>
-              </td>
-              <td class="available-mp3">
-                <a href="{{release.available.mp3}}" target="_blank" ng-show="release.available.mp3"><i class="fa fa-check"></i></a>
-                <i class="fa fa-times" ng-hide="release.available.mp3"></i>
-              </td>
-              <td class="available-flac">
-                <a href="{{release.available.flac}}" target="_blank" ng-show="release.available.flac"><i class="fa fa-check"></i></a>
-                <i class="fa fa-times" ng-hide="release.available.flac"></i>
-              </td>
-              <td class="available-other">
-                <a href="{{release.available.other}}" target="_blank" ng-show="release.available.other"><i class="fa fa-check"></i></a>
-                <i class="fa fa-times" ng-hide="release.available.other"></i>
-              </td>
-            </tr>
-            <tr ng-if="available == 'flac'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-hide="release.available.flac">
-              <td ng-show="$first" colspan="6" style="text-align:center;">No FLAC Releases Found</td>
-            </tr>
-
-            <tr ng-if="available == 'other'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-show="release.available.other">
-              <td ng-class="{
-                techno: release.genre.indexOf('techno') > -1,
-                house: release.genre.indexOf('house') > -1,
-                electro: release.genre.indexOf('electro') > -1,
-                ukhardcore: release.genre.indexOf('uk') > -1,
-                hardstyle: release.genre.indexOf('hardstyle') > -1,
-                rock: release.genre.indexOf('rock') > -1,
-                hardrock: release.genre.indexOf('hardrock') > -1,
-                denpa: release.genre.indexOf('denpa') > -1,
-                hiphop: release.genre.indexOf('hip-hop') > -1,
-                piano: release.genre.indexOf('piano') > -1,
-                classical: release.genre.indexOf('classical') > -1,
-                unknown: release.genre.indexOf('unknown') > -1,
-              }">
-                {{release.album}}
-              </td>
-              <td>
-                <a ng-show="release.link" href="{{release.link}}" target="_blank">
-                  {{release.artistcircle}}
-                </a>
-                <span ng-hide="release.link">
-                  {{release.artistcircle}}
-                </span>
-              </td>
-              <td>
-                <a href="{{release.preview}}" target="_blank">{{release.preview}}</a>
-              </td>
-              <td class="available-mp3">
-                <a href="{{release.available.mp3}}" target="_blank" ng-show="release.available.mp3"><i class="fa fa-check"></i></a>
-                <i class="fa fa-times" ng-hide="release.available[0].mp3"></i>
-              </td>
-              <td class="available-flac">
-                <a href="{{release.available.flac}}" target="_blank" ng-show="release.available.flac"><i class="fa fa-check"></i></a>
-                <i class="fa fa-times" ng-hide="release.available.flac"></i>
-              </td>
-              <td class="available-other">
-                <a href="{{release.available.other}}" target="_blank" ng-show="release.available.other"><i class="fa fa-check"></i></a>
-                <i class="fa fa-times" ng-hide="release.available.other"></i>
-              </td>
-            </tr>
-            <tr ng-if="available == 'other'" ng-repeat="release in releases | orderBy:order:orderby | filter:searchText" class="release-row" ng-hide="release.available.other">
-              <td ng-show="$first" colspan="6" style="text-align:center;">No Other Format Releases Found</td>
-            </tr>
-
-          </tbody>
-        </table>
       </div>
     </div>
   </div>

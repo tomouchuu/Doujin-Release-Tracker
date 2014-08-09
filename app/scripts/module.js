@@ -17,6 +17,7 @@ var app = angular.module('doujinReleaseTracker', [
   'ui.router',
   'ui.bootstrap',
   'restangular',
-  'ngSanitize'
+  'ngSanitize',
+  'ngTable'
 ]);
 angular.componentFactory.moduleDecorator(app);
