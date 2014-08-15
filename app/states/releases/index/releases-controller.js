@@ -100,7 +100,7 @@ angular.module('doujinReleaseTracker')
                 {
                   var filterby = params.filter().type;
                   orderedData = $filter('filter')(orderedData, function(release){
-                    if (release.type === filterby)
+                    if (release.type.indexOf(filterby) > -1)
                     {
                       return release;
                     }
