@@ -6,11 +6,11 @@
         <h1 ng-show="category === 'm3'">{{ category | titlecase }} <span class="date">{{ event.date }}</span></h1>
     </div>
     <div class="search-area col-lg-4 col-sm-6 text-center">
-        <p>Search Artist/Circle: <input ng-model="filter.artistcircle" id="searchbox"></p>
+        <p>Search: <input ng-model="filter.artistcircle" id="searchbox"></p>
     </div>
-    <div class="available-filter col-lg-4 col-sm-6" ng-init="filter.available = ''">
+    <div class="available-filter col-lg-4 col-sm-6" ng-init="[filter.available = '', filter.type = '']">
       <p>Show:
-        <a href="" ng-click="filter.available = ''">All</a> //
+        <a href="" ng-click="[filter.available = '', filter.type = '']">All</a> //
         <a href="" ng-click="filter.available = 'mp3'">Available MP3s</a><br> //
         <a href="" ng-click="filter.available = 'flac'">Available FLACs</a> //
         <a href="" ng-click="filter.available = 'other'">Available Others</a><br> //
