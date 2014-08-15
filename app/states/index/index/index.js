@@ -3,16 +3,23 @@
 angular.module('doujinReleaseTracker')
   .config(function ($stateProvider, stateFactory) {
     $stateProvider.state('index', stateFactory('Index', {
-      url: '/'
+      url: '/',
+      resolve: {
+        contributors: "getContributors"
+      }
     }));
   })
-  .controller('IndexCtrl', function ($rootScope, $scope, $stateParams, $filter, ReleasesRepository, EventsRepository, ngTableParams) {
+  .controller('IndexCtrl', function ($rootScope, $scope, $stateParams, $filter, contributors, ReleasesRepository, EventsRepository, ngTableParams) {
 
     $scope.filter = {
       artistcircle: '',
       available: '',
       type: ''
     };
+
+    angular.element('head').append('<meta name="signet:authors" content="' + contributors.names + '">');
+    angular.element('head').append('<meta name="signet:links" content="' + contributors.urls + '">');
+    angular.element('head').append('<script src="//oss.maxcdn.com/signet/0.4.4/signet.min.js"></script>');
 
     EventsRepository.getAll().then(function (event) {
       var ids = Object.keys(event);

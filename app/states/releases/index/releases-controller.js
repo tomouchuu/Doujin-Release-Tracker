@@ -6,14 +6,20 @@ angular.module('doujinReleaseTracker')
     {
       $stateProvider.state('releases', stateFactory('Releases', {
         url: '/releases/{eventId:[c[0-9]+]*}',
-        templateUrl: 'states/releases/index/main-view.html'
+        templateUrl: 'states/releases/index/main-view.html',
+        resolve: {
+          contributors: "getContributors"
+        }
       }));
     }
     else
     {
       $stateProvider.state('releases', stateFactory('Releases', {
         url: '/releases/{eventId:[[0-9]+]*}',
-        templateUrl: 'states/releases/index/main-view.html'
+        templateUrl: 'states/releases/index/main-view.html',
+        resolve: {
+          contributors: "getContributors"
+        }
       }));
     }
   })
