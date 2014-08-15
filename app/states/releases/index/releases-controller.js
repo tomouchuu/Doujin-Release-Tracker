@@ -201,7 +201,7 @@ angular.module('doujinReleaseTracker')
               $scope.releases = orderedData.slice((params.page() - 1) * params.count(), params.page() * params.count());
 
               // Total Releases
-              $scope.total = orderedData.length
+              $scope.total = orderedData.length;
               params.total($scope.total);
 
               // Send it to the view
