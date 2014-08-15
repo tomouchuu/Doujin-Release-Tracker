@@ -37,62 +37,13 @@
     </div>
   </div>
 
-  <div class="row info" ng-init="info = 'hide'">
-    <div class="col-xs-12">
-      <h3>
-        Info
-        <small>
-          <a href="" ng-hide="info == 'show'" ng-click="info = 'show'">Show</a>
-          <a href="" ng-hide="info == 'hide'" ng-click="info = 'hide'">Hide</a>
-        </small>
-      </h3>
-      <div class="row" ng-hide="info == 'hide'">
-        <div class="col-sm-8">
-          <p>
-            <strong>Colour Key:</strong>
-            <ul>
-              <li class="techno">Techno / Electronica / Ambient / Chiptune / Disco / Funkot</li>
-              <li class="house">House / Trance / Eurobeat</li>
-              <li class="electro">Electro(-House) / Glitch Hop / Bassline HC / DnB / Dubstep</li>
-              <li class="ukhardcore">(UK / Happy / Freeform / ... ) Hardcore / J-Core / Hard Trance / Hard Dance / Makina</li>
-              <li class="hardstyle">Hardstyle / Gabber / Breakcore / Speedcore / Schranz</li>
-              <li class="electronic">Electronic</li>
-              <li class="rock">Rock / Pop</li>
-              <li class="hardrock">Hard Rock / Metal / Gothic</li>
-              <li class="denpa">Denpa</li>
-              <li class="hiphop">Hip-Hop / Rap / R&amp;B / Vocal / Acappella</li>
-              <li class="piano">Piano / Jazz / Bossa Nova / Easy Listening / Lounge / Chillout</li>
-              <li class="classical">Classical / Orchestral / Traditional / Soundtrack / BGM / Acoustic / Folk</li>
-              <li class="unknown">Various / Unknown</li>
-            </ul>
-          </p>
-        </div>
-        <div class="col-sm-4">
-          <ul class="text-right">
-            <li ng-hide="tableParams.$params.filter.available == '' && tableParams.$params.filter.type == ''">
-              <b>Showing:</b> {{ tableParams.$params.filter.type | titlecase }} {{ tableParams.$params.filter.available | titlecase }} Releases
-            </li>
-            <li>
-              <b>Sorting by:</b> {{ tableParams.$params.sorting }}
-            </li>
-            <li>
-              <b>Current Page:</b> {{ tableParams.$params.page }}
-            </li>
-            <li>
-              <b>Releases per page:</b> {{ tableParams.$params.count }}
-            </li>
-            <li>
-              <b>Total Releases:</b> {{ total }}
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <div class="row" cg-busy="'ReleasesRepository.getAll'">
     <div class="release-area col-xs-12">
       <div loading-container="tableParams.settings().$loading">
+
+        <p class="text-right" ng-show="tableParams.$params.filter.type || tableParams.$params.filter.available">
+          <b>Showing:</b> {{ tableParams.$params.filter.type | titlecase }} {{ tableParams.$params.filter.available | titlecase }} Releases
+        </p>
 
         <div class="table-responsive">
           <table ng-table="tableParams" class="table table-hover releases table-bordered">
@@ -111,6 +62,13 @@
                   }"
                   ng-click="tableParams.sorting({'artistcircle' : tableParams.isSortBy('artistcircle', 'asc') ? 'desc' : 'asc'})" rowspan="2"  filter="{ 'artistcircle': 'text' }">
                   <div>Artist / Circle</div>
+                </th>
+                <th class="sortable" ng-class="{
+                    'sort-asc': tableParams.isSortBy('genre', 'asc'),
+                    'sort-desc': tableParams.isSortBy('genre', 'desc')
+                  }"
+                  ng-click="tableParams.sorting({'genre' : tableParams.isSortBy('genre', 'asc') ? 'desc' : 'asc'})" rowspan="2"  filter="{ 'genre': 'text' }">
+                  <div>Genre</div>
                 </th>
                 <th rowspan="2">
                   <div>Preview</div>
@@ -139,20 +97,6 @@
                   data-title="'Album'"
                   filter="{ 'album': 'text' }"
                   sortable="album"
-                  ng-class="{
-                    techno: release.genre.indexOf('techno') > -1,
-                    house: release.genre.indexOf('house') > -1,
-                    electro: release.genre.indexOf('electro') > -1,
-                    ukhardcore: release.genre.indexOf('uk') > -1,
-                    hardstyle: release.genre.indexOf('hardstyle') > -1,
-                    rock: release.genre.indexOf('rock') > -1,
-                    hardrock: release.genre.indexOf('hardrock') > -1,
-                    denpa: release.genre.indexOf('denpa') > -1,
-                    hiphop: release.genre.indexOf('hip-hop') > -1,
-                    piano: release.genre.indexOf('piano') > -1,
-                    classical: release.genre.indexOf('classical') > -1,
-                    unknown: release.genre.indexOf('unknown') > -1,
-                  }"
                 >
                   {{release.album}}
                 </td>
@@ -164,8 +108,11 @@
                     {{release.artistcircle}}
                   </span>
                 </td>
-                <td data-title="'Preview'">
-                  <a href="{{release.preview}}" target="_blank">{{release.preview}}</a>
+                <td data-title="'Genre'" sortable="genre">
+                  {{release.genre}}
+                </td>
+                <td data-title="'Preview'" class="text-center">
+                  <a href="{{release.preview}}" target="_blank"><i class="fa fa-headphones"></i></a>
                 </td>
                 <td data-title="'Available MP3'" class="available-mp3 text-center">
                   <a href="{{release.available.mp3}}" target="_blank" ng-show="release.available.mp3"><i class="fa fa-check"></i></a>
