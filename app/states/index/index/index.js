@@ -5,11 +5,14 @@ angular.module('doujinReleaseTracker')
     $stateProvider.state('index', stateFactory('Index', {
       url: '/',
       resolve: {
-        contributors: "getContributors"
+        contributors: "getContributors",
+        eventInfo: function(getEvent) {
+          return getEvent.eventData('');
+        }
       }
     }));
   })
-  .controller('IndexCtrl', function ($rootScope, $scope, $stateParams, $filter, contributors, ReleasesRepository, EventsRepository, ngTableParams) {
+  .controller('IndexCtrl', function ($rootScope, $scope, $stateParams, $filter, eventInfo, contributors, ReleasesRepository, EventsRepository, ngTableParams) {
 
     $scope.filter = {
       artistcircle: '',
@@ -17,96 +20,93 @@ angular.module('doujinReleaseTracker')
       type: ''
     };
 
-    angular.element('head').append('<meta name="signet:authors" content="' + contributors.names + '">');
-    angular.element('head').append('<meta name="signet:links" content="' + contributors.urls + '">');
+    angular.element('script[src="//oss.maxcdn.com/signet/0.4.4/signet.min.js"]').remove();
+    angular.element('meta[name="signet:authors"]').attr('content', contributors.names);
+    angular.element('meta[name="signet:links"]').attr('content', contributors.urls);
+    angular.element('title').text($filter('titlecase')(eventInfo.event) + ' ' + eventInfo.id + ' Release Tracker');
     angular.element('head').append('<script src="//oss.maxcdn.com/signet/0.4.4/signet.min.js"></script>');
 
-    EventsRepository.getAll().then(function (event) {
-      var ids = Object.keys(event);
-      ids.reverse();
+    $scope.eventId = eventInfo.id;
+    $scope.category = eventInfo.event;
+    $scope.eventDate = eventInfo.date;
+    $scope.eventDoujinstyle = eventInfo.doujinstyle;
+    $scope.eventJpThread = eventInfo.jpthread;
 
-      var first = ids[0];
+    $scope.tableParams = new ngTableParams({
+      page: 1,            // show first page
+      count: 100,         // count per page
+      sorting: {
+        artistcircle: 'asc'     // initial sorting
+      },
+      filter: $scope.filter
+    }, {
+      total: 0,           // length of data
+      getData: function($defer, params) {
+        ReleasesRepository.getById($scope.eventId).then(function (releases) {
+          // Order the filter
+          var orderedData = params.sorting() ?
+                              $filter('orderBy')(releases.releases, params.orderBy()) :
+                              releases.releases;
 
-      $scope.event = event[first];
-      $scope.eventId = first;
-      $rootScope.eventId = first;
-
-      $scope.tableParams = new ngTableParams({
-        page: 1,            // show first page
-        count: 100,         // count per page
-        sorting: {
-          artistcircle: 'asc'     // initial sorting
-        },
-        filter: $scope.filter
-      }, {
-        total: 0,           // length of data
-        getData: function($defer, params) {
-          ReleasesRepository.getById($scope.eventId).then(function (releases) {
-            // Order the filter
-            var orderedData = params.sorting() ?
-                                $filter('orderBy')(releases.releases, params.orderBy()) :
-                                releases.releases;
-
-            // Filter the view
-            if (params.filter())
+          // Filter the view
+          if (params.filter())
+          {
+            if (params.filter().available)
             {
-              if (params.filter().available)
+              var filterby = params.filter().available;
+              if (filterby === 'mp3')
               {
-                var filterby = params.filter().available;
-                if (filterby === 'mp3')
-                {
-                  orderedData = $filter('filter')(orderedData, function(release){
-                    if (release.available.mp3)
-                    {
-                      return release;
-                    }
-                  });
-                }
-                else if (filterby === 'flac')
-                {
-                  orderedData = $filter('filter')(orderedData, function(release){
-                    if (release.available.flac)
-                    {
-                      return release;
-                    }
-                  });
-                }
-                else if (filterby === 'other')
-                {
-                  orderedData = $filter('filter')(orderedData, function(release){
-                    if (release.available.other)
-                    {
-                      return release;
-                    }
-                  });
-                }
-              }
-              if (params.filter().type)
-              {
-                var filterby = params.filter().type;
                 orderedData = $filter('filter')(orderedData, function(release){
-                  if (release.type.indexOf(filterby) > -1)
+                  if (release.available.mp3)
                   {
                     return release;
                   }
                 });
               }
-              orderedData = params.filter() ?
-                              $filter('filter')(orderedData, params.filter().artistcircle) :
-                              orderedData;
+              else if (filterby === 'flac')
+              {
+                orderedData = $filter('filter')(orderedData, function(release){
+                  if (release.available.flac)
+                  {
+                    return release;
+                  }
+                });
+              }
+              else if (filterby === 'other')
+              {
+                orderedData = $filter('filter')(orderedData, function(release){
+                  if (release.available.other)
+                  {
+                    return release;
+                  }
+                });
+              }
             }
+            if (params.filter().type)
+            {
+              var filterby = params.filter().type;
+              orderedData = $filter('filter')(orderedData, function(release){
+                if (release.type.indexOf(filterby) > -1)
+                {
+                  return release;
+                }
+              });
+            }
+            orderedData = params.filter() ?
+                            $filter('filter')(orderedData, params.filter().artistcircle) :
+                            orderedData;
+          }
 
-            $scope.releases = orderedData.slice((params.page() - 1) * params.count(), params.page() * params.count());
+          $scope.releases = orderedData.slice((params.page() - 1) * params.count(), params.page() * params.count());
 
-            // Total Releases
-            $scope.total = orderedData.length;
-            params.total($scope.total);
+          // Total Releases
+          $scope.total = orderedData.length;
+          params.total($scope.total);
 
-            // Send it to the view
-            $defer.resolve($scope.releases);
-          });
-        }
-      });
+          // Send it to the view
+          $defer.resolve($scope.releases);
+        });
+      }
     });
 
   });

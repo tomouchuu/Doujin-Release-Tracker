@@ -2,8 +2,8 @@
 
   <div class="row">
     <div class="col-lg-4 event-title">
-        <h1 ng-hide="category === 'm3'">{{ category | titlecase }} {{ eventId }} <span class="date">{{ event.date }}</span></h1>
-        <h1 ng-show="category === 'm3'">{{ category | titlecase }} <span class="date">{{ event.date }}</span></h1>
+        <h1 ng-hide="category === 'm3'">{{ category | titlecase }} {{ eventId }} <span class="date">{{ eventDate }}</span></h1>
+        <h1 ng-show="category === 'm3'">{{ category | titlecase }} <span class="date">{{ eventDate }}</span></h1>
     </div>
     <div class="search-area col-lg-4 col-sm-6 text-center">
         <p>Search: <input ng-model="filter.artistcircle" id="searchbox"></p>
@@ -26,13 +26,13 @@
     <div class="col-sm-6">
       <p class="text-center">
         <strong>Doujinstyle thread:</strong>
-        <a target="_blank" ng-href="{{ event.doujinstyle }}">{{ event.doujinstyle }}</a>
+        <a target="_blank" ng-href="{{ eventDoujinstyle }}">{{ eventDoujinstyle }}</a>
       </p>
     </div>
-    <div class="col-sm-6" ng-hide="!event.jpthread">
+    <div class="col-sm-6" ng-hide="!eventJpThread">
       <p class="text-center">
         <strong>/jp/ thread:</strong>
-        <a target="_blank" ng-href="http://boards.4chan.org/jp/thread/{{ event.jpthread }}">{{ '#'+event.jpthread }}</a>
+        <a target="_blank" ng-href="http://boards.4chan.org/jp/thread/{{ eventJpThread }}">{{ '#'+eventJpThread }}</a>
       </p>
     </div>
   </div>
@@ -76,11 +76,7 @@
             </tr>
             <tr>
               <th class="text-center">
-                <div>
-                  MP3
-                  <br>
-                  <small>V0 unless noted</small>
-                </div>
+                <div>MP3</div>
               </th>
               <th class="text-center">
                 <div>Flac</div>
