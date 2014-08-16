@@ -111,7 +111,7 @@
                 {{release.genre}}
               </td>
               <td data-title="'Preview'" class="text-center">
-                <a href="{{release.preview}}" target="_blank"><i class="fa fa-headphones"></i></a>
+                <a href="{{release.preview}}" target="_blank" ng-show="release.preview"><i class="fa fa-headphones"></i></a>
               </td>
               <td data-title="'Available MP3'" class="available-mp3 text-center">
                 <a href="{{release.available.mp3}}" target="_blank" ng-show="release.available.mp3"><i class="fa fa-check"></i></a>
