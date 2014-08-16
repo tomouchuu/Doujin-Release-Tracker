@@ -27,3 +27,11 @@ html {
 [ng-click], [ui-sref] {
   cursor: pointer;
 }
+
+a {
+  transition: color .3s ease-in-out;
+  &:link    { color: $blue; }
+  &:visited { color: $blue; }
+  &:hover   { color: $aqua; }
+  &:active  { color: $orange; }
+}
