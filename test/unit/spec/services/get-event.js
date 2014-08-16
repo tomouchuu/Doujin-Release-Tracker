@@ -1,22 +1,22 @@
 'use strict';
 
-describe('Service: getTitle', function () {
+describe('Service: getEvent', function () {
 
-  var getTitle;
+  var getEvent;
 
   beforeEach(function () {
 
     module('doujinReleaseTracker');
 
-    inject(function (_getTitle_) {
-      getTitle = _getTitle_;
+    inject(function (_getEvent_) {
+      getEvent = _getEvent_;
     });
 
   });
 
 
   it('should do something', function () {
-    expect(!!getTitle).toBe(true);
+    expect(!!getEvent).toBe(true);
   });
 
 });
