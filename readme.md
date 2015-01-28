@@ -1,5 +1,7 @@
 # Doujin Release Tracker
 
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Tomo-san/Doujin-Release-Tracker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Build Status](https://travis-ci.org/Tomo-san/Doujin-Release-Tracker.svg)](https://travis-ci.org/Tomo-san/Doujin-Release-Tracker)
 [![Coverage Status](https://coveralls.io/repos/Tomo-san/Doujin-Release-Tracker/badge.png)](https://coveralls.io/r/Tomo-san/Doujin-Release-Tracker)
 [![Dependency Status](https://gemnasium.com/Tomo-san/Doujin-Release-Tracker.svg)](https://gemnasium.com/Tomo-san/Doujin-Release-Tracker)
