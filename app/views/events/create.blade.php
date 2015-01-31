@@ -1,0 +1,1 @@
+/home/vagrant/web/Doujin-Release-Tracker/app/views/events/create.blade.php

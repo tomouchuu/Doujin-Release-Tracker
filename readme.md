@@ -2,17 +2,21 @@
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Tomo-san/Doujin-Release-Tracker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-[![Build Status](https://travis-ci.org/Tomo-san/Doujin-Release-Tracker.svg)](https://travis-ci.org/Tomo-san/Doujin-Release-Tracker)
-[![Coverage Status](https://coveralls.io/repos/Tomo-san/Doujin-Release-Tracker/badge.png)](https://coveralls.io/r/Tomo-san/Doujin-Release-Tracker)
-[![Dependency Status](https://gemnasium.com/Tomo-san/Doujin-Release-Tracker.svg)](https://gemnasium.com/Tomo-san/Doujin-Release-Tracker)
-
 Initially started as a way to keep track of what I'm looking forward to hearing at Comiket but now has expanded to also include M3 & Vocamas events. With this new V3 version of the site everything is a lot nicer and it's tons easier for me to update for new events & releases. Hopefully I'll keep this updated as new events & releases happen.
 
-At the moment (05/08/14) only the comiket site is live. I want to get a landing page out for the sites before putting the others live. Plus all my time is being spent on the C86 releases that I don't have time to really work on it. Maybe after the releases have slowed down.
+## V4
 
-## API
+This version of the site is currently in progress and focusing on Comiket first.
 
-If you want to use the API then you can do GET requests on: `https://intense-fire-9416.firebaseio.com/[event].json` where `event` is `comiket`, `m3` or `vocamas`. If you want a specific event release list then `https://intense-fire-9416.firebaseio.com/[event]/releases/[id].json` where `id` is the event id. You can go furthur if you want to but you should get the gist from this.
+### API - Coming Soon
+
+With the new API, you can now ping the site directly at some endpoints to get releases based on specific artists or events and more!
+
+### Codebase
+
+The current plan is to have a Laravel backend with Angular or Aurelia frontend and using Mongo as our Database store. I'll be importing the current Firebase database into the new system to keep compatibility.
+Aside from that I'm idling on the Gitter chatroom listed above and hopefully going to commit to unit testing and using CI along with having the project on Heroku to keep it super nice.
+Since in the past it's been dependant on me having to do the updates, I'm also going to be making a site scrapper to try automate the process of adding releases.
 
 ## You missed a release
 
