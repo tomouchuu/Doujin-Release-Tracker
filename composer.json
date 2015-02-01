@@ -1,8 +1,7 @@
 {
-	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
-	"keywords": ["framework", "laravel"],
-	"license": "MIT",
+	"name": "tomo-san/doujin-release-tracker",
+	"description": "Webapp to keep tabs on Doujin Music releases at JP Events",
+	"license": "THE STRONGEST PUBLIC LICENSE",
 	"type": "project",
 	"require": {
 		"laravel/framework": "4.2.*",
