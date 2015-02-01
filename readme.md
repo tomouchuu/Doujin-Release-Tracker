@@ -1,5 +1,6 @@
 # Doujin Release Tracker
 
+[![Circle CI](https://circleci.com/gh/Tomo-san/Doujin-Release-Tracker/tree/v4.svg?style=svg)](https://circleci.com/gh/Tomo-san/Doujin-Release-Tracker/tree/v4)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Tomo-san/Doujin-Release-Tracker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Initially started as a way to keep track of what I'm looking forward to hearing at Comiket but now has expanded to also include M3 & Vocamas events. With this new V3 version of the site everything is a lot nicer and it's tons easier for me to update for new events & releases. Hopefully I'll keep this updated as new events & releases happen.
