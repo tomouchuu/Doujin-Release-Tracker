@@ -8,7 +8,7 @@
 		"dingo/api": "0.8.*"
 	},
 	"require-dev": {
-		"way/generators": "~2.0"
+		"way/generators": "2.*"
 	},
 	"autoload": {
 		"classmap": [
