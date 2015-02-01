@@ -2,6 +2,10 @@ machine:
     php:
         version: 5.6.2
 
+notify:
+    webhooks:
+        - url: https://webhooks.gitter.im/e/41019b100359af2e5b73
+
 deployment:
     staging:
         branch: v4
