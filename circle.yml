@@ -1,0 +1,5 @@
+deployment:
+    staging:
+        branch: v4
+        heroku:
+            appname: doujin-release-tracker
