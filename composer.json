@@ -20,7 +20,7 @@
             "database"
         ],
         "psr-4": {
-            "DoujinReleaseTracker\\": "app/"
+            "App\\": "app/"
         }
     },
     "autoload-dev": {

@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'model' => DoujinReleaseTracker\User::class,
+    'model' => App\User::class,
 
     /*
     |--------------------------------------------------------------------------

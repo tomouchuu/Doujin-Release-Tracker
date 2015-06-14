@@ -1,15 +1,15 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Api;
 
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
-use App\User;
+use App\DoujinReleaseTracker\Comiket\Comiket;
 
-class UserController extends Controller
+class ComiketController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -18,9 +18,7 @@ class UserController extends Controller
      */
     public function index()
     {
-        // If logged in show dashboard
-        // If not refirst to login
-        return response()->json(User::all());
+        return response()->json(Comiket::all());
     }
 
     /**
@@ -51,7 +49,18 @@ class UserController extends Controller
      */
     public function show($id)
     {
-        //
+        return response()->json(Comiket::find($id));
+    }
+
+    /**
+     * Display the releases of specified resource.
+     *
+     * @param  int  $id
+     * @return Response
+     */
+    public function releases($id)
+    {
+        return response()->json(Comiket::find($id)->release);
     }
 
     /**

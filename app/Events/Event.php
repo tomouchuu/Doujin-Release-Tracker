@@ -1,6 +1,6 @@
 <?php
 
-namespace DoujinReleaseTracker\Events;
+namespace App\Events;
 
 abstract class Event
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace DoujinReleaseTracker;
+namespace App;
 
 use Illuminate\Auth\Authenticatable;
 use Jenssegers\Mongodb\Model as Eloquent;

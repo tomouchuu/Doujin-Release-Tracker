@@ -1,10 +1,10 @@
 <?php
 
-namespace DoujinReleaseTracker\Http\Controllers\Auth;
+namespace App\Http\Controllers\Auth;
 
-use DoujinReleaseTracker\User;
+use App\User;
 use Validator;
-use DoujinReleaseTracker\Http\Controllers\Controller;
+use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
 class AuthController extends Controller

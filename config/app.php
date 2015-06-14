@@ -140,9 +140,9 @@ return [
         /*
          * Application Service Providers...
          */
-        DoujinReleaseTracker\Providers\AppServiceProvider::class,
-        DoujinReleaseTracker\Providers\EventServiceProvider::class,
-        DoujinReleaseTracker\Providers\RouteServiceProvider::class,
+        App\Providers\AppServiceProvider::class,
+        App\Providers\EventServiceProvider::class,
+        App\Providers\RouteServiceProvider::class,
 
         /*
          * Extra Service Providers...

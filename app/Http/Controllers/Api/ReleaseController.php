@@ -1,15 +1,15 @@
 <?php
 
-namespace DoujinReleaseTracker\Http\Controllers\Api;
+namespace App\Http\Controllers\Api;
 
 use Illuminate\Http\Request;
 
-use DoujinReleaseTracker\Http\Requests;
-use DoujinReleaseTracker\Http\Controllers\Controller;
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
 
-use DoujinReleaseTracker\ReleaseEvent;
+use App\DoujinReleaseTracker\Releases\Release;
 
-class ReleaseEventController extends Controller
+class ReleaseController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -18,7 +18,7 @@ class ReleaseEventController extends Controller
      */
     public function index()
     {
-        return response()->json(ReleaseEvent::all());
+		return response()->json(Release::all());
     }
 
     /**
@@ -49,7 +49,7 @@ class ReleaseEventController extends Controller
      */
     public function show($id)
     {
-        return response()->json(ReleaseEvent::where('id', '=', $id)->take(1)->get());
+        //
     }
 
     /**
