@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Requests;
+namespace DoujinReleaseTracker\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

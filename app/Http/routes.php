@@ -12,5 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+  return view('welcome');
+});
+
+Route::resource('user', 'UserController');
+
+Route::group(['prefix' => 'api/v1'], function () {
+    Route::resource('event', 'Api\ReleaseEventController');
 });

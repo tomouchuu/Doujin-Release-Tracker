@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Jobs;
+namespace DoujinReleaseTracker\Jobs;
 
 use Illuminate\Bus\Queueable;
 

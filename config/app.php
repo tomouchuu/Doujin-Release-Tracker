@@ -140,9 +140,15 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        DoujinReleaseTracker\Providers\AppServiceProvider::class,
+        DoujinReleaseTracker\Providers\EventServiceProvider::class,
+        DoujinReleaseTracker\Providers\RouteServiceProvider::class,
+
+        /*
+         * Extra Service Providers...
+         */
+        'Jenssegers\Mongodb\MongodbServiceProvider',
+        'Jenssegers\Mongodb\Auth\PasswordResetServiceProvider',
 
     ],
 

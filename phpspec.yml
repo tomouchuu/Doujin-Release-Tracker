@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: App
-        psr4_prefix: App
+        namespace: DoujinReleaseTracker
+        psr4_prefix: DoujinReleaseTracker
         src_path: app
