@@ -18,8 +18,8 @@ Route::get('/', function () {
 Route::resource('user', 'UserController');
 
 Route::group(['prefix' => 'api/v1'], function () {
-    Route::resource('comikets', 'Api\ComiketController');
-    Route::get('comikets/{id}/releases', 'Api\ComiketController@releases');
+    Route::resource('comiket', 'Api\ComiketController');
+    Route::get('comiket/{id}/releases', 'Api\ComiketController@releases');
     Route::resource('releases', 'Api\ReleaseController');
     Route::get('releases/{id}/comiket', 'Api\ReleaseController@comiket');
 });
