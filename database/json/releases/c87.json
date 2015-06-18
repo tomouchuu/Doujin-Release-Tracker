@@ -1,0 +1,3656 @@
+[
+	{
+		"comiket_id" : "87",
+		"album" : "RAVER’S NEST BEST 2014",
+		"artistcircle" : "DiGiTAL WiNG",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "techno",
+		"link" : "http://digital-wing.net/",
+		"preview" : "https://soundcloud.com/digital-wing/dwcd-0018_12ravers-nest-best-2014xfd",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "全宇宙スッポコニャーゴ大戦争",
+		"artistcircle" : "Hekatoncheir Beats",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!dEgjlY6Y!e6ZvHd7dK7nWx_bY9c_Gc867X2sHOfK6SUqH56CzPDs",
+			"other" : false
+		},
+		"genre" : "techno, electronica, ambient, chiptune, disco, funkot",
+		"link" : "http://hkcd-0009.tumblr.com/",
+		"preview" : "https://soundcloud.com/siromaru460/c87suppoko",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "the facts of phantasy",
+		"artistcircle" : "荒御霊",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "techno, electronica, ambient, chiptune, disco, funkot",
+		"link" : "http://arami.rdy.jp/",
+		"preview" : "https://soundcloud.com/kouki_izumi/the-facts-of-phantasy-demomix",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Adrastea",
+		"artistcircle" : "ShibayanRecords",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!iYYGASDT!s8r7Xj-UM25nucrGRmj_tTgROgBt5x6SQr3g7waAUIw",
+			"mp3" : "https://mega.co.nz/#!bdxS3Kyb!Qxn_aFlTiKRqetpkEmRdgboZ0o83UgTTpXwYsX-XGhw",
+			"other" : false
+		},
+		"genre" : "techno, electronica, ambient, chiptune, disco, funkot",
+		"link" : "http://homepage3.nifty.com/shibayan/stal1403/",
+		"preview" : "https://soundcloud.com/shibayan/adrastea-crossfade",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "絶対領域 OfuTonMusic#2",
+		"artistcircle" : "くすのせ",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "techno, electronica, ambient, chiptune, disco, funkot",
+		"link" : "https://kusunose.booth.pm/",
+		"preview" : "http://www.nicovideo.jp/watch/sm25138121",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "AHI COMPILATION 03",
+		"artistcircle" : "秋葉原重工  (Akihabara Heavy Industry)",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "techno, electronica, ambient, chiptune, disco, funkot",
+		"link" : "http://www.ahiweb.info/",
+		"preview" : "https://soundcloud.com/ahi_jp/ahi03-demo",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "perpetual estranger",
+		"artistcircle" : "THRUST",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "techno, electronica, ambient, chiptune, disco, funkot",
+		"link" : "http://thrustlbl.tumblr.com/post/105761892889/thrust-cd15-perpetual-estranger-cross-fade",
+		"preview" : "https://soundcloud.com/loopdrive/thrust-cd15-perpetual-estranger-cross-fade-demo",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Grey Hill Romance E.P.",
+		"artistcircle" : "musashinoclan",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "techno, electronica, ambient, chiptune, disco, funkot",
+		"link" : "https://soundcloud.com/kuttsurikai",
+		"preview" : "https://soundcloud.com/kuttsurikai/c87-new-grey-hill-romance-ep-sample",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "明るい農村計画 -報告書-",
+		"artistcircle" : "Aquice Recordings",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "techno, electronica, ambient, chiptune, disco, funkot",
+		"link" : "https://soundcloud.com/aquicerecordings",
+		"preview" : "https://soundcloud.com/aquicerecordings/2vukmgvwhf2o",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "想いが歴史に変わる時",
+		"artistcircle" : "幽閉サテライト(Yuuhei Satellite)",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!GIxkBaiI!K06XA76LhU74HB_OWzq8naddfDuywCocEFE2A_DlmRc",
+			"mp3" : "https://mega.co.nz/#!ydpA2KaA!LEUfurEwyW-6fYgBhwgR_bysjLJ_VsdRoZFco3EFp8s",
+			"other" : false
+		},
+		"genre" : "house, trance, eurobeat",
+		"link" : "http://yuuhei-satellite.jp/",
+		"preview" : "",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "終焉の輝き",
+		"artistcircle" : "幽閉カタルシス(Yuuhei Catharsis)",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!TJBWUSYa!GOpA32Koi40Vn_6guavOSTDaaK7GQic63x19aAkolqc",
+			"mp3" : "https://mega.co.nz/#!fNZSBYwJ!w7KDf77gfqDZJ-WSZhBhJ9U3Q9iuihOjefZLdKpONVU",
+			"other" : false
+		},
+		"genre" : "house, trance, eurobeat",
+		"link" : "http://yuuhei-satellite.jp/",
+		"preview" : "",
+		"type" : "kancolle"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "VISTA",
+		"artistcircle" : "Unitone",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!zQIRySqY!x-5BomJ10dXVqojQ9gYVVtuWzVeum0QPR3lFiuYRKCk",
+			"mp3" : "https://mega.co.nz/#!2YJhAZDC!ziomJsn8JdpK44Tdk88r4jf-18Vn-ZkKbGVTNWvv7wM",
+			"other" : false
+		},
+		"genre" : "house, trance, eurobeat",
+		"link" : "http://unitone.fm/vista/",
+		"preview" : "https://soundcloud.com/unitone_jp/vista-teaser",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "CIERA",
+		"artistcircle" : "AcuticLogics",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!yIBCUIZa!CyF8l2CWpUbEC6oJic4pMxH0BgzGc17c2qNo81Fn4xw",
+			"mp3" : "https://mega.co.nz/#!JEwmDSyQ!QMAAZncaJsAE55cUwaSDvI7ZHgK_K5KKf1s1_LTr0mw",
+			"other" : false
+		},
+		"genre" : "house, trance, eurobeat",
+		"link" : "http://acutic.net/",
+		"preview" : "https://soundcloud.com/alinut/acuticlogics-ciera-comic-market-87",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "revolution -rising rebellion girls-",
+		"artistcircle" : "556ミリメートル(556mm)",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!b8NwFQhC!nCbOXabywtXjsFY7iQK6wglLqzhnop2M_5getsql4jg",
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "house, trance, eurobeat",
+		"link" : "http://556mm.blog136.fc2.com/blog-entry-22.html",
+		"preview" : "https://soundcloud.com/556mm/revolution-rising-rebellion-girls-crossfade-demo",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "AD:TRANCE 4",
+		"artistcircle" : "Diverse System",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!bY52yBhJ!K5mRT3Zu5EZie017J7RVjn2LtpI10Fz93TTQYkoa25o",
+			"mp3" : "https://mega.co.nz/#!fMQywKxR!YzrA_RuYLAa8uPfLtv_XZSh9-bNodddoEBnzPT4JyJs",
+			"other" : false
+		},
+		"genre" : "house, trance, eurobeat",
+		"link" : "http://diverse.jp/#",
+		"preview" : "",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Proof Presence",
+		"artistcircle" : "EastNewSound",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!XYYk2IRZ!2rB7a1lp8dpuqRd6fmu48GcpQEPq4tzWYrW5un-gsWA",
+			"mp3" : "https://mega.co.nz/#!tA5FSSZa!G3Q17yIBbjO5_wpEB1AA4ao2hNroRQBY77P2BiR3xhM",
+			"other" : false
+		},
+		"genre" : "house, trance, eurobeat",
+		"link" : "http://e-ns.net/",
+		"preview" : "http://img.melonbooks.co.jp/s/213001016764a.mp3",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Perpetual Devotion the Instrumental",
+		"artistcircle" : "EastNewSound",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!20ZliQbJ!igjPSMKa5LST68p8zFbWdUrxfnWxkmqP4BB_hwoB7sw",
+			"mp3" : "https://mega.co.nz/#!So5jwTKb!weps83PB4Elfm4F47JAL_nDp_e3RC3E-tNwn7eOP04o",
+			"other" : false
+		},
+		"genre" : "house, trance, eurobeat",
+		"link" : "http://e-ns.net/",
+		"preview" : "http://img.melonbooks.co.jp/s/213001016765a.mp3",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "SuganoMusic NonStop 2014",
+		"artistcircle" : "SuganoMusic",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "house, trance, eurobeat",
+		"link" : "http://suganomusic.com/",
+		"preview" : "https://soundcloud.com/masahiro-sugawara/sm-nonstop-2014-sample",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Divine Providence",
+		"artistcircle" : "lol project",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "house, trance, eurobeat",
+		"link" : "http://lollol.client.jp/lolproject009.html",
+		"preview" : "http://www.official.fm/tracks/XwhO",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Sample 01 (飛龍の月)",
+		"artistcircle" : "幽閉カタルシス(Yuuhei Catharsis)",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "house, trance, eurobeat",
+		"link" : "http://www.yuuhei-satellite.jp/katharsis/?p=191",
+		"preview" : "",
+		"type" : "kancolle"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Unfinished",
+		"artistcircle" : "Eternal Melody",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!jYh20KDT!VeYWxBy7FMQbepFwGTyL37wwvv7aheUiHCYqcz8sMzk",
+			"mp3" : "https://mega.co.nz/#!ckswja5b!c5vX69FzVx2nibKa6Zzl1wNrnd4iEnrnRaN0rQnu_b8",
+			"other" : false
+		},
+		"genre" : "house, trance, eurobeat",
+		"link" : "http://www.eternal-melody.net/2014/12/eternal-melodyunfinished-get-in.html",
+		"preview" : "https://soundcloud.com/eternal-melody/rdunfinishedcrossfade",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "starry snow",
+		"artistcircle" : "Bubble Records",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "house, trance, eurobeat",
+		"link" : "http://bubblerecords-web.com/c87.html",
+		"preview" : "https://soundcloud.com/pastry/cdstarry-snow",
+		"type" : "kancolle"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Hopeful Jasper",
+		"artistcircle" : "Amateras Records",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!AIdDwAra!dvACY4_y3UDX1_CWgRAOV54kEh9bQXJaJlKXKzYtGmE",
+			"mp3" : "https://mega.co.nz/#!cR8ngbDb!NQysnnxWEqGLJi73_naVbOC3Hs8g3DfQEn9foSztXeA",
+			"other" : false
+		},
+		"genre" : "house, trance, eurobeat",
+		"link" : "http://amateras-records.com/",
+		"preview" : "https://soundcloud.com/amateras-records/amrc-0025_hopeful-jasper_xfd",
+		"type" : "kancolle"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Bitter Sweet Shopping",
+		"artistcircle" : "en;Dolphin Records",
+		"available" : {
+			"flac" : false,
+			"mp3" : "http://www.mediafire.com/download/8twgqafirdncyef/Bitter+Sweet+Shopping.zip",
+			"other" : false
+		},
+		"genre" : "house, trance, eurobeat",
+		"link" : "http://tokyoaudiowaffle06.tumblr.com/",
+		"preview" : "https://soundcloud.com/endolphin-records/xfdtravel-sound-sandwichesc87",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "TOHO EUROBEAT EX - THE LEGENDARY BOUTS",
+		"artistcircle" : "A-One",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!KV5ATA7Y!0JGIo3dyM74M8lDWuthHY1kWMpcSd-RvsJWiDhw2thI",
+			"mp3" : "https://mega.co.nz/#!XVIh2STB!aGIscZ_sjMuHwR02IIz0iT1qoylyPMZQKsknbRVyMj8",
+			"other" : false
+		},
+		"genre" : "house, trance, eurobeat",
+		"link" : "http://a-one-records.com/discography/000389.html",
+		"preview" : "http://a-one-records.com/discography/000389.html",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Colorful Toque",
+		"artistcircle" : "MORNINGWELCOME",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!PUJR3TRZ!A3UUZtBsdfgVm79KijUNbxHaas-L0-kLjp3wbFYZdzo",
+			"mp3" : "https://mega.co.nz/#!jAhUmALa!AUQ0bonw96N1iz5s0yfe_umhdCxzJ27_SGhjVvfuAQw",
+			"other" : false
+		},
+		"genre" : "house, trance, eurobeat",
+		"link" : "http://colorfultoque.tumblr.com/",
+		"preview" : "https://soundcloud.com/eguchi_t2/colorful-toque-xfd",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Light to the Future",
+		"artistcircle" : "movibe music(Ko Kimura & ZANIO(パイパンP))",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "house, trance, eurobeat",
+		"link" : "http://ev-mirai.shop-pro.jp/?pid=84859246",
+		"preview" : "https://soundcloud.com/zanio-1/zanio-hikari-original-mix",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Reimei",
+		"artistcircle" : "PROSCIUTTO",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "house, trance, eurobeat",
+		"link" : "http://www.prosciutto.jp/",
+		"preview" : "https://soundcloud.com/kouchaso/c87-reimei-ep-xfd",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Unrequited Hearts",
+		"artistcircle" : "Amateras Records",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!m4N0WYLC!o_Nkfotzs8gbHf0c0cZPM_9Cx6zlqli5TDj6wtrgOLU",
+			"mp3" : "https://mega.co.nz/#!QZNgnQwL!bAo3UQIPR7MwFFK6pQFxMiTHqIHgCyl2-ZU8zyjG43g",
+			"other" : false
+		},
+		"genre" : "house, trance, eurobeat",
+		"link" : "http://amateras-records.com/",
+		"preview" : "https://soundcloud.com/amateras-records/amrc0026",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "東方響奏曲",
+		"artistcircle" : "Starlight☆Fairies",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "house, trance, eurobeat",
+		"link" : "http://starlightfairies.blog.fc2.com/",
+		"preview" : "http://starlightfairies.blog.fc2.com/",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "EMOTIONAL CHAOS",
+		"artistcircle" : "ESQUARIA",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!FBwnxBgB!55SkIpGX-pYinknrXhT2To2IfnpdKqh6EZeI0Mkun1I",
+			"other" : false
+		},
+		"genre" : "electrohouse, house, glitch hop, bassline hc, dnb, dubstep",
+		"link" : "http://esquaria.net/special/emotionalchaos/",
+		"preview" : "https://soundcloud.com/lydiagrave/emotionalchaosxfd/s-poEQQ",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Unitone PHASE:Remixes",
+		"artistcircle" : "Unitone",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!XZZlVToJ!IPsQSFujDTklB6JswsJjnfEogeFcncl1WsKUesiBrQk",
+			"mp3" : "https://mega.co.nz/#!iVQ2QKAL!T4BNZBDxQpE7PuBkuwWL3Vi1TqvXKTsZrrCC10DONHg",
+			"other" : false
+		},
+		"genre" : "electrohouse, house, glitch hop, bassline hc, dnb, dubstep",
+		"link" : "http://unitone.fm/upr/",
+		"preview" : "https://soundcloud.com/unitone_jp/unitone-phase-remixes-teaser",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "TOHO GLITCH",
+		"artistcircle" : "Rolling Contact",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "electrohouse, house, glitch hop, bassline hc, dnb, dubstep",
+		"link" : "http://sp.x0.to/c87/46.html",
+		"preview" : "https://soundcloud.com/ama_loli/rolling-contact-toho-glitch-xfade",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Voodooism the Sequel",
+		"artistcircle" : "Kusemono Records (cYsmix)",
+		"available" : {
+			"flac" : "https://cysmix.bandcamp.com/album/voodooism-the-sequel",
+			"mp3" : "https://cysmix.bandcamp.com/album/voodooism-the-sequel",
+			"other" : "https://cysmix.bandcamp.com/album/voodooism-the-sequel"
+		},
+		"genre" : "electrohouse, house, glitch hop, bassline hc, dnb, dubstep",
+		"link" : "http://cysmix.bandcamp.com/",
+		"preview" : "https://soundcloud.com/olemlanglie/voodooism-the-sequel-crossfade",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "AD:Drum'n Bass 2",
+		"artistcircle" : "Diverse System",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!g5JXFRZC!M4NYAMVKwrnwdMvZSFfq259VU7zQIofD_CPte0eDQ1k",
+			"other" : false
+		},
+		"genre" : "electrohouse, house, glitch hop, bassline hc, dnb, dubstep",
+		"link" : "http://addnb2.diverse.jp/",
+		"preview" : "http://addnb2.diverse.jp/",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "MIDNIGHT ADVENTURER",
+		"artistcircle" : "Lost Garden",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "electrohouse, house, glitch hop, bassline hc, dnb, dubstep",
+		"link" : "http://lost-garden.info/discography/midnight-adventurer.php",
+		"preview" : "https://soundcloud.com/kaguraduki/midnight-adventurer",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "STRLabel × Tone Sphere",
+		"artistcircle" : "STRLabel",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!TVIFGYLK!zyD02gPRGLXuBsSschith8wMdDpy2sLH_H_nK3JrAfY",
+			"mp3" : "https://mega.co.nz/#!bd5DHQRC!Kua33ATUQX248rmbZWlptfQJtXyVP-cEA0NUITYxqL8",
+			"other" : false
+		},
+		"genre" : "electrohouse, house, glitch hop, bassline hc, dnb, dubstep",
+		"link" : "https://strlabel.booth.pm/items/58613",
+		"preview" : "https://s.booth.pm/c676e185-f9fb-46c0-9a82-472731b4caa6/s/58613/full/ba872644-d490-4500-8502-68606b85d418.mp3",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "colors",
+		"artistcircle" : "STRLabel",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "electrohouse, house, glitch hop, bassline hc, dnb, dubstep",
+		"link" : "http://str3.org/",
+		"preview" : "http://d-stage.com/shop/detail.php?seq=64578",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Beyond The Limits",
+		"artistcircle" : "MEGAREX (lapix)",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!Oot2XYJB!3x8cmP_g_bgGsisT6WSR_cyu0dq-GKoTx4pY6iEawsI",
+			"other" : false
+		},
+		"genre" : "electrohouse, house, glitch hop, bassline hc, dnb, dubstep",
+		"link" : "http://megarex.jp/mrx-005.html",
+		"preview" : "https://soundcloud.com/lapixmusic/lapix-beyond-the-limitscrossfade",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "dreamless wanderer",
+		"artistcircle" : "かめりあ",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!TlJQyJ4S!O-_icRrULgDnXsqy86KiR0fQEowJBE6MA9R_QAerNHA",
+			"mp3" : "https://mega.co.nz/#!34kiTKhb!Uj9apEDKN409CJoTBQ71bcJ8TT94KvTzZ-ese1gLKhg",
+			"other" : false
+		},
+		"genre" : "electrohouse, house, glitch hop, bassline hc, dnb, dubstep",
+		"link" : "http://cametek.tumblr.com/post/105518070741/ctcd-010-dreamless-wanderer",
+		"preview" : "https://soundcloud.com/kamelcamellia/ctcd-010-dreamless-wanderer-xfaded-demo",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "CHILDREN'S MADNESS REMIXIES",
+		"artistcircle" : "Madstiff Tracks",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "electrohouse, house, glitch hop, bassline hc, dnb, dubstep",
+		"link" : "http://www.r135.net/mstf003",
+		"preview" : "https://soundcloud.com/madstiff/childrens-madness-remixies",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "RockLove3",
+		"artistcircle" : "colis Records",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "electrohouse, house, glitch hop, bassline hc, dnb, dubstep",
+		"link" : "http://colis.jp/?page_id=835",
+		"preview" : "https://soundcloud.com/colis-1/rocklove3xfadedemo",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "きくおミク4",
+		"artistcircle" : "Kikuo Sound Works",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "electrohouse, house, glitch hop, bassline hc, dnb, dubstep",
+		"link" : "http://kikuo.jp/?page_id=1797",
+		"preview" : "https://www.youtube.com/watch?v=xh88mbcuDgo",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "PHOTOGRAPHIC DESTINATIONS",
+		"artistcircle" : "ZYTOKINE",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!i8Vw1AQC!UvYkV4DWFsCDTZK1le8yQocLcpNAzTD_tdwzH-fIrFk",
+			"mp3" : "https://mega.co.nz/#!RQoyQbAL!VW4QR4LZ7DznxDLjR87xvuT6rKo1-L77vFPUkbSB1j0",
+			"other" : false
+		},
+		"genre" : "electrohouse, house, glitch hop, bassline hc, dnb, dubstep",
+		"link" : "http://zytokine-web.com/CK-0035P_PD/#id0",
+		"preview" : "http://zytokine-web.com/sound/CK-0035P_PD_Xfade_long320.mp3",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "S2TB Files4:Eagle",
+		"artistcircle" : "S2TB Recording",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!BRwwhJRJ!9n6oMWcp9h0WQyQScUMqCZd1XyIZqrcse7KnMC5kwpI",
+			"other" : false
+		},
+		"genre" : "electrohouse, house, glitch hop, bassline hc, dnb, dubstep",
+		"link" : "http://korsk.jp/s2tb-0012/",
+		"preview" : "https://soundcloud.com/kors-k/s2tb-files4eagle-preview",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Tha Cup And Wine E.P.",
+		"artistcircle" : "sounds of umbra",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "electrohouse, house, glitch hop, bassline hc, dnb, dubstep",
+		"link" : "https://soundcloud.com/kuttsurikai",
+		"preview" : "https://soundcloud.com/kuttsurikai/c87-new-tha-cup-and-wine-ep-sample",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Break 4 Floor",
+		"artistcircle" : "Innocence Records",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "electrohouse, house, glitch hop, bassline hc, dnb, dubstep",
+		"link" : "http://break4floor.tumblr.com/",
+		"preview" : "https://www.youtube.com/watch?v=iKwD9GEIDfw",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "東方ボーカルEDM2",
+		"artistcircle" : "Spacelectro",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "electrohouse, house, glitch hop, bassline hc, dnb, dubstep",
+		"link" : "http://spacelectro.com/",
+		"preview" : "http://www.nicovideo.jp/watch/sm25185151",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "POP | CULTURE 2",
+		"artistcircle" : "Alstroemeria Records",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!aYQGnbBS!GbREqW9iCxYdSmoLN82XAuuWJpWbJawRBIzq92DqnaA",
+			"other" : "https://mega.co.nz/#!IZVEGAST!Knt-NHTtkqc7ParTtA0UrD_2dnlxpgehqFcOX94UuF0"
+		},
+		"genre" : "electrohouse, house, glitch hop, bassline hc, dnb, dubstep",
+		"link" : "http://alst.net/2014/12/23/arcd0046-pop-culture-2/",
+		"preview" : "https://soundcloud.com/alstroemeria-records/arcd0046-pop-culture-2-xfade-demo",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "We Are The Scarlet",
+		"artistcircle" : "Rolling Contact",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "uk hardcore, happy hardcore, freeform hardcore,  hardcore, j-core, hard trance, hard dance, makina",
+		"link" : "http://sp.x0.to/c87/47.html",
+		"preview" : "https://soundcloud.com/ama_loli/loli0047",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Cantus Amoris",
+		"artistcircle" : "B.Y.Stream Sounds",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "uk hardcore, happy hardcore, freeform hardcore,  hardcore, j-core, hard trance, hard dance, makina",
+		"link" : "http://byss.web.fc2.com/bysi0002.html",
+		"preview" : "https://soundcloud.com/djriona/cantus-amoris-xfd",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "超爆笑ハードコア",
+		"artistcircle" : "Notebook\"Delight\"Records",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "uk hardcore, happy hardcore, freeform hardcore,  hardcore, j-core, hard trance, hard dance, makina",
+		"link" : "http://notebookrecords.net/cd/nbdcd-004/",
+		"preview" : "https://www.youtube.com/watch?v=NRD3LAFxb3k",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "MAKINA OR DIE TRAX Vol.2",
+		"artistcircle" : "MAKINA OR DIE",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "uk hardcore, happy hardcore, freeform hardcore,  hardcore, j-core, hard trance, hard dance, makina",
+		"link" : "http://www.makinaforce.com/?p=2441",
+		"preview" : "https://soundcloud.com/dj-depath/dj-depath-makina-or-die-trax-vol2-preview",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Project:Powerstomp",
+		"artistcircle" : "GUHROOVY/TERRAFORM MUSIC",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "uk hardcore, happy hardcore, freeform hardcore,  hardcore, j-core, hard trance, hard dance, makina",
+		"link" : "http://www.makinaforce.com/",
+		"preview" : "https://soundcloud.com/m-project_suzumoto/projectpowerstomp",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Uprising Legacy",
+		"artistcircle" : "Amazing Records",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "uk hardcore, happy hardcore, freeform hardcore,  hardcore, j-core, hard trance, hard dance, makina",
+		"link" : "http://www.amazingrec.com/2014/12/amaz-0009-uprising-legacy.html",
+		"preview" : "https://soundcloud.com/djamane/amazing-records-uprising-legacy-xfade",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "INNOCENCE & INNOCENCE",
+		"artistcircle" : "CODE-49",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!0FRSwTgL!OAFzL-yTZdgBdHav3Xf8csNKrJMx60RylMFgm5AoSdI",
+			"other" : false
+		},
+		"genre" : "uk hardcore, happy hardcore, freeform hardcore,  hardcore, j-core, hard trance, hard dance, makina",
+		"link" : "http://lv4.gozaru.jp/",
+		"preview" : "https://soundcloud.com/lv-4/innocence-innocence-demo",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Dawn of the Sol",
+		"artistcircle" : "Lucky Lotus x Touitsu Recordings",
+		"available" : {
+			"flac" : "https://luckylotus.bandcamp.com/album/dawn-of-the-sol-day-one",
+			"mp3" : "https://luckylotus.bandcamp.com/album/dawn-of-the-sol-day-one",
+			"other" : "https://luckylotus.bandcamp.com/album/dawn-of-the-sol-day-one"
+		},
+		"genre" : "uk hardcore, happy hardcore, freeform hardcore,  hardcore, j-core, hard trance, hard dance, makina",
+		"link" : "https://luckylotus.bandcamp.com/",
+		"preview" : "https://soundcloud.com/lucky-lotus-records/sets/f-c-lucky-lotus-touitsu",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Herrter Revolver",
+		"artistcircle" : "音召缶 (Otomekan)",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "uk hardcore, happy hardcore, freeform hardcore,  hardcore, j-core, hard trance, hard dance, makina",
+		"link" : "http://otomekan.net/",
+		"preview" : "https://soundcloud.com/otomekan/c87_omk33herrter-revolver-cross-fade",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Gensou Hard Dancing",
+		"artistcircle" : "音召缶 (Otomekan)",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "uk hardcore, happy hardcore, freeform hardcore,  hardcore, j-core, hard trance, hard dance, makina",
+		"link" : "http://otomekan.net/",
+		"preview" : "https://soundcloud.com/otomekan/c87_omk32-gensou-hard-dancing-cross-fade",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "REDSHIFT",
+		"artistcircle" : "ALiCE'S EMOTiON",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!KIBzDITT!4EuhHMdlaqz4AHBBk7Syg6l6O3_Cq7ioaIFJqs9SMWI",
+			"mp3" : "https://mega.co.nz/#!jYQz1ChS!9zrwOBl9aaF_aEC_Cfnxx1uDWCR73j9FlFQ3XUycUmo",
+			"other" : false
+		},
+		"genre" : "uk hardcore, happy hardcore, freeform hardcore,  hardcore, j-core, hard trance, hard dance, makina",
+		"link" : "http://redshift.redalice.net/",
+		"preview" : "https://soundcloud.com/redalice/redshift",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "KAKATTEKOYEAH!!!!",
+		"artistcircle" : "C.H.S",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!95UW0bTS!XHsMT7lVA5yx1gJ_0E4GXR0S8VUXK1E_5k0TiF2pSfk",
+			"mp3" : "https://mega.co.nz/#!qgQSCAYQ!5Y0PJvulfKOCURW5POhSmOygHxcnHEEPYd_3zsS6E28",
+			"other" : false
+		},
+		"genre" : "uk hardcore, happy hardcore, freeform hardcore,  hardcore, j-core, hard trance, hard dance, makina",
+		"link" : "http://c-h-s.me/kakattekoyeah/",
+		"preview" : "https://soundcloud.com/t-pazolite/kakattekoyeah",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Voltage IgniTTENAItion 2.5!!!!",
+		"artistcircle" : "C.H.S",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!kAw0wJLK!ayQSrsO9v3DEtRxEKKlFusjAP6jrqJPdAPorCFxLbgs",
+			"other" : false
+		},
+		"genre" : "uk hardcore, happy hardcore, freeform hardcore,  hardcore, j-core, hard trance, hard dance, makina",
+		"link" : "http://c-h-s.me/vi25/",
+		"preview" : "https://soundcloud.com/t-pazolite/vi25/s-nduRA",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "ASTRONOMIA 2",
+		"artistcircle" : "YTR Records",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "uk hardcore, happy hardcore, freeform hardcore,  hardcore, j-core, hard trance, hard dance, makina",
+		"link" : "http://ytrrecords.blog51.fc2.com/blog-entry-43.html",
+		"preview" : "https://soundcloud.com/nadeco/astronomia2",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "BLOOMIN'☆STAR",
+		"artistcircle" : "pichnopop",
+		"available" : {
+			"flac" : "https://mega.co.nz/#F!mdBXQDCS!c0aU1u2xH1_NS1FSCdvCuA",
+			"mp3" : "https://mega.co.nz/#!BUQwXCRb!btSQNshjD88DlAIjulT_OBNhT6KaXe2usRIEPBtio2s",
+			"other" : false
+		},
+		"genre" : "uk hardcore, happy hardcore, freeform hardcore,  hardcore, j-core, hard trance, hard dance, makina",
+		"link" : "http://bsbs.pichnopop.net/",
+		"preview" : "https://soundcloud.com/p_light/bloomin-star",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "BREAKIN'★STAR",
+		"artistcircle" : "pichnopop",
+		"available" : {
+			"flac" : "https://mega.co.nz/#F!LU4hkBCT!Fom8GuKk3_gRdxKyoscAbA",
+			"mp3" : "https://mega.co.nz/#!sA4wQQ7J!QNqaZSRN7fTLsSyxsSSleVDo_d1ri9J7iiQ0oD_FDVw",
+			"other" : false
+		},
+		"genre" : "uk hardcore, happy hardcore, freeform hardcore,  hardcore, j-core, hard trance, hard dance, makina",
+		"link" : "http://bsbs.pichnopop.net/",
+		"preview" : "https://soundcloud.com/p_light/breakin-star",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Burning Out",
+		"artistcircle" : "Project \"Everlasting\"",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "uk hardcore, happy hardcore, freeform hardcore,  hardcore, j-core, hard trance, hard dance, makina",
+		"link" : "http://cel.makibishi.jp/ever/0002/",
+		"preview" : "https://soundcloud.com/nezuttyo/burning_out_xfd/s-sLAj9",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "SKETCH UP! REMIXIES Twice!",
+		"artistcircle" : "SKETCH UP! Recordings",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!DMRG0ZQI!QSC8eYMRA9xHdMiO7e31CJ53PN7vJH840bvdxrAr3YE",
+			"mp3" : "https://mega.co.nz/#!uNxyQRoC!5F6bicSvd1wA6bck3U_kmyPiRkVJ1mF7_pd3iCKhfU8",
+			"other" : false
+		},
+		"genre" : "uk hardcore, happy hardcore, freeform hardcore,  hardcore, j-core, hard trance, hard dance, makina",
+		"link" : "http://www.sketchuprecordings.com/suprcd012/",
+		"preview" : "https://soundcloud.com/djnoriken/sketch-up-remixies-twice-crossfade-demo",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Spumonica",
+		"artistcircle" : "SKETCH UP! Recordings",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!IghT3ahY!QFsdB_GGxvOvxq0CYKP00AC0-Jy-K1il1szSzHhhxWA",
+			"other" : false
+		},
+		"genre" : "uk hardcore, happy hardcore, freeform hardcore,  hardcore, j-core, hard trance, hard dance, makina",
+		"link" : "http://djgenki.net/gecd013/",
+		"preview" : "https://soundcloud.com/genkianamei/spumonica_xfd",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "すごいきもちいい",
+		"artistcircle" : "999 Recordings",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!cxgzzKZS!WTke_OPGwVQvnYBe8MZ5xsQKOCnYTTg2wp2eSL0Hy5g",
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "hardstyle, gabber, breakcore, speedcore, schranz",
+		"link" : "http://data.technorch.com/data/page/tcncd016.html",
+		"preview" : "",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Controller BPM140",
+		"artistcircle" : "MURDER CHANNEL (RoughSketch)",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "hardstyle, gabber, breakcore, speedcore, schranz",
+		"link" : "http://murderchannel.bandcamp.com/music",
+		"preview" : "https://soundcloud.com/murder-channel/roughsketch-controller-bpm140-preview",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "FREAKIN SOUNDS Vol.2",
+		"artistcircle" : "FREAKIN WORKS",
+		"available" : {
+			"flac" : "https://www.hardtunes.com/albums/various-artists-freakin-sounds-vol.2/3644",
+			"mp3" : "http://www.mediafire.com/download/sfl46pc3vxxidx7/FREAKIN+SOUNDS+Vol.2.zip",
+			"other" : "https://www.hardtunes.com/albums/various-artists-freakin-sounds-vol.2/3644"
+		},
+		"genre" : "hardstyle, gabber, breakcore, speedcore, schranz",
+		"link" : "http://freakinworks.net/FKW002/",
+		"preview" : "https://soundcloud.com/freakin-works/va-freakin-sounds-vol2-x-fade-demo",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "ブチアゲスピードコア 2",
+		"artistcircle" : "Psycho Filth Records",
+		"available" : {
+			"flac" : "http://psychofilthrecords.bandcamp.com/album/2",
+			"mp3" : "http://www.mediafire.com/download/nhfpr4lpeb7bawe/ブチアゲスピードコア+2.zip",
+			"other" : "http://psychofilthrecords.bandcamp.com/album/2"
+		},
+		"genre" : "hardstyle, gabber, breakcore, speedcore, schranz",
+		"link" : "http://psychofilthrecords.net/PFCD18",
+		"preview" : "https://soundcloud.com/psychofilthrecords/va-2-xfd",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "SPEED BALL EVOLUTION",
+		"artistcircle" : "HARDCORE TANO*C",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!6MonnSLD!gpIqa7s3Fmw-mjr-wAV3XRLpFnxQvOCysWdegxjsOVA",
+			"mp3" : "https://mega.co.nz/#!3ZIS3ZgC!ASSkxK4wHR7fEK7svDKhsBzpIUhXlkbIbncFtHvD5s8",
+			"other" : "https://mega.co.nz/#!YtgygQTR!KCu01rRUAhkMQHyQQg-KJSHye3FaXEsp-QyTf1X7NwY"
+		},
+		"genre" : "hardstyle, gabber, breakcore, speedcore, schranz",
+		"link" : "http://www.tano-c.net/disc/tcplus-0014/",
+		"preview" : "https://soundcloud.com/tano-c/speed-ball-evolution",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Frolic EP",
+		"artistcircle" : "exbit trax",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "hardstyle, gabber, breakcore, speedcore, schranz",
+		"link" : "http://exbittrax.jimdo.com/",
+		"preview" : "https://soundcloud.com/exbittrax/xbtcd13demo",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Revolve",
+		"artistcircle" : "ネコノツカ",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "hardstyle, gabber, breakcore, speedcore, schranz",
+		"link" : "http://nzcd0011.tumblr.com/",
+		"preview" : "https://soundcloud.com/rider02/c87-revolvexfade",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "BREAK OUT BLACK",
+		"artistcircle" : "Massive CircleZ",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!iBwixa4A!O8Er5HdSGNfY0FsUSWLaD-SmEnZa0KrqVpxHSuXdado",
+			"mp3" : "https://mega.co.nz/#!NQR32DyD!chz-1Zukt1vULIIZdR9lGvgjo-C6F1RMu-3miaG8O2o",
+			"other" : false
+		},
+		"genre" : "hardstyle, gabber, breakcore, speedcore, schranz",
+		"link" : "http://massivecirclez.jp/breakout/",
+		"preview" : "https://soundcloud.com/massive-new-krew/break-out-blackcrossfade-sample",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "BREAK OUT WHITE",
+		"artistcircle" : "UOM Records",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!Scg2zTQI!IMcyCLNMJvWIzfEeU5HGkHNsR91WI4-cA6WCsWOUfFc",
+			"mp3" : "https://mega.co.nz/#!kcY3TKzC!emR8eKE_C1aV8jVkg_kg_fDs3rntP2yMCJGJjzJnEwE",
+			"other" : false
+		},
+		"genre" : "hardstyle, gabber, breakcore, speedcore, schranz",
+		"link" : "http://massivecirclez.jp/breakout/",
+		"preview" : "https://soundcloud.com/usao926/breakout-whit",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Raw/Low Style is My Law",
+		"artistcircle" : "NC帝國/UOM Records/Massive CircleZ",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "hardstyle, gabber, breakcore, speedcore, schranz",
+		"link" : "http://www.ncempire.net/ncts021nccd003.htm",
+		"preview" : "https://soundcloud.com/kakka_nc/rawlow-style-is-my-law-crossfade-demo/s-A2Tcg",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "KINZOK JUICE",
+		"artistcircle" : "KINZOK ON",
+		"available" : {
+			"flac" : "https://kinzokon.bandcamp.com/album/kinzok-juice",
+			"mp3" : "https://mega.co.nz/#!BJRQFaII!SkMUi8a0KrNCkmJwgOu_KK-mDEggf4C-k6aiW-C0UAg",
+			"other" : "https://kinzokon.bandcamp.com/album/kinzok-juice"
+		},
+		"genre" : "hardstyle, gabber, breakcore, speedcore, schranz",
+		"link" : "http://moro108.com/kzoncd005.html",
+		"preview" : "http://soundcloud.com/moro_108/demo-kinzok-juice-cross-fade-demo/s-M2N0N",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "qualm",
+		"artistcircle" : "Japanese Stream Hardcore (DJ Myosuke)",
+		"available" : {
+			"flac" : "https://www.hardtunes.com/albums/dj-myosuke-qualm/3645",
+			"mp3" : "http://www.mediafire.com/download/b8m21u1d63c5gmn/qualm.zip",
+			"other" : "https://www.hardtunes.com/albums/dj-myosuke-qualm/3645"
+		},
+		"genre" : "hardstyle, gabber, breakcore, speedcore, schranz",
+		"link" : "http://jshardcore.net/JSHSA002/",
+		"preview" : "https://soundcloud.com/japanese-stream-hardcore/dj-myosuke-qualm-xfd",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "デジウィ FUTURE",
+		"artistcircle" : "DiGiTAL WiNG",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!eBhDGRKY!b6GzxEoiqnjdOYv2OwrdJVl1FMvVcURBnzBieScZwss",
+			"mp3" : "https://mega.co.nz/#!MEggSBJB!PJ6Dsf6f3vlGnMzB8A9GtOA71-pxdPFUSMtAM77BrfU",
+			"other" : false
+		},
+		"genre" : "electronic",
+		"link" : "http://digital-wing.net/",
+		"preview" : "https://soundcloud.com/digital-wing/dwcd-0017-futurexfd",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "TOHO SPEED 03",
+		"artistcircle" : "LiLA'c Records",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!OJxgQCia!aiR0MyI3B6eRnFRz5rRHW6AdUpZPcj3yhTGp_ucdQns",
+			"mp3" : "https://mega.co.nz/#!mZxllBpA!MyBPcZVJQd7yyXp55tzr13wSWGahHGC-ChE7PszER3Q",
+			"other" : false
+		},
+		"genre" : "electronic",
+		"link" : "http://www.lilac-records.com/tohospeed.html",
+		"preview" : "https://soundcloud.com/lilac-records/llac-0020-xfd",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "空ニ沈ム城",
+		"artistcircle" : "ごんばこんなか",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "electronic",
+		"link" : "http://www.eonet.ne.jp/~torash/ykr_ambi.html",
+		"preview" : "https://soundcloud.com/youth_oh/sinkin-xfd2",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Fairythm",
+		"artistcircle" : "Diverse System",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!o0JDDAqK!OKHtxp1VfnRsm6KCgrZqGlz28rb5lnT5JqLxyfijdWo",
+			"other" : false
+		},
+		"genre" : "electronic",
+		"link" : "http://diverse.jp/",
+		"preview" : "",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "C87 LimitedRemixes",
+		"artistcircle" : "Diverse System",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!bMpRyRjA!Q5rpOva3k_B8K6vRo9tmjPjKEwVC6MIXCezZUFnwNjw",
+			"mp3" : "https://mega.co.nz/#!LRpx0RrC!vsdxHvbql3WmoNwsRKymdCWSCB8N9bm1it2EI0bSp-k",
+			"other" : false
+		},
+		"genre" : "electronic",
+		"link" : "http://diverse.jp/c87-limitedremixes/",
+		"preview" : "https://soundcloud.com/diversesystem/c87-limited-cross",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "東方アレンジコレクションIII",
+		"artistcircle" : "sound sepher",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "electronic",
+		"link" : "http://sepher.jp/circle/circle_35.htm",
+		"preview" : "https://soundcloud.com/sound-sepher/sepr-0023sepherjp-iii",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "秘封蓮続体 -Merry Acceleration-",
+		"artistcircle" : "Pizuya's Cell",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!8R5jCIzL!JucTi0rE5PH6YE85lijro2SvhQcNphqaER4xHO_3jEE",
+			"other" : false
+		},
+		"genre" : "electronic",
+		"link" : "http://pizuya.com/",
+		"preview" : "https://soundcloud.com/pizuya/psyc-0013-xfd",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Lieblings Tracks",
+		"artistcircle" : "Exist twinkle",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!EdgAQBYb!aHXmswV5ZrO14dVh3uKlosIUr-MiYbRfZge3e3QmU-g",
+			"other" : false
+		},
+		"genre" : "electronic",
+		"link" : "http://exist-twinkle.com/",
+		"preview" : "https://soundcloud.com/exist-twinkle/lieblings-tracks",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "DiGiTAL WiNG C87 Special demo CD 'Future'",
+		"artistcircle" : "DiGiTAL WiNG",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "electronic",
+		"link" : "http://digital-wing.net/20141124",
+		"preview" : "",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Viva Evolution",
+		"artistcircle" : "Halozy",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!SEQ01AAY!KV0Ik94evoRl_n76G_wL_NXVyJXyxSYg3vUcjIddiTU",
+			"mp3" : "https://mega.co.nz/#!6MgkmZIS!WBP8c82gOTKaIS95GgUP0WqPLzy02ArphdX0gSKHerA",
+			"other" : false
+		},
+		"genre" : "electronic",
+		"link" : "http://www.halozy.com/discography/hlzy-0021",
+		"preview" : "https://soundcloud.com/halozy/hlzy-0021_demo",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Hard Lab.【CD版】",
+		"artistcircle" : "OZnation Records",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "electronic",
+		"link" : "https://oznationrecords.booth.pm/items/59057",
+		"preview" : "https://oznationrecords.booth.pm/items/59057",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "SOUNDTRAINER II",
+		"artistcircle" : "OZnation Records",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "electronic",
+		"link" : "https://oznationrecords.booth.pm/items/59242",
+		"preview" : "https://oznationrecords.booth.pm/items/59242",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "霊桜に眠る",
+		"artistcircle" : "Yonder Voice",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!3EpzFJ4Q!Kh7eJ1yrMO8MElAIVLzXUlvnYwj8c8iqP9CblT7pORM",
+			"mp3" : "https://mega.co.nz/#!3JxhgYwZ!VbF44Bh_0Cu5V_yzofOF09cx8zGIr40ztmxUbRMc4js",
+			"other" : false
+		},
+		"genre" : "electronic",
+		"link" : "http://yondervoice.net/?p=2709",
+		"preview" : "https://soundcloud.com/yaoshanbailing/yvcdn0007",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "エナジーアロー",
+		"artistcircle" : "signum/ii",
+		"available" : {
+			"flac" : "https://mega.co.nz/#F!2IB1EZqL!e7rDYXe6Q8Ze6fJiDxGQgg",
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "electronic",
+		"link" : "http://halfsignum.blog.fc2.com/",
+		"preview" : "https://soundcloud.com/cittan_morningsprite/sgnm-006",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Storyteller",
+		"artistcircle" : "Youth Composer Association(Ujico*)",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "electronic",
+		"link" : "http://yca.xxxxxxxx.jp/",
+		"preview" : "https://soundcloud.com/yca0408/c87ujico-presents-storyteller-xfd-demo",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Light Night Beat DX",
+		"artistcircle" : "はちみつれもん / Hachimitsu-Lemon",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "electronic",
+		"link" : "http://8lemo.com/products/lnbdx",
+		"preview" : "https://soundcloud.com/aizawa_8lemo/light-night-beat-dx",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Electic Voyager EP",
+		"artistcircle" : "ViA Factory",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "electronic",
+		"link" : "http://via-electricvoyager.tumblr.com/",
+		"preview" : "https://soundcloud.com/romo-cc/electric-voyager-ep-xfd",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Four-on-the-floor Tracks",
+		"artistcircle" : "Innocence Records",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "electronic",
+		"link" : "http://fouronthefloortracks.tumblr.com/",
+		"preview" : "http://www.nicovideo.jp/watch/sm25150590",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "田端バースト！！",
+		"artistcircle" : "MINAMOTRANCE",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!vVRU2ZZI!bF6kZ1KMcrNLeCMqjCKMwfK8ofVZhBsfr5zz3ul0R_0",
+			"mp3" : "https://mega.co.nz/#!Hc40AS6L!C1P12Jk_ktHgEUzhQG23NFyyb0u5YXwi9NhstEVpw1k",
+			"other" : false
+		},
+		"genre" : "electronic",
+		"link" : "http://minamotrance.com/tbtb/tbtb.html",
+		"preview" : "https://soundcloud.com/minamotoya/vdtemmv8cvh5/s-IMirh",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "MINAMOTRANCE CORE BEST+!!",
+		"artistcircle" : "MINAMOTRANCE",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!CJQ1RArR!deaxwPelHtEybZfB9I5QqSaLMSSJaxG2X09ld0j2p_k",
+			"mp3" : "https://mega.co.nz/#!KZIEGZCT!YLTsL30xzzP68FGdLTmQk5FRX_5W4sIl2VjiH_c9vB8",
+			"other" : false
+		},
+		"genre" : "electronic",
+		"link" : "http://minamotrance.com/corebest/corebest.html",
+		"preview" : "http://minamotrance.com/corebest/corebest.html#Introduction",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Another Original",
+		"artistcircle" : "S.C.X (CleanTears)",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!9JgiGb6Z!oCJLtO_Qy47tXfhkYzo0E8pJaeW182l4XUcYNtBc8eU",
+			"other" : false
+		},
+		"genre" : "electronic",
+		"link" : "http://scx-ct.net/sp/anotheroriginal/",
+		"preview" : "https://soundcloud.com/cleantears/sound-collection-another-original-preview",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "New Original",
+		"artistcircle" : "S.C.X (CleanTears)",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "electronic",
+		"link" : "http://scx-ct.net/sp/neworiginal/",
+		"preview" : "https://soundcloud.com/cleantears/sound-collection-new-original-preview",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Last of the Year",
+		"artistcircle" : "Babbe Music",
+		"available" : {
+			"flac" : "http://babbemusic.blogspot.com/2014/12/last-of-year.html",
+			"mp3" : "http://babbemusic.blogspot.com/2014/12/last-of-year.html",
+			"other" : "https://babbemusic.bandcamp.com/album/last-of-the-year"
+		},
+		"genre" : "electronic",
+		"link" : "http://babbemusic.blogspot.com/",
+		"preview" : "https://www.youtube.com/watch?v=EZWb1wGJ_vI",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Phantagenic Moments",
+		"artistcircle" : "荒御霊 & As/Hi Soundworks",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "electronic",
+		"link" : "http://arah0001.tumblr.com/",
+		"preview" : "https://soundcloud.com/kouki_izumi/phantagenic-moments",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Night Groove 4",
+		"artistcircle" : "sukimono",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "electronic",
+		"link" : "http://sukimono.org/archives/pi/ng4",
+		"preview" : "http://www.nicovideo.jp/watch/sm25192324",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "世界の選択 - Freedom Paradise-",
+		"artistcircle" : "暁Records",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!TYxXUTpK!agpayE_-6KBSSvct69XilTTJMwIXvqs6rGO1q1BtMWA",
+			"mp3" : "https://mega.co.nz/#!KAhnTTjT!_HmpUWA71XHW1ta6ot7hfAgu53e1siWc-keYJZRowuk",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://akatsuki-records.com/drcd0008.html",
+		"preview" : "http://akatsuki-records.com/drcd0008.html",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "THE CONJURING EP",
+		"artistcircle" : "死際サテライト",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://sgsl-c87.tumblr.com/",
+		"preview" : "https://soundcloud.com/shinigiwasatellite/conjuring-ep-demo",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "東方バイオリンロック永-NAGARAE-",
+		"artistcircle" : "TAMUSIC",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!fc5QVCCK!stdDUPWvnBeZvZr8XFtErlOxdVp2dl2njIxtQKkMw6k",
+			"mp3" : "https://mega.co.nz/#!OYxxkDQQ!YPYZXIr9vXWAxWzvVl3_90qtdBNzjxY_A7k7__mAbaQ",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://tamusic.jp/tam3-0124/",
+		"preview" : "https://soundcloud.com/tamtamusic/tam3-0124",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "幽闃のアナタと遼遠の淵に",
+		"artistcircle" : "Pizuya's Cell",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://pizuya.com/",
+		"preview" : "https://soundcloud.com/pizuya/icj1xbf8evir",
+		"type" : "kancolle"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Deja-vu",
+		"artistcircle" : "セブンスヘブンMAXION(Seventh-Heaven MAXION)",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://shm.jpn.org/",
+		"preview" : "",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "悠久の艦娘伝説II",
+		"artistcircle" : "セブンスヘブンMAXION(Seventh-Heaven MAXION)",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://shm.jpn.org/",
+		"preview" : "",
+		"type" : "kancolle"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Forgive Forget",
+		"artistcircle" : "scop/no one hears",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!VcYjga6L!0_1OIosy7eXRGx5o7S77jNTkSQlC4ox2KikftfHgYKE",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://msickoup.blog85.fc2.com/",
+		"preview" : "http://www.nicovideo.jp/watch/sm25210625",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "M.S.O - My Small Orchestra",
+		"artistcircle" : "機材欲しいP",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://himazin4sei.web.fc2.com/saito/miso.html",
+		"preview" : "http://www.nicovideo.jp/watch/sm25060028",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Chromatic",
+		"artistcircle" : "ProjectHL2",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "https://soundcloud.com/projecthl2/c87-xfade",
+		"preview" : "",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Yashinoki Works",
+		"artistcircle" : "やし",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "https://soundcloud.com/yashiyashi",
+		"preview" : "http://www.nicovideo.jp/watch/sm24960226",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "strawberry labyrinth",
+		"artistcircle" : "Flowlight Music (yukki_ts)",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://yukki99.studio-web.net/center/disco.html#strawberry_labyrinth",
+		"preview" : "https://soundcloud.com/twilight-serenade/strawberry-labyrinth-crossfade",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Yoshiha Style 3～ゆめのうた～",
+		"artistcircle" : "あ～るの～と (R-Note)",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!3JxG0Qra!FOFzfgjYT6KKYFi3_qetpa4qFraI1RW2aD6VRITXnBA",
+			"mp3" : "https://mega.co.nz/#!TZwxFaIJ!srMAcIqh7tCD8Nb-s7zHrz49VtHDqRhU-FY8KX4DGw8",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://www.r-note.jp/contents/YSCD0003/YSCD0003.html",
+		"preview" : "http://www.r-note.jp/contents/YSCD0003/YSCD0003.html",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "東方ロマネスク!",
+		"artistcircle" : "あ～るの～と (R-Note)",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!qNB3HDqC!nkrkfx397d1WxrMcwacIJLK6B3-K79ZYCZRoABpMWj4",
+			"mp3" : "https://mega.co.nz/#!yR5VxKgY!rjsvoB3ZABZ4GOLB3cObCGL7Y0b4jW-a-YKQhIDorpg",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://www.r-note.jp/contents/RNCD0010/RNCD0010.html",
+		"preview" : "http://www.r-note.jp/contents/RNCD0010/RNCD0010.html",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "深淵",
+		"artistcircle" : "キネマ106",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!yZQRkbob!jkZ9oLc952tw6EGlgIEfFR7O1_DqN-hJP-3-p_1E-aU",
+			"mp3" : "https://mega.co.nz/#!JchziBZQ!plnn1xZED_zt5Qs5dNAw5vNOhOHl54lyqdpMIqgxOsA",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "https://webcatalog-free.circle.ms/Circle/11622097",
+		"preview" : "https://www.melonbooks.co.jp/detail/detail.php?product_id=109958",
+		"type" : "kancolle"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Dimensional leap",
+		"artistcircle" : "Desire Path(もやしん)",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://desirepath.jimdo.com/c87/",
+		"preview" : "https://soundcloud.com/kazuhiro-yoshimoto/dp-xfd",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "紫苑と彗星",
+		"artistcircle" : "FlowLight Music",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://flowlight-music.com/",
+		"preview" : "http://www.nicovideo.jp/watch/sm25123857",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "私の願い ～LoveLive! Fan Disc Image Songs of UMI～",
+		"artistcircle" : "BiRD(s)",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://ch.nicovideo.jp/birds",
+		"preview" : "http://www.nicovideo.jp/watch/sm25121855",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "CeVIOコンピレーション100%ささら",
+		"artistcircle" : "DualCore",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://aug2525.wix.com/sasara100",
+		"preview" : "https://soundcloud.com/fujisawa-ayumu/xfd",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "覚徴幻実",
+		"artistcircle" : "H&&D",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://hemiolandissonance.blog.fc2.com/blog-entry-9.html",
+		"preview" : "",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "東方響乱樂 五式",
+		"artistcircle" : "clear quartz",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://clearquartz.sakura.ne.jp/",
+		"preview" : "https://soundcloud.com/clearquartz/goshiki_xfd",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "ダウナーポップ",
+		"artistcircle" : ":D.clement/Melancholy Catalogs",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://www.melancholy-catalogs.com/",
+		"preview" : "http://www.nicovideo.jp/watch/sm25122593",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "奉（ささげ）",
+		"artistcircle" : "凋叶棕",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!3VYjRSzJ!89qtY_6TM47H2PKc_19vSAjhGUqfmO5Aa7E5fR3jlEs",
+			"mp3" : "https://mega.co.nz/#!DYAFQDIL!J3cynARGsI-n9XDTe_JEaqayUQFwvnDVXjMM76dlNyY",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://www.rd-sounds.com/C87.html",
+		"preview" : "",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "少年と少女のReminiscence",
+		"artistcircle" : "team-FSR(masato)",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://www.nicovideo.jp/mylist/7054120",
+		"preview" : "http://www.nicovideo.jp/watch/sm25110459",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "ミカニカルシルバム",
+		"artistcircle" : "MIKANZIL",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://mikanzil.com/",
+		"preview" : "https://soundcloud.com/mikanzil/shirubamnoyatu",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Reversible Negophilia",
+		"artistcircle" : "少女理論観測所",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://girlslogicobservat.wix.com/reversiblenegophilia",
+		"preview" : "https://soundcloud.com/terra0603/c87reversible-negophilia-xfd",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "merciBOX finale",
+		"artistcircle" : "merciBOX",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://merci-box.net/",
+		"preview" : "https://soundcloud.com/yu-ji/finale",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "死後リストラにあう God never knows, but you know me.",
+		"artistcircle" : "ユウノウミ(Yuunoumi)",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://younoumi.com/",
+		"preview" : "http://img.melonbooks.co.jp/s/213001016762a.mp3",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "fancy snow",
+		"artistcircle" : "hajime-saku-",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://seven-moon.main.jp/",
+		"preview" : "https://soundcloud.com/hajime_saku/fancy-snow-xfd",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Berry",
+		"artistcircle" : "シャノ with 40mP (chano with 40mP)",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://ch.nicovideo.jp/40mP/blomaga/ar595030",
+		"preview" : "https://www.youtube.com/watch?v=bRfYBAt39xg",
+		"type" : "utaite"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "#XXXXXX",
+		"artistcircle" : "スイブンホキュウ。",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://color-compilation.tumblr.com/",
+		"preview" : "http://www.nicovideo.jp/watch/sm25128863",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "さくらがさね",
+		"artistcircle" : "ArcoIris s.p.",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://arcoirissound.wix.com/sakuragasane/",
+		"preview" : "http://soundcloud.com/takahom/c87xfd",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "チューニングダイアル",
+		"artistcircle" : "やめようラボ  (不始末)",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://yameyou.jp/",
+		"preview" : "http://www.nicovideo.jp/watch/sm25125282",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Skyscraper",
+		"artistcircle" : "Art CUBE",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://art-cube.net/",
+		"preview" : "https://soundcloud.com/art-cube/skyscraper",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "東方夢詩物語",
+		"artistcircle" : "Lapis moss",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!vYAwwajQ!xmXU5wQaUorGe0oXAhwb5JyuDaEuTnfalGaL0oNeXAM",
+			"mp3" : "https://mega.co.nz/#!vAZkWK6A!oznuGHBrSZEIbOoRs1dH_WUqd_8x4ZHm53C2LyOzL7s",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://kobakyon.net/c87/",
+		"preview" : "https://soundcloud.com/kobakyon/lapis-moss-demo",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "優秀のB",
+		"artistcircle" : "えすぱー学園",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://espergakuen.web.fc2.com/yushunoB.html",
+		"preview" : "https://www.youtube.com/watch?v=c1qS3XbNLmg",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "REVOLVER",
+		"artistcircle" : "Royal Scandal",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!5BxXWABa!HxO3NwZ0bLOIYCfoRldveMMvYPrcdt3d5wCMapjVJnc",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "https://twitter.com/Royal_Scandal",
+		"preview" : "",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "flap",
+		"artistcircle" : "#039 Records",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://sharp039.web.fc2.com/",
+		"preview" : "http://www.nicovideo.jp/watch/sm25144234",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "ALL MY BEST",
+		"artistcircle" : "キッドP",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "https://twitter.com/kid_NnDS",
+		"preview" : "http://www.doujinstyle.com/forum/viewtopic.php?pid=406700#p406700",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : ".works",
+		"artistcircle" : "カラフルバブル",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://hnpa-0002.tumblr.com/",
+		"preview" : "http://youtu.be/wSFLvsyp6ik",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Never Blue",
+		"artistcircle" : "Trinity Note",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!2NZQjbBK!YGtmhEi-DMmcbzLwU81qIi_qyaA45faJ0zqa70ifncI",
+			"mp3" : "https://mega.co.nz/#!5Zx3na7B!ncMl3se06n_sSBbpnN8EuZajOGfVFUFJG-wDfA3utK4",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://trinitynote.com/",
+		"preview" : "https://soundcloud.com/spikin/never-bluec87cd",
+		"type" : "kancolle"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Practical Theory",
+		"artistcircle" : "A-One",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!LdhmyJLL!-zN9D9PNQ38wd_Vk-j1NHPKPEb2Fa2LThHGlQanM8TQ",
+			"mp3" : "https://mega.co.nz/#!XN4AXRbT!JDGZQA_wk-sr0Xml86T35RlAOrhnQq1pqUnmjux-scY",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://a-one-records.com/",
+		"preview" : "http://img.melonbooks.co.jp/s/213001016860a.mp3",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "DARK SLEEPER",
+		"artistcircle" : "SOUND HOLIC feat.709sec.",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!CUhUQbDR!NaPOw5Y6TzX6gdxM0-51r6nxXrniKIWXdEShx5yhK7w",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://www.sound-holic.com/",
+		"preview" : "",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "TRAVELER",
+		"artistcircle" : "Glastonbury Records (koyori & はりー)",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://ch.nicovideo.jp/koyori",
+		"preview" : "http://www.nicovideo.jp/watch/sm25199566",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "水銀のリクタ",
+		"artistcircle" : "Babel",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://suigin-no-lykta.tumblr.com/",
+		"preview" : "https://soundcloud.com/babeljpn/babel-crossfade-demo-c87-3-08a",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "NICE SHOT!",
+		"artistcircle" : "Club Music Emotion",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://niceshotcme.tumblr.com/",
+		"preview" : "https://soundcloud.com/quent_fl/c87nice-shot",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "CAUTION e.p.",
+		"artistcircle" : "As/Hi Soundworks",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://ashisoundworks.blog129.fc2.com/",
+		"preview" : "https://soundcloud.com/hiragi-shusetsu/c87caution-ep-demo",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "謎掛アリス",
+		"artistcircle" : "ABSOLUTE CASTAWAY",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!3NB1ARbb!vW3RafDAnTs4ErsimWUlvamdiQ98awhOARbZETEtjiw",
+			"mp3" : "https://mega.co.nz/#!mRpR0RQL!4cM0kY-6PREttIoTWTpp8LJih9K7O2N5B1BlsJGFsB4",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://nakae-mitsuki.net/alice/",
+		"preview" : "https://soundcloud.com/mitsuki-nakae/x-fade-demo-2",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Hoshibana",
+		"artistcircle" : "cordelia (花たん)",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!wBJBWZST!OKqSTFwuSIMuPzdlMizJ7aJsC81ESTh9gMMhgNsGY08",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://hanathan-niconico.seesaa.net/",
+		"preview" : "http://www.nicovideo.jp/watch/sm25217196",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Chers petite chats",
+		"artistcircle" : "cordelia (花たん)",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!REpETYpZ!tOeHs_B8H7QcmVOiDT-ayWMGUp_WpQ4uFBVcu0j9098",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://hanathan-niconico.seesaa.net/",
+		"preview" : "http://www.nicovideo.jp/watch/sm25217196",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "LoveLapis!",
+		"artistcircle" : "歯車制作所",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://www.nicovideo.jp/mylist/35433710",
+		"preview" : "http://www.nicovideo.jp/watch/sm25155136",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "ニューサドマゾヒズム",
+		"artistcircle" : "サリー (Sally)",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!CZxSmawb!WH-aHaZUkutVg9tVgayudtTwPg139tsTT9mdIhIwxkk",
+			"mp3" : "https://mega.co.nz/#!rBxAAaxA!_IlJsWxHeWUf698UFb3frCJAyXwfrh_v6lIU8hay5VA",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://sally.dojin.com/",
+		"preview" : "http://sally.dojin.com/SADO-NewSadistic-web.mp3",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "ブラックホール",
+		"artistcircle" : "AdamKadmon",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://ak-territory.com/",
+		"preview" : "http://ak-territory.com/BlackHall-web.mp3",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "need",
+		"artistcircle" : "monochrome-coat",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!6YhyzYib!KXDQY69uC4byOX_07l_PE6bPezK_3Qo5xLXta4F01gc",
+			"mp3" : "https://mega.co.nz/#!TYQyBA7C!b1vqQp3xHNSDL19GJoTp_LbIBGnNR_vwr89IAk6-8VI",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://mono-coat.com/",
+		"preview" : "",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "About a girl",
+		"artistcircle" : "GET IN THE RING",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!uUZCDR5B!3AOWnbUzUPJIB4sI40mTfVBd0QTRka9I-pXt6rxc-gQ",
+			"mp3" : "https://mega.co.nz/#!HAhHlTaZ!5TdY69xtG9MKJPEMpddkdjIJFUoGi8_4Ex3-L32eEEo",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://about-a-girl-c87.tumblr.com/",
+		"preview" : "https://soundcloud.com/gchm/get-in-the-ring-c87about-a-girlcrossfade-demo",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "\"Activity\" Case:04 -Cosmic Horoscope-",
+		"artistcircle" : "GET IN THE RING",
+		"available" : {
+			"flac" : false,
+			"mp3" : "http://yun.baidu.com/s/1gdowgGr",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://activity-case-04.tumblr.com/",
+		"preview" : "https://soundcloud.com/gchm/get-in-the-ring-c87activity-case04-cosmic-horoscope-crossfade-demo",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "舞音3 ～To the future～",
+		"artistcircle" : "C-CLAYS",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!WUJB3ajJ!JXnw8Wv2iz57HliLDIvW0XzYzbV3Xx_bFEPCSXq4plU",
+			"mp3" : "https://mega.co.nz/#!yNIWSbzD!8F0BUlWsHCI2POH-xMPVWeYKSGCUqijKjH6jGViTQVw",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://cclays.blog.fc2.com/blog-entry-297.html",
+		"preview" : "http://www.c-clays.com/music/tou/muon3/muon3_cclays_Xfade.mp3",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Primo -プリモ-",
+		"artistcircle" : "C-CLAYS",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!2FYjjACY!tN0WagBIJqVWwIvw55WvfdVqoRAZwWcV-TGxdE_yYqM",
+			"mp3" : "https://mega.co.nz/#!mIZAmZ5C!aQdQmM09zP7B8yuABIxjvwO26D6dcR3oy-Cue3g6GSc",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://cclays.blog.fc2.com/blog-entry-298.html",
+		"preview" : "http://www.c-clays.com/music/tou/primo/primo_cclays_Xfade.mp3",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Secondo -セコンド-",
+		"artistcircle" : "C-CLAYS / K2 SOUND",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!aFAyibIA!7iL7rmhAMQU2pE0EJ59xi7Qo0vH-lQz4UaUqPNjn1z8",
+			"mp3" : "https://mega.co.nz/#!2E5hWbZD!MOqM4P0L5pr7XhnRAeELDyBlkwqJ4ldZlwS_vfoq6lQ",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://cclays.blog.fc2.com/blog-entry-299.html",
+		"preview" : "http://www.c-clays.com/music/tou/second/second_k2sound_Xfade.mp3",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "焔ノ旗 -ホムラノハタ-",
+		"artistcircle" : "C-CLAYS",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://cclays.blog.fc2.com/blog-entry-300.html",
+		"preview" : "http://www.c-clays.com/music/kan/homuranohata_cclays_Xfade.mp3",
+		"type" : "kancolle"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "So What",
+		"artistcircle" : "子猫奪回屋",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://konekodakkaiya.client.jp/kndy0018.html",
+		"preview" : "",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "恋のさきさき☆レボリューションですよう♪",
+		"artistcircle" : "OSTER Project feat. 花たん",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://fuwafuwacinnamon.sakura.ne.jp/",
+		"preview" : "http://www.nicovideo.jp/watch/sm25170524",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "sigh.",
+		"artistcircle" : "鎖那 (Sana)",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://tmbox.net/pl/712445",
+		"preview" : "https://objectstore-r1nd1001.cnode.jp/v1/4477449e4a9340018715deeb47abf10f/tmbox/uploads/sound/file/712445/sana_clossfade.mp3",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Heart Beat From You",
+		"artistcircle" : "TOKOTOKO (西沢さんP)",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!QQhXiQAC!TCwS2hF1ldvUSypyQiqoNIIJe2XRTC_Q-J_lr5zLKvQ",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://heartbeat-from-you.tumblr.com/",
+		"preview" : "http://www.nicovideo.jp/watch/sm25200322",
+		"type" : "utaite"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "ぽんずふる＊",
+		"artistcircle" : "あやぽんず＊",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!jAAFGCjC!cZTgXAPBfakSf6JjJHdzCbyllnxzWCdi-WRzMwI50aE",
+			"mp3" : "https://mega.co.nz/#!2xIHiKKY!aXtV0_SMKYe5CSbqI5UO0eNgwWKhx9Q5ThY5h-UPutE",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "",
+		"preview" : "http://www.nicovideo.jp/watch/sm25214441",
+		"type" : "utaite"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Sylphia",
+		"artistcircle" : "Imy",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!8FBjEIJC!7o0Xs6qn3DtcSNCxYg47HX91KHSAtYllOuwGg6ooOzI",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://imy-sylphia.tumblr.com/",
+		"preview" : "https://soundcloud.com/myu1103/c87sylphia-imy",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Origin of Love",
+		"artistcircle" : "発熱巫女～ず",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!nYRBVAAA!gDGXL0lgCGwhQqvHx6Vu4YGth-xp7KxT_KMapuYSTas",
+			"mp3" : "https://mega.co.nz/#!CZxj1R7Q!zfVXs5gWBfxA9L3mK4ma-Ao0XRefxNGoDbDNuU4rfLo",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://hatsunetsumikos.net/oolv/",
+		"preview" : "https://soundcloud.com/hatsunetsumikos/c87-origin-of-love-xfd/s-fIy9f",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "C87会場特典CD",
+		"artistcircle" : "LiLA'c Records",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://www.lilac-records.com/tohospeed03.html",
+		"preview" : "https://soundcloud.com/lilac-records/llex-0010-xfd",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Cold Snap",
+		"artistcircle" : "FELT",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!2ZQgADoJ!yqOOsgpZU6DuElsglZyYXGBt6HFk1Jc12EBFrfgGDQ8",
+			"mp3" : "https://mega.co.nz/#!nEQFQBBa!IQrN99ivUubfpDA2Vt0hFePMNQX7rAwbG_tRe5-wc8E",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://feltmusic.net/FELT015/",
+		"preview" : "https://soundcloud.com/felt/felt-15th-album-cold-snap-xfd",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "SymphonicBranch",
+		"artistcircle" : "PolyphonicBranch",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!lQpQXShB!CSRP5yCXq9O95Otm9fPPUAMHFl9EnVcZbyaiSfV_eeY",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://polyphonicbranch.com/tokusetsu/symphonic.html",
+		"preview" : "http://www.nicovideo.jp/watch/sm25181761",
+		"type" : "utaite"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "TRUESTAR EP",
+		"artistcircle" : "Find Your Way",
+		"available" : {
+			"flac" : false,
+			"mp3" : "http://mediafire.com/?de4jrw29nbe9wsw/",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://findyourway.kanyu.me/music/TS9/truestar.php",
+		"preview" : "http://findyourway.kanyu.me/music/TS9/truestar.php",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "ハニワ曲歌ってみた5",
+		"artistcircle" : "HoneyWorks",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!JRAQWLoS!BW-rX43Si5s-KiJdBUw5GdwPQ2acLEttSNEZBJlPGFM",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://honeyworks.jp/",
+		"preview" : "http://www.nicovideo.jp/watch/sm25190689",
+		"type" : "utaite"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "ほしいろトラベル",
+		"artistcircle" : "Mikazuki Sofa (millie)",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!fZg3UATD!ROYLMV55PCjt-3zefboXblYqibFNniyVE2ii45qWZ5k",
+			"mp3" : "https://mega.co.nz/#!GBIVmSzb!KSeTbk0YfwTWZM49_NVrGi_EHFF4pEpXQHRJ23LRvI8",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://mikazukisofa.net/mlcd002/",
+		"preview" : "https://soundcloud.com/hatsunetsumikos/mlcd002/s-eOuy9",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "華言-kagen-",
+		"artistcircle" : "Crest",
+		"available" : {
+			"flac" : false,
+			"mp3" : "http://pan.baidu.com/s/1gdtLGDP",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://crest-music.net/archives/226",
+		"preview" : "https://www.youtube.com/watch?v=cUzPOayZVyE",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Sail Away",
+		"artistcircle" : "Crest",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://crest-music.net/archives/64",
+		"preview" : "https://www.youtube.com/watch?v=qxVeifqLlX0",
+		"type" : "kancolle"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "No_hand sound A",
+		"artistcircle" : "L-Tone",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://l-tone/",
+		"preview" : "http://www.nicovideo.jp/watch/sm25164925",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Rebellion",
+		"artistcircle" : "XM -Xenon Maiden- & あまみねこカフェ(三重の人)",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "https://webcatalog-free.circle.ms/Circle/11625153",
+		"preview" : "http://www.nicovideo.jp/watch/sm25167617",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Red Zone",
+		"artistcircle" : "Sound CYCLONE",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "https://soundcloud.com/shavadava",
+		"preview" : "https://soundcloud.com/shavadava/c87-red-zone-xfd-demo",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "ありきたりな脳髄よ、今宵の月と踊れ",
+		"artistcircle" : "豚乙女",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://butaotome.com/tokusetu/c87/c87matome.html",
+		"preview" : "https://soundcloud.com/butaotome/c87-vocal-xfd",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "White Drops",
+		"artistcircle" : "KACC",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://kaginoko.tumblr.com/",
+		"preview" : "https://soundcloud.com/falmaki/c87-keycd-white-drops",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Lovecino",
+		"artistcircle" : "Junky x Hiiragi Yuka",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://nicoweb.yu-yake.com/hiiragi_1st_Album/",
+		"preview" : "http://www.nicovideo.jp/watch/sm25205084",
+		"type" : "utaite"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "グッドハロー",
+		"artistcircle" : "鹿乃",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!DNpxCSAa!6W48xnjBga-01nxVpwGLWr8fgzXDE_1Xy4SSgzp6if4",
+			"mp3" : "https://mega.co.nz/#!bYQWjQBC!7HAtJ9k1iPSvMnA4zFhXMs_LgraMOjaziC1h8AGVSuE",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://www.nicovideo.jp/mylist/16997570",
+		"preview" : "http://www.nicovideo.jp/watch/sm25210411",
+		"type" : "utaite"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "ホログラム",
+		"artistcircle" : "メンヘラテレビサイズ",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!WR4mjD4D!c9YEIICSp5x0SsbjxyEPouWRgPMcWb8_pu4AXwioNx8",
+			"mp3" : "https://mega.co.nz/#!LFxhgY5Y!YB1PlCjtzez79y8sCQTa5LsO0R4G3XUsa6ps4a91i8o",
+			"other" : false
+		},
+		"genre" : "rock, pop",
+		"link" : "http://mentelehologram.tumblr.com/",
+		"preview" : "https://soundcloud.com/pyonno/c87xfd",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "シンフォニック東方Ⅷ -視聴音源-",
+		"artistcircle" : "5150",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!PEkwgJaL!ETfFP3Nu5xEerS0P_NuNYNW_p9IsFS6QHzEjN7mCzv0",
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "metal",
+		"link" : "http://ryu-5150.jp/",
+		"preview" : "https://soundcloud.com/info-1288-1/viii",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "東京魔女裁判",
+		"artistcircle" : "Eine Kleine",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!9NJTRKIb!4wnszVLrHoWNEQVA4Wt5EJ8FLrkj-h8ocp-Tf-qI97Y",
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://nekonofukuin.jimdo.com/",
+		"preview" : "http://nekonofukuin.jimdo.com/",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Qualia - 魔法書に刻む５つの記憶 -",
+		"artistcircle" : "Symholic",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://symholic.syncl.jp/?p=custom&id=19239502",
+		"preview" : "https://www.youtube.com/watch?v=hkEb1LosWbo",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "輪廻のウロボロス",
+		"artistcircle" : "桜牙",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://ameblo.jp/dragonguardian/entry-11959297589.html",
+		"preview" : "https://www.youtube.com/watch?v=PrI9DvWd8SQ",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Re:AL/MI",
+		"artistcircle" : "D機関",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://vdas.weebly.com/",
+		"preview" : "http://resource.toranoana.jp/mailorder/dl_files/04/0030/26/51/040030265161/disc_0001/00000001.mp3",
+		"type" : "kancolle"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "艦これメタル",
+		"artistcircle" : "TAMUSIC",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!uZ5wxAyS!Bq8-pjGk9JWZlOMmtLBFIdByZkDeQx23RM7mqVSKC_E",
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://tamusic.jp/tam3-0125/",
+		"preview" : "https://soundcloud.com/tamtamusic/tam3-0125",
+		"type" : "kancolle"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Death from Above",
+		"artistcircle" : "UI-70",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!ApUAjD4L!ffNKvYU27tV231KvHf1PZq-gmC2fKQLnZhzzrWUhUNw",
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://ui-70.sblo.jp/article/106263986.html",
+		"preview" : "http://img.melonbooks.co.jp/s/213001016749a.mp3",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Shelling And Torpedoing",
+		"artistcircle" : "CROW'S CLAW",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!BMsn3YiD!-2mOEeBbiNOsCEpVcReAFmLPOiAPW4nu7k-omOm0cos",
+			"mp3" : "https://mega.co.nz/#!sckjUKaD!6ER4lhP_O-xAB49Nvij2kzeyQEKeZnY2jvWkp5uPmh0",
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://paeg0022.crowsclaw.info/",
+		"preview" : "https://soundcloud.com/crows-claw/paeg-0022-shelling-and-torpedoing-crossfade",
+		"type" : "kancolle"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "HORRORS",
+		"artistcircle" : "ECE-SMZ",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://www.human-bbq.com/disc/archives/25.html",
+		"preview" : "https://soundcloud.com/ece-smz/sets/horrors",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Barrage Am Ring 4 Original / side",
+		"artistcircle" : "Barrage Am Ring",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!nJUjlKDQ!zE0vN4ieqhHrHuU_pdB-80A2LXEupMgXyW3akPFHmgw",
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://barrage.am/ring4o/",
+		"preview" : "https://soundcloud.com/barrageamring/bang-0004o_xfd",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Lovesody",
+		"artistcircle" : "ACUSTiCA壱式",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!PxZlgIDI!tChnB2uhBqCZLca-jMHB5lfwH4b92JAGHj7IJvPVB7U",
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://acustica-zero.net/acicweb/",
+		"preview" : "https://www.youtube.com/watch?v=C2urNn2vCcU",
+		"type" : "kancolle"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Sixth sense",
+		"artistcircle" : "Suspicion & Fear",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://suspicionandfaer.blog.fc2.com/",
+		"preview" : "https://www.youtube.com/watch?v=P5ZLNAWeDxs",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Masterpieces For Our Struggle 2",
+		"artistcircle" : "Masterpieces For Our Struggle",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!aIETECSI!VvvQfbFecqLcurzN-vjcdT_AzNU8xPXDSL75A1JyEws",
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://mfos-ctfa003.tumblr.com/",
+		"preview" : "https://soundcloud.com/200copies/masterpieces-for-our-struggle-2-xfd",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "東方アレンジ『兵』",
+		"artistcircle" : "UNDEAD CORPORATION",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://deathankou.blog129.fc2.com/blog-entry-77.html",
+		"preview" : "https://soundcloud.com/swing-of-the-dead/xfd-4",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "鴉/IX",
+		"artistcircle" : "Vermillion-D Alice Syndrome",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://vdas.weebly.com/",
+		"preview" : "",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "不思議の国の音哲樂 悪の目醒め",
+		"artistcircle" : "六弦アリス",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!iFBwwZiJ!6fsCexMJH_P8x7oqWu3Xb7zhqoWOydHFRwRZhhqPxWc",
+			"mp3" : "https://mega.co.nz/#!7dQk0LQR!y_LtBo_Io_GmwnB6odvx9riKrB9DVG7MtcNC00ndsGg",
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://rokugen.net/sp/201412.html",
+		"preview" : "http://rokugen.net/music/201412/rgot0004_demo.mp3",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Toho Warfare:RED I+II+III+EX",
+		"artistcircle" : "天然ジェミニ (Tennenjemini)",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://tenjemi.younoumi.com/",
+		"preview" : "http://tenjemi.younoumi.com/RED-EX_xfd.mp3",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Toho Warfare:BLACK I+II+III+EX",
+		"artistcircle" : "ユウノウミ (Yuunoumi)",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://tenjemi.younoumi.com/",
+		"preview" : "http://tenjemi.younoumi.com/BLACK-EX_xfd.mp3",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "海の風 陸の花",
+		"artistcircle" : "UNDEAD CORPORATION",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://deathankou.blog129.fc2.com/blog-entry-77.html",
+		"preview" : "https://soundcloud.com/swing-of-the-dead/xfd-5",
+		"type" : "kancolle"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "REBIRTH -Return of Phoenix-",
+		"artistcircle" : "XM -Xenon Maiden-",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://rebirthxm.tumblr.com/",
+		"preview" : "https://www.youtube.com/watch?v=_00CnvyZ8NQ",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Dim.STARLIGHT",
+		"artistcircle" : "IRON ATTACK!",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!bI8gxZJR!Aj2VJDxgCbpGeZGzQHHfkLh_EWw0yIPMBjS7B9tigvM",
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://sound.jp/ironchino/attack.html",
+		"preview" : "http://img.melonbooks.co.jp/s/213001016928a.mp3",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Peccant Thunder",
+		"artistcircle" : "Agent 0",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://agent0bdm.blog.shinobi.jp/",
+		"preview" : "https://www.youtube.com/watch?v=zKGqgEjs1sg",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "妖神楽 vs 蜘手わみ",
+		"artistcircle" : "妖神楽",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://ayakasi-kagura.com/",
+		"preview" : "https://www.youtube.com/watch?v=Ft76wAzDkEE",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "STRINGS ON THE VEXATION",
+		"artistcircle" : "Pearls Before Swine",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!oN0VDI4Q!CDDBPHsfG0Zjh2O_DesVC5KB-a75LGqTtqNoxWwOTNI",
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://pbswine.jp/pbs003.html",
+		"preview" : "http://www.nicovideo.jp/watch/sm25169128",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "その純舶に 赤き血を捧げ ～Raise a flag～",
+		"artistcircle" : "IRON ATTACK!",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!WB9kzKqb!vB-c_Ie94VgXx3wpjuGk70a8A_5hFCYfrxVXIZzEY_I",
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://sound.jp/ironchino/attack.html",
+		"preview" : "http://img.melonbooks.co.jp/s/213001016929a.mp3",
+		"type" : "kancolle"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "黄泉より聴こゆ、皇国の燈と焔の少女。",
+		"artistcircle" : "Imperial Circus Dead Decadence",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://lgcd-012.tumblr.com/",
+		"preview" : "https://soundcloud.com/halcaitk/lgcd-012/s-THytO",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "The Demon Of The Deep",
+		"artistcircle" : "Alice in the hole!",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://thedemonofthedeep.tumblr.com/",
+		"preview" : "https://soundcloud.com/wazamasan/the-demon-of-the-deepc87b-07b",
+		"type" : "kancolle"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "SLANTING RAIN",
+		"artistcircle" : "Aether",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!7IYm3IDA!Ec7j3BRdlau4PKdy17NUcUmH95_2E4ljH-jdKeUJNJU",
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://www.lkjp.net/c87/",
+		"preview" : "https://soundcloud.com/eru-aether/eru-from-slanting-rain",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "命ノ刻",
+		"artistcircle" : "GILDIA",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://gildia.jp/",
+		"preview" : "https://soundcloud.com/gildia-music/gildia8th-demo1",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "漆黒のDhampir",
+		"artistcircle" : "Eclipseed",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!KFYWVYja!SQX5AD_1KiqlsZNmm9owMlxnCv13ZT2qQ4JCt98QM0o",
+			"mp3" : "https://mega.co.nz/#!9YI2zCyB!t2URaPc5Zqdg60KoUjHltew8-eqhqvc1fWhizH_h2vk",
+			"other" : false
+		},
+		"genre" : "hard rock, metal, gothic",
+		"link" : "http://es.s-lea.com/DYVK-0022.html",
+		"preview" : "",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Scarlet -スカーレット-",
+		"artistcircle" : "彩音 〜xi-on〜",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!J9UnSDbT!EtSQavA-VWKiqEm0l3wUx3rdaqa2Ii7lrhTPsaCFVeo",
+			"other" : false
+		},
+		"genre" : "piano, jazz, bossa nova, easy listening, lounge, chillout",
+		"link" : "http://xion.art-studio.cc/scarlet.html",
+		"preview" : "https://www.youtube.com/watch?v=UuYMgvMYc88",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "艦これピアノ",
+		"artistcircle" : "TAMUSIC",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "piano, jazz, bossa nova, easy listening, lounge, chillout",
+		"link" : "http://tamusic.jp/TAM3-0122/",
+		"preview" : "https://soundcloud.com/tamtamusic/tam3-0122",
+		"type" : "kancolle"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "露地奥の仙界神子",
+		"artistcircle" : "Pizuya's Cell",
+		"available" : {
+			"flac" : false,
+			"mp3" : "http://mikudb.moe/album/rojioku-no-senkai-miko/",
+			"other" : "http://www.melonbooks.com/index.php?main_page=product_info&products_id=IT0000177068"
+		},
+		"genre" : "piano, jazz, bossa nova, easy listening, lounge, chillout",
+		"link" : "http://pizuya.com/",
+		"preview" : "https://soundcloud.com/pizuya/c87-xfdpizuyas-cell",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "AD:PIANO 3",
+		"artistcircle" : "Diverse System",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!t9RjBSZD!FIWZbBybt64jiAuQeTa9BwX7HLCDtIK1bsJqcaI3W68",
+			"other" : false
+		},
+		"genre" : "piano, jazz, bossa nova, easy listening, lounge, chillout",
+		"link" : "http://adp3.diverse.jp/",
+		"preview" : "https://soundcloud.com/diversesystem/dvsp-0126adpiano3-crossfade/s-0F3WN",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Cafe de Touhou 6",
+		"artistcircle" : "DDBY",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!tJEG3ZwB!bLosf_IFmAn5Rp4TVezCbZjATXeHvoOMsndDcwz-zJg",
+			"mp3" : "https://mega.co.nz/#!WNoSkBIa!WSYW1OtV5f59Uv8HYe_7q61TFAwgNiaWFkbptvDZx6Y",
+			"other" : false
+		},
+		"genre" : "piano, jazz, bossa nova, easy listening, lounge, chillout",
+		"link" : "http://ddby.jp/",
+		"preview" : "",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "窓辺のモニカ",
+		"artistcircle" : "Culb-Ru:ne",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "piano, jazz, bossa nova, easy listening, lounge, chillout",
+		"link" : "http://www2s.biglobe.ne.jp/~k5855/culb-rune/index.html",
+		"preview" : "http://youtu.be/ZPtSFOvhjY4",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "艦隊ピアノこれくしょん",
+		"artistcircle" : "まらしぃ(Marasy)",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!RVhyQayI!Von5iUWXkI4Y-1EfGXzaehGGaqJQCOKjn6_22tvDlsY",
+			"other" : false
+		},
+		"genre" : "piano, jazz, bossa nova, easy listening, lounge, chillout",
+		"link" : "https://webcatalog-free.circle.ms/Circle/11623345",
+		"preview" : "http://www.toranoana.jp/mailorder/cit/pagekit/0000/00/06/000000061517/index.html",
+		"type" : "kancolle"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "幻想遊戯<文>W",
+		"artistcircle" : "まらしぃ(Marasy)",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!SMAzybaa!hfWpbuV-TdS4n6GAs8ElQPlxUplQ-W8HPuAYipBybCo",
+			"mp3" : "https://mega.co.nz/#!yI4GybSS!iXKWl26mH5_B5r-xXhYj7o1jLwzsVrrsuvOB8NDVilU",
+			"other" : false
+		},
+		"genre" : "piano, jazz, bossa nova, easy listening, lounge, chillout",
+		"link" : "https://webcatalog-free.circle.ms/Circle/11623345",
+		"preview" : "http://www.toranoana.jp/mailorder/cit/pagekit/0000/00/06/000000061517/index.html",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "スウィングウィッチーズ2",
+		"artistcircle" : "しがべや",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "piano, jazz, bossa nova, easy listening, lounge, chillout",
+		"link" : "http://musicnakajima.web.fc2.com/",
+		"preview" : "https://soundcloud.com/naquaji/c87",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "SWING HOLIC Vol.14",
+		"artistcircle" : "SWING HOLIC",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!LMgHnTqZ!7rNDTG32G8geDu_znJo6rPc5fPnKq9mZWzAjAIEPtW8",
+			"other" : false
+		},
+		"genre" : "piano, jazz, bossa nova, easy listening, lounge, chillout",
+		"link" : "http://www.sound-holic.com/",
+		"preview" : "",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "おとなの艦これ",
+		"artistcircle" : "Crest & Neo Connection",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "piano, jazz, bossa nova, easy listening, lounge, chillout",
+		"link" : "http://crest-music.net/",
+		"preview" : "https://www.youtube.com/watch?v=b9eiWpIBXxs",
+		"type" : "kancolle"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "火車の叫ぶ夜に",
+		"artistcircle" : "Unlucky Morpheus×GET IN THE RING×UNDEAD CORPORATION",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "piano, jazz, bossa nova, easy listening, lounge, chillout",
+		"link" : "http://deathankou.blog129.fc2.com/",
+		"preview" : "https://soundcloud.com/swing-of-the-dead/unlucky-morpheusget-in-the-ringundead-corporation",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Mountain Gosipp",
+		"artistcircle" : "himajin sound",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "piano, jazz, bossa nova, easy listening, lounge, chillout",
+		"link" : "https://soundcloud.com/takeyan999",
+		"preview" : "https://soundcloud.com/takeyan999/c87-mountain-gosipp",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "東方四重奏 Cherry Blossom",
+		"artistcircle" : "TAMUSIC",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!3NhhTBKK!FuXWuEUup7FgMh0xmRBH8dXDqkdtnYHUik9vsXwQIpk",
+			"mp3" : "https://mega.co.nz/#!jVYkURYb!IpUFWqRiZLXZ1trlHCUYtD3omiCIYN1CH4mQYI5hQz4",
+			"other" : false
+		},
+		"genre" : "classical, orchestral, traditional, soundtrack, bgm, acoustic, folk",
+		"link" : "http://tamusic.jp/TAM3-0123/",
+		"preview" : "https://soundcloud.com/tamtamusic/tam3-0123",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "stardust-atelier",
+		"artistcircle" : "Foxtail-Grass Studio",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "classical, orchestral, traditional, soundtrack, bgm, acoustic, folk",
+		"link" : "http://f-g-s.net/",
+		"preview" : "https://soundcloud.com/hamu_lr/fgst0012-stardust-atelier",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "くつろぎタイム5",
+		"artistcircle" : "DDBY",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!8QVFQDRC!eHgTRUO0zK0YxmpE7fubXY9tQGcbZuSPgRALkginamk",
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "classical, orchestral, traditional, soundtrack, bgm, acoustic, folk",
+		"link" : "https://c10007595.circle.ms/oc/CircleProfile.aspx",
+		"preview" : "https://soundcloud.com/ddby/cd-ddby",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "東方幻想界 -蓮台野夜行の音-",
+		"artistcircle" : "狐の工作室 / Kitsune's Workshop / Fox Factory",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!CUBzABDK!oGOQl4tBS1D_YnXTaG4H_mtw6syBnECuX3dDAdy_B3E",
+			"mp3" : "https://mega.co.nz/#!jF5miZpK!kUuWVYrOCJBm0F7cDWJGwYOd7mqsOcyRuAmy3QMvJl4",
+			"other" : false
+		},
+		"genre" : "classical, orchestral, traditional, soundtrack, bgm, acoustic, folk",
+		"link" : "http://yuki-factory.main.jp/main/index.html",
+		"preview" : "https://soundcloud.com/mizuhasi_yukkie/knth-0017-xfd2",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "艦これオーケストラ改",
+		"artistcircle" : "Melodic Taste",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!yNwjHCBY!e68D0oihTdE5_VdCuC0ktsmeOQfwTyNbiBSh1U_Z5no",
+			"mp3" : "https://mega.co.nz/#!mQRkWLpb!VVKPq_ED3VtlhP-f8i58wbMmFREVexC0AlNJB4DqClM",
+			"other" : false
+		},
+		"genre" : "classical, orchestral, traditional, soundtrack, bgm, acoustic, folk",
+		"link" : "http://taste-f.sakura.ne.jp/Melodic/",
+		"preview" : "",
+		"type" : "kancolle"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Norn",
+		"artistcircle" : "WAVE",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!iZ4XxYRa!PMH2bsK0eRnMOD7SVLpMyfOU9PTLTzTuxByklKm34pw",
+			"mp3" : "https://mega.co.nz/#!JQQVCbxJ!JyjjsSXiLr4s4TXPN-Uvhd7qORfJ1ctWrosIc0CH4M8",
+			"other" : false
+		},
+		"genre" : "classical, orchestral, traditional, soundtrack, bgm, acoustic, folk",
+		"link" : "http://www.circle-wave.net/product/wave0051/",
+		"preview" : "http://www.circle-wave.net/product/wave0051/",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "LOP STEP RABBITS!",
+		"artistcircle" : "かめるかめりあ＆Confetto",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!5FV3URJb!_OmJW0rVUSz031J1A1JzlR2haJzSYIKH3n0k6dnB6Bs",
+			"other" : false
+		},
+		"genre" : "denpa, cute",
+		"link" : "http://kc-rabbits.tumblr.com/",
+		"preview" : "https://soundcloud.com/nanahira/rabbits",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "東方幻奏響uroboros弐 ～fAIRYtAILoVERdRIVE～",
+		"artistcircle" : "とらのあな(Toranoana)",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!TZpF1Kbb!cK-gvuLwddgvdWi8VtC9kZK_lg8s56MsyoiN2OU79n0",
+			"mp3" : "https://mega.co.nz/#!jUZAgC5C!vDR5bTG96eybCiLUCk2eKKfG7cimNRu9fPKSc4FqfGQ",
+			"other" : false
+		},
+		"genre" : "various",
+		"link" : "http://www.toranoana.jp/info/dojin/toho_uroboro2/index.html",
+		"preview" : "http://www.toranoana.jp/info/dojin/toho_uroboro2/index.html",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Night in my Hand",
+		"artistcircle" : "綾里彼岸",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "various",
+		"link" : "http://ayasatohigan.wix.com/studio-ah#!works/ck0q",
+		"preview" : "",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "ReUnion-Ivory-",
+		"artistcircle" : "Sound Refil",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "various",
+		"link" : "http://takurosumugen.tumblr.com/",
+		"preview" : "https://soundcloud.com/takurosu/reunion-ivory-xfd",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "ReUnion-Ebony-",
+		"artistcircle" : "Sound Refil",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "various",
+		"link" : "http://wildlyshinyyouth.tumblr.com/",
+		"preview" : "https://soundcloud.com/takurosu/reunion-ebony-xfd",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "昨日、神さまを見た",
+		"artistcircle" : "金魚屋キネマ",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "various",
+		"link" : "https://bokumame.booth.pm/items/56109",
+		"preview" : "",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "CROSSFADE REMIX CD 2012-2014",
+		"artistcircle" : "ALVINE",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "various",
+		"link" : "http://alvine.jp/info/485",
+		"preview" : "",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "CROSSFADE REMIX CD 2014",
+		"artistcircle" : "TAMUSIC",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "various",
+		"link" : "http://tamusic.jp/tam3-0126/",
+		"preview" : "",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "If the World2",
+		"artistcircle" : "teamOS(ひとしずく×やま△)",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!YNRSmJyL!hwEke4vT2ICeFVJu6l4s_a1IhVK8hQ2vhkdpoVzwRA8",
+			"other" : false
+		},
+		"genre" : "various",
+		"link" : "http://yamashizuku.web.fc2.com/",
+		"preview" : "",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Four Dimensions",
+		"artistcircle" : "global-line",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "various",
+		"link" : "http://www.global-line.info/",
+		"preview" : "http://www.nicovideo.jp/watch/sm25136481",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "ハピスク冬のお楽しみセット",
+		"artistcircle" : "HAPPY I SCREAM!!",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "various",
+		"link" : "http://happyiscream.com/his-demo005/",
+		"preview" : "",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Crystal Ending",
+		"artistcircle" : "LUCIOLE*CAFE",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!6IRDwQDT!KgZjs6G5uge7gs1SKJpQJjYisw2ara1Qj3qZTXPkPYo",
+			"mp3" : "https://mega.co.nz/#!HdISHCQb!h7vHRw7kIGGXGi6q5pbmWbOwseR9diqy_FHhBNBGToU",
+			"other" : false
+		},
+		"genre" : "various",
+		"link" : "http://luciole-cafe.com/",
+		"preview" : "",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "a tale of scar",
+		"artistcircle" : "ゆりとわーくす",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "various",
+		"link" : "http://ataleofscar.tumblr.com/",
+		"preview" : "http://soundcloud.com/yuritoworks/yrt-001a-tale-of-scarxfade-demo",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "白道輪廻 -samsara-",
+		"artistcircle" : "ClearLeMel",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "various",
+		"link" : "http://clmel.com/",
+		"preview" : "",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "怪 -KAI-",
+		"artistcircle" : "SOUND HOLIC",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!XRYw2JKZ!aY37y49HaIgGkmtThm706qIivgz9zvdeuS7rgORwxr4",
+			"mp3" : "https://mega.co.nz/#!SBJyjAyL!ZTjuwDgYTHu9KNbJT-_uu6LLM7QiUtUH4WOnu31ll9E",
+			"other" : false
+		},
+		"genre" : "various",
+		"link" : "http://www.sound-holic.com/",
+		"preview" : "",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "With Ø",
+		"artistcircle" : "魂音泉 / TAMAONSEN",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!mFsBBCBZ!1MN95EeGJsPYu0WFffV_eg1rWcpN2sbYnYg7eBTO1c0",
+			"other" : false
+		},
+		"genre" : "various",
+		"link" : "http://tamaonsen.com/",
+		"preview" : "https://www.youtube.com/watch?v=di7aKPdCrm4",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "艦これクラブサウンズ VOL.1 予行演習",
+		"artistcircle" : "A-One",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "various",
+		"link" : "http://a-one-records.com/",
+		"preview" : "https://soundcloud.com/a-one-1/aone-0028-vol1-cross-fade-demo",
+		"type" : "kancolle"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "ひみつのおまじない",
+		"artistcircle" : "#039 Records",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "various",
+		"link" : "http://sharp039.web.fc2.com/",
+		"preview" : "http://www.nicovideo.jp/watch/sm25150860",
+		"type" : "vocaloid"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Dark Magic Territory",
+		"artistcircle" : "Silver Forest",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!lF5m3JIY!HnlGag1N-T-YUeGshZ29QxNCPBVoIUxUM8ehVvkf7fAI",
+			"other" : false
+		},
+		"genre" : "various",
+		"link" : "http://www.silver--forest.com/yami.htm",
+		"preview" : "",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Desire",
+		"artistcircle" : "efs",
+		"available" : {
+			"flac" : false,
+			"mp3" : "https://mega.co.nz/#!aBo3zDhA!8ulmnJgmKrofQeC1xZkelmb2_Z0rRquVtXzjnUJ93EY",
+			"other" : false
+		},
+		"genre" : "various",
+		"link" : "http://efs.holy.jp/",
+		"preview" : "http://img.melonbooks.co.jp/s/213001016891a.mp3",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "There's a Horizon Still Shining Bright",
+		"artistcircle" : "situation report",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "various",
+		"link" : "http://thssb20141217.tumblr.com/",
+		"preview" : "http://www.nicovideo.jp/watch/sm25180230",
+		"type" : "touhou"
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Testimony",
+		"artistcircle" : "axsword",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!eRZlxRSJ!Z-HimaKcjyGeG5vu2AQYUD6HoM-5SzZe6Ct4sPR0H0s",
+			"mp3" : "https://mega.co.nz/#!LURigCDT!tl4OPId9FvfgQiMOeHi5nQHkM1AEhYAk4u2f75itXHA",
+			"other" : false
+		},
+		"genre" : "various",
+		"link" : "http://axsword.com/special/testimony/",
+		"preview" : "https://www.youtube.com/watch?v=b66yjz5dzyY",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "un deux trois...",
+		"artistcircle" : "非可逆リズム",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "various",
+		"link" : "https://soundcloud.com/ats024",
+		"preview" : "https://soundcloud.com/ats024/c87un-deux-trois",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "Look Back 95's",
+		"artistcircle" : "白い雲の帝国",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "various",
+		"link" : "https://soundcloud.com/wce_dtm",
+		"preview" : "https://soundcloud.com/wce_dtm/c87-look-back-95s",
+		"type" : ""
+	},
+	{
+		"comiket_id" : "87",
+		"album" : "東京ラグーン",
+		"artistcircle" : "AMPERSAND YOU",
+		"available" : {
+			"flac" : "https://mega.co.nz/#!DdpBCbTQ!i92rPdTe-cko47Got9UHZ5mCk34OiLSbiTgzF__fb34",
+			"mp3" : "https://mega.co.nz/#!adQXRTbC!up4RnGNUXX3_TNh1U1Zz6TQnA3WVXWHfSA2C32l3RJ8",
+			"other" : false
+		},
+		"genre" : "various",
+		"link" : "http://www.ampersand-you.com/",
+		"preview" : "https://www.youtube.com/watch?v=I8248uFr57g",
+		"type" : ""
+	}
+]
