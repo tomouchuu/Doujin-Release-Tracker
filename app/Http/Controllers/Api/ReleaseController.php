@@ -49,7 +49,7 @@ class ReleaseController extends Controller
      */
     public function show($id)
     {
-        return response()->json(Release::find($id));
+        return response()->json(Release::findOrFail($id));
     }
 
     /**
@@ -60,7 +60,7 @@ class ReleaseController extends Controller
      */
     public function comiket($id)
     {
-        return response()->json(Release::find($id)->comiket);
+        return response()->json(Release::findOrFail($id)->comiket);
     }
 
     /**
