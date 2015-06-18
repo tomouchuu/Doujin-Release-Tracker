@@ -60,7 +60,7 @@ class ComiketController extends Controller
      */
     public function releases($id)
     {
-        return response()->json(Comiket::find($id)->release);
+        return response()->json(Comiket::find($id)->releases);
     }
 
     /**

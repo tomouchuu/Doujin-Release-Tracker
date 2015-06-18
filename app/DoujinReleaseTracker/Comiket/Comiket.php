@@ -10,7 +10,7 @@ class Comiket extends Eloquent {
 
     public function releases()
     {
-        return $this->embedsMany('Release');
+        return $this->hasMany('App\DoujinReleaseTracker\Releases\Release');
     }
 
 }

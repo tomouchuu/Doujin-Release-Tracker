@@ -49,7 +49,18 @@ class ReleaseController extends Controller
      */
     public function show($id)
     {
-        //
+        return response()->json(Release::find($id));
+    }
+
+    /**
+     * Display the comiket event of specified resource.
+     *
+     * @param  int  $id
+     * @return Response
+     */
+    public function comiket($id)
+    {
+        return response()->json(Release::find($id)->comiket);
     }
 
     /**
