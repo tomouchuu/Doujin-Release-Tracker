@@ -11,8 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-  return view('welcome');
+Route::group(['domain' => 'doujinreleas.es'], function () {
+	Route::get('/', function () {
+		return view('welcome');
+	});
+});
+
+Route::group(['domain' => 'comiket.doujinreleas.es'], function () {
+	Route::get('/', 'ComiketController@index');
+	Route::get('/{id}', 'ComiketController@specific');
 });
 
 Route::resource('user', 'UserController');
