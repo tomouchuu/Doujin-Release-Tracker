@@ -1,27 +1,37 @@
-## Laravel PHP Framework
+# Doujin Release Tracker
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+<!-- [![Build Status](https://travis-ci.org/Tomo-san/Doujin-Release-Tracker.svg)](https://travis-ci.org/Tomo-san/Doujin-Release-Tracker) -->
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+Initially started as a way to keep track of what I'm looking forward to hearing at Comiket but now has expanded to also include M3 & Vocamas events.
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+So we're onto Version 4. It's been awhile and I've once again decided to do a full recode of the site and data. For the new stack we're using Laravel as the backend and then either a Blade / React frontend. We're using Mongo for the database this time. The idea for this release is to make it faster and for me to learn Laravel since it's important for my current job. I also want to try introduce an admin area for a nicer way to add releases and maybe user support for marking releases (and maybe even adding) as the end game. Another thing I wanted to work on was to make sure there was a nice API behind it that can be used by anyone should anyone want to access the data.
 
-## Official Documentation
+## API
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+Coming soon! They'll hopefully be proper docs for this but generally the endpoints would be:
 
-## Contributing
+- `/[comiket, vocamas, m3]` - Shows data for all the events we have on record with id, date & links to forums
+- `/[comiket, vocamas, m3]/id` - Shows data for a specific event we have on record with id, date & links to forums
+- `/[comiket, vocamas, m3]/id/releases` - Shows data for all the releases from a specific event
+- `/[comiket, vocamas, m3]/id/releases/id` - Shows data for a specific release from a specific event
+- `/releases` - Shows data for all releases
+- `/releases/id` - Shows data for a specific release
+- `/releases/id/[comiket, vocamas, m3]` - Shows data for the event the specific release was from
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+## You missed a release
 
-## Security Vulnerabilities
+Thanks, get in touch with me somehow ([@tomopagu on twitter](http://twitter.com/tomopagu "Twitter")) and I'll update the tracker as soon as I can. I was thinking of maybe adding a form so people can add their own when they want, thoughts?. Anyway to help out when letting me know could you give me:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+- Album Name
+- Artist/Circle Name
+- Link to their site (if avail)
+- Preview link to a crossfade
+- Type of release (only really used for comiket releases to decide if it's Touhou, Vocaloid etc.)
+- Genre of release
+- Available links (Links to download, mp3, flac, other formats)
 
-### License
+## Helping
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+If you wanna help out feel free to clone / fork & improve it. I'm open to everything since I know I'm pretty shitty. For the project you'll need PHP 5.4+ with MCrypt for Laravel to function and a MongoDB server. Clone it `composer install` to install dependencies, seed the data with `something`.
+
+You could also just make an [issue](https://github.com/Tomo-san/Doujin-Release-Tracker/issues) and I'll get to it as soon as I can.
