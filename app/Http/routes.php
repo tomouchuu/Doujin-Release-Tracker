@@ -11,7 +11,7 @@
 |
 */
 
-Route::group(['domain' => 'doujinreleas.es'], function () {
+Route::group(['domain' => 'www.doujinreleas.es'], function () {
 	Route::get('/', function () {
 		return view('welcome');
 	});
