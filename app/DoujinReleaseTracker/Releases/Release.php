@@ -13,4 +13,9 @@ class Release extends Eloquent {
         return $this->belongsTo('App\DoujinReleaseTracker\Comiket\Comiket');
     }
 
+    public function vocamas()
+    {
+        return $this->belongsTo('App\DoujinReleaseTracker\Vocamas\Vocamas');
+    }
+
 }

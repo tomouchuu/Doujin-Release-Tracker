@@ -17,7 +17,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="/">Comiket Release Tracker</a>
+				<a class="navbar-brand" href="/">{{ $event }} Release Tracker</a>
 			</div>
 
 
@@ -30,10 +30,21 @@
 				</ul>
 				<form class="navbar-form navbar-right" role="search">
 					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Global Search...">
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="Search all events...">
+							<span class="input-group-btn">
+								<button class="btn btn-default" type="button">Go!</button>
+							</span>
+						</div>
 					</div>
-					<button type="submit" class="btn btn-default">Submit</button>
 				</form>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="/archive">Archive</a></li>
+					<li><a href="/other-events">Other Events</a></li>
+					<li><a href="/login">Login</a></li>
+					<li><a href="/api">API</a></li>
+					<li><a href="https://github.com/Tomo-san/Doujin-Release-Tracker">Source</a></li>
+				</ul>
 			</div>
 		</div>
 	</nav>
@@ -41,7 +52,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6 event-title">
-				<h1>Comiket {{ $data['_id'] }} <small class="date">{{ $data['date'] }}</small></h1>
+				<h1>{{ $event }} {{ $data['_id'] }} <small class="date">{{ $data['date'] }}</small></h1>
 			</div>
 			<div class="available-filter col-sm-6" ng-init="[filter.available = '', filter.type = '']">
 				<p>Show:
@@ -58,12 +69,14 @@
 		</div>
 
 		<div class="row threads">
-			<div class="col-sm-6">
-				<p class="text-center">
-					<strong>Doujinstyle thread:</strong>
-					<a target="_blank" href="{{ $data['doujinstyle'] }}">{{ $data['doujinstyle'] }}</a>
-				</p>
-			</div>
+			@if (isset($data['jpthread']))
+				<div class="col-sm-6">
+					<p class="text-center">
+						<strong>Doujinstyle thread:</strong>
+						<a target="_blank" href="{{ $data['doujinstyle'] }}">{{ $data['doujinstyle'] }}</a>
+					</p>
+				</div>
+			@endif
 			@if (isset($data['jpthread']))
 				<div class="col-sm-6">
 					<p class="text-center">
