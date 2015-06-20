@@ -24,5 +24,10 @@
     "datatables": "^1.10.7",
     "jquery": "^2.1.4",
     "moment": "^2.10.3"
-  }
+    },
+    "scripts": {
+        "start": "echo starting",
+        "predeploy": "echo im about to deploy",
+        "postdeploy": "echo ive deployed"
+    }
 }
