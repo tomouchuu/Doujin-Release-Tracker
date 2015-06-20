@@ -12274,5 +12274,18 @@
 		"link" : "http://www.ampersand-you.com/",
 		"preview" : "https://www.youtube.com/watch?v=I8248uFr57g",
 		"type" : ""
+	},
+	{
+		"vocamas_id" : "28",
+		"album" : "Kanjou Railway",
+		"artistcircle" : "colate*,想太,task,noo,take,ramune",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock,pop,electronic",
+		"link" : "http://kanjourailway.cz.cc/",
+		"preview" : "http://www.nicovideo.jp/watch/sm23373755"
 	}
 ]
