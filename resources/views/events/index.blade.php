@@ -1,63 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Doujin Release Tracker</title>
+@extends('_layouts.event')
 
-	<link rel="stylesheet" href="assets/css/app.css" media="screen" title="Main Stylesheet" charset="utf-8">
-</head>
-<body>
-
-	<nav class="navbar navbar-inverse navbar-static-top">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="/">{{ $event }} Release Tracker</a>
-			</div>
-
-
-			<div class="collapse navbar-collapse" id="navbar-collapse-1">
-				<ul class="nav navbar-nav">
-					@if ($event === 'Comiket')
-						@foreach ($comiketNavItems as $eventItem)
-							<li><a href="/{{ $eventItem['id'] }}">C{{ $eventItem['id'] }}</a></li>
-						@endforeach
-					@elseif($event === 'Vocamas')
-						@foreach ($vocamasNavItems as $eventItem)
-							<li><a href="/{{ $eventItem['id'] }}">Vocamas {{ $eventItem['id'] }}</a></li>
-						@endforeach
-					@elseif($event === 'M3')
-						@foreach ($m3NavItems as $eventItem)
-							<li><a href="/{{ $eventItem['id'] }}">M3 {{ $eventItem['id'] }}</a></li>
-						@endforeach
-					@endif
-				</ul>
-				<form class="navbar-form navbar-right" role="search">
-					<div class="form-group">
-						<div class="input-group">
-							<input type="text" class="form-control" placeholder="Search all events...">
-							<span class="input-group-btn">
-								<button class="btn btn-default" type="button">Go!</button>
-							</span>
-						</div>
-					</div>
-				</form>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="/archive">Archive</a></li>
-					<li><a href="http://doujinreleas.es">Other Events</a></li>
-					<li><a href="/login">Login</a></li>
-					<li><a href="/api">API</a></li>
-					<li><a href="https://github.com/tomopagu/Doujin-Release-Tracker">Source</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-
+@section('content')
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6 event-title">
@@ -151,7 +94,4 @@
 			</div>
 		</div>
 	</div>
-
-	<script type="text/javascript" src="assets/js/app.js"></script>
-</body>
-</html>
+@endsection

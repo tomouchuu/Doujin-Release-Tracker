@@ -34,7 +34,7 @@ class EventController extends Controller
 		$data = Api::internal('api/v1/' . $event . '/' . $latestEvent)->get();
 		$releases = Api::internal('api/v1/' . $event . '/' . $latestEvent . '/releases')->get();
 
-		return view('_layouts.index', ['event' => ucfirst($event), 'data' => $data, 'releases' => $releases]);
+		return view('events.index', ['event' => ucfirst($event), 'data' => $data, 'releases' => $releases]);
 	}
 
 	/**
@@ -47,6 +47,6 @@ class EventController extends Controller
 	{
 		$data = Api::internal('api/v1/' . $event . '/' . $id)->get();
 		$releases = Api::internal('api/v1/' . $event . '/' . $id . '/releases')->get();
-		return view('_layouts.index', ['event' => ucfirst($event), 'data' => $data, 'releases' => $releases]);
+		return view('events.index', ['event' => ucfirst($event), 'data' => $data, 'releases' => $releases]);
 	}
 }
