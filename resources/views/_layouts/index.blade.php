@@ -48,7 +48,7 @@
 					<li><a href="http://doujinreleas.es">Other Events</a></li>
 					<li><a href="/login">Login</a></li>
 					<li><a href="/api">API</a></li>
-					<li><a href="https://github.com/Tomo-san/Doujin-Release-Tracker">Source</a></li>
+					<li><a href="https://github.com/tomopagu/Doujin-Release-Tracker">Source</a></li>
 				</ul>
 			</div>
 		</div>
