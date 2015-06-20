@@ -35,8 +35,6 @@
             "php artisan optimize",
             "chmod -R 777 storage/app",
             "chmod -R 777 public",
-            "npm install",
-            "grunt",
             "php artisan migrate"
         ],
         "post-update-cmd": [
