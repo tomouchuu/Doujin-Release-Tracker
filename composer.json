@@ -43,10 +43,6 @@
             "php artisan clear-compiled",
             "php artisan optimize"
         ],
-        "post-root-package-install": [
-            "php -r \"copy('.env.example', '.env');\"",
-            "npm install grunt-cli -g"
-        ],
         "post-create-project-cmd": [
             "php artisan key:generate"
         ]
