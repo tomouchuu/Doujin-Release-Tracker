@@ -12,10 +12,7 @@
 */
 
 Route::group(['domain' => 'www.doujinreleas.es'], function () {
-	Route::get('/', function () {
-		return view('welcome');
-	});
-
+	Route::get('/', 'PageController@index');
 });
 
 Route::group(['domain' => '{event}.doujinreleas.es'], function () {
