@@ -1,11 +1,15 @@
-var NavBar = React.createClass({
+var React = require('react');
+
+var Navbar = React.createClass({
 	render: function() {
 		return (
 			<div className="nav-bar">
 				<nav>
-					<li></li>
+					<li>Hello</li>
 				</nav>
 			</div>
 		);
 	}
 });
+
+module.exports = Navbar;
