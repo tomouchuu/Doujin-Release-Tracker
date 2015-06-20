@@ -30,9 +30,13 @@ Route::group(['prefix' => 'api/v1'], function () {
 	Route::resource('vocamas', 'Api\VocamasController');
 	Route::get('vocamas/{id}/releases', 'Api\VocamasController@releases');
 
+	Route::resource('m3', 'Api\M3Controller');
+	Route::get('m3/{id}/releases', 'Api\M3Controller@releases');
+
 	Route::resource('releases', 'Api\ReleaseController');
 	Route::get('releases/{id}/comiket', 'Api\ReleaseController@comiket');
 	Route::get('releases/{id}/vocamas', 'Api\ReleaseController@vocamas');
+	Route::get('releases/{id}/m3', 'Api\ReleaseController@m3');
 });
 
 Route::resource('user', 'UserController');

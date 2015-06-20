@@ -31,6 +31,10 @@
 						@foreach ($vocamasNavItems as $eventItem)
 							<li><a href="/{{ $eventItem['id'] }}">Vocamas {{ $eventItem['id'] }}</a></li>
 						@endforeach
+					@elseif($event === 'M3')
+						@foreach ($m3NavItems as $eventItem)
+							<li><a href="/{{ $eventItem['id'] }}">M3 {{ $eventItem['id'] }}</a></li>
+						@endforeach
 					@endif
 				</ul>
 				<form class="navbar-form navbar-right" role="search">

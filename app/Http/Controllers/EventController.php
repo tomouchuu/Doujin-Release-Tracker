@@ -10,6 +10,7 @@ use Mmanos\Api\Api;
 
 use App\DoujinReleaseTracker\Comiket\Comiket;
 use App\DoujinReleaseTracker\Vocamas\Vocamas;
+use App\DoujinReleaseTracker\M3\M3;
 
 class EventController extends Controller
 {
@@ -25,6 +26,9 @@ class EventController extends Controller
 		}
 		elseif ($event === 'vocamas') {
 			$latestEvent = Vocamas::max('_id');
+		}
+		elseif ($event === 'm3') {
+			$latestEvent = M3::max('_id');
 		}
 
 		$data = Api::internal('api/v1/' . $event . '/' . $latestEvent)->get();

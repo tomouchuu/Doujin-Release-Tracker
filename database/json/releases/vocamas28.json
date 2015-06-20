@@ -1,0 +1,15 @@
+[
+	{
+		"vocamas_id" : "28",
+		"album" : "Kanjou Railway",
+		"artistcircle" : "colate*,想太,task,noo,take,ramune",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "rock,pop,electronic",
+		"link" : "http://kanjourailway.cz.cc/",
+		"preview" : "http://www.nicovideo.jp/watch/sm23373755"
+	}
+]

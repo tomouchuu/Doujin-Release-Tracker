@@ -1,0 +1,275 @@
+[
+	{
+		"m3_id" : "33",
+		"album" : "DJ TEKINA//SOMETHING",
+		"artistcircle" : "DJ'TEKINA//SOMETHING aka Yuyoyuppe",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "edm",
+		"link" : "http://motoloid.info/tekisome1st/tekisome1st.html",
+		"preview" : "https://soundcloud.com/motoloid/djtekinasomething-nonstop-mixed-by-djtekinasomething"
+	},
+	{
+		"m3_id" : "33",
+		"album" : "東方EUROBEAT ARRANGE Vol.4",
+		"artistcircle" : "ALVINE",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "trance,techno,house,minimal,electronica,chiptune,disco,eurobeat,funkot",
+		"link" : "http://alvine.jp/info/438/",
+		"preview" : "https://soundcloud.com/alvine-1/alvn-0007"
+	},
+	{
+		"m3_id" : "33",
+		"album" : "REFRECT",
+		"artistcircle" : "SuganoMusic",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "trance,techno,house,minimal,electronica,chiptune,disco,eurobeat,funkot",
+		"link" : "http://suganomusic.com/SuganoMusic_TOHO_EUROBEAT_ARRANGE_Vol.4.html",
+		"preview" : "https://soundcloud.com/masahiro-sugawara/eurobeat-vol4-all-song-sample"
+	},
+	{
+		"m3_id" : "33",
+		"album" : "Imitation Disco",
+		"artistcircle" : "STRLabel",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "trance,techno,house,minimal,electronica,chiptune,disco,eurobeat,funkot",
+		"link" : "http://str3.org/strl_0019/",
+		"preview" : "https://soundcloud.com/strlabel/2014-m3-imitation-disco"
+	},
+	{
+		"m3_id" : "33",
+		"album" : "ニライカナイep+",
+		"artistcircle" : "STRLabel",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "trance,techno,house,minimal,electronica,chiptune,disco,eurobeat,funkot",
+		"link" : "http://str3.org/strl_0018/",
+		"preview" : "https://soundcloud.com/strlabel/2014-m3-ep-crossfade-demo"
+	},
+	{
+		"m3_id" : "33",
+		"album" : "From Where We Stand",
+		"artistcircle" : "Digital Logics",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "trance,techno,house,minimal,electronica,chiptune,disco,eurobeat,funkot",
+		"link" : "http://dglg-0009.digitallogics.net/",
+		"preview" : "https://soundcloud.com/digital_logics/m3-2014spring-from-where-we"
+	},
+	{
+		"m3_id" : "33",
+		"album" : "TIME",
+		"artistcircle" : "TTL SOUND",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "trance,techno,house,minimal,electronica,chiptune,disco,eurobeat,funkot",
+		"link" : "http://ameblo.jp/noi-godiamo-musica/",
+		"preview" : "https://soundcloud.com/ttl-sound/ttl-sound-3rdalbum-time"
+	},
+	{
+		"m3_id" : "33",
+		"album" : "LIFE IS LIKE A LIVE!",
+		"artistcircle" : "Unitone",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "trance,techno,house,minimal,electronica,chiptune,disco,eurobeat,funkot",
+		"link" : "http://unitone.fm/2014spr/",
+		"preview" : "https://soundcloud.com/unitone_jp/life-is-like-a-live-kenichi-chiba"
+	},
+	{
+		"m3_id" : "33",
+		"album" : "Neuropolis",
+		"artistcircle" : "Madstiff Tracks",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "trance,techno,house,minimal,electronica,chiptune,disco,eurobeat,funkot",
+		"link" : "http://r135.net/",
+		"preview" : "https://soundcloud.com/madstiff/neuropolis"
+	},
+	{
+		"m3_id" : "33",
+		"album" : "colored:X",
+		"artistcircle" : "HOUSE-X",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "trance,techno,house,minimal,electronica,chiptune,disco,eurobeat,funkot",
+		"link" : "http://cineraria-studio.com/housex/hsxcd0001.html",
+		"preview" : "https://soundcloud.com/house-x/hsxcd0001-coloredx-xfade-demo"
+	},
+	{
+		"m3_id" : "33",
+		"album" : "もうREMIXなんてしない",
+		"artistcircle" : "LBT",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "trance,techno,house,minimal,electronica,chiptune,disco,eurobeat,funkot",
+		"link" : "http://www.lbt-web.com/makihara/",
+		"preview" : "https://soundcloud.com/lbtweb/remix"
+	},
+	{
+		"m3_id" : "33",
+		"album" : "RAVER’S NEST presents DJ katsu & DJ ELEMENTAS BEST MIX",
+		"artistcircle" : "DiGiTAL WiNG",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "trance,techno,house,minimal,electronica,chiptune,disco,eurobeat,funkot",
+		"link" : "http://digital-wing.net/dwcd-0013",
+		"preview" : "https://soundcloud.com/digital-wing/ravers-nest-presents-dj-katsu-dj-elementas-best-mix-xfd"
+	},
+	{
+		"m3_id" : "33",
+		"album" : "99YEN",
+		"artistcircle" : "Halozy",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "trance,techno,house,minimal,electronica,chiptune,disco,eurobeat,funkot",
+		"link" : "http://www.halozy.com/discography/hlex-0010/",
+		"preview" : ""
+	},
+	{
+		"m3_id" : "33",
+		"album" : "幻-MABOROSHI- Singles Best Vol.2",
+		"artistcircle" : "Yuuhei Satellite",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "trance,techno,house,minimal,electronica,chiptune,disco,eurobeat,funkot",
+		"link" : "http://www.yuuhei-satellite.jp/",
+		"preview" : "http://www.nicovideo.jp/watch/sm23213882"
+	},
+	{
+		"m3_id" : "33",
+		"album" : "WBC:DAIDA",
+		"artistcircle" : "Diderse System",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "trance,techno,house,minimal,electronica,chiptune,disco,eurobeat,funkot",
+		"link" : "http://world.diderse.jp/",
+		"preview" : "https://soundcloud.com/daida3/wbcdaida-demo"
+	},
+	{
+		"m3_id" : "33",
+		"album" : "Honey Cheeks",
+		"artistcircle" : "RURIIRO GINGA & Lick Dom Records",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "trance,techno,house,minimal,electronica,chiptune,disco,eurobeat,funkot",
+		"link" : "http://stereoberry.sakura.tv/honeycheeks/",
+		"preview" : "https://soundcloud.com/michi_akira/honey-cheeks"
+	},
+	{
+		"m3_id" : "33",
+		"album" : "日常コンピ",
+		"artistcircle" : "on sunday recordings",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "trance,techno,house,minimal,electronica,chiptune,disco,eurobeat,funkot",
+		"link" : "http://on-sunday-recordings.com/nichijyo-compi/",
+		"preview" : "http://on-sunday-recordings.com/nichijyo-compi/"
+	},
+	{
+		"m3_id" : "33",
+		"album" : "Private Disco Ball",
+		"artistcircle" : "Shot Bass Records",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "trance,techno,house,minimal,electronica,chiptune,disco,eurobeat,funkot",
+		"link" : "http://dj-wildparty.tumblr.com/post/83493852799/dj-wildparty-private-disco-ball-release",
+		"preview" : "https://soundcloud.com/shot-bass-records/private-disco-ball-mixxfade"
+	},
+	{
+		"m3_id" : "33",
+		"album" : "Punctuated Equilibrium",
+		"artistcircle" : "Disorder Circulation",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "trance,techno,house,minimal,electronica,chiptune,disco,eurobeat,funkot",
+		"link" : "http://dc.seeds-9.com/archives/692",
+		"preview" : "https://soundcloud.com/czk/punctuated-equilibrium-crossfades"
+	},
+	{
+		"m3_id" : "33",
+		"album" : "Euphoric Mirage",
+		"artistcircle" : "春眠草屋敷",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "trance,techno,house,minimal,electronica,chiptune,disco,eurobeat,funkot",
+		"link" : "http://inubiedsg.web.fc2.com/M3_2014spring_Euphoric_Mirage.html",
+		"preview" : "https://soundcloud.com/inubie/euphoric-mirage-xfd"
+	},
+	{
+		"m3_id" : "33",
+		"album" : "Groundloop EP",
+		"artistcircle" : "technoA",
+		"available" : {
+			"flac" : false,
+			"mp3" : false,
+			"other" : false
+		},
+		"genre" : "trance,techno,house,minimal,electronica,chiptune,disco,eurobeat,funkot",
+		"link" : "http://technoa.info/",
+		"preview" : "https://soundcloud.com/kouki_izumi/sets/new-release-groundloop-ep"
+	}
+]
