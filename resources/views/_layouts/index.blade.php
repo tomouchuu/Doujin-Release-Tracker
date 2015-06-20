@@ -5,6 +5,9 @@
 	<title>Doujin Release Tracker</title>
 </head>
 <body>
+
+	<div id="release-tracker-app"></div>
+
 	<table>
 		<thead>
 			<tr>
@@ -23,13 +26,13 @@
 		<tbody>
 			@foreach ($releases as $release)
 				<tr>
-					<td>{{ $release->album }}</td>
-					<td>{{ $release->artistcircle }}</td>
-					<td>{{ $release->genre }}</td>
-					<td>{{ $release->preview }}</td>
-					<td>{{ $release->available['mp3'] }}</td>
-					<td>{{ $release->available['flac'] }}</td>
-					<td>{{ $release->available['other'] }}</td>
+					<td>{{ $release['album'] }}</td>
+					<td>{{ $release['artistcircle'] }}</td>
+					<td>{{ (isset($release['genre'])) ? $release['genre'] : '' }}</td>
+					<td>{{ $release['preview'] }}</td>
+					<td>{{ $release['available']['mp3'] }}</td>
+					<td>{{ $release['available']['flac'] }}</td>
+					<td>{{ $release['available']['other'] }}</td>
 				</tr>
 			@endforeach
 		</tbody>

@@ -149,6 +149,7 @@ return [
          */
         'Jenssegers\Mongodb\MongodbServiceProvider',
         'Jenssegers\Mongodb\Auth\PasswordResetServiceProvider',
+        'Mmanos\Api\ApiServiceProvider',
 
     ],
 
@@ -165,6 +166,7 @@ return [
 
     'aliases' => [
 
+        'Api'       => 'Mmanos\Api\Api',
         'App'       => Illuminate\Support\Facades\App::class,
         'Artisan'   => Illuminate\Support\Facades\Artisan::class,
         'Auth'      => Illuminate\Support\Facades\Auth::class,

@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Mmanos\Api\Api;
 
 use App\DoujinReleaseTracker\Comiket\Comiket;
 
@@ -19,8 +20,9 @@ class ComiketController extends Controller
 	public function index()
 	{
 		$latestComiket = Comiket::max('_id');
-		$data = Comiket::find($latestComiket);
-		$releases = $data->releases;
+
+		$data = Api::internal('api/v1/comiket/' . $latestComiket)->get();
+		$releases = Api::internal('api/v1/comiket/' . $latestComiket . '/releases')->get();
 
 		return view('_layouts.index', ['data' => $data, 'releases' => $releases]);
 	}
@@ -33,8 +35,8 @@ class ComiketController extends Controller
 	 */
 	public function specific($id)
 	{
-		$data = Comiket::findOrFail($id);
-		$releases = $data->releases;
+		$data = Api::internal('api/v1/comiket/' . $id)->get();
+		$releases = Api::internal('api/v1/comiket/' . $id . '/releases')->get();
 		return view('_layouts.index', ['data' => $data, 'releases' => $releases]);
 	}
 }

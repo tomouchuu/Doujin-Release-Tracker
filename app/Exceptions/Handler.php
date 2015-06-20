@@ -3,7 +3,7 @@
 namespace App\Exceptions;
 
 use Exception;
-use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Mmanos\Api\Exceptions\Handler as ExceptionHandler;
 
 class Handler extends ExceptionHandler
 {
@@ -14,6 +14,7 @@ class Handler extends ExceptionHandler
      */
     protected $dontReport = [
         \Symfony\Component\HttpKernel\Exception\HttpException::class,
+        \Mmanos\Api\Exceptions\HttpException::class,
     ];
 
     /**

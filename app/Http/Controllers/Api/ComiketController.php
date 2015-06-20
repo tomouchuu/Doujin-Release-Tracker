@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Mmanos\Api\Api;
 
 use App\DoujinReleaseTracker\Comiket\Comiket;
 
@@ -18,7 +19,7 @@ class ComiketController extends Controller
      */
     public function index()
     {
-        return response()->json(Comiket::all());
+        return Api::transform(Comiket::all());
     }
 
     /**
@@ -49,7 +50,13 @@ class ComiketController extends Controller
      */
     public function show($id)
     {
-        return response()->json(Comiket::findOrFail($id));
+        $data = Comiket::find($id);
+        if ($data) {
+            return Api::transform($data);
+        }
+        else {
+            return Api::abort(404);
+        }
     }
 
     /**
@@ -60,7 +67,13 @@ class ComiketController extends Controller
      */
     public function releases($id)
     {
-        return response()->json(Comiket::findOrFail($id)->releases);
+        $data = Comiket::find($id);
+        if ($data) {
+            return Api::transform($data->releases);
+        }
+        else {
+            return Api::abort(404);
+        }
     }
 
     /**
