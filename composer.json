@@ -1,7 +1,8 @@
 {
-    "name": "doujin-release-tracker",
+    "name": "tomopagu/doujin-release-tracker",
     "description": "An app to keep tabs on Doujin Releases from events.",
     "type": "project",
+    "license": "MIT",
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.1.*",
