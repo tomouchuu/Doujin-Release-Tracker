@@ -1,8 +1,6 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
-    "license": "MIT",
+    "name": "doujin-release-tracker",
+    "description": "An app to keep tabs on Doujin Releases from events.",
     "type": "project",
     "require": {
         "php": ">=5.5.9",
