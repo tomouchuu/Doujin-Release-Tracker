@@ -1,0 +1,5 @@
+@import '../../../node_modules/bootstrap/dist/css/bootstrap.css';
+@import '../../../node_modules/datatables/media/css/jquery.dataTables.css';
+@import './dataTables.bootstrap.css';
+
+#releases-table { width: 100% !important; }

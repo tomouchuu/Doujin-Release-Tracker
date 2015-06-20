@@ -3,10 +3,19 @@ module.exports = function(grunt) {
 
 	grunt.initConfig({
 
+		copy: {
+			main: {
+				files: [
+					{expand: true, flatten: true, src: ['node_modules/bootstrap/dist/fonts/*'], dest: 'public/assets/fonts/', filter: 'isFile'},
+					{expand: true, flatten: true, src: ['node_modules/datatables/media/images/*'], dest: 'public/assets/images/', filter: 'isFile'},
+				],
+			},
+		},
+
 		webpack: {
 			intro: {
 				// webpack options
-				entry: './resources/assets/components/app.jsx',
+				entry: './resources/assets/js/app.js',
 				output: {
 					path: './public/assets/js',
 					filename: 'app.js'
@@ -38,21 +47,20 @@ module.exports = function(grunt) {
 				]
 			},
 			dist: {
-				src: 'src/styles/app.css',
-				dest: 'assets/styles/app.css'
+				src: 'resources/assets/css/app.css',
+				dest: 'public/assets/css/app.css'
 			}
 		},
 
 		watch: {
 			javascript: {
 				files: [
-					'resources/assets/components/**/*.js',
-					'resources/assets/components/**/*.jsx'
+					'resources/assets/js/**/*.js'
 				],
 				tasks: ['webpack']
 			},
 			styles: {
-				files: ['resources/assets/styles/app.css'],
+				files: ['resources/assets/css/app.css'],
 				tasks: ['postcss']
 			}
 		}
