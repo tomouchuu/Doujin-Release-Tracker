@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>{{ $event }} {{ $data['_id'] }} Release Tracker</title>
+	<title>{{ $eventname }} {{ $data['_id'] }} Release Tracker</title>
 
 	<link rel="stylesheet" href="assets/css/app.css" media="screen" title="Main Stylesheet" charset="utf-8">
 </head>
@@ -17,21 +17,21 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="/">{{ $event }} Release Tracker</a>
+				<a class="navbar-brand" href="/">{{ $eventname }} Release Tracker</a>
 			</div>
 
 
 			<div class="collapse navbar-collapse" id="navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					@if ($event === 'Comiket')
+					@if ($eventname === 'Comiket')
 						@foreach ($comiketNavItems as $eventItem)
 							<li><a href="/{{ $eventItem['id'] }}">C{{ $eventItem['id'] }}</a></li>
 						@endforeach
-					@elseif($event === 'Vocamas')
+					@elseif($eventname === 'Vocamas')
 						@foreach ($vocamasNavItems as $eventItem)
 							<li><a href="/{{ $eventItem['id'] }}">Vocamas {{ $eventItem['id'] }}</a></li>
 						@endforeach
-					@elseif($event === 'M3')
+					@elseif($eventname === 'M3')
 						@foreach ($m3NavItems as $eventItem)
 							<li><a href="/{{ $eventItem['id'] }}">M3 {{ $eventItem['id'] }}</a></li>
 						@endforeach

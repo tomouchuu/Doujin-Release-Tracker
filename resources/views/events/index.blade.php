@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6 event-title">
-				<h1>{{ $event }} {{ $data['_id'] }} <small class="date">{{ $data['date'] }}</small></h1>
+				<h1>{{ $eventname }} {{ $data['_id'] }} <small class="date">{{ $data['date'] }}</small></h1>
 			</div>
 			<div class="available-filter col-sm-6" ng-init="[filter.available = '', filter.type = '']">
 				<p>Show:
