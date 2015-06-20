@@ -23,10 +23,15 @@
 
 			<div class="collapse navbar-collapse" id="navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="/87">C87 <span class="sr-only">(current)</span></a></li>
-					<li><a href="/86">C86</a></li>
-					<li><a href="/85">C85</a></li>
-					<li><a href="/84">C84</a></li>
+					@if ($event === 'Comiket')
+						@foreach ($comiketNavItems as $eventItem)
+							<li><a href="/{{ $eventItem['id'] }}">C{{ $eventItem['id'] }}</a></li>
+						@endforeach
+					@elseif($event === 'Vocamas')
+						@foreach ($vocamasNavItems as $eventItem)
+							<li><a href="/{{ $eventItem['id'] }}">Vocamas {{ $eventItem['id'] }}</a></li>
+						@endforeach
+					@endif
 				</ul>
 				<form class="navbar-form navbar-right" role="search">
 					<div class="form-group">
@@ -40,7 +45,7 @@
 				</form>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="/archive">Archive</a></li>
-					<li><a href="/other-events">Other Events</a></li>
+					<li><a href="http://doujinreleas.es">Other Events</a></li>
 					<li><a href="/login">Login</a></li>
 					<li><a href="/api">API</a></li>
 					<li><a href="https://github.com/Tomo-san/Doujin-Release-Tracker">Source</a></li>
