@@ -4,7 +4,7 @@
 
 Initially started as a way to keep track of what I'm looking forward to hearing at Comiket but now has expanded to also include M3 & Vocamas events.
 
-So we're onto Version 4. It's been awhile and I've once again decided to do a full recode of the site and data. For the new stack we're using Laravel as the backend and then either a Blade / React frontend. We're using Mongo for the database this time. The idea for this release is to make it faster and for me to learn Laravel since it's important for my current job. I also want to try introduce an admin area for a nicer way to add releases and maybe user support for marking releases (and maybe even adding) as the end game. Another thing I wanted to work on was to make sure there was a nice API behind it that can be used by anyone should anyone want to access the data.
+So we're onto Version 5. It's been awhile and I've once again decided to do a full recode of the site and data. For the new stack we're using Laravel as the backend and then either a Blade / React frontend. We're using Mongo for the database this time. The idea for this release is to make it faster and for me to learn Laravel since it's important for my current job. I also want to try introduce an admin area for a nicer way to add releases and maybe user support for marking releases (and maybe even adding) as the end game. Another thing I wanted to work on was to make sure there was a nice API behind it that can be used by anyone should anyone want to access the data.
 
 ## API
 
