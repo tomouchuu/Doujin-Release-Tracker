@@ -7,21 +7,24 @@
 				<h1>{{ $eventname }} {{ $data['_id'] }} <small class="date">{{ $data['date'] }}</small></h1>
 			</div>
 			<div class="available-filter col-sm-6" ng-init="[filter.available = '', filter.type = '']">
-				<p>Show:
-					<a href="" ng-click="[filter.available = '', filter.type = '']">All</a> //
-					<a href="" ng-click="filter.available = 'mp3'">Available MP3s</a><br> //
-					<a href="" ng-click="filter.available = 'flac'">Available FLACs</a> //
-					<a href="" ng-click="filter.available = 'other'">Available Others</a><br> //
-					<a href="" ng-click="filter.type = 'touhou'">Touhou</a> //
-					<a href="" ng-click="filter.type = 'kancolle'">KanColle</a> //
-					<a href="" ng-click="filter.type = 'vocaloid'">Vocaloid</a> //
-					<a href="" ng-click="filter.type = 'utaite'">Utaite</a>
+				<s>Show:
+					<a href="" class="text-muted" ng-click="[filter.available = '', filter.type = '']">All</a> //
+					<a href="" class="text-muted" ng-click="filter.available = 'mp3'">Available MP3s</a><br> //
+					<a href="" class="text-muted" ng-click="filter.available = 'flac'">Available FLACs</a> //
+					<a href="" class="text-muted" ng-click="filter.available = 'other'">Available Others</a><br> //
+					<a href="" class="text-muted" ng-click="filter.type = 'touhou'">Touhou</a> //
+					<a href="" class="text-muted" ng-click="filter.type = 'kancolle'">KanColle</a> //
+					<a href="" class="text-muted" ng-click="filter.type = 'vocaloid'">Vocaloid</a> //
+					<a href="" class="text-muted" ng-click="filter.type = 'utaite'">Utaite</a>
+				</s>
+				<p>
+					Filtering Coming Soon...
 				</p>
 			</div>
 		</div>
 
 		<div class="row threads">
-			@if (isset($data['jpthread']))
+			@if (isset($data['doujinstyle']))
 				<div class="col-sm-6">
 					<p class="text-center">
 						<strong>Doujinstyle thread:</strong>
