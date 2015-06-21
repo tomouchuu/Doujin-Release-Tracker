@@ -40,6 +40,9 @@ class PageController extends Controller
 	public function search(Request $request)
 	{
 		$query = $request->input('q');
+		if ($query === '') {
+			return abort(400, 'No Search Query');
+		}
 		$releases = Api::internal('api/v1/search/' . $query)->get();
 
 		return view('pages.search', ['query' => $query, 'releases' => $releases]);
