@@ -30,7 +30,11 @@ class ReleaseController extends Controller
      */
     public function search($query)
     {
-        $data = Release::where('album', 'like', '%'. $query .'%')->orWhere('artistcircle', 'like', '%'. $query .'%')->get();
+        $data = Release::where('album', 'like', '%'. $query .'%')
+                    ->orWhere('artistcircle', 'like', '%'. $query .'%')
+                    ->orWhere('genre', 'like', '%'. $query .'%')
+                    ->orWhere('type', 'like', '%'. $query .'%')
+                    ->get();
 
         if ($data) {
             return Api::transform($data);
