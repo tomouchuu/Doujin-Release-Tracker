@@ -49,4 +49,15 @@ class EventController extends Controller
 		$releases = Api::internal('api/v1/' . $event . '/' . $id . '/releases')->get();
 		return view('events.index', ['eventname' => ucfirst($event), 'data' => $data, 'releases' => $releases]);
 	}
+
+	/**
+	 * Display all the release events we have for a specific event.
+	 *
+	 * @return Response
+	 */
+	public function archive($event)
+	{
+		$events = Api::internal('api/v1/' . $event . '/')->get();
+		return view('events.archive', ['eventname' => ucfirst($event), 'events' => $events]);
+	}
 }

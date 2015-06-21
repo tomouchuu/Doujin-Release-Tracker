@@ -17,7 +17,8 @@ Route::group(['domain' => 'www.doujinreleas.es'], function () {
 
 Route::group(['domain' => '{event}.doujinreleas.es'], function () {
 	Route::get('/', 'EventController@index');
-	Route::get('/{id}', 'EventController@specific');
+	Route::get('/archive', 'EventController@archive');
+	Route::get('{id}', 'EventController@specific');
 });
 
 Route::group(['prefix' => 'api/v1'], function () {
