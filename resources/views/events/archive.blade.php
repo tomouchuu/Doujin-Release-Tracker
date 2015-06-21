@@ -7,24 +7,26 @@
 
 				<h1>{{ $eventname }} Events</h1>
 
-				<table class="table table-hover table-bordered" cellspacing="0" width="100%">
-					<thead>
-						<tr>
-							<th>ID</th>
-							<th>Date</th>
-							<th>Link</th>
-						</tr>
-					</thead>
-					<tbody>
-						@foreach ($events as $event)
+				<div class="table-responsive">
+					<table class="table table-hover table-bordered" cellspacing="0" width="100%">
+						<thead>
 							<tr>
-								<td>{{ $event['_id'] }}</td>
-								<td>{{ $event['date'] }}</td>
-								<td><a href="/{{ $event['_id'] }}">Link</td>
+								<th>ID</th>
+								<th>Date</th>
+								<th>Link</th>
 							</tr>
-						@endforeach
-					</tbody>
-				</table>
+						</thead>
+						<tbody>
+							@foreach ($events as $event)
+								<tr>
+									<td>{{ $event['_id'] }}</td>
+									<td>{{ $event['date'] }}</td>
+									<td><a href="/{{ $event['_id'] }}">Link</td>
+								</tr>
+							@endforeach
+						</tbody>
+					</table>
+				</div>
 
 			</div>
 		</div>
