@@ -1,6 +1,7 @@
-var $ = require('jquery');
+window.jQuery = window.$ = require('jquery');
 var Datatable = require('datatables');
 
+require('bootstrap');
 require('./dataTables.bootstrap.js');
 
 $(document).ready(function() {
