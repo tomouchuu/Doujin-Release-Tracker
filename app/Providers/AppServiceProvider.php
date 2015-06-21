@@ -17,7 +17,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        view()->composer('_layouts.event', function ($view) {
+        view()->composer('events.base', function ($view) {
             $comiketNavItems = Comiket::orderBy('_id', 'desc')->take(5)->get();
             $vocamasNavItems = Vocamas::orderBy('_id', 'desc')->take(5)->get();
             $m3NavItems = M3::orderBy('_id', 'desc')->take(5)->get();

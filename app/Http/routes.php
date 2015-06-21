@@ -13,12 +13,13 @@
 
 Route::group(['domain' => 'www.doujinreleas.es'], function () {
 	Route::get('/', 'PageController@index');
+	Route::get('/search', 'PageController@search');
 });
 
 Route::group(['domain' => '{event}.doujinreleas.es'], function () {
 	Route::get('/', 'EventController@index');
 	Route::get('/archive', 'EventController@archive');
-	Route::get('{id}', 'EventController@specific');
+	Route::get('/{id}', 'EventController@specific');
 });
 
 Route::group(['prefix' => 'api/v1'], function () {
