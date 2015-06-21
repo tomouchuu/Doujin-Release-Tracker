@@ -19,7 +19,7 @@ class M3Controller extends Controller
      */
     public function index()
     {
-        return Api::transform(M3::all());
+        return Api::transform(M3::orderBy('_id', 'desc')->get());
     }
 
     /**

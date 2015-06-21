@@ -19,7 +19,7 @@ class VocamasController extends Controller
      */
     public function index()
     {
-        return Api::transform(Vocamas::all());
+        return Api::transform(Vocamas::orderBy('_id', 'desc')->get());
     }
 
     /**

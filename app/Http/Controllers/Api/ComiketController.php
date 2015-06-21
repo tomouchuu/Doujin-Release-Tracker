@@ -19,7 +19,7 @@ class ComiketController extends Controller
      */
     public function index()
     {
-        return Api::transform(Comiket::all());
+        return Api::transform(Comiket::orderBy('_id', 'desc')->get());
     }
 
     /**
