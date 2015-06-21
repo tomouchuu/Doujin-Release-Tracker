@@ -15,7 +15,7 @@ use App\DoujinReleaseTracker\M3\M3;
 class PageController extends Controller
 {
 	/**
-	 * Displays the releases from the latest comiket event.
+	 * Displays a list of events for all the categories.
 	 *
 	 * @return Response
 	 */
