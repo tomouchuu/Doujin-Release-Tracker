@@ -41,8 +41,8 @@
 
 				<ul class="nav navbar-nav navbar-right">
 					@section('navbar-right')
-						<li><a href="http://www.doujinreleas.es/login">Login</a></li>
-						<li><a href="http://www.doujinreleas.es/api">API</a></li>
+						<li class="disabled"><a href="http://www.doujinreleas.es/login">Login</a></li>
+						<li class="disabled"><a href="http://www.doujinreleas.es/api">API</a></li>
 						<li><a href="https://github.com/tomopagu/Doujin-Release-Tracker">Source</a></li>
 					@show
 				</ul>
