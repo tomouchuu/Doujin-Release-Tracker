@@ -37,10 +37,11 @@ class PageController extends Controller
 	 *
 	 * @return Response
 	 */
-	public function search()
+	public function search(Request $request)
 	{
-		$releases = Api::internal('api/v1/releases')->get();
+		$query = $request->input('q');
+		$releases = Api::internal('api/v1/search/' . $query)->get();
 
-		return view('pages.search', ['releases' => $releases]);
+		return view('pages.search', ['query' => $query, 'releases' => $releases]);
 	}
 }

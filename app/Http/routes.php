@@ -36,6 +36,8 @@ Route::group(['prefix' => 'api/v1'], function () {
 	Route::get('releases/{id}/comiket', 'Api\ReleaseController@comiket');
 	Route::get('releases/{id}/vocamas', 'Api\ReleaseController@vocamas');
 	Route::get('releases/{id}/m3', 'Api\ReleaseController@m3');
+
+	Route::get('search/{query}', 'Api\ReleaseController@search');
 });
 
 Route::resource('user', 'UserController');

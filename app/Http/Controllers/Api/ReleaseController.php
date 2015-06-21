@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Mmanos\Api\Api;
 
 use App\DoujinReleaseTracker\Releases\Release;
 
@@ -18,7 +19,25 @@ class ReleaseController extends Controller
      */
     public function index()
     {
-		return response()->json(Release::all());
+		return Api::transform(Release::all());
+    }
+
+    /**
+     * Display matches/similar releases to a search query.
+     *
+     * @param  int  $id
+     * @return Response
+     */
+    public function search($query)
+    {
+        $data = Release::where('album', 'like', '%'. $query .'%')->orWhere('artistcircle', 'like', '%'. $query .'%')->get();
+
+        if ($data) {
+            return Api::transform($data);
+        }
+        else {
+            return Api::abort(404);
+        }
     }
 
     /**
@@ -49,7 +68,13 @@ class ReleaseController extends Controller
      */
     public function show($id)
     {
-        return response()->json(Release::findOrFail($id));
+        $data = Release::find($id);
+        if ($data) {
+            return Api::transform($data);
+        }
+        else {
+            return Api::abort(404);
+        }
     }
 
     /**
@@ -60,7 +85,47 @@ class ReleaseController extends Controller
      */
     public function comiket($id)
     {
-        return response()->json(Release::findOrFail($id)->comiket);
+        $data = Release::find($id);
+        if ($data) {
+            return Api::transform($data->comiket);
+        }
+        else {
+            return Api::abort(404);
+        }
+    }
+
+    /**
+     * Display the m3 event of specified resource.
+     *
+     * @param  int  $id
+     * @return Response
+     */
+    public function m3($id)
+    {
+        $data = Release::find($id);
+        if ($data) {
+            return Api::transform($data->m3);
+        }
+        else {
+            return Api::abort(404);
+        }
+    }
+
+    /**
+     * Display the vocamas event of specified resource.
+     *
+     * @param  int  $id
+     * @return Response
+     */
+    public function vocamas($id)
+    {
+        $data = Release::find($id);
+        if ($data) {
+            return Api::transform($data->vocamas);
+        }
+        else {
+            return Api::abort(404);
+        }
     }
 
     /**
