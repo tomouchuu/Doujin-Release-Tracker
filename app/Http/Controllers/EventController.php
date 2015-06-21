@@ -17,10 +17,12 @@ class EventController extends Controller
 	/**
 	 * Displays the releases from the latest comiket event.
 	 *
+	 * @param  string  $event
 	 * @return Response
 	 */
 	public function index($event)
 	{
+		$latestEvent = '';
 		if ($event === 'comiket') {
 			$latestEvent = Comiket::max('_id');
 		}
@@ -40,6 +42,7 @@ class EventController extends Controller
 	/**
 	 * Display the releases from the specific comiket event.
 	 *
+	 * @param  string  $event
 	 * @param  int  $id
 	 * @return Response
 	 */
@@ -53,6 +56,7 @@ class EventController extends Controller
 	/**
 	 * Display all the release events we have for a specific event.
 	 *
+	 * @param  string  $event
 	 * @return Response
 	 */
 	public function archive($event)
