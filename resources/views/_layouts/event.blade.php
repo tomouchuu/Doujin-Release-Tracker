@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>{{ $eventname }} {{ $data['_id'] }} Release Tracker</title>
+	<title>{{ $eventname }} {{ isset($data['_id']) ? $data['_id'] : '' }} Release Tracker</title>
 
 	<link rel="stylesheet" href="assets/css/app.css" media="screen" title="Main Stylesheet" charset="utf-8">
 </head>
